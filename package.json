@@ -38,7 +38,7 @@
   "main": "index.js",
   "name": "@ridedott/eslint-config",
   "peerDependencies": {
-    "eslint": ">= 5"
+    "eslint": ">= 5.15.3"
   },
   "private": true,
   "scripts": {
