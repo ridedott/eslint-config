@@ -1,0 +1,52 @@
+{
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-immutable": "^1.0.0"
+  },
+  "description": "Safety-oriented, fp-first configuration of ESLint.",
+  "devDependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "commitizen": "^3.0.7",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.16.4"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "license": "UNLICENSED",
+  "lint-staged": {
+    "linters": {
+      "*.{js,json,md,yml,yaml}": [
+        "prettier --write",
+        "git add"
+      ]
+    }
+  },
+  "main": "index.js",
+  "name": "@ridedott/eslint-config",
+  "peerDependencies": {
+    "eslint": ">= 5"
+  },
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf lib",
+    "cz": "git-cz",
+    "cz:retry": "git-cz --retry",
+    "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
+    "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\""
+  },
+  "version": "0.1.0"
+}
