@@ -3,6 +3,8 @@ module.exports = {
     'capitalized-comments': ['error', 'always', { ignorePattern: 'cspell' }],
     // TypeScript will always make sure return values are correct.
     'consistent-return': 'off',
+    // Ternary operators are helpful to write immutable code.
+    'no-nested-ternary': 'off',
     // Prettier automatically inserts semicolons, so there is no way to that
     // automatic semicolon insertion might happen.
     'no-plusplus': 'off',
