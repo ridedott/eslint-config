@@ -76,7 +76,9 @@ To use this configuration, install it as a `devDependency` first, alongside
 ESLint itself:
 
 ```bash
-npm install --save-dev @ridedott/eslint-config eslint
+npm install --save-dev @ridedott/eslint-config \
+  @typescript-eslint/eslint-plugin \
+  eslint
 ```
 
 Once it's finished, add an ESLint configuration to your project. An example
