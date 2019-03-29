@@ -1,5 +1,7 @@
 module.exports = {
   rules: {
+    // This is covered by @typescript-eslint/camelcase rule.
+    camelcase: 'off',
     'capitalized-comments': ['error', 'always', { ignorePattern: 'cspell' }],
     // TypeScript will always make sure return values are correct.
     'consistent-return': 'off',
