@@ -13,6 +13,10 @@ module.exports = {
     // Duplicate of @typescript-eslint/no-use-before-define.
     'no-use-before-define': 'off',
     'one-var': ['error', 'never'],
+    // Although it might caught some unintentional leftovers of refactoring,
+    // the performance gain is marginal. In many places lack of `async` keyword
+    // decreases readability.
+    'require-await': 'off',
     'sort-imports': ['error', { ignoreCase: true }],
   },
 };
