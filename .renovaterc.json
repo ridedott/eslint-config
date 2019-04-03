@@ -1,6 +1,7 @@
 {
   "automerge": true,
   "automergeType": "pr",
+  "bumpVersion": "patch",
   "commitMessageAction": "update",
   "rangeStrategy": "bump",
   "rebaseStalePrs": true,
