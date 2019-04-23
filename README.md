@@ -118,15 +118,6 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Built with
 
-### Runtime libraries
-
-- [Axios](https://github.com/axios/axios)
-- [Firebase Admin SDK](https://github.com/firebase/firebase-admin-node)
-- [Firebase Functions SDK](https://github.com/firebase/firebase-functions)
-- [Joi](https://github.com/hapijs/joi)
-- [Math.js](https://github.com/josdejong/mathjs)
-- [Ramda](https://github.com/ramda/ramda)
-
 ### Automation
 
 - [Google Cloud Build](https://cloud.google.com/cloud-build/)
