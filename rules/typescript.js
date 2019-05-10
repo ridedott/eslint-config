@@ -8,6 +8,8 @@ module.exports = {
     '@typescript-eslint/class-name-casing': 'error',
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/explicit-member-accessibility': 'error',
+    // Code should be formatted using Prettier.
+    '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
     '@typescript-eslint/indent': 'error',
     '@typescript-eslint/interface-name-prefix': 'error',
@@ -19,6 +21,10 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-inferrable-types': 'error',
+    '@typescript-eslint/no-magic-numbers': [
+      'error',
+      { ignoreNumericLiteralTypes: true },
+    ],
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-namespace': 'error',
     '@typescript-eslint/no-non-null-assertion': 'error',
@@ -40,6 +46,8 @@ module.exports = {
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
+    // Code should be formatted using Prettier.
+    '@typescript-eslint/semi': 'off',
     '@typescript-eslint/type-annotation-spacing': 'error',
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
   },
