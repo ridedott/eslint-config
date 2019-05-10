@@ -9,6 +9,8 @@ module.exports = {
     'id-length': ['error', { exceptions: ['_', '__', '___', '____'] }],
     // Duplicate of @typescript-eslint/no-array-constructor.
     'no-array-constructor': 'off',
+    // Duplicate of @typescript-eslint/no-magic-numbers.
+    'no-magic-numbers': 'off',
     // Ternary operators are helpful to write immutable code.
     'no-nested-ternary': 'off',
     // Prettier automatically inserts semicolons, so there is no way to that
@@ -27,6 +29,8 @@ module.exports = {
     // performance gain is marginal. In many places lack of `async` keyword
     // decreases readability.
     'require-await': 'off',
+    // Code should be formatted using Prettier.
+    semi: 'off',
     'sort-imports': ['error', { ignoreCase: true }],
   },
 };
