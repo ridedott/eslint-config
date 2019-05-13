@@ -45,6 +45,7 @@ module.exports = {
     '@typescript-eslint/prefer-interface': 'error',
     '@typescript-eslint/prefer-namespace-keyword': 'error',
     '@typescript-eslint/prefer-string-starts-ends-with': 'error',
+    '@typescript-eslint/prefer-regexp-exec': 'error',
     '@typescript-eslint/restrict-plus-operands': 'error',
     // Code should be formatted using Prettier.
     '@typescript-eslint/semi': 'off',
