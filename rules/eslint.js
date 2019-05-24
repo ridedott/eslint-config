@@ -7,9 +7,6 @@ module.exports = {
     'consistent-return': 'off',
     // Ignored properties in TypeScript consist of underscores.
     'id-length': ['error', { exceptions: ['_', '__', '___', '____'] }],
-    // Prettier automatically formats code, but can't format comments just yet:
-    // https://github.com/prettier/prettier/issues/265
-    'max-len': ['error', { code: 1024, comments: 80 }],
     // Duplicate of @typescript-eslint/no-array-constructor.
     'no-array-constructor': 'off',
     // Duplicate of @typescript-eslint/no-magic-numbers.
