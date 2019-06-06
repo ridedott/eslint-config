@@ -25,6 +25,20 @@ module.exports = {
     // Duplicate of @typescript-eslint/no-use-before-define.
     'no-use-before-define': 'off',
     'one-var': ['error', 'never'],
+    // For more cases, see the following link:
+    // https://eslint.org/docs/rules/padding-line-between-statements
+    'padding-line-between-statements': [
+      'error',
+      { blankLine: 'always', prev: '*', next: 'class' },
+      { blankLine: 'always', prev: '*', next: 'do' },
+      { blankLine: 'always', prev: '*', next: 'for' },
+      { blankLine: 'always', prev: '*', next: 'function' },
+      { blankLine: 'always', prev: '*', next: 'if' },
+      { blankLine: 'always', prev: '*', next: 'return' },
+      { blankLine: 'always', prev: '*', next: 'switch' },
+      { blankLine: 'always', prev: '*', next: 'try' },
+      { blankLine: 'always', prev: '*', next: 'with' },
+    ],
     // Although it might catch some unintentional leftovers of refactoring, the
     // performance gain is marginal. In many places lack of `async` keyword
     // decreases readability.
