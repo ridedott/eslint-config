@@ -43,6 +43,7 @@
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-unicorn": "^9.1.0",
     "eslint": "^5.16.0"
   },
   "repository": {
@@ -56,5 +57,5 @@
     "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
     "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\""
   },
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
