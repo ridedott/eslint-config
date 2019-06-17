@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'eslint:all',
+    './rules/array-func.js',
     './rules/eslint-comments.js',
     './rules/eslint.js',
     './rules/immutable.js',
@@ -13,6 +14,7 @@ module.exports = {
   ],
   plugins: [
     '@typescript-eslint',
+    'array-func',
     'eslint-comments',
     'immutable',
     'jest',
