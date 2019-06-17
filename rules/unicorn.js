@@ -38,7 +38,7 @@ module.exports = {
     'unicorn/prefer-text-content': 'error',
     'unicorn/prevent-abbreviations': [
       'error',
-      { checkDefaultAndNamespaceImports: true, whitelist: ['ref', 'doc'] },
+      { checkDefaultAndNamespaceImports: true },
     ],
     'unicorn/regex-shorthand': 'error',
     'unicorn/throw-new-error': 'error',
