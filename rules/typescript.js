@@ -23,7 +23,7 @@ module.exports = {
     '@typescript-eslint/no-inferrable-types': 'error',
     '@typescript-eslint/no-magic-numbers': [
       'error',
-      { ignoreNumericLiteralTypes: true },
+      { ignore: [0, 1], ignoreNumericLiteralTypes: true },
     ],
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-namespace': 'error',
