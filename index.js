@@ -6,10 +6,17 @@ module.exports = {
     './rules/immutable.js',
     './rules/jest.js',
     './rules/typescript.js',
+    './rules/unicorn.js',
     'prettier',
     'prettier/@typescript-eslint',
     './rules/overrides.js',
   ],
-  plugins: ['@typescript-eslint', 'eslint-comments', 'immutable', 'jest'],
+  plugins: [
+    '@typescript-eslint',
+    'eslint-comments',
+    'immutable',
+    'jest',
+    'unicorn',
+  ],
   parser: '@typescript-eslint/parser',
 };

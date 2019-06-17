@@ -39,6 +39,8 @@ module.exports = {
       { blankLine: 'always', prev: '*', next: 'try' },
       { blankLine: 'always', prev: '*', next: 'with' },
     ],
+    // Prefer `Array.from` for performance benefits.
+    'prefer-spread': 'off',
     // Although it might catch some unintentional leftovers of refactoring, the
     // performance gain is marginal. In many places lack of `async` keyword
     // decreases readability.
