@@ -47,6 +47,7 @@ module.exports = {
     'require-await': 'off',
     // Code should be formatted using Prettier.
     semi: 'off',
-    'sort-imports': ['error', { ignoreCase: true }],
+    // This is handled by simple-import-sort plugin.
+    'sort-imports': 'off',
   },
 };
