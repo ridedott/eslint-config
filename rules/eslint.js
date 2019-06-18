@@ -7,6 +7,12 @@ module.exports = {
     'consistent-return': 'off',
     // Ignored properties in TypeScript consist of underscores.
     'id-length': ['error', { exceptions: ['_', '__', '___', '____'] }],
+    // Using functions and firestore, and Prettier formatting result in extra
+    // lines being used.
+    'max-lines-per-function': ['error', { max: 70 }],
+    // Using functions and firestore result in a higher number of statements
+    // being used.
+    'max-statements': ['error', { max: 15 }],
     // Duplicate of @typescript-eslint/no-array-constructor.
     'no-array-constructor': 'off',
     // Duplicate of @typescript-eslint/no-magic-numbers.
