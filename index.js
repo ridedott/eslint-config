@@ -12,6 +12,7 @@ module.exports = {
     'prettier',
     'prettier/@typescript-eslint',
     './rules/overrides.js',
+    'plugin:prettier/recommended',
   ],
   plugins: [
     '@typescript-eslint',
@@ -19,6 +20,7 @@ module.exports = {
     'eslint-comments',
     'immutable',
     'jest',
+    'prettier',
     'simple-import-sort',
     'unicorn',
   ],
