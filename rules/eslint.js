@@ -15,6 +15,8 @@ module.exports = {
     'max-statements': ['error', { max: 15 }],
     // Duplicate of @typescript-eslint/no-array-constructor.
     'no-array-constructor': 'off',
+    // Duplicate of @typescript-eslint/no-empty-function.
+    'no-empty-function': 'off',
     // Duplicate of @typescript-eslint/no-magic-numbers.
     'no-magic-numbers': 'off',
     // Ternary operators are helpful to write immutable code.
