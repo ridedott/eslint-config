@@ -6,6 +6,7 @@ module.exports = {
     '@typescript-eslint/ban-types': 'error',
     '@typescript-eslint/camelcase': 'error',
     '@typescript-eslint/class-name-casing': 'error',
+    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/explicit-member-accessibility': 'error',
     // Code should be formatted using Prettier.
@@ -17,8 +18,10 @@ module.exports = {
     '@typescript-eslint/member-ordering': 'error',
     '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
     '@typescript-eslint/no-array-constructor': 'error',
+    '@typescript-eslint/no-empty-function': 'error',
     '@typescript-eslint/no-empty-interface': 'error',
     '@typescript-eslint/no-explicit-any': 'error',
+    '@typescript-eslint/no-floating-promises': 'error',
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-inferrable-types': 'error',
     '@typescript-eslint/no-magic-numbers': [
