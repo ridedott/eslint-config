@@ -5,8 +5,8 @@ module.exports = {
     '@typescript-eslint/await-thenable': 'error',
     '@typescript-eslint/ban-types': 'error',
     '@typescript-eslint/camelcase': 'error',
-    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/class-name-casing': 'error',
+    '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/explicit-function-return-type': 'error',
     '@typescript-eslint/explicit-member-accessibility': 'error',
     // Code should be formatted using Prettier.
