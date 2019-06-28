@@ -58,5 +58,5 @@
     "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
     "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\""
   },
-  "version": "0.3.27"
+  "version": "0.4.0"
 }

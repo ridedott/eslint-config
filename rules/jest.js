@@ -1,9 +1,6 @@
 module.exports = {
   rules: {
-    'jest/consistent-test-it': [
-      'error',
-      { fn: 'test', withinDescribe: 'test' },
-    ],
+    'jest/consistent-test-it': ['error', { fn: 'it', withinDescribe: 'it' }],
     'jest/expect-expect': 'off',
     'jest/lowercase-name': 'error',
     'jest/no-alias-methods': 'error',
