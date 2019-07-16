@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'eslint:all',
+    '@typescript-eslint:all',
     './rules/array-func.js',
     './rules/eslint-comments.js',
     './rules/eslint.js',
