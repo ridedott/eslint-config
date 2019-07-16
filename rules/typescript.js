@@ -14,6 +14,7 @@ module.exports = {
       'error',
       { ignoreRestSiblings: true },
     ],
+    '@typescript-eslint/promise-function-async': ['error', { allowAny: true }],
     // Code should be formatted using Prettier.
     '@typescript-eslint/semi': 'off',
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
