@@ -5,6 +5,7 @@ module.exports = {
     'jest/no-hooks': 'off',
     'jest/no-large-snapshots': 'off',
     'jest/prefer-called-with': 'off',
+    'jest/prefer-expect-assertions': 'off',
     'jest/prefer-inline-snapshots': 'off',
   },
 };
