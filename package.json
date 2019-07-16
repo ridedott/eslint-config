@@ -20,7 +20,7 @@
   "description": "Safety-oriented, fp-first configuration of ESLint.",
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
-    "@commitlint/config-conventional": "^8.0.0",
+    "@commitlint/config-conventional": "^8.1.0",
     "commitizen": "^3.1.1",
     "husky": "^3.0.0",
     "lint-staged": "^9.2.0",
@@ -57,5 +57,5 @@
     "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
     "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\""
   },
-  "version": "0.4.9"
+  "version": "0.4.10"
 }
