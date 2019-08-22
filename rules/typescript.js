@@ -6,6 +6,7 @@ module.exports = {
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
     '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
+    '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-magic-numbers': [
       'error',
       { ignore: [0, 1], ignoreNumericLiteralTypes: true },
