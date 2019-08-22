@@ -5,6 +5,57 @@
 
 Safety-oriented, fp-first configuration of ESLint.
 
+## Usage
+
+To use this configuration, install it as a `devDependency` first, alongside
+ESLint itself:
+
+```bash
+npm install --save-dev @ridedott/eslint-config eslint
+```
+
+Once it's finished, add an ESLint configuration to your project. An example
+configuration:
+
+```json
+{
+  "env": {
+    "node": true
+  },
+  "extends": "@ridedott/eslint-config",
+  "overrides": [
+    {
+      "env": {
+        "jest": true,
+        "node": true
+      },
+      "files": ["src/**/*spec.ts"],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "no-magic-numbers": "off"
+      }
+    }
+  ],
+  "parserOptions": {
+    "ecmaVersion": 10,
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  }
+}
+```
+
+and a script in your `package.json` which will help you run ESLint with correct
+dependencies:
+
+```json
+{
+  "scripts": {
+    "lint": "eslint --resolve-plugins-relative-to './node_modules/@ridedott/eslint-config' '**/*.ts'"
+  }
+}
+```
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your
@@ -69,48 +120,6 @@ Publishing is handled in an automated way and must not be performed manually.
 Each commit to the master branch is automatically deployed to the NPM registry
 with a version specified in `package.json`. All other commits are published as
 pre-releases.
-
-## Usage
-
-To use this configuration, install it as a `devDependency` first, alongside
-ESLint itself:
-
-```bash
-npm install --save-dev @ridedott/eslint-config \
-  @typescript-eslint/eslint-plugin \
-  eslint
-```
-
-Once it's finished, add an ESLint configuration to your project. An example
-configuration:
-
-```json
-{
-  "env": {
-    "node": true
-  },
-  "extends": "@ridedott/eslint-config",
-  "overrides": [
-    {
-      "env": {
-        "jest": true,
-        "node": true
-      },
-      "files": ["src/**/*spec.ts"],
-      "rules": {
-        "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-non-null-assertion": "off",
-        "no-magic-numbers": "off"
-      }
-    }
-  ],
-  "parserOptions": {
-    "ecmaVersion": 10,
-    "project": "tsconfig.json",
-    "sourceType": "module"
-  }
-}
-```
 
 ## Contributing
 
