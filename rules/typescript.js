@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
-    '@typescript-eslint/array-type': ['error', 'array-simple'],
+    '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
