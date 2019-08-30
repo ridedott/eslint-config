@@ -15,7 +15,7 @@
     "eslint-plugin-jest": "^22.16.0",
     "eslint-plugin-simple-import-sort": "^4.0.0",
     "eslint-plugin-unicorn": "^10.0.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.6.2"
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
   "devDependencies": {
@@ -57,5 +57,5 @@
     "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
     "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\""
   },
-  "version": "0.4.37"
+  "version": "0.4.38"
 }
