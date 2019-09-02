@@ -11,6 +11,11 @@ module.exports = {
       'error',
       { ignore: [0, 1], ignoreNumericLiteralTypes: true },
     ],
+    /*
+     * Type aliases are often needed when deriving and extending existing type
+     * definitions.
+     */
+    '@typescript-eslint/no-type-alias': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { ignoreRestSiblings: true },
