@@ -21,6 +21,8 @@ module.exports = {
       { ignoreRestSiblings: true },
     ],
     '@typescript-eslint/promise-function-async': ['error', { allowAny: true }],
+    // Code should be formatted using Prettier.
+    '@typescript-eslint/quotes': 'off',
     // Conflicts with @typescript-eslint/promise-function-async.
     '@typescript-eslint/require-await': 'off',
     // Code should be formatted using Prettier.
