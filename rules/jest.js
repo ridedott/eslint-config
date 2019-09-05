@@ -7,5 +7,6 @@ module.exports = {
     'jest/no-try-expect': 'off',
     'jest/prefer-called-with': 'off',
     'jest/prefer-inline-snapshots': 'off',
+    'jest/prefer-to-have-length': 'error',
   },
 };
