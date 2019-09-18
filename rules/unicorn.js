@@ -1,9 +1,11 @@
 module.exports = {
   rules: {
     'unicorn/catch-error-name': 'error',
+    'unicorn/consistent-function-scoping': 'error',
     'unicorn/custom-error-definition': 'off',
     'unicorn/error-message': 'error',
     'unicorn/escape-case': 'error',
+    'unicorn/expiring-todo-comments': 'error',
     'unicorn/explicit-length-check': ['error', { 'non-zero': 'greater-than' }],
     'unicorn/filename-case': ['error', { case: 'camelCase' }],
     'unicorn/import-index': 'error',
@@ -14,6 +16,8 @@ module.exports = {
     'unicorn/no-fn-reference-in-iterator': 'off',
     'unicorn/no-for-loop': 'error',
     'unicorn/no-hex-escape': 'error',
+    // Ternary operators help write immutable code.
+    'unicorn/no-nested-ternary': 'off',
     'unicorn/no-new-buffer': 'error',
     'unicorn/no-process-exit': 'off',
     'unicorn/no-unreadable-array-destructuring': 'off',
@@ -22,6 +26,7 @@ module.exports = {
     'unicorn/no-zero-fractions': 'error',
     'unicorn/number-literal-case': 'error',
     'unicorn/prefer-add-event-listener': 'error',
+    'unicorn/prefer-dataset': 'error',
     'unicorn/prefer-event-key': 'error',
     'unicorn/prefer-exponentiation-operator': 'error',
     'unicorn/prefer-flat-map': 'error',
@@ -29,6 +34,7 @@ module.exports = {
     'unicorn/prefer-node-append': 'error',
     'unicorn/prefer-node-remove': 'error',
     'unicorn/prefer-query-selector': 'error',
+    'unicorn/prefer-reflect-apply': 'error',
     // Prefer `Array.from` for performance benefits.
     'unicorn/prefer-spread': 'off',
     'unicorn/prefer-starts-ends-with': 'error',
