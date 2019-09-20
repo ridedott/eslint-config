@@ -32,6 +32,8 @@ module.exports = {
     'no-unused-vars': 'off',
     // Duplicate of @typescript-eslint/no-use-before-define.
     'no-use-before-define': 'off',
+    // Conflicts with unicorn/expiring-todo-comments.
+    'no-warning-comments': 'off',
     'one-var': ['error', 'never'],
     // For more cases, see the following link:
     // https://eslint.org/docs/rules/padding-line-between-statements
