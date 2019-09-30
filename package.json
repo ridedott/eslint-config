@@ -14,7 +14,7 @@
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-simple-import-sort": "^4.0.0",
-    "eslint-plugin-unicorn": "^11.0.2",
+    "eslint-plugin-unicorn": "^12.0.1",
     "typescript": "^3.6.3"
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
@@ -57,5 +57,5 @@
     "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
     "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\""
   },
-  "version": "0.4.49"
+  "version": "0.4.50"
 }
