@@ -38,6 +38,7 @@ module.exports = {
     // Prefer `Array.from` for performance benefits.
     'unicorn/prefer-spread': 'off',
     'unicorn/prefer-starts-ends-with': 'error',
+    'unicorn/prefer-string-slice': 'error',
     'unicorn/prefer-text-content': 'error',
     // Type checks are performed by TypeScript compiler.
     'unicorn/prefer-type-error': 'off',
