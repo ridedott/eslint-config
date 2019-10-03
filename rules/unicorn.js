@@ -5,7 +5,10 @@ module.exports = {
     'unicorn/custom-error-definition': 'off',
     'unicorn/error-message': 'error',
     'unicorn/escape-case': 'error',
-    'unicorn/expiring-todo-comments': 'error',
+    'unicorn/expiring-todo-comments': [
+      'error',
+      { allowWarningComments: false },
+    ],
     'unicorn/explicit-length-check': ['error', { 'non-zero': 'greater-than' }],
     'unicorn/filename-case': ['error', { case: 'camelCase' }],
     'unicorn/import-index': 'error',
