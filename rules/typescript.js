@@ -2,6 +2,10 @@ module.exports = {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+    '@typescript-eslint/explicit-function-return-type': [
+      'error',
+      { allowTypedFunctionExpressions: false },
+    ],
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
