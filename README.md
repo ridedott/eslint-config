@@ -16,35 +16,39 @@ ESLint itself:
 npm install --save-dev @ridedott/eslint-config eslint
 ```
 
-Once it's finished, add an ESLint configuration to your project. An example
-configuration:
+Once it is finished, add an ESLint configuration to your project in a top-level
+`.eslintrc.yaml` file. An example configuration:
 
-```json
-{
-  "env": {
-    "node": true
-  },
-  "extends": "@ridedott/eslint-config",
-  "overrides": [
-    {
-      "env": {
-        "jest": true,
-        "node": true
-      },
-      "files": ["src/**/*spec.ts"],
-      "rules": {
-        "@typescript-eslint/no-explicit-any": "off",
-        "@typescript-eslint/no-non-null-assertion": "off",
-        "no-magic-numbers": "off"
-      }
-    }
-  ],
-  "parserOptions": {
-    "ecmaVersion": 10,
-    "project": "tsconfig.json",
-    "sourceType": "module"
-  }
-}
+```yaml
+env:
+  es6: true
+  node: true
+extends: '@ridedott/eslint-config'
+overrides:
+  - env:
+      jest: true
+    files:
+      - __mocks__/**/*.ts
+      - src/**/*.spec.ts
+      - test/**/*.ts
+    rules:
+      '@typescript-eslint/no-magic-numbers': off
+      max-lines-per-function: off
+      max-statements: off
+      no-magic-numbers: off
+      unicorn/no-unsafe-regex: off
+  - files:
+      - scripts/**/*.ts
+    rules:
+      no-console: off
+  - files:
+      - __mocks__/**/*.ts
+    rules:
+      unicorn/filename-case: off
+parserOptions:
+  ecmaVersion: 2020
+  project: tsconfig.json
+  sourceType: module
 ```
 
 and a script in your `package.json` which will help you run ESLint with correct
