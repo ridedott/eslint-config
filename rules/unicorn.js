@@ -27,7 +27,8 @@ module.exports = {
     'unicorn/no-unsafe-regex': 'error',
     'unicorn/no-unused-properties': 'off',
     'unicorn/no-zero-fractions': 'error',
-    'unicorn/number-literal-case': 'error',
+    // Code should be formatted using Prettier.
+    'unicorn/number-literal-case': 'off',
     'unicorn/prefer-add-event-listener': 'error',
     'unicorn/prefer-dataset': 'error',
     'unicorn/prefer-event-key': 'error',
