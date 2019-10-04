@@ -1,5 +1,7 @@
 # eslint-config
 
+[![license: MIT](https://img.shields.io/github/license/ridedott/eslint-config)](https://github.com/ridedott/eslint-config/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@ridedott/eslint-config)](https://www.npmjs.com/package/@ridedott/eslint-config)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
