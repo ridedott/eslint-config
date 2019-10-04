@@ -7,6 +7,8 @@ Safety-oriented, fp-first configuration of ESLint.
 
 ## Usage
 
+### Basic setup
+
 To use this configuration, install it as a `devDependency` first, alongside
 ESLint itself:
 
@@ -53,6 +55,45 @@ dependencies:
   "scripts": {
     "lint": "eslint --resolve-plugins-relative-to './node_modules/@ridedott/eslint-config' '**/*.ts'"
   }
+}
+```
+
+### Visual Studio Code integration
+
+If you would like to add a [Visual Studio Code](https://code.visualstudio.com)
+integration too, consider starting with the following configuration.
+
+Add an extension to the list of suggested ones in `.vscode/extensions.json`:
+
+```json
+{
+  "recommendations": ["dbaeumer.vscode-eslint"]
+}
+```
+
+Add ESLint settings to the workspace settings in `.vscode/settings.json`:
+
+```json
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true,
+    "location": "sameLine"
+  },
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.enable": true,
+  "eslint.options": {
+    "resolvePluginsRelativeTo": "./node_modules/@ridedott/eslint-config"
+  },
+  "eslint.run": "onType",
+  "eslint.validate": [
+    {
+      "autoFix": true,
+      "language": "typescript"
+    }
+  ]
 }
 ```
 
