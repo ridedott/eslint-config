@@ -26,6 +26,8 @@ module.exports = {
     'no-plusplus': 'off',
     // Ternary operators are helpful to write immutable code.
     'no-ternary': 'off',
+    // Unnecessary in TypeScript projects.
+    'no-undef': 'off',
     // Only applicable to ECMAScript 3.
     'no-undefined': 'off',
     // Duplicate of @typescript-eslint/no-unused-vars.
