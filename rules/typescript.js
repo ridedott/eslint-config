@@ -20,6 +20,17 @@ module.exports = {
      * definitions.
      */
     '@typescript-eslint/no-type-alias': 'off',
+    /*
+     * `ignoreRhs` option forces the choice between false positives and false
+     * negatives. Until this is fixed, enabling the option prevents false
+     * positives.
+     *
+     * See https://github.com/typescript-eslint/typescript-eslint/pull/1163.
+     */
+    '@typescript-eslint/no-unnecessary-condition': [
+      'error',
+      { ignoreRhs: true },
+    ],
     '@typescript-eslint/no-unused-vars': [
       'error',
       { ignoreRestSiblings: true },
