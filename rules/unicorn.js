@@ -49,7 +49,13 @@ module.exports = {
     'unicorn/prefer-text-content': 'error',
     'unicorn/prevent-abbreviations': [
       'error',
-      { checkDefaultAndNamespaceImports: true, checkProperties: true },
+      {
+        checkDefaultAndNamespaceImports: true,
+        checkFilenames: true,
+        checkProperties: true,
+        checkShorthandImports: true,
+        checkVariables: true,
+      },
     ],
     'unicorn/regex-shorthand': 'error',
     'unicorn/throw-new-error': 'error',
