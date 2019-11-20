@@ -9,6 +9,7 @@ module.exports = {
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
+    '@typescript-eslint/no-dynamic-delete': 'error',
     '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-magic-numbers': [
@@ -31,6 +32,7 @@ module.exports = {
       'error',
       { ignoreRhs: true },
     ],
+    '@typescript-eslint/no-untyped-public-signature': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { ignoreRestSiblings: true },
@@ -40,8 +42,14 @@ module.exports = {
     '@typescript-eslint/quotes': 'off',
     // Conflicts with @typescript-eslint/promise-function-async.
     '@typescript-eslint/require-await': 'off',
+    '@typescript-eslint/restrict-template-expressions': [
+      'error',
+      { allowBoolean: false, allowNullable: false, allowNumber: false },
+    ],
     // Code should be formatted using Prettier.
     '@typescript-eslint/semi': 'off',
+    // Code should be formatted using Prettier.
+    '@typescript-eslint/space-before-function-paren': 'off',
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
   },
 };
