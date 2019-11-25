@@ -11,6 +11,7 @@ module.exports = {
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
     '@typescript-eslint/no-dynamic-delete': 'error',
     '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
+    '@typescript-eslint/no-extra-non-null-assertion': ['error'],
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-magic-numbers': [
       'error',
@@ -30,14 +31,20 @@ module.exports = {
      */
     '@typescript-eslint/no-unnecessary-condition': [
       'error',
-      { ignoreRhs: true },
+      { allowConstantLoopConditions: false, ignoreRhs: true },
     ],
     '@typescript-eslint/no-untyped-public-signature': 'error',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { ignoreRestSiblings: true },
     ],
+    '@typescript-eslint/prefer-optional-chain': ['error'],
+    '@typescript-eslint/prefer-nullish-coalescing': [
+      'error',
+      { ignoreConditionalTests: true, ignoreMixedLogicalExpressions: true },
+    ],
     '@typescript-eslint/promise-function-async': ['error', { allowAny: true }],
+    '@typescript-eslint/return-await': ['error', 'in-try-catch'],
     // Code should be formatted using Prettier.
     '@typescript-eslint/quotes': 'off',
     // Conflicts with @typescript-eslint/promise-function-async.
