@@ -5,6 +5,8 @@ module.exports = {
     'capitalized-comments': ['error', 'always', { ignorePattern: 'cspell' }],
     // TypeScript will always make sure return values are correct.
     'consistent-return': 'off',
+    // This is handled by @typescript-eslint/member-ordering.
+    'grouped-accessor-pairs': 'off',
     // Ignored properties in TypeScript consist of underscores.
     'id-length': ['error', { exceptions: ['_', '__', '___', '____'] }],
     // Using functions and firestore, and Prettier formatting result in extra
@@ -15,6 +17,8 @@ module.exports = {
     'max-statements': ['error', { max: 15 }],
     // Duplicate of @typescript-eslint/no-array-constructor.
     'no-array-constructor': 'off',
+    // Safety of this pattern is achieved by typechecking.
+    'no-constructor-return': 'off',
     // Duplicate of @typescript-eslint/no-empty-function.
     'no-empty-function': 'off',
     // Duplicate of @typescript-eslint/no-magic-numbers.
@@ -24,6 +28,10 @@ module.exports = {
     // Prettier automatically inserts semicolons, so there is no way to that
     // automatic semicolon insertion might happen.
     'no-plusplus': 'off',
+    // Inferior to @typescript-eslint/return-await.
+    'no-return-await': 'off',
+    // This is impossible with typechecking.
+    'no-setter-return': 'off',
     // Ternary operators are helpful to write immutable code.
     'no-ternary': 'off',
     // Unnecessary in TypeScript projects.
