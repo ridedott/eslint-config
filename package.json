@@ -14,7 +14,7 @@
     "eslint-plugin-immutable": "^1.0.0",
     "eslint-plugin-jest": "^23.0.5",
     "eslint-plugin-simple-import-sort": "^5.0.0",
-    "eslint-plugin-unicorn": "^13.0.0",
+    "eslint-plugin-unicorn": "^14.0.0",
     "typescript": "^3.7.2"
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
