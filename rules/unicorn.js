@@ -35,6 +35,7 @@ module.exports = {
     'unicorn/prefer-exponentiation-operator': 'error',
     'unicorn/prefer-flat-map': 'error',
     'unicorn/prefer-includes': 'error',
+    'unicorn/prefer-negative-index': 'error',
     'unicorn/prefer-node-append': 'error',
     'unicorn/prefer-node-remove': 'error',
     'unicorn/prefer-query-selector': 'error',
@@ -47,6 +48,7 @@ module.exports = {
     // Type checks are performed by TypeScript compiler.
     'unicorn/prefer-type-error': 'off',
     'unicorn/prefer-text-content': 'error',
+    'unicorn/prefer-trim-start-end': 'error',
     'unicorn/prevent-abbreviations': [
       'error',
       {
