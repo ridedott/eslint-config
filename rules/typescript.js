@@ -10,6 +10,10 @@ module.exports = {
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
     '@typescript-eslint/no-dynamic-delete': 'error',
+    '@typescript-eslint/no-empty-function': [
+      'error',
+      { allow: ['private-constructors', 'protected-constructors'] },
+    ],
     '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
     '@typescript-eslint/no-extra-non-null-assertion': ['error'],
     '@typescript-eslint/no-inferrable-types': 'off',
@@ -41,7 +45,11 @@ module.exports = {
     '@typescript-eslint/prefer-optional-chain': ['error'],
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
-      { ignoreConditionalTests: true, ignoreMixedLogicalExpressions: true },
+      {
+        forceSuggestionFixer: false,
+        ignoreConditionalTests: true,
+        ignoreMixedLogicalExpressions: true,
+      },
     ],
     '@typescript-eslint/promise-function-async': ['error', { allowAny: true }],
     '@typescript-eslint/return-await': ['error', 'in-try-catch'],
