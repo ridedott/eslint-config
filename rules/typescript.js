@@ -10,10 +10,8 @@ module.exports = {
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
     '@typescript-eslint/no-dynamic-delete': 'error',
-    '@typescript-eslint/no-empty-function': [
-      'error',
-      { allow: ['private-constructors', 'protected-constructors'] },
-    ],
+    // Empty functions are often used as no operation.
+    '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
     '@typescript-eslint/no-extra-non-null-assertion': ['error'],
     '@typescript-eslint/no-inferrable-types': 'off',
