@@ -1,5 +1,4 @@
 {
-  "eslint.autoFixOnSave": true,
   "eslint.codeAction.disableRuleComment": {
     "enable": true,
     "location": "sameLine"
@@ -12,10 +11,7 @@
     "resolvePluginsRelativeTo": "./node_modules/@ridedott/eslint-config"
   },
   "eslint.run": "onType",
-  "eslint.validate": [
-    {
-      "autoFix": true,
-      "language": "typescript"
-    }
-  ]
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
