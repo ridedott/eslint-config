@@ -14,11 +14,17 @@ module.exports = {
     '@typescript-eslint/no-empty-function': 'off',
     '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
     '@typescript-eslint/no-extra-non-null-assertion': ['error'],
+    // Code should be formatted using Prettier.
+    '@typescript-eslint/no-extra-semi': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-magic-numbers': [
       'error',
       { ignore: [0, 1], ignoreNumericLiteralTypes: true },
     ],
+    /*
+     * Custom objects are often used in class-free applications.
+     */
+    '@typescript-eslint/no-throw-literal': 'off',
     /*
      * Type aliases are often needed when deriving and extending existing type
      * definitions.
