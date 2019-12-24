@@ -22,6 +22,10 @@ module.exports = {
       { ignore: [0, 1], ignoreNumericLiteralTypes: true },
     ],
     /*
+     * Custom objects are often used in class-free applications.
+     */
+    '@typescript-eslint/no-throw-literal': 'off',
+    /*
      * Type aliases are often needed when deriving and extending existing type
      * definitions.
      */
