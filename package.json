@@ -19,7 +19,7 @@
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
+    "@commitlint/cli": "^8.3.3",
     "@commitlint/config-conventional": "^8.2.0",
     "commitizen": "^4.0.3",
     "husky": "^3.1.0",
