@@ -9,6 +9,12 @@ module.exports = {
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
+    /*
+     * cspell:ignore oleg-koval
+     *
+     * TODO (oleg-koval) [2020-01-29] Enable and configure this rule after alignment.
+     */
+    '@typescript-eslint/naming-conventions': 'off',
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
     '@typescript-eslint/no-empty-function': 'off',
