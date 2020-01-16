@@ -14,7 +14,26 @@ module.exports = {
      *
      * TODO (oleg-koval) [2020-01-29] Enable and configure this rule after alignment.
      */
-    '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      [
+        {
+          filter: '_+',
+          format: ['camelCase'],
+          leadingUnderscore: 'forbid',
+          selector: 'default',
+          trailingUnderscore: 'forbid',
+        },
+        {
+          format: ['camelCase', 'UPPER_CASE'],
+          selector: 'variable',
+        },
+        {
+          format: ['PascalCase'],
+          selector: 'typeLike',
+        },
+      ],
+    ],
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
     '@typescript-eslint/no-empty-function': 'off',
