@@ -53,7 +53,7 @@ module.exports = {
     ],
     /**
      * This rule has been deprecated and replaced by
-     * explicit-module-boundary-types as of v2.17.0.
+     * explicit-module-boundary-types as of @typescript-eslint/* v2.17.0.
      */
     '@typescript-eslint/no-untyped-public-signature': 'off',
     '@typescript-eslint/no-unused-vars': [
