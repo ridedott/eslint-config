@@ -2,6 +2,10 @@ module.exports = {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+    /**
+     * Formatting should be done by Prettier.
+     */
+    '@typescript-eslint/comma-spacing': 'off',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       { allowTypedFunctionExpressions: false },
@@ -47,7 +51,11 @@ module.exports = {
       'error',
       { allowConstantLoopConditions: false, ignoreRhs: true },
     ],
-    '@typescript-eslint/no-untyped-public-signature': 'error',
+    /**
+     * This rule has been deprecated and replaced by
+     * explicit-module-boundary-types as of @typescript-eslint/* v2.17.0.
+     */
+    '@typescript-eslint/no-untyped-public-signature': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       { ignoreRestSiblings: true },
