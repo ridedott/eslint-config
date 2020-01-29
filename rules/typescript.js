@@ -1,14 +1,15 @@
 module.exports = {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
-    '@typescript-eslint/ban-ts-comment': 'error',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
+    /**
+     * Formatting should be done by Prettier.
+     */
     '@typescript-eslint/comma-spacing': 'off',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
       { allowTypedFunctionExpressions: false },
     ],
-    '@typescript-eslint/explicit-module-boundary-types': 'error',
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
@@ -18,7 +19,6 @@ module.exports = {
      * TODO (oleg-koval) [2020-01-29] Enable and configure this rule after alignment.
      */
     '@typescript-eslint/naming-convention': 'off',
-    '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
     '@typescript-eslint/no-empty-function': 'off',
@@ -60,7 +60,6 @@ module.exports = {
       'error',
       { ignoreRestSiblings: true },
     ],
-    '@typescript-eslint/prefer-as-const': 'error',
     '@typescript-eslint/prefer-optional-chain': ['error'],
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
