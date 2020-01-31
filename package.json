@@ -57,7 +57,8 @@
     "cz": "git-cz",
     "cz:retry": "git-cz --retry",
     "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
-    "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\""
+    "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\"",
+    "test": "jest"
   },
   "version": "0.4.80"
 }
