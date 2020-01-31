@@ -1,11 +1,5 @@
-import { rules as typescriptEslintRules } from '@typescript-eslint/eslint-plugin';
 import { CLIEngine, Linter } from 'eslint';
 import { rules as arrayFuncRules } from 'eslint-plugin-array-func';
-import { rules as eslintCommentsRules } from 'eslint-plugin-eslint-comments';
-import { rules as immutableRules } from 'eslint-plugin-immutable';
-import { rules as jestRules } from 'eslint-plugin-jest';
-import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort';
-import { rules as unicornRules } from 'eslint-plugin-unicorn';
 
 import * as ourRules from '../rules';
 import * as fixtures from './fixtures';
@@ -29,13 +23,6 @@ const eslintRules = Object.fromEntries(linter.getRules());
 const ourRulesToOriginalMap = {
   arrayFunc: arrayFuncRules,
   eslint: eslintRules,
-  eslintComments: eslintCommentsRules,
-  immutable: immutableRules,
-  jest: jestRules,
-  overrides: eslintRules,
-  simpleImportSort: simpleImportSortRules,
-  typescriptEslint: typescriptEslintRules,
-  unicorn: unicornRules,
 };
 
 const verifyFixture = ({
@@ -97,8 +84,7 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
       const ruleName = getRuleName(ourRule);
 
       if (
-        ourRules[ruleSet].rules[ourRule] === 'off' ||
-        ruleSet !== 'eslintComments'
+        ourRules[ruleSet].rules[ourRule] === 'off'
       ) {
         return;
       }
