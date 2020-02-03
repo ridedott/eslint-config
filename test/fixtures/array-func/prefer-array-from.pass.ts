@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
-const array = [1];
+const arrayFromPass = [1];
 
-const extendedArray =  [0, ...array];
+const extendedArray =  [0, ...arrayFromPass];
 
-const arrayCopy = Array.from(array);
+const arrayCopy = Array.from(arrayFromPass);
 
 const characterArray = Array.from("string");
