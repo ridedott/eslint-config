@@ -1,1 +1,1 @@
-/* eslint-disable unicorn/filename-case */
+type ConsistentTypeDefinitionsFail = { x: number };

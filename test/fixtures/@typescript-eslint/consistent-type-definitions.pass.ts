@@ -1,1 +1,6 @@
-/* eslint-disable unicorn/filename-case */
+type ConsistentTypeDefinitionsPass = string;
+type Foo = string | {};
+
+interface T {
+  x: number;
+}

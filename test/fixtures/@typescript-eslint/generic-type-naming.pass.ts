@@ -1,1 +1,3 @@
-/* eslint-disable unicorn/filename-case */
+type ReadOnlyPass<TType extends object> = {
+  readonly [TKey in keyof TType]: TType[TKey];
+};
