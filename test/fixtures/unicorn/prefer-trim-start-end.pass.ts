@@ -1,0 +1,2 @@
+'bar'.trimStart();
+'bar'.trimEnd();
