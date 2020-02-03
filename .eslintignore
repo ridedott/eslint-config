@@ -1,5 +1,4 @@
 # Ignore everything by default
 /*
-
 # Whitelist test and fixtures
-!test/**/*.ts
+!/test
