@@ -1,4 +1,4 @@
-/* eslint-disable unicorn/filename-case */
+
 // Capitalized comment
 
 // 1. Non-letter at beginning of comment

@@ -4,7 +4,7 @@
 /* eslint-disable @typescript-eslint/typedef */
 /* eslint-disable @typescript-eslint/no-unused-vars-experimental */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable unicorn/filename-case */
+
 const sum = array.reduce((p, c) => p + c, 0);
 
 const reverseSum = array.reduceRight((p, c) => p + c, 0);

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable unicorn/filename-case */
+
 const passFunction = () => {
   // Some long function
   const random1 = 1;

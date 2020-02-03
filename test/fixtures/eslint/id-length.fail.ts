@@ -7,7 +7,7 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable unicorn/catch-error-name */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable unicorn/filename-case */
+
 const z = 5;
 
 const foo = function (e) { };

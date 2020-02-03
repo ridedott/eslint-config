@@ -9,7 +9,7 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable no-invalid-this */
 /* eslint-disable immutable/no-this */
-/* eslint-disable unicorn/filename-case */
+
 export const iterable = new Map();
 Array.from(iterable, (t) => t);
 
