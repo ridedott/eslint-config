@@ -5,5 +5,5 @@ export * from './immutable';
 export * from './jest';
 export * from './overrides';
 export * from './simple-import-sort';
-export * from './typescript-eslint';
+export * from './@typescript-eslint';
 export * from './unicorn';

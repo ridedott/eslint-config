@@ -1,7 +1,7 @@
 import { readdirSync, readFileSync } from 'fs';
 import { join } from 'path';
 
-const fixtureFileRegex = /(?<ruleName>[^\.]*)\.(?<fileKey>[^\.]*)\.(?:.*)/u;
+const fixtureFileRegex = /(?<ruleName>[^.]*)\.(?<fileKey>[^.]*)\.(?:.*)/u;
 
 export const generatePluginFixture = (pluginFixturePath: string): {} => {
   const fixtureFiles = readdirSync(pluginFixturePath);
@@ -10,6 +10,7 @@ export const generatePluginFixture = (pluginFixturePath: string): {} => {
     if (fixtureFileRegex.test(fileName) === false) {
       return fixture;
     }
+
     const executed = fixtureFileRegex.exec(fileName);
 
     if (executed === null) {

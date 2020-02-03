@@ -38,6 +38,20 @@ const ourRulesToOriginalMap = {
   unicorn: unicornRules,
 };
 
+const fixtureFilePath = (ruleSet: string): string => {
+  const BASE_PATH = 'test/fixtures';
+
+  if (ruleSet === 'eslint') {
+    return `${BASE_PATH}/eslint/`;
+  }
+
+  if (ruleSet === 'overrides') {
+    return `${BASE_PATH}/overrides/`;
+  }
+
+  return `${BASE_PATH}`;
+};
+
 const verifyFixture = ({
   ruleSet,
   ruleName,
@@ -56,9 +70,7 @@ const verifyFixture = ({
   const fixture = fixtures[ruleSet][ruleName][type];
   const report = cli.executeOnText(
     fixture,
-    ruleSet === 'eslint'
-      ? `test/fixtures/eslint/${ourRule}.${type}.ts`
-      : `test/fixtures/${ourRule}.${type}.ts`,
+    `${fixtureFilePath(ruleSet)}/${ourRule}.${type}.ts`,
   );
 
   return report.results[0];
