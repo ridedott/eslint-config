@@ -7,15 +7,10 @@ overrides:
       jest: true
     files:
       - test/*.ts
-      - test/**/*.ts
     rules:
       '@typescript-eslint/no-magic-numbers': off
       no-magic-numbers: 0
       unicorn/no-unsafe-regex: off
-  - files:
-      - scripts/**/*.ts
-    rules:
-      no-console: 0
   - files:
       - test/fixtures/**
     rules:
