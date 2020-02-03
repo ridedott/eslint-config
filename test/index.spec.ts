@@ -52,7 +52,7 @@ const fixtureFilePath = (ruleSet: string): string => {
   return `${BASE_PATH}`;
 };
 
-const verifyFixture = ({
+const lintFixture = ({
   ruleSet,
   ruleName,
   ourRule,
@@ -121,7 +121,7 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
       it('should pass', (): void => {
         expect.assertions(3);
 
-        const result = verifyFixture({
+        const result = lintFixture({
           ourRule,
           ruleName,
           ruleSet,
@@ -136,7 +136,7 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
       it('should fail', (): void => {
         expect.assertions(2);
 
-        const result = verifyFixture({
+        const result = lintFixture({
           ourRule,
           ruleName,
           ruleSet,
