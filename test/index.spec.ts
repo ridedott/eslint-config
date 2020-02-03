@@ -118,7 +118,7 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
         expect(ourRulesToOriginalMap[ruleSet][ruleName]).not.toBeUndefined();
       });
 
-      it('should pass', (): void => {
+      it('should pass on a valid fixture', (): void => {
         expect.assertions(3);
 
         const result = lintFixture({
@@ -133,7 +133,7 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
         expect(result.errorCount).toStrictEqual(0);
       });
 
-      it('should fail', (): void => {
+      it('should fail on an invalid fixture', (): void => {
         expect.assertions(2);
 
         const result = lintFixture({
