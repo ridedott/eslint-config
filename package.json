@@ -40,8 +40,7 @@
   "license": "UNLICENSED",
   "lint-staged": {
     "*.{js,json,md,yml,yaml}": [
-      "prettier --write",
-      "git add"
+      "prettier --write"
     ]
   },
   "main": "index.js",
@@ -57,5 +56,5 @@
     "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
     "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\""
   },
-  "version": "0.4.79"
+  "version": "0.4.80"
 }

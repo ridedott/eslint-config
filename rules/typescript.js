@@ -1,6 +1,14 @@
 module.exports = {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+    '@typescript-eslint/camelcase': [
+      'error',
+      {
+        genericType: 'always',
+        ignoreDestructuring: false,
+        properties: 'always',
+      },
+    ],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     /**
      * Formatting should be done by Prettier.
@@ -40,6 +48,11 @@ module.exports = {
      * definitions.
      */
     '@typescript-eslint/no-type-alias': 'off',
+    /**
+     * `booleanValue === false` is preferred to `!booleanValue` to reduce
+     * confusion with non-null assertions.
+     */
+    '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
     /*
      * `ignoreRhs` option forces the choice between false positives and false
      * negatives. Until this is fixed, enabling the option prevents false
