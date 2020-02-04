@@ -1,4 +1,5 @@
-# Ignore everything by default
+# Ignore everything by default.
 /*
-# Whitelist test and fixtures
+
+# Whitelist tests and fixtures.
 !/test

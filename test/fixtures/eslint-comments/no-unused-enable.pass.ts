@@ -2,4 +2,3 @@
 const doSomethingPass = () => {};
 
 doSomethingPass();
-
