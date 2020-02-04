@@ -1,6 +1,14 @@
 module.exports = {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+    '@typescript-eslint/camelcase': [
+      'error',
+      {
+        genericType: 'always',
+        ignoreDestructuring: false,
+        properties: 'always',
+      },
+    ],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     /**
      * Formatting should be done by Prettier.
