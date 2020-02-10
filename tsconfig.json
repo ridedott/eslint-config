@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
-    "rootDir": "."
+    "rootDir": ".",
+    "lib": ["es2019"],
+    "module": "commonjs",
+    "target": "es2019"
   },
-  "extends": "./tsconfig.production.json",
   "include": ["test/**/*.ts"]
 }
