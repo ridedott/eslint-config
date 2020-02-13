@@ -1,6 +1,6 @@
-/* eslint-disable id-length */
-/* eslint-disable @typescript-eslint/typedef */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable @typescript-eslint/typedef */
+/* eslint-disable id-length */
 
 export const iterable = new Map();
 Array.from(iterable).map((t) => t);

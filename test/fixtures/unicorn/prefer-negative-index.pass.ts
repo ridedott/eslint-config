@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
+
 const negativeIndexPass = [];
 negativeIndexPass.slice(-2, -1);
 negativeIndexPass.splice(-1, 1);

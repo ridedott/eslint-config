@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-magic-numbers */
+
 const containerPass: { [i: string]: number } = {
   /* ... */
 };

@@ -1,11 +1,12 @@
-/* eslint-disable @typescript-eslint/strict-boolean-expressions */
-/* eslint-disable no-shadow */
-/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
+/* eslint-disable @typescript-eslint/strict-boolean-expressions */
 /* eslint-disable @typescript-eslint/typedef */
 /* eslint-disable func-style */
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable no-shadow */
+
 function consistentFunctionScopingPass(bar) {
 	return bar === 'bar';
 }

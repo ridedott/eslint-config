@@ -1,11 +1,12 @@
-/* eslint-disable no-empty */
-/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
-/* eslint-disable unicorn/prevent-abbreviations */
-/* eslint-disable func-style */
-/* eslint-disable @typescript-eslint/strict-boolean-expressions */
+/* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable @typescript-eslint/generic-type-naming */
 /* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
+/* eslint-disable @typescript-eslint/strict-boolean-expressions */
+/* eslint-disable func-style */
+/* eslint-disable no-empty */
+/* eslint-disable unicorn/prevent-abbreviations */
+
 function noUnnecessaryConditionFail1<T>(items: T[]) {
   // Items can never be nullable, so this is unnecessary
   if (items) {

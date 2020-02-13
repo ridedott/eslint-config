@@ -1,5 +1,6 @@
-/* eslint-disable require-unicode-regexp */
 /* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable require-unicode-regexp */
+
 const regexShorthandFail1 = /[0-9]/;
 const regexShorthandFail2 = /[^0-9]/;
 const regexShorthandFail3 = /[a-zA-Z0-9_]/;

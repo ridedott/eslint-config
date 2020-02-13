@@ -1,5 +1,5 @@
-/* eslint-disable unicorn/prevent-abbreviations */
 /* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable unicorn/prevent-abbreviations */
 
 const arrayTypeFail1: Array<string | number> = ['a', 'b'];
 const arrayTypeFail2: Array<{ prop: string }> = [{ prop: 'a' }];

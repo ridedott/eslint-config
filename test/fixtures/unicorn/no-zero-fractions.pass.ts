@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+
 const noZeroPass1 = 1;
 const noZeroPass2 = -1;
 const noZeroPass3 = 123123123;

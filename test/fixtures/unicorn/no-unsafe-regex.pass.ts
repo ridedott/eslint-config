@@ -1,7 +1,8 @@
-/* eslint-disable unicorn/regex-shorthand */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable prefer-named-capture-group */
 /* eslint-disable require-unicode-regexp */
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable unicorn/regex-shorthand */
+
 const regexPass1 = /\bOakland\b/;
 const regexPass2 = /\b(Oakland|San Francisco)\b/i;
 const regexPass3 = /^\d+1337\d+$/i;

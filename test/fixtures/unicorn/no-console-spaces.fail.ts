@@ -1,4 +1,5 @@
 /* eslint-disable no-console */
+
 console.log('abc ', 'def');
 console.log('abc', ' def');
 

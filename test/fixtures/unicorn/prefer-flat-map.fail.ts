@@ -1,5 +1,5 @@
-/* eslint-disable unicorn/prevent-abbreviations */
 /* eslint-disable @typescript-eslint/typedef */
+/* eslint-disable unicorn/prevent-abbreviations */
 
 /*
  * TODO (viestat) [2020-12-25]: Figure out why this rule breaks whe using:

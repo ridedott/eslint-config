@@ -2,7 +2,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 const passFunction = () => {
-  // Some long function
   const random1 = 1;
   const random2 = random1 + 1;
   const random3 = random2 + 1;

@@ -1,6 +1,7 @@
-/* eslint-disable no-useless-call */
-/* eslint-disable func-style */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable func-style */
+/* eslint-disable no-useless-call */
+
 function preferReflectApplyFail() {}
 
 preferReflectApplyFail.apply(null, [42]);

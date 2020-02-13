@@ -1,5 +1,6 @@
 /* eslint-disable immutable/no-this */
 /* eslint-disable no-console */
+
 class MyClass {
   public log(): void {
     console.log(this);

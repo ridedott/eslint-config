@@ -1,5 +1,6 @@
-/* eslint-disable no-empty */
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
+/* eslint-disable no-empty */
+
 if ('string'.length) {}
 
 if ([].length) {}
