@@ -3,7 +3,7 @@
 const catchErrorNamePass = () => {};
 
 try {
-	catchErrorNamePass();
+  catchErrorNamePass();
 } catch (error) {
-	// …
+  // …
 }

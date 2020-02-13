@@ -3,6 +3,6 @@
 /* eslint-disable id-length */
 
 export const iterable = new Map();
-Array.from(iterable).map((t) => t);
+Array.from(iterable).map(t => t);
 
-Array.from(iterable, (t) => t).map((id) => id[0]);
+Array.from(iterable, t => t).map(id => id[0]);

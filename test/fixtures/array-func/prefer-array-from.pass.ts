@@ -2,8 +2,8 @@
 
 const arrayFromPass = [1];
 
-const extendedArray =  [0, ...arrayFromPass];
+const extendedArray = [0, ...arrayFromPass];
 
 const arrayCopy = Array.from(arrayFromPass);
 
-const characterArray = Array.from("string");
+const characterArray = Array.from('string');

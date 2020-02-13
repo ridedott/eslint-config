@@ -5,13 +5,14 @@
 /* eslint-disable no-empty */
 /* eslint-disable no-useless-return */
 
-const bar = () => {}
+const bar = () => {};
 
 const failPaddingLine = () => {
   bar();
   // For block-like
-  if(false){}
+  if (false) {
+  }
   bar();
   // For return
   return;
-}
+};

@@ -2,4 +2,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable func-style */
 
-function set() { this.x = 4; }
+function set() {
+  this.x = 4;
+}

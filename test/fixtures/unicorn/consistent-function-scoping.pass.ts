@@ -8,17 +8,17 @@
 /* eslint-disable no-shadow */
 
 function consistentFunctionScopingPass(bar) {
-	return bar === 'bar';
+  return bar === 'bar';
 }
 
 export function consistentFunctionScopingPass2(foo) {
-	return consistentFunctionScopingPass;
+  return consistentFunctionScopingPass;
 }
 
 export function consistentFunctionScopingPass3(foo) {
-	function consistentFunctionScopingPass(bar) {
-		return bar === 'bar' && foo.consistentFunctionScopingPass(bar);
-	}
+  function consistentFunctionScopingPass(bar) {
+    return bar === 'bar' && foo.consistentFunctionScopingPass(bar);
+  }
 
-	return consistentFunctionScopingPass;
+  return consistentFunctionScopingPass;
 }

@@ -3,4 +3,4 @@
 
 const doSomething = () => {};
 
-doSomething()
+doSomething();

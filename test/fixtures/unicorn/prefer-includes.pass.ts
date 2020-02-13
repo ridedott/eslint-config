@@ -5,4 +5,4 @@
 const str = 'foobar';
 str.indexOf('foo') !== 1;
 str.includes('foo');
-[1,2,3].includes(4);
+[1, 2, 3].includes(4);

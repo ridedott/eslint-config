@@ -4,7 +4,7 @@
 interface Test {
   [key: string]: any;
 }
-const preferOptionalChainPass:Test = {};
+const preferOptionalChainPass: Test = {};
 
 preferOptionalChainPass?.a?.b?.c;
 preferOptionalChainPass?.['a']?.b?.c;

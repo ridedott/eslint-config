@@ -7,7 +7,6 @@
  * Maybe it is due to a collision with array-func/prefer-flat-map.
  */
 
-
 const testForMapFail = [];
 
-testForMapFail.map((el) => el)
+testForMapFail.map(el => el);

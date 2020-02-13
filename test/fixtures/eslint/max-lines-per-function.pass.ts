@@ -7,4 +7,4 @@ const passFunction = () => {
   const random3 = random2 + 1;
 
   return random3;
-}
+};

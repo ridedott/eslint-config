@@ -12,4 +12,4 @@ const reverseSumPAss = [].reduceRight((p, c) => p + c, 0);
 
 const reverseArrayPass = [].reverse();
 
-export const reverseMapPass = [].reverse().map((r) => r + 1);
+export const reverseMapPass = [].reverse().map(r => r + 1);

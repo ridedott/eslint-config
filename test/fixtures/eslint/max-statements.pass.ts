@@ -12,4 +12,4 @@ const statementsPassFunction = () => {
   const random7 = random6 + 1;
 
   return random7;
-}
+};

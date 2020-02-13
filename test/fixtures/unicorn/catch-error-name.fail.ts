@@ -3,7 +3,7 @@
 const catchErrorNameFail = () => {};
 
 try {
-	catchErrorNameFail();
+  catchErrorNameFail();
 } catch (ohNoes) {
-	// …
+  // …
 }

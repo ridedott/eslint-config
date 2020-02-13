@@ -10,19 +10,22 @@
 
 const z = 5;
 
-const foo = function (e) { };
+const foo = function(e) {};
 
 try {
-    foo('');
+  foo('');
 } catch (e) {
-    // Ignore as many do
+  // Ignore as many do
 }
 
 const myObj = { a: 1 };
 
-(a) => { a * a };
-
+a => {
+  a * a;
+};
 
 const { y } = {};
-const { x: a} = {};
-const { a: [x]} = {};
+const { x: a } = {};
+const {
+  a: [x],
+} = {};

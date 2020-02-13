@@ -5,4 +5,4 @@
 const oneVarPass = () => {
   const bar = 1;
   const baz = 2;
-}
+};

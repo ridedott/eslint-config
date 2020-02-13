@@ -3,7 +3,7 @@
 console.log('abc ', 'def');
 console.log('abc', ' def');
 
-console.log("abc ", " def");
+console.log('abc ', ' def');
 console.log(`abc `, ` def`);
 
 console.debug('abc ', 'def');

@@ -3,6 +3,5 @@
 
 const oneVarFail = () => {
   const bar = true,
-      baz = false;
-
-}
+    baz = false;
+};

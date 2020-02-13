@@ -1,2 +1,2 @@
 const partsFail = ['a', 'b', 'c'];
-const [,,,,, partsFail1] = partsFail;
+const [, , , , , partsFail1] = partsFail;

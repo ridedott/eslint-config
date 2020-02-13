@@ -5,16 +5,17 @@
 /* eslint-disable no-empty */
 /* eslint-disable no-useless-return */
 
-const barBar = () => {}
+const barBar = () => {};
 
 const passPaddingLine = () => {
   barBar();
 
   // For block-like
-  if(false){}
+  if (false) {
+  }
 
   barBar();
 
   // For return
   return;
-}
+};

@@ -6,7 +6,6 @@ foo && foo.a && foo.a.b && foo.a.b.c;
 foo && foo.a && foo.a.b && foo.a.b.c;
 foo && foo.a && foo.a.b && foo.a.b.method && foo.a.b.method();
 
-
 foo &&
   foo.a != null &&
   foo.a.b !== null &&
