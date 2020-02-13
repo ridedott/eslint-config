@@ -1,0 +1,3807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`arrayFunc rules array-func/avoid-reverse should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 27,
+    "endColumn": 43,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        undefined,
+        undefined,
+      ],
+      "text": "reduceRight",
+    },
+    "line": 6,
+    "message": "Prefer using reduceRight over reversing the array and reduce",
+    "nodeType": "Identifier",
+    "ruleId": "array-func/avoid-reverse",
+    "severity": 2,
+  },
+  Object {
+    "column": 54,
+    "endColumn": 59,
+    "endLine": 6,
+    "line": 6,
+    "message": "Operands of '+' operation must either be both strings or both numbers.",
+    "messageId": "notNumbers",
+    "nodeType": "BinaryExpression",
+    "ruleId": "@typescript-eslint/restrict-plus-operands",
+    "severity": 2,
+  },
+  Object {
+    "column": 27,
+    "endColumn": 48,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        undefined,
+        undefined,
+      ],
+      "text": "reduce",
+    },
+    "line": 8,
+    "message": "Prefer using reduce over reversing the array and reduceRight",
+    "nodeType": "Identifier",
+    "ruleId": "array-func/avoid-reverse",
+    "severity": 2,
+  },
+  Object {
+    "column": 59,
+    "endColumn": 64,
+    "endLine": 8,
+    "line": 8,
+    "message": "Operands of '+' operation must either be both strings or both numbers.",
+    "messageId": "notNumbers",
+    "nodeType": "BinaryExpression",
+    "ruleId": "@typescript-eslint/restrict-plus-operands",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`arrayFunc rules array-func/from-map should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 25,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        NaN,
+        undefined,
+      ],
+      "text": ", ",
+    },
+    "line": 6,
+    "message": "Use mapFn callback of Array.from instead of map()",
+    "nodeType": "Identifier",
+    "ruleId": "array-func/from-map",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 33,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        undefined,
+        undefined,
+      ],
+      "text": "(id) => (id => id[0])((t => t)(id))/* eslint-disable @typescript-eslint/explicit-function-return-type */
+/* eslint-disable @typescript-eslint/typedef */
+/* eslint-disable id-length */
+
+export const iterable = new Map();
+Array.from(iterable).map(t => t);
+
+Array.from(iterable, t => t).map(id => id[0]);
+",
+    },
+    "line": 8,
+    "message": "Use mapFn callback of Array.from instead of map()",
+    "nodeType": "Identifier",
+    "ruleId": "array-func/from-map",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`arrayFunc rules array-func/prefer-array-from should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 25,
+    "endColumn": 38,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        148,
+        161,
+      ],
+      "text": "Array.from('string')",
+    },
+    "line": 4,
+    "message": "Use Array.from to convert from iterable to array",
+    "nodeType": "ArrayExpression",
+    "ruleId": "array-func/prefer-array-from",
+    "severity": 2,
+  },
+  Object {
+    "column": 19,
+    "endColumn": 32,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        182,
+        195,
+      ],
+      "text": "Array.from(iterable)",
+    },
+    "line": 6,
+    "message": "Use Array.from to convert from iterable to array",
+    "nodeType": "ArrayExpression",
+    "ruleId": "array-func/prefer-array-from",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`arrayFunc rules array-func/prefer-flat should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 34,
+    "endColumn": 51,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        238,
+        255,
+      ],
+      "text": "[1].flat()",
+    },
+    "line": 6,
+    "message": "Use flat to flatten an array",
+    "nodeType": "CallExpression",
+    "ruleId": "array-func/prefer-flat",
+    "severity": 2,
+  },
+  Object {
+    "column": 34,
+    "endColumn": 70,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        291,
+        327,
+      ],
+      "text": "[].flat()",
+    },
+    "line": 8,
+    "message": "Use flat to flatten an array",
+    "nodeType": "CallExpression",
+    "ruleId": "array-func/prefer-flat",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`arrayFunc rules array-func/prefer-flat-map should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 23,
+    "endColumn": 42,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        78,
+        97,
+      ],
+      "text": "array.flat()",
+    },
+    "line": 3,
+    "message": "Use flat to flatten an array",
+    "nodeType": "CallExpression",
+    "ruleId": "array-func/prefer-flat",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslint rules capitalized-comments should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 21,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        3,
+        4,
+      ],
+      "text": "L",
+    },
+    "line": 1,
+    "message": "Comments should not begin with a lowercase character.",
+    "messageId": "unexpectedLowercaseComment",
+    "nodeType": null,
+    "ruleId": "capitalized-comments",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslint rules id-length should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 8,
+    "endLine": 11,
+    "line": 11,
+    "message": "Identifier name 'z' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "endColumn": 23,
+    "endLine": 13,
+    "line": 13,
+    "message": "Identifier name 'e' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+  Object {
+    "column": 10,
+    "endColumn": 11,
+    "endLine": 17,
+    "line": 17,
+    "message": "Identifier name 'e' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "endColumn": 18,
+    "endLine": 21,
+    "line": 21,
+    "message": "Identifier name 'a' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 23,
+    "line": 23,
+    "message": "Identifier name 'a' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "endColumn": 10,
+    "endLine": 27,
+    "line": 27,
+    "message": "Identifier name 'y' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "endColumn": 10,
+    "endLine": 28,
+    "line": 28,
+    "message": "Identifier name 'x' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 30,
+    "line": 30,
+    "message": "Identifier name 'a' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslint rules max-lines-per-function should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 22,
+    "endColumn": 2,
+    "endLine": 90,
+    "line": 4,
+    "message": "Arrow function has too many lines (87). Maximum allowed is 70.",
+    "messageId": "exceed",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "max-lines-per-function",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "endColumn": 2,
+    "endLine": 90,
+    "line": 4,
+    "message": "Arrow function has too many statements (83). Maximum allowed is 15.",
+    "messageId": "exceed",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "max-statements",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslint rules max-statements should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 32,
+    "endColumn": 2,
+    "endLine": 90,
+    "line": 4,
+    "message": "Arrow function has too many lines (87). Maximum allowed is 70.",
+    "messageId": "exceed",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "max-lines-per-function",
+    "severity": 2,
+  },
+  Object {
+    "column": 32,
+    "endColumn": 2,
+    "endLine": 90,
+    "line": 4,
+    "message": "Arrow function has too many statements (83). Maximum allowed is 15.",
+    "messageId": "exceed",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "max-statements",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslint rules one-var should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 3,
+    "endColumn": 17,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        171,
+        177,
+      ],
+      "text": ";
+    const ",
+    },
+    "line": 5,
+    "message": "Split 'const' declarations into multiple statements.",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "one-var",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslint rules padding-line-between-statements should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 14,
+    "fix": Object {
+      "range": Array [
+        366,
+        366,
+      ],
+      "text": "
+",
+    },
+    "line": 13,
+    "message": "Expected blank line before this statement.",
+    "nodeType": "IfStatement",
+    "ruleId": "padding-line-between-statements",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 9,
+    "endLine": 15,
+    "fix": Object {
+      "range": Array [
+        405,
+        405,
+      ],
+      "text": "
+",
+    },
+    "line": 15,
+    "message": "Expected blank line before this statement.",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "padding-line-between-statements",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 10,
+    "endLine": 17,
+    "fix": Object {
+      "range": Array [
+        414,
+        414,
+      ],
+      "text": "
+",
+    },
+    "line": 17,
+    "message": "Expected blank line before this statement.",
+    "nodeType": "ReturnStatement",
+    "ruleId": "padding-line-between-statements",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslintComments rules eslint-comments/disable-enable-pair should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 12,
+    "endLine": 3,
+    "line": 3,
+    "message": "'deFoo' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "endColumn": 11,
+    "endLine": 4,
+    "line": 4,
+    "message": "'fizz' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslintComments rules eslint-comments/no-duplicate-disable should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 19,
+    "endColumn": 52,
+    "endLine": 2,
+    "line": 2,
+    "message": "'@typescript-eslint/no-unused-vars' rule has been disabled already.",
+    "nodeType": null,
+    "ruleId": "eslint-comments/no-duplicate-disable",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslintComments rules eslint-comments/no-unlimited-disable should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 29,
+    "endLine": 4,
+    "line": 4,
+    "message": "'noUnlimitedDisableFail' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslintComments rules eslint-comments/no-unused-disable should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 18,
+    "endColumn": 51,
+    "endLine": 2,
+    "line": 2,
+    "message": "'eslint-comments/no-unused-disable' rule is re-enabled but it has not been disabled.",
+    "nodeType": null,
+    "ruleId": "eslint-comments/no-unused-enable",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslintComments rules eslint-comments/no-unused-enable should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 74,
+    "endLine": 2,
+    "line": 2,
+    "message": "Definition for rule '@typescript-eslint/explicit-function-return-type-init' was not found.",
+    "nodeType": null,
+    "ruleId": "@typescript-eslint/explicit-function-return-type-init",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "endColumn": 71,
+    "endLine": 2,
+    "line": 2,
+    "message": "'@typescript-eslint/explicit-function-return-type-init' rule is re-enabled but it has not been disabled.",
+    "nodeType": null,
+    "ruleId": "eslint-comments/no-unused-enable",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslintComments rules eslint-comments/no-use should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 0,
+    "endColumn": 196,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected ESLint directive comment.",
+    "nodeType": null,
+    "ruleId": "eslint-comments/no-use",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "line": 1,
+    "message": "This line has a comment length of 195. Maximum allowed is 80.",
+    "messageId": "maxComment",
+    "nodeType": "Program",
+    "ruleId": "max-len",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "fatal": true,
+    "line": 1,
+    "message": "Failed to parse JSON from ' \\"no-undef\\": off / / eslint-env browser / / eslint-disable foo / / eslint-enable bar / // eslint-disable-line // eslint-disable-next-line / exported foo / / global $ / / globals a, b, c': Unexpected token o in JSON at position 14",
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`immutable rules immutable/no-let should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected let, use const.",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "immutable/no-let",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        56,
+        59,
+      ],
+      "text": "const",
+    },
+    "line": 3,
+    "message": "'noLetFail' is never reassigned. Use 'const' instead.",
+    "messageId": "useConst",
+    "nodeType": "Identifier",
+    "ruleId": "prefer-const",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`immutable rules immutable/no-mutation should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 24,
+    "endLine": 3,
+    "line": 3,
+    "message": "No object mutation allowed.",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "immutable/no-mutation",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`immutable rules immutable/no-this should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 3,
+    "endColumn": 13,
+    "endLine": 6,
+    "line": 6,
+    "message": "No object mutation allowed.",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "immutable/no-mutation",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 7,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected this, use functions not classes.",
+    "nodeType": "ThisExpression",
+    "ruleId": "immutable/no-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 7,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected 'this'.",
+    "nodeType": "ThisExpression",
+    "ruleId": "no-invalid-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 8,
+    "endColumn": 9,
+    "endLine": 6,
+    "line": 6,
+    "message": "Identifier name 'x' is too short (< 2).",
+    "messageId": "tooShort",
+    "nodeType": "Identifier",
+    "ruleId": "id-length",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`jest rules jest/consistent-test-it should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 5,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        83,
+        87,
+      ],
+      "text": "it",
+    },
+    "line": 4,
+    "message": "Prefer using 'it' instead of 'test'",
+    "messageId": "consistentMethod",
+    "nodeType": "Identifier",
+    "ruleId": "jest/consistent-test-it",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`overrides rules max-len should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "line": 4,
+    "message": "This line has a comment length of 90. Maximum allowed is 80.",
+    "messageId": "maxComment",
+    "nodeType": "Program",
+    "ruleId": "max-len",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`simpleImportSort rules simple-import-sort/sort should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 34,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        124,
+        187,
+      ],
+      "text": "import * as assert from 'assert';
+import * as path from 'path';",
+    },
+    "line": 4,
+    "message": "Run autofix to sort these imports!",
+    "messageId": "sort",
+    "nodeType": null,
+    "ruleId": "simple-import-sort/sort",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/array-type should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 44,
+    "endColumn": 49,
+    "endLine": 6,
+    "line": 6,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/camelcase should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 24,
+    "endLine": 4,
+    "line": 4,
+    "message": "Identifier 'my_favorite_color' is not in camel case.",
+    "messageId": "notCamelCase",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/camelcase",
+    "severity": 2,
+  },
+  Object {
+    "column": 25,
+    "endColumn": 30,
+    "endLine": 6,
+    "line": 6,
+    "message": "Identifier 't_foo' is not in camel case.",
+    "messageId": "notCamelCase",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/camelcase",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "endColumn": 23,
+    "endLine": 7,
+    "line": 7,
+    "message": "Identifier 't_foo' is not in camel case.",
+    "messageId": "notCamelCase",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/camelcase",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "endColumn": 28,
+    "endLine": 10,
+    "line": 10,
+    "message": "Identifier 'category_id' is not in camel case.",
+    "messageId": "notCamelCase",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/camelcase",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "endColumn": 20,
+    "endLine": 12,
+    "line": 12,
+    "message": "Identifier 'category_id' is not in camel case.",
+    "messageId": "notCamelCase",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/camelcase",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 6,
+    "endColumn": 35,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        0,
+        51,
+      ],
+      "text": "interface ConsistentTypeDefinitionsFail { x: number }",
+    },
+    "line": 1,
+    "message": "Use an \`interface\` instead of a \`type\`",
+    "messageId": "interfaceOverType",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/consistent-type-definitions",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 17,
+    "endColumn": 22,
+    "endLine": 5,
+    "line": 5,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "endColumn": 28,
+    "endLine": 7,
+    "line": 7,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "FunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 8,
+    "endColumn": 13,
+    "endLine": 12,
+    "line": 12,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/generic-type-naming should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 15,
+    "endColumn": 31,
+    "endLine": 1,
+    "line": 1,
+    "message": "Type parameter T does not match rule ^[A-Z][a-zA-Z]+$.",
+    "messageId": "paramNotMatchRule",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/generic-type-naming",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Type parameter T does not match rule ^[A-Z][a-zA-Z]+$.",
+    "messageId": "paramNotMatchRule",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/generic-type-naming",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 22,
+    "endColumn": 27,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        118,
+        125,
+      ],
+      "text": ".aaa",
+    },
+    "line": 3,
+    "message": "Do not delete dynamically computed property keys.",
+    "messageId": "dynamicDelete",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-dynamic-delete",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "endColumn": 27,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        118,
+        125,
+      ],
+      "text": ".aaa",
+    },
+    "line": 3,
+    "message": "[\\"aaa\\"] is better written in dot notation.",
+    "messageId": "useDot",
+    "nodeType": "Literal",
+    "ruleId": "dot-notation",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "endColumn": 32,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        147,
+        159,
+      ],
+      "text": ".Infinity",
+    },
+    "line": 4,
+    "message": "Do not delete dynamically computed property keys.",
+    "messageId": "dynamicDelete",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-dynamic-delete",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "endColumn": 32,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        147,
+        159,
+      ],
+      "text": ".Infinity",
+    },
+    "line": 4,
+    "message": "[\\"Infinity\\"] is better written in dot notation.",
+    "messageId": "useDot",
+    "nodeType": "Literal",
+    "ruleId": "dot-notation",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "endColumn": 26,
+    "endLine": 8,
+    "line": 8,
+    "message": "Do not delete dynamically computed property keys.",
+    "messageId": "dynamicDelete",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-dynamic-delete",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "endColumn": 40,
+    "endLine": 9,
+    "line": 9,
+    "message": "Do not delete dynamically computed property keys.",
+    "messageId": "dynamicDelete",
+    "nodeType": "CallExpression",
+    "ruleId": "@typescript-eslint/no-dynamic-delete",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/no-explicit-any should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 24,
+    "endColumn": 27,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        198,
+        201,
+      ],
+      "text": "unknown",
+    },
+    "line": 5,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": Object {
+          "range": Array [
+            198,
+            201,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      Object {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": Object {
+          "range": Array [
+            198,
+            201,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  Object {
+    "column": 33,
+    "endColumn": 36,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        251,
+        254,
+      ],
+      "text": "unknown",
+    },
+    "line": 7,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": Object {
+          "range": Array [
+            251,
+            254,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      Object {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": Object {
+          "range": Array [
+            251,
+            254,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  Object {
+    "column": 24,
+    "endColumn": 34,
+    "endLine": 9,
+    "fix": Object {
+      "range": Array [
+        295,
+        305,
+      ],
+      "text": "any[]",
+    },
+    "line": 9,
+    "message": "Array type using 'Array<any>' is forbidden for simple types. Use 'any[]' instead.",
+    "messageId": "errorStringArraySimple",
+    "nodeType": "TSTypeReference",
+    "ruleId": "@typescript-eslint/array-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 30,
+    "endColumn": 33,
+    "endLine": 9,
+    "fix": Object {
+      "range": Array [
+        301,
+        304,
+      ],
+      "text": "unknown",
+    },
+    "line": 9,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": Object {
+          "range": Array [
+            301,
+            304,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      Object {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": Object {
+          "range": Array [
+            301,
+            304,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  Object {
+    "column": 24,
+    "endColumn": 42,
+    "endLine": 11,
+    "fix": Object {
+      "range": Array [
+        344,
+        362,
+      ],
+      "text": "readonly any[]",
+    },
+    "line": 11,
+    "message": "Array type using 'Array<any>' is forbidden for simple types. Use 'any[]' instead.",
+    "messageId": "errorStringArraySimple",
+    "nodeType": "TSTypeReference",
+    "ruleId": "@typescript-eslint/array-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 38,
+    "endColumn": 41,
+    "endLine": 11,
+    "fix": Object {
+      "range": Array [
+        358,
+        361,
+      ],
+      "text": "unknown",
+    },
+    "line": 11,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": Object {
+          "range": Array [
+            358,
+            361,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      Object {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": Object {
+          "range": Array [
+            358,
+            361,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 38,
+    "endColumn": 48,
+    "endLine": 4,
+    "line": 4,
+    "message": "Forbidden non-null assertion.",
+    "messageId": "noNonNull",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-non-null-assertion",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Consider using the optional chain operator \`?.\` instead. This operator includes runtime checks, so it is safer than the compile-only non-null assertion operator.",
+        "fix": Object {
+          "range": Array [
+            148,
+            149,
+          ],
+          "text": "?",
+        },
+        "messageId": "suggestOptionalChain",
+      },
+    ],
+  },
+  Object {
+    "column": 38,
+    "endColumn": 47,
+    "endLine": 4,
+    "line": 4,
+    "message": "Forbidden non-null assertion.",
+    "messageId": "noNonNull",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-non-null-assertion",
+    "severity": 2,
+  },
+  Object {
+    "column": 38,
+    "endColumn": 47,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        147,
+        148,
+      ],
+      "text": "",
+    },
+    "line": 4,
+    "message": "Forbidden extra non-null assertion.",
+    "messageId": "noExtraNonNullAssertion",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
+    "severity": 2,
+  },
+  Object {
+    "column": 38,
+    "endColumn": 46,
+    "endLine": 4,
+    "line": 4,
+    "message": "Forbidden non-null assertion.",
+    "messageId": "noNonNull",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-non-null-assertion",
+    "severity": 2,
+  },
+  Object {
+    "column": 38,
+    "endColumn": 46,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        146,
+        147,
+      ],
+      "text": "",
+    },
+    "line": 4,
+    "message": "This assertion is unnecessary since it does not change the type of the expression.",
+    "messageId": "unnecessaryAssertion",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-assertion",
+    "severity": 2,
+  },
+  Object {
+    "column": 38,
+    "endColumn": 46,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        146,
+        147,
+      ],
+      "text": "",
+    },
+    "line": 4,
+    "message": "Forbidden extra non-null assertion.",
+    "messageId": "noExtraNonNullAssertion",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 28,
+    "endColumn": 29,
+    "endLine": 3,
+    "line": 3,
+    "message": "No magic number: 7.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 32,
+    "endColumn": 33,
+    "endLine": 3,
+    "line": 3,
+    "message": "No magic number: 5.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 12,
+    "endLine": 12,
+    "line": 12,
+    "message": "Unnecessary conditional, value is always truthy.",
+    "messageId": "alwaysTruthy",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unnecessary-condition",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "endColumn": 10,
+    "endLine": 19,
+    "line": 19,
+    "message": "Unnecessary conditional, value is always truthy.",
+    "messageId": "alwaysTruthy",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unnecessary-condition",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "endColumn": 15,
+    "endLine": 25,
+    "fix": Object {
+      "range": Array [
+        853,
+        855,
+      ],
+      "text": ".",
+    },
+    "line": 25,
+    "message": "Unnecessary optional chain on a non-nullish value",
+    "messageId": "neverOptionalChain",
+    "nodeType": "OptionalMemberExpression",
+    "ruleId": "@typescript-eslint/no-unnecessary-condition",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/no-unused-vars should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 20,
+    "endLine": 1,
+    "line": 1,
+    "message": "'noUnusedVars1' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "endColumn": 20,
+    "endLine": 2,
+    "line": 2,
+    "message": "'noUnusedVars2' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 29,
+    "endLine": 8,
+    "line": 8,
+    "message": "'somethingShouldFailNow' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 37,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        195,
+        231,
+      ],
+      "text": "foo?.a?.b?.c",
+    },
+    "line": 5,
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "messageId": "preferOptionalChain",
+    "nodeType": "LogicalExpression",
+    "ruleId": "@typescript-eslint/prefer-optional-chain",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 37,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        233,
+        269,
+      ],
+      "text": "foo?.a?.b?.c",
+    },
+    "line": 6,
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "messageId": "preferOptionalChain",
+    "nodeType": "LogicalExpression",
+    "ruleId": "@typescript-eslint/prefer-optional-chain",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 62,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        271,
+        332,
+      ],
+      "text": "foo?.a?.b?.method?.()",
+    },
+    "line": 7,
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "messageId": "preferOptionalChain",
+    "nodeType": "LogicalExpression",
+    "ruleId": "@typescript-eslint/prefer-optional-chain",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 16,
+    "endLine": 14,
+    "fix": Object {
+      "range": Array [
+        335,
+        457,
+      ],
+      "text": "foo?.a?.b?.c?.d?.e",
+    },
+    "line": 9,
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "messageId": "preferOptionalChain",
+    "nodeType": "LogicalExpression",
+    "ruleId": "@typescript-eslint/prefer-optional-chain",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 16,
+    "endLine": 10,
+    "line": 10,
+    "message": "Use '===' to compare with null.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "no-eq-null",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "endColumn": 11,
+    "endLine": 10,
+    "line": 10,
+    "message": "Expected '!==' and instead saw '!='.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "eqeqeq",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "endColumn": 15,
+    "endLine": 12,
+    "line": 12,
+    "message": "Expected '!==' and instead saw '!='.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "eqeqeq",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/promise-function-async should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 37,
+    "endColumn": 67,
+    "endLine": 5,
+    "line": 5,
+    "message": "Functions that return promises must be async.",
+    "messageId": "missingAsync",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/promise-function-async",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 9,
+    "line": 7,
+    "message": "Functions that return promises must be async.",
+    "messageId": "missingAsync",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "@typescript-eslint/promise-function-async",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 18,
+    "endColumn": 19,
+    "endLine": 6,
+    "line": 6,
+    "message": "No magic number: 2.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 24,
+    "endColumn": 28,
+    "endLine": 7,
+    "line": 7,
+    "message": "Invalid type of template literal expression.",
+    "messageId": "invalidType",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/restrict-template-expressions",
+    "severity": 2,
+  },
+  Object {
+    "column": 24,
+    "endColumn": 36,
+    "endLine": 10,
+    "line": 10,
+    "message": "Invalid type of template literal expression.",
+    "messageId": "invalidType",
+    "nodeType": "LogicalExpression",
+    "ruleId": "@typescript-eslint/restrict-template-expressions",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/return-await should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "endColumn": 35,
+    "endLine": 12,
+    "line": 12,
+    "message": "returning an awaited promise is required in this context",
+    "messageId": "requiredPromiseAwait",
+    "nodeType": "ReturnStatement",
+    "ruleId": "@typescript-eslint/return-await",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 39,
+    "endLine": 17,
+    "line": 17,
+    "message": "returning an awaited promise is not allowed in this context",
+    "messageId": "disallowedPromiseAwait",
+    "nodeType": "ReturnStatement",
+    "ruleId": "@typescript-eslint/return-await",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 24,
+    "endLine": 21,
+    "line": 21,
+    "message": "returning an awaited value that is not a promise is not allowed",
+    "messageId": "nonPromiseAwait",
+    "nodeType": "ReturnStatement",
+    "ruleId": "@typescript-eslint/return-await",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/unbound-method should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 15,
+    "endColumn": 27,
+    "endLine": 12,
+    "line": 12,
+    "message": "Avoid referencing unbound methods which may cause unintentional scoping of \`this\`.",
+    "messageId": "unbound",
+    "nodeType": "MemberExpression",
+    "ruleId": "@typescript-eslint/unbound-method",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/catch-error-name should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 10,
+    "endColumn": 16,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        148,
+        154,
+      ],
+      "text": "error",
+    },
+    "line": 7,
+    "message": "The catch parameter should be named \`error\`.",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/catch-error-name",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/consistent-function-scoping should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 12,
+    "line": 10,
+    "message": "Move function to the outer scope.",
+    "messageId": "FunctionDeclaration",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "unicorn/consistent-function-scoping",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "endColumn": 4,
+    "endLine": 20,
+    "line": 18,
+    "message": "Move arrow function to the outer scope.",
+    "messageId": "ArrowFunctionExpression",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "unicorn/consistent-function-scoping",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/error-message should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 15,
+    "endLine": 4,
+    "line": 4,
+    "message": "Pass a message to the error constructor.",
+    "nodeType": "ThrowStatement",
+    "ruleId": "unicorn/error-message",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/escape-case should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 25,
+    "endColumn": 31,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        123,
+        129,
+      ],
+      "text": "'\\\\xA9'",
+    },
+    "line": 4,
+    "message": "Use uppercase characters for the value of the escape sequence.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/escape-case",
+    "severity": 2,
+  },
+  Object {
+    "column": 25,
+    "endColumn": 33,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        155,
+        163,
+      ],
+      "text": "'\\\\uD834'",
+    },
+    "line": 5,
+    "message": "Use uppercase characters for the value of the escape sequence.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/escape-case",
+    "severity": 2,
+  },
+  Object {
+    "column": 25,
+    "endColumn": 36,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        189,
+        200,
+      ],
+      "text": "'\\\\u{1D306}'",
+    },
+    "line": 6,
+    "message": "Use uppercase characters for the value of the escape sequence.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/escape-case",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/expiring-todo-comments should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 47,
+    "endLine": 1,
+    "line": 1,
+    "message": "There is a TODO that is past due date: 2000-01-01. I'll fix this next week.",
+    "messageId": "expiredTodo",
+    "nodeType": null,
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 61,
+    "endLine": 2,
+    "fix": Object {
+      "range": Array [
+        0,
+        107,
+      ],
+      "text": "/*
+ * TODO [2000-01-01]: I'll fix this next week.
+ * TODO [2000-01-01, 2001-01-01]: Multiple dates won't work.
+ */",
+    },
+    "line": 1,
+    "message": "Expected a block comment instead of consecutive line comments.",
+    "messageId": "expectedBlock",
+    "nodeType": null,
+    "ruleId": "multiline-comment-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 61,
+    "endLine": 2,
+    "line": 2,
+    "message": "Avoid using multiple expiration dates in TODO: 2000-01-01, 2001-01-01. Multiple dates won't work.",
+    "messageId": "avoidMultipleDates",
+    "nodeType": null,
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 56,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        109,
+        268,
+      ],
+      "text": "/*
+ * TODO [>1]: If your package.json version is > 1.
+ * TODO [>=1]: If your package.json version is >= 1.
+ * TODO [>1, >2]: Multiple package versions won't work.
+ */",
+    },
+    "line": 4,
+    "message": "Expected a block comment instead of consecutive line comments.",
+    "messageId": "expectedBlock",
+    "nodeType": null,
+    "ruleId": "multiline-comment-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 56,
+    "endLine": 6,
+    "line": 6,
+    "message": "Avoid using multiple package versions in TODO: >1, >2. Multiple package versions won't work.",
+    "messageId": "avoidMultiplePackageVersions",
+    "nodeType": null,
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 77,
+    "endLine": 9,
+    "fix": Object {
+      "range": Array [
+        270,
+        415,
+      ],
+      "text": "/*
+ * TODO [+already-have-pkg]: Since we already have it, this reports.
+ * TODO [-we-dont-have-this-package]: Since we don't have, trigger a report.
+ */",
+    },
+    "line": 8,
+    "message": "Expected a block comment instead of consecutive line comments.",
+    "messageId": "expectedBlock",
+    "nodeType": null,
+    "ruleId": "multiline-comment-style",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 77,
+    "endLine": 9,
+    "line": 9,
+    "message": "There is a TODO that is deprecated since you uninstalled: we-dont-have-this-package. Since we don't have, trigger a report.",
+    "messageId": "dontHavePackage",
+    "nodeType": null,
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 23,
+    "endLine": 11,
+    "line": 11,
+    "message": "Unexpected 'todo' comment.",
+    "nodeType": "Line",
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 4,
+    "endLine": 17,
+    "line": 13,
+    "message": "There is a TODO that is past due date: 2002-12-25. Yet",
+    "messageId": "expiredTodo",
+    "nodeType": null,
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 4,
+    "endLine": 17,
+    "line": 13,
+    "message": "There is a TODO that is past due date: 2002-12-25. Another",
+    "messageId": "expiredTodo",
+    "nodeType": null,
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 4,
+    "endLine": 17,
+    "line": 13,
+    "message": "There is a TODO that is past due date: 2002-12-25. Way",
+    "messageId": "expiredTodo",
+    "nodeType": null,
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/explicit-length-check should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "endColumn": 20,
+    "endLine": 4,
+    "line": 4,
+    "message": "\`length\` property should be compared to a value.",
+    "nodeType": "MemberExpression",
+    "ruleId": "unicorn/explicit-length-check",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 7,
+    "line": 7,
+    "message": "\`length\` property should be compared to a value.",
+    "nodeType": "MemberExpression",
+    "ruleId": "unicorn/explicit-length-check",
+    "severity": 2,
+  },
+  Object {
+    "column": 6,
+    "endColumn": 15,
+    "endLine": 10,
+    "line": 10,
+    "message": "\`length\` property should be compared to a value.",
+    "nodeType": "MemberExpression",
+    "ruleId": "unicorn/explicit-length-check",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "endColumn": 27,
+    "endLine": 13,
+    "fix": Object {
+      "range": Array [
+        169,
+        191,
+      ],
+      "text": "[1, 2, 3].length > 0",
+    },
+    "line": 13,
+    "message": "Non-zero \`.length\` should be compared with \`> 0\`.",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/explicit-length-check",
+    "severity": 2,
+  },
+  Object {
+    "column": 9,
+    "endColumn": 10,
+    "endLine": 13,
+    "line": 13,
+    "message": "No magic number: 2.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 12,
+    "endColumn": 13,
+    "endLine": 13,
+    "line": 13,
+    "message": "No magic number: 3.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/filename-case should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 18,
+    "endColumn": 39,
+    "endLine": 1,
+    "line": 1,
+    "message": "'unicorn/filename-case' rule is re-enabled but it has not been disabled.",
+    "nodeType": null,
+    "ruleId": "eslint-comments/no-unused-enable",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/import-index should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 37,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        150,
+        159,
+      ],
+      "text": "'.'",
+    },
+    "line": 4,
+    "message": "Do not reference the index file directly.",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "unicorn/import-index",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/new-for-builtins should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 18,
+    "endColumn": 27,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        73,
+        73,
+      ],
+      "text": "new ",
+    },
+    "line": 3,
+    "message": "Use \`new Array()\` instead of \`Array()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/new-for-builtins",
+    "severity": 2,
+  },
+  Object {
+    "column": 24,
+    "endColumn": 26,
+    "endLine": 3,
+    "line": 3,
+    "message": "No magic number: 10.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-abusive-eslint-disable should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 0,
+    "endColumn": 21,
+    "endLine": 1,
+    "line": 1,
+    "message": "Specify the rules you want to disable.",
+    "nodeType": null,
+    "ruleId": "unicorn/no-abusive-eslint-disable",
+    "severity": 2,
+  },
+  Object {
+    "column": 0,
+    "endColumn": 21,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected unlimited 'eslint-disable' comment. Specify some rule names to disable.",
+    "nodeType": null,
+    "ruleId": "eslint-comments/no-unlimited-disable",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-array-instanceof should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        63,
+        82,
+      ],
+      "text": "Array.isArray([])",
+    },
+    "line": 3,
+    "message": "Use \`Array.isArray()\` instead of \`instanceof Array\`.",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-array-instanceof",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        84,
+        110,
+      ],
+      "text": "Array.isArray([1, 2, 3])",
+    },
+    "line": 4,
+    "message": "Use \`Array.isArray()\` instead of \`instanceof Array\`.",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-array-instanceof",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "endColumn": 6,
+    "endLine": 4,
+    "line": 4,
+    "message": "No magic number: 2.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 8,
+    "endColumn": 9,
+    "endLine": 4,
+    "line": 4,
+    "message": "No magic number: 3.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-console-spaces should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "endColumn": 19,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        46,
+        50,
+      ],
+      "text": "abc",
+    },
+    "line": 3,
+    "message": "Do not use leading/trailing space between \`console.log\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 26,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        81,
+        85,
+      ],
+      "text": "def",
+    },
+    "line": 4,
+    "message": "Do not use leading/trailing space between \`console.log\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "endColumn": 19,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        103,
+        107,
+      ],
+      "text": "abc",
+    },
+    "line": 6,
+    "message": "Do not use leading/trailing space between \`console.log\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "endColumn": 27,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        111,
+        115,
+      ],
+      "text": "def",
+    },
+    "line": 6,
+    "message": "Do not use leading/trailing space between \`console.log\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "endColumn": 19,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        132,
+        136,
+      ],
+      "text": "abc",
+    },
+    "line": 7,
+    "message": "Do not use leading/trailing space between \`console.log\` parameters.",
+    "nodeType": "TemplateLiteral",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "endColumn": 27,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        140,
+        144,
+      ],
+      "text": "def",
+    },
+    "line": 7,
+    "message": "Do not use leading/trailing space between \`console.log\` parameters.",
+    "nodeType": "TemplateLiteral",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "endColumn": 21,
+    "endLine": 9,
+    "fix": Object {
+      "range": Array [
+        164,
+        168,
+      ],
+      "text": "abc",
+    },
+    "line": 9,
+    "message": "Do not use leading/trailing space between \`console.debug\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "endColumn": 20,
+    "endLine": 10,
+    "fix": Object {
+      "range": Array [
+        193,
+        197,
+      ],
+      "text": "abc",
+    },
+    "line": 10,
+    "message": "Do not use leading/trailing space between \`console.info\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "endColumn": 20,
+    "endLine": 11,
+    "fix": Object {
+      "range": Array [
+        222,
+        226,
+      ],
+      "text": "abc",
+    },
+    "line": 11,
+    "message": "Do not use leading/trailing space between \`console.warn\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "endColumn": 21,
+    "endLine": 12,
+    "fix": Object {
+      "range": Array [
+        252,
+        256,
+      ],
+      "text": "abc",
+    },
+    "line": 12,
+    "message": "Do not use leading/trailing space between \`console.error\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-for-loop should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        76,
+        156,
+      ],
+      "text": "const [index, element] of array.entries()) {
+",
+    },
+    "line": 4,
+    "message": "Use a \`for-of\` loop instead of this \`for\` loop.",
+    "nodeType": "ForStatement",
+    "ruleId": "unicorn/no-for-loop",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-hex-escape should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 26,
+    "endColumn": 32,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        undefined,
+        undefined,
+      ],
+      "text": "'\\\\u001B'",
+    },
+    "line": 3,
+    "message": "Use Unicode escapes instead of hexadecimal escapes.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-hex-escape",
+    "severity": 2,
+  },
+  Object {
+    "column": 26,
+    "endColumn": 33,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        undefined,
+        undefined,
+      ],
+      "text": "\\\\u001B",
+    },
+    "line": 4,
+    "message": "Use Unicode escapes instead of hexadecimal escapes.",
+    "nodeType": "TemplateElement",
+    "ruleId": "unicorn/no-hex-escape",
+    "severity": 2,
+  },
+  Object {
+    "column": 33,
+    "endColumn": 36,
+    "endLine": 4,
+    "line": 4,
+    "message": "Invalid type of template literal expression.",
+    "messageId": "invalidType",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/restrict-template-expressions",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-new-buffer should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 20,
+    "endColumn": 34,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        undefined,
+        undefined,
+      ],
+      "text": "Buffer.alloc",
+    },
+    "line": 5,
+    "message": "\`new Buffer()\` is deprecated, use \`Buffer.alloc()\` instead.",
+    "nodeType": "NewExpression",
+    "ruleId": "unicorn/no-new-buffer",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-unsafe-regex should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 20,
+    "endColumn": 39,
+    "endLine": 3,
+    "line": 3,
+    "message": "Capture group '(a?)' should be converted to a named or non-capturing group.",
+    "messageId": "required",
+    "nodeType": "Literal",
+    "ruleId": "prefer-named-capture-group",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 39,
+    "endLine": 3,
+    "line": 3,
+    "message": "Capture group '(a)' should be converted to a named or non-capturing group.",
+    "messageId": "required",
+    "nodeType": "Literal",
+    "ruleId": "prefer-named-capture-group",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 39,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unsafe regular expression.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-unsafe-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 39,
+    "endLine": 3,
+    "line": 3,
+    "message": "Use the 'u' flag.",
+    "messageId": "requireUFlag",
+    "nodeType": "Literal",
+    "ruleId": "require-unicode-regexp",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 70,
+    "endLine": 4,
+    "line": 4,
+    "message": "Use the 'u' flag.",
+    "messageId": "requireUFlag",
+    "nodeType": "CallExpression",
+    "ruleId": "require-unicode-regexp",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 70,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        115,
+        115,
+      ],
+      "text": "new ",
+    },
+    "line": 4,
+    "message": "Use \`new RegExp()\` instead of \`RegExp()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/new-for-builtins",
+    "severity": 2,
+  },
+  Object {
+    "column": 27,
+    "endColumn": 36,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        122,
+        122,
+      ],
+      "text": "new ",
+    },
+    "line": 4,
+    "message": "Use \`new Array()\` instead of \`Array()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/new-for-builtins",
+    "severity": 2,
+  },
+  Object {
+    "column": 33,
+    "endColumn": 35,
+    "endLine": 4,
+    "line": 4,
+    "message": "No magic number: 27.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 50,
+    "endColumn": 59,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        145,
+        145,
+      ],
+      "text": "new ",
+    },
+    "line": 4,
+    "message": "Use \`new Array()\` instead of \`Array()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/new-for-builtins",
+    "severity": 2,
+  },
+  Object {
+    "column": 56,
+    "endColumn": 58,
+    "endLine": 4,
+    "line": 4,
+    "message": "No magic number: 27.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 30,
+    "endLine": 5,
+    "line": 5,
+    "message": "Capture group '(x+x+)' should be converted to a named or non-capturing group.",
+    "messageId": "required",
+    "nodeType": "Literal",
+    "ruleId": "prefer-named-capture-group",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 30,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unsafe regular expression.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-unsafe-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 30,
+    "endLine": 5,
+    "line": 5,
+    "message": "Use the 'u' flag.",
+    "messageId": "requireUFlag",
+    "nodeType": "Literal",
+    "ruleId": "require-unicode-regexp",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 34,
+    "endLine": 6,
+    "line": 6,
+    "message": "Capture group '(x+x+)' should be converted to a named or non-capturing group.",
+    "messageId": "required",
+    "nodeType": "Literal",
+    "ruleId": "prefer-named-capture-group",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 34,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unsafe regular expression.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-unsafe-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 34,
+    "endLine": 6,
+    "line": 6,
+    "message": "Use the 'u' flag.",
+    "messageId": "requireUFlag",
+    "nodeType": "Literal",
+    "ruleId": "require-unicode-regexp",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 31,
+    "endLine": 7,
+    "line": 7,
+    "message": "Capture group '(a+)' should be converted to a named or non-capturing group.",
+    "messageId": "required",
+    "nodeType": "Literal",
+    "ruleId": "prefer-named-capture-group",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 31,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unsafe regular expression.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-unsafe-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 31,
+    "endLine": 7,
+    "line": 7,
+    "message": "Use the 'u' flag.",
+    "messageId": "requireUFlag",
+    "nodeType": "Literal",
+    "ruleId": "require-unicode-regexp",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 30,
+    "endLine": 8,
+    "line": 8,
+    "message": "Capture group '(a+)' should be converted to a named or non-capturing group.",
+    "messageId": "required",
+    "nodeType": "Literal",
+    "ruleId": "prefer-named-capture-group",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 30,
+    "endLine": 8,
+    "line": 8,
+    "message": "Unsafe regular expression.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-unsafe-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 30,
+    "endLine": 8,
+    "line": 8,
+    "message": "Use the 'u' flag.",
+    "messageId": "requireUFlag",
+    "nodeType": "Literal",
+    "ruleId": "require-unicode-regexp",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 39,
+    "endLine": 9,
+    "line": 9,
+    "message": "Capture group '(.*)' should be converted to a named or non-capturing group.",
+    "messageId": "required",
+    "nodeType": "Literal",
+    "ruleId": "prefer-named-capture-group",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 39,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unsafe regular expression.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-unsafe-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 39,
+    "endLine": 9,
+    "line": 9,
+    "message": "Use the 'u' flag.",
+    "messageId": "requireUFlag",
+    "nodeType": "Literal",
+    "ruleId": "require-unicode-regexp",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-zero-fractions should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 21,
+    "endColumn": 24,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        76,
+        79,
+      ],
+      "text": "1",
+    },
+    "line": 3,
+    "message": "Don't use a zero fraction in the number.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-zero-fractions",
+    "severity": 2,
+  },
+  Object {
+    "column": 22,
+    "endColumn": 25,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        102,
+        105,
+      ],
+      "text": "1",
+    },
+    "line": 4,
+    "message": "Don't use a zero fraction in the number.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-zero-fractions",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "endColumn": 32,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        127,
+        138,
+      ],
+      "text": "123123123",
+    },
+    "line": 5,
+    "message": "Don't use a zero fraction in the number.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-zero-fractions",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "endColumn": 29,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        212,
+        220,
+      ],
+      "text": "123e20",
+    },
+    "line": 8,
+    "message": "Don't use a zero fraction in the number.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-zero-fractions",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-add-event-listener should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 28,
+    "endLine": 1,
+    "line": 1,
+    "message": "No object mutation allowed.",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "immutable/no-mutation",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 28,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        0,
+        27,
+      ],
+      "text": "someFail.addEventListener('click', () => {})",
+    },
+    "line": 1,
+    "message": "Prefer \`addEventListener\` over \`onclick\`.",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "unicorn/prefer-add-event-listener",
+    "severity": 2,
+  },
+  Object {
+    "column": 20,
+    "endColumn": 25,
+    "endLine": 1,
+    "line": 1,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-dataset should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 43,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        0,
+        42,
+      ],
+      "text": "element.dataset.unicorn = '🦄'",
+    },
+    "line": 1,
+    "message": "Prefer \`.dataset\` over \`setAttribute(…)\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-dataset",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-event-key should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 36,
+    "endColumn": 41,
+    "endLine": 1,
+    "line": 1,
+    "message": "expected event to have a type annotation",
+    "messageId": "expectedTypedefNamed",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/typedef",
+    "severity": 2,
+  },
+  Object {
+    "column": 36,
+    "endColumn": 44,
+    "endLine": 1,
+    "line": 1,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 3,
+    "endColumn": 14,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected console statement.",
+    "messageId": "unexpected",
+    "nodeType": "MemberExpression",
+    "ruleId": "no-console",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "endColumn": 28,
+    "endLine": 2,
+    "line": 2,
+    "message": "Use \`.key\` instead of \`.keyCode\`",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-event-key",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-exponentiation-operator should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 15,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        110,
+        124,
+      ],
+      "text": "2 ** 4",
+    },
+    "line": 4,
+    "message": "Prefer the exponentiation operator over \`Math.pow()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-exponentiation-operator",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-flat-map should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 20,
+    "endColumn": 25,
+    "endLine": 12,
+    "line": 12,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-includes should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 25,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        119,
+        143,
+      ],
+      "text": "[].includes('foo')",
+    },
+    "line": 4,
+    "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/prefer-includes",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 23,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        145,
+        167,
+      ],
+      "text": "x.includes('foo')",
+    },
+    "line": 5,
+    "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/prefer-includes",
+    "severity": 2,
+  },
+  Object {
+    "column": 18,
+    "endColumn": 20,
+    "endLine": 5,
+    "line": 5,
+    "message": "Expected '!==' and instead saw '!='.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "eqeqeq",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 24,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        169,
+        192,
+      ],
+      "text": "str.includes('foo')",
+    },
+    "line": 6,
+    "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/prefer-includes",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 29,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        194,
+        222,
+      ],
+      "text": "'foobar'.includes('foo')",
+    },
+    "line": 7,
+    "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/prefer-includes",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 24,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        224,
+        247,
+      ],
+      "text": "!x.includes('foo')",
+    },
+    "line": 8,
+    "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/prefer-includes",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-negative-index should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        115,
+        172,
+      ],
+      "text": "- 2,
+  ",
+    },
+    "line": 4,
+    "message": "Prefer negative index over length minus index for \`slice\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-negative-index",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 58,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        205,
+        230,
+      ],
+      "text": "",
+    },
+    "line": 8,
+    "message": "Prefer negative index over length minus index for \`splice\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-negative-index",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 13,
+    "fix": Object {
+      "range": Array [
+        290,
+        347,
+      ],
+      "text": "- 2,
+  ",
+    },
+    "line": 9,
+    "message": "Prefer negative index over length minus index for \`slice\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-negative-index",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 3,
+    "endLine": 17,
+    "fix": Object {
+      "range": Array [
+        406,
+        463,
+      ],
+      "text": "- 2,
+  ",
+    },
+    "line": 14,
+    "message": "Prefer negative index over length minus index for \`slice\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-negative-index",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-node-append should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 28,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        35,
+        46,
+      ],
+      "text": "append",
+    },
+    "line": 3,
+    "message": "Prefer \`Node#append()\` over \`Node#appendChild()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-node-append",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-node-remove should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 28,
+    "endLine": 7,
+    "line": 7,
+    "message": "'hereTofailThisFixture' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-query-selector should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 29,
+    "endLine": 7,
+    "line": 7,
+    "message": "'hereTofailThisFixture2' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-reflect-apply should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 41,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        178,
+        218,
+      ],
+      "text": "Reflect.apply(preferReflectApplyFail, null, [42])",
+    },
+    "line": 7,
+    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-reflect-apply",
+    "severity": 2,
+  },
+  Object {
+    "column": 37,
+    "endColumn": 39,
+    "endLine": 7,
+    "line": 7,
+    "message": "No magic number: 42.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 66,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        220,
+        285,
+      ],
+      "text": "Reflect.apply(preferReflectApplyFail, null, [42])",
+    },
+    "line": 8,
+    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-reflect-apply",
+    "severity": 2,
+  },
+  Object {
+    "column": 62,
+    "endColumn": 64,
+    "endLine": 8,
+    "line": 8,
+    "message": "No magic number: 42.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 41,
+    "endLine": 9,
+    "fix": Object {
+      "range": Array [
+        287,
+        327,
+      ],
+      "text": "Reflect.apply(preferReflectApplyFail, this, [42])",
+    },
+    "line": 9,
+    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-reflect-apply",
+    "severity": 2,
+  },
+  Object {
+    "column": 30,
+    "endColumn": 34,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unexpected this, use functions not classes.",
+    "nodeType": "ThisExpression",
+    "ruleId": "immutable/no-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 30,
+    "endColumn": 34,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unexpected 'this'.",
+    "nodeType": "ThisExpression",
+    "ruleId": "no-invalid-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 37,
+    "endColumn": 39,
+    "endLine": 9,
+    "line": 9,
+    "message": "No magic number: 42.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 66,
+    "endLine": 10,
+    "fix": Object {
+      "range": Array [
+        329,
+        394,
+      ],
+      "text": "Reflect.apply(preferReflectApplyFail, this, [42])",
+    },
+    "line": 10,
+    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-reflect-apply",
+    "severity": 2,
+  },
+  Object {
+    "column": 55,
+    "endColumn": 59,
+    "endLine": 10,
+    "line": 10,
+    "message": "Unexpected this, use functions not classes.",
+    "nodeType": "ThisExpression",
+    "ruleId": "immutable/no-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 55,
+    "endColumn": 59,
+    "endLine": 10,
+    "line": 10,
+    "message": "Unexpected 'this'.",
+    "nodeType": "ThisExpression",
+    "ruleId": "no-invalid-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 62,
+    "endColumn": 64,
+    "endLine": 10,
+    "line": 10,
+    "message": "No magic number: 42.",
+    "messageId": "noMagic",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 46,
+    "endLine": 11,
+    "fix": Object {
+      "range": Array [
+        396,
+        441,
+      ],
+      "text": "Reflect.apply(preferReflectApplyFail, null, arguments)",
+    },
+    "line": 11,
+    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-reflect-apply",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 71,
+    "endLine": 12,
+    "fix": Object {
+      "range": Array [
+        443,
+        513,
+      ],
+      "text": "Reflect.apply(preferReflectApplyFail, null, arguments)",
+    },
+    "line": 12,
+    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-reflect-apply",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 46,
+    "endLine": 13,
+    "fix": Object {
+      "range": Array [
+        515,
+        560,
+      ],
+      "text": "Reflect.apply(preferReflectApplyFail, this, arguments)",
+    },
+    "line": 13,
+    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-reflect-apply",
+    "severity": 2,
+  },
+  Object {
+    "column": 30,
+    "endColumn": 34,
+    "endLine": 13,
+    "line": 13,
+    "message": "Unexpected this, use functions not classes.",
+    "nodeType": "ThisExpression",
+    "ruleId": "immutable/no-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 30,
+    "endColumn": 34,
+    "endLine": 13,
+    "line": 13,
+    "message": "Unexpected 'this'.",
+    "nodeType": "ThisExpression",
+    "ruleId": "no-invalid-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 71,
+    "endLine": 14,
+    "fix": Object {
+      "range": Array [
+        562,
+        632,
+      ],
+      "text": "Reflect.apply(preferReflectApplyFail, this, arguments)",
+    },
+    "line": 14,
+    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-reflect-apply",
+    "severity": 2,
+  },
+  Object {
+    "column": 55,
+    "endColumn": 59,
+    "endLine": 14,
+    "line": 14,
+    "message": "Unexpected this, use functions not classes.",
+    "nodeType": "ThisExpression",
+    "ruleId": "immutable/no-this",
+    "severity": 2,
+  },
+  Object {
+    "column": 55,
+    "endColumn": 59,
+    "endLine": 14,
+    "line": 14,
+    "message": "Unexpected 'this'.",
+    "nodeType": "ThisExpression",
+    "ruleId": "no-invalid-this",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-starts-ends-with should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 4,
+    "line": 4,
+    "message": "Prefer \`String#startsWith()\` over a regex with \`^\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-starts-ends-with",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 5,
+    "line": 5,
+    "message": "Prefer \`String#endsWith()\` over a regex with \`$\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-starts-ends-with",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-string-slice should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        58,
+        76,
+      ],
+      "text": "'foo'.slice(1, 3)",
+    },
+    "line": 3,
+    "message": "Prefer \`String#slice()\` over \`String#substr()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-string-slice",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        78,
+        99,
+      ],
+      "text": "'foo'.slice(1, 3)",
+    },
+    "line": 4,
+    "message": "Prefer \`String#slice()\` over \`String#substring()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-string-slice",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-text-content should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 29,
+    "endLine": 7,
+    "line": 7,
+    "message": "'hereTofailThisFixture3' is assigned a value but never used.",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-trim-start-end should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        6,
+        14,
+      ],
+      "text": "trimStart",
+    },
+    "line": 1,
+    "message": "Prefer \`String#trimLeft()\` over \`String#trimStart()\`.",
+    "messageId": "trimLeft",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-trim-start-end",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 18,
+    "endLine": 2,
+    "fix": Object {
+      "range": Array [
+        24,
+        33,
+      ],
+      "text": "trimEnd",
+    },
+    "line": 2,
+    "message": "Prefer \`String#trimRight()\` over \`String#trimEnd()\`.",
+    "messageId": "trimRight",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-trim-start-end",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prevent-abbreviations should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 8,
+    "endLine": 4,
+    "line": 4,
+    "message": "Please rename the variable \`e\`. Suggested names are: \`error\`, \`event\`. A more descriptive name will do too.",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prevent-abbreviations",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/regex-shorthand should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 29,
+    "endColumn": 36,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        128,
+        135,
+      ],
+      "text": "/\\\\d/",
+    },
+    "line": 4,
+    "message": "/[0-9]/ can be optimized to /\\\\d/",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/regex-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 37,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        165,
+        173,
+      ],
+      "text": "/\\\\D/",
+    },
+    "line": 5,
+    "message": "/[^0-9]/ can be optimized to /\\\\D/",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/regex-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 43,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        203,
+        217,
+      ],
+      "text": "/\\\\w/",
+    },
+    "line": 6,
+    "message": "/[a-zA-Z0-9_]/ can be optimized to /\\\\w/",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/regex-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 41,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        247,
+        259,
+      ],
+      "text": "/\\\\w/i",
+    },
+    "line": 7,
+    "message": "/[a-z0-9_]/i can be optimized to /\\\\w/i",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/regex-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 44,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        289,
+        304,
+      ],
+      "text": "/\\\\W/",
+    },
+    "line": 8,
+    "message": "/[^a-zA-Z0-9_]/ can be optimized to /\\\\W/",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/regex-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 42,
+    "endLine": 9,
+    "fix": Object {
+      "range": Array [
+        334,
+        347,
+      ],
+      "text": "/\\\\W/i",
+    },
+    "line": 9,
+    "message": "/[^a-z0-9_]/i can be optimized to /\\\\W/i",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/regex-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 59,
+    "endLine": 10,
+    "fix": Object {
+      "range": Array [
+        377,
+        407,
+      ],
+      "text": "/\\\\d\\\\.\\\\w-\\\\D/i",
+    },
+    "line": 10,
+    "message": "/[0-9]\\\\.[a-zA-Z0-9_]\\\\-[^0-9]/i can be optimized to /\\\\d\\\\.\\\\w-\\\\D/i",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/regex-shorthand",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "endColumn": 50,
+    "endLine": 10,
+    "line": 10,
+    "message": "Unnecessary escape character: \\\\-.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Remove the \`\\\\\`. This maintains the current functionality.",
+        "fix": Object {
+          "range": Array [
+            397,
+            398,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      Object {
+        "desc": "Replace the \`\\\\\` with \`\\\\\\\\\` to include the actual backslash character.",
+        "fix": Object {
+          "range": Array [
+            397,
+            397,
+          ],
+          "text": "\\\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/throw-new-error should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 15,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        125,
+        125,
+      ],
+      "text": "new ",
+    },
+    "line": 5,
+    "message": "Use \`new\` when throwing an error.",
+    "nodeType": "ThrowStatement",
+    "ruleId": "unicorn/throw-new-error",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 15,
+    "endLine": 5,
+    "line": 5,
+    "message": "Pass a message to the error constructor.",
+    "nodeType": "ThrowStatement",
+    "ruleId": "unicorn/error-message",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "endColumn": 14,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        125,
+        125,
+      ],
+      "text": "new ",
+    },
+    "line": 5,
+    "message": "Use \`new Error()\` instead of \`Error()\`.",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/new-for-builtins",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 28,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        140,
+        140,
+      ],
+      "text": "new ",
+    },
+    "line": 6,
+    "message": "Use \`new\` when throwing an error.",
+    "nodeType": "ThrowStatement",
+    "ruleId": "unicorn/throw-new-error",
+    "severity": 2,
+  },
+]
+`;

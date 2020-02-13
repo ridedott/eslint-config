@@ -134,7 +134,7 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
       });
 
       it('should fail on an invalid fixture', (): void => {
-        expect.assertions(2);
+        expect.assertions(3);
 
         const result = lintFixture({
           ourRule,
@@ -145,6 +145,7 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
 
         expect(result.warningCount).toStrictEqual(0);
         expect(result.errorCount).toBeGreaterThan(0);
+        expect(result.messages).toMatchSnapshot();
       });
     },
   );
