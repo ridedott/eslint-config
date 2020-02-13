@@ -1,12 +1,19 @@
-import { readdirSync, readFileSync } from 'fs';
+/** cspell:ignore promisify */
+import { readdir, readFile } from 'fs';
 import { join } from 'path';
+import { promisify } from 'util';
+
+const readdirAsync = promisify(readdir);
+const readFileAsync = promisify(readFile);
 
 const fixtureFileRegex = /(?<ruleName>[^.]*)\.(?<fileKey>[^.]*)\.(?:.*)/u;
 
-export const generatePluginFixture = (pluginFixturePath: string): {} => {
-  const fixtureFiles = readdirSync(pluginFixturePath);
+export const generatePluginFixture = async (pluginFixturePath: string): Promise<{}> => {
+  const fixtureFiles = await readdirAsync(pluginFixturePath);
 
-  return fixtureFiles.reduce((fixture: {}, fileName: string): {} => {
+  return fixtureFiles.reduce(async(fixtureP: Promise<{}>, fileName: string): Promise<{}> => {
+    const fixture = await fixtureP;
+
     if (fixtureFileRegex.test(fileName) === false) {
       return fixture;
     }
@@ -25,7 +32,7 @@ export const generatePluginFixture = (pluginFixturePath: string): {} => {
 
     const { ruleName, fileKey } = groups;
 
-    const fixtureContent = readFileSync(join(pluginFixturePath, fileName), {
+    const fixtureContent = await readFileAsync(join(pluginFixturePath, fileName), {
       encoding: 'utf-8',
     });
 
@@ -36,5 +43,5 @@ export const generatePluginFixture = (pluginFixturePath: string): {} => {
         [fileKey]: fixtureContent,
       },
     };
-  }, {});
+  }, Promise.resolve({}));
 };

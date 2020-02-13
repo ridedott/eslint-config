@@ -8,7 +8,7 @@ import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort
 import { rules as unicornRules } from 'eslint-plugin-unicorn';
 
 import * as ourRules from '../rules';
-import * as fixtures from './fixtures';
+import * as fixturesPromises from './fixtures';
 
 /*
  * Test utilities
@@ -52,7 +52,7 @@ const fixtureFilePath = (ruleSet: string): string => {
   return `${BASE_PATH}`;
 };
 
-const lintFixture = ({
+const lintFixture = async({
   ruleSet,
   ruleName,
   ourRule,
@@ -62,12 +62,16 @@ const lintFixture = ({
   ruleName: string;
   ourRule: string;
   type: 'pass' | 'fail';
-}): VerifyResponse => {
-  if (fixtures[ruleSet][ruleName] === undefined) {
+}): Promise<VerifyResponse> => {
+
+  const ruleSetFixtures = await fixturesPromises[ruleSet]
+  const ruleFixtures = ruleSetFixtures[ruleName];
+
+  if (ruleFixtures === undefined) {
     throw new Error(`Missing fixtures for ${ruleSet}/${ruleName}`);
   }
 
-  const fixture = fixtures[ruleSet][ruleName][type];
+  const fixture = ruleFixtures[type];
   const report = cli.executeOnText(
     fixture,
     `${fixtureFilePath(ruleSet)}/${ourRule}.${type}.ts`,
@@ -118,10 +122,10 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
         expect(ourRulesToOriginalMap[ruleSet][ruleName]).not.toBeUndefined();
       });
 
-      it('should pass on a valid fixture', (): void => {
+      it('should pass on a valid fixture', async (): Promise<void> => {
         expect.assertions(3);
 
-        const result = lintFixture({
+        const result = await lintFixture({
           ourRule,
           ruleName,
           ruleSet,
@@ -133,10 +137,10 @@ describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
         expect(result.errorCount).toStrictEqual(0);
       });
 
-      it('should fail on an invalid fixture', (): void => {
+      it('should fail on an invalid fixture', async (): Promise<void> => {
         expect.assertions(3);
 
-        const result = lintFixture({
+        const result = await lintFixture({
           ourRule,
           ruleName,
           ruleSet,
