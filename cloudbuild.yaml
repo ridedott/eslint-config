@@ -46,4 +46,4 @@ steps:
 secrets:
   - kmsKeyName: projects/com-ridedott-build/locations/global/keyRings/environments/cryptoKeys/production
     secretEnv:
-      NPM_TOKEN: CiQAcJJb8yGCxE/zUPzZoj24vbEzbgEwXTta2YjmkzmAJc81y1gSTAB9H8yZucSd0nGHr7yoz2UUbv8HTdhaiLc9zD78VbiwuehG2f0xj7lq4vLOolMtqtN+elBdLjJ15c8uLouB3uDpqL0VQHYX0HncWrs=
+      NPM_TOKEN: CiQAcJJb88NVYinGTE7S4JyNXX9b/y85JX3/0MJEIofzn0mvKmoSTQB9H8yZcgx/JyEO64gmVMI0rNS8qizf41Vn784rLCA1k97pmhNKy4WR5QcTv6yYdIhN2mg4pFgB24QbdJR/HqRDyAz/JIQLlnm+VTvs
