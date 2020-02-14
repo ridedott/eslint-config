@@ -52,7 +52,7 @@ const fixtureFilePath = (ruleSet: string): string => {
   return `${BASE_PATH}`;
 };
 
-const lintFixture = async({
+const lintFixture = async ({
   ruleSet,
   ruleName,
   ourRule,
@@ -63,8 +63,7 @@ const lintFixture = async({
   ourRule: string;
   type: 'pass' | 'fail';
 }): Promise<VerifyResponse> => {
-
-  const ruleSetFixtures = await fixturesPromises[ruleSet]
+  const ruleSetFixtures = await fixturesPromises[ruleSet];
   const ruleFixtures = ruleSetFixtures[ruleName];
 
   if (ruleFixtures === undefined) {
