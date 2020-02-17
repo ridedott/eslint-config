@@ -2372,8 +2372,8 @@ Array [
     "endLine": 3,
     "fix": Object {
       "range": Array [
-        undefined,
-        undefined,
+        81,
+        87,
       ],
       "text": "'\\\\u001B'",
     },
@@ -2389,8 +2389,8 @@ Array [
     "endLine": 4,
     "fix": Object {
       "range": Array [
-        undefined,
-        undefined,
+        115,
+        119,
       ],
       "text": "\\\\u001B",
     },
@@ -2422,7 +2422,7 @@ Array [
     "endLine": 5,
     "fix": Object {
       "range": Array [
-        undefined,
+        175,
         undefined,
       ],
       "text": "Buffer.alloc",
