@@ -1,0 +1,1 @@
+type ConsistentTypeDefinitionsFail = { x: number };

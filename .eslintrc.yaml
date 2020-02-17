@@ -1,0 +1,20 @@
+env:
+  es6: true
+  node: true
+extends: './index.js'
+overrides:
+  - env:
+      jest: true
+    files:
+      - test/*.ts
+    rules:
+      '@typescript-eslint/no-magic-numbers': off
+      unicorn/no-unsafe-regex: off
+  - files:
+      - test/fixtures/**
+    rules:
+      unicorn/filename-case: off
+parserOptions:
+  ecmaVersion: 2020
+  project: tsconfig.json
+  sourceType: module
