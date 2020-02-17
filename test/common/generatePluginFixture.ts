@@ -8,14 +8,32 @@ const readFileAsync = promisify(readFile);
 
 const fixtureFileRegex = /(?<ruleName>[^.]*)\.(?<fileKey>[^.]*)\.(?:.*)/u;
 
+enum FixtureTypes {
+  Pass = 'pass',
+  Fail = 'fail',
+}
+interface PluginFixture {
+  /** The key is the name of the rule */
+  [key: string]: {
+    [FixtureType in FixtureTypes]: string;
+  };
+}
+
+/**
+ * Generate a structure to gather passing and failing fixtures of configured
+ * rules of a given plugin.
+ */
 export const generatePluginFixture = async (
   pluginFixturePath: string,
-): Promise<{}> => {
+): Promise<PluginFixture> => {
   const fixtureFiles = await readdirAsync(pluginFixturePath);
 
   return fixtureFiles.reduce(
-    async (fixtureP: Promise<{}>, fileName: string): Promise<{}> => {
-      const fixture = await fixtureP;
+    async (
+      fixturePromise: Promise<PluginFixture>,
+      fileName: string,
+    ): Promise<PluginFixture> => {
+      const fixture = await fixturePromise;
 
       if (fixtureFileRegex.test(fileName) === false) {
         return fixture;

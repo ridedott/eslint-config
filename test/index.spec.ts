@@ -7,7 +7,15 @@ import { rules as jestRules } from 'eslint-plugin-jest';
 import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort';
 import { rules as unicornRules } from 'eslint-plugin-unicorn';
 
-import * as ourRules from '../rules';
+import * as arrayFunc from '../rules/array-func';
+import * as eslint from '../rules/eslint';
+import * as eslintComments from '../rules/eslint-comments';
+import * as immutable from '../rules/immutable';
+import * as jestConfiguredRules from '../rules/jest';
+import * as overrides from '../rules/overrides';
+import * as simpleImportSort from '../rules/simple-import-sort';
+import * as typescriptEslint from '../rules/typescript';
+import * as unicorn from '../rules/unicorn';
 import * as fixturesPromises from './fixtures';
 
 /*
@@ -26,7 +34,19 @@ const linter = new Linter();
 
 const eslintRules = Object.fromEntries(linter.getRules());
 
-const ourRulesToOriginalMap = {
+const configuredRules = {
+  arrayFunc,
+  eslint,
+  eslintComments,
+  immutable,
+  jest: jestConfiguredRules,
+  overrides,
+  simpleImportSort,
+  typescriptEslint,
+  unicorn,
+};
+
+const configuredRulesToOriginalMap = {
   arrayFunc: arrayFuncRules,
   eslint: eslintRules,
   eslintComments: eslintCommentsRules,
@@ -55,12 +75,12 @@ const fixtureFilePath = (ruleSet: string): string => {
 const lintFixture = async ({
   ruleSet,
   ruleName,
-  ourRule,
+  configuredRule,
   type,
 }: {
   ruleSet: string;
   ruleName: string;
-  ourRule: string;
+  configuredRule: string;
   type: 'pass' | 'fail';
 }): Promise<VerifyResponse> => {
   const ruleSetFixtures = await fixturesPromises[ruleSet];
@@ -73,19 +93,19 @@ const lintFixture = async ({
   const fixture = ruleFixtures[type];
   const report = cli.executeOnText(
     fixture,
-    `${fixtureFilePath(ruleSet)}/${ourRule}.${type}.ts`,
+    `${fixtureFilePath(ruleSet)}/${configuredRule}.${type}.ts`,
   );
 
   return report.results[0];
 };
 
-const getRuleName = (ourRule: string): string => {
+const getRuleName = (configuredRule: string): string => {
   /**
    * Rules from plugins are prefixed but rules from Eslint are not.
    */
   const regex = /(?:.*)\/(?<prefixed>.*)|(?<unPrefixed>.*)/u;
 
-  const match = regex.exec(ourRule);
+  const match = regex.exec(configuredRule);
 
   if (match === null) {
     return;
@@ -105,51 +125,56 @@ const getRuleName = (ourRule: string): string => {
 /*
  * Tests
  */
-describe.each(Object.keys(ourRules))('%s rules', (ruleSet: string): void => {
-  describe.each(Object.keys(ourRules[ruleSet].rules))(
-    '%s',
-    (ourRule: string): void => {
-      const ruleName = getRuleName(ourRule);
+describe.each(Object.keys(configuredRules))(
+  '%s rules',
+  (ruleSet: string): void => {
+    describe.each(Object.keys(configuredRules[ruleSet].rules))(
+      '%s',
+      (configuredRule: string): void => {
+        const ruleName = getRuleName(configuredRule);
 
-      if (ourRules[ruleSet].rules[ourRule] === 'off') {
-        return;
-      }
+        if (configuredRules[ruleSet].rules[configuredRule] === 'off') {
+          return;
+        }
 
-      it(`should exist in the current version of ${ruleSet}`, (): void => {
-        expect.assertions(1);
+        it(`should exist in the current version of ${ruleSet}`, (): void => {
+          expect.assertions(1);
 
-        expect(ourRulesToOriginalMap[ruleSet][ruleName]).not.toBeUndefined();
-      });
-
-      it('should pass on a valid fixture', async (): Promise<void> => {
-        expect.assertions(3);
-
-        const result = await lintFixture({
-          ourRule,
-          ruleName,
-          ruleSet,
-          type: 'pass',
+          expect(
+            configuredRulesToOriginalMap[ruleSet][ruleName],
+          ).not.toBeUndefined();
         });
 
-        expect(result.warningCount).toStrictEqual(0);
-        expect(result.messages).toStrictEqual([]);
-        expect(result.errorCount).toStrictEqual(0);
-      });
+        it('should pass on a valid fixture', async (): Promise<void> => {
+          expect.assertions(3);
 
-      it('should fail on an invalid fixture', async (): Promise<void> => {
-        expect.assertions(3);
+          const result = await lintFixture({
+            configuredRule,
+            ruleName,
+            ruleSet,
+            type: 'pass',
+          });
 
-        const result = await lintFixture({
-          ourRule,
-          ruleName,
-          ruleSet,
-          type: 'fail',
+          expect(result.warningCount).toStrictEqual(0);
+          expect(result.messages).toStrictEqual([]);
+          expect(result.errorCount).toStrictEqual(0);
         });
 
-        expect(result.warningCount).toStrictEqual(0);
-        expect(result.errorCount).toBeGreaterThan(0);
-        expect(result.messages).toMatchSnapshot();
-      });
-    },
-  );
-});
+        it('should fail on an invalid fixture', async (): Promise<void> => {
+          expect.assertions(3);
+
+          const result = await lintFixture({
+            configuredRule,
+            ruleName,
+            ruleSet,
+            type: 'fail',
+          });
+
+          expect(result.warningCount).toStrictEqual(0);
+          expect(result.errorCount).toBeGreaterThan(0);
+          expect(result.messages).toMatchSnapshot();
+        });
+      },
+    );
+  },
+);

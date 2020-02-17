@@ -709,7 +709,7 @@ Array [
   Object {
     "column": 1,
     "line": 4,
-    "message": "This line has a comment length of 90. Maximum allowed is 80.",
+    "message": "This line has a comment length of 82. Maximum allowed is 80.",
     "messageId": "maxComment",
     "nodeType": "Program",
     "ruleId": "max-len",
