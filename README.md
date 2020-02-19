@@ -165,8 +165,8 @@ npm run format:fix
 
 Publishing is handled in an automated way and must not be performed manually.
 
-Each commit to the master branch is automatically deployed to both npm and GitHub
-Packages registries with a version specified in `package.json`.
+Each commit to the master branch is automatically deployed to both npm and
+GitHub Packages registries with a version specified in `package.json`.
 
 ## Contributing
 
@@ -182,11 +182,12 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 This project adheres to [Semantic Versioning](http://semver.org) v2.
 
-**IMPORTANT** Changes that would require updates be made to the setup of projects
-that are using this package should me marked as `BREAKING CHANGE`. Doing so will
-configure the continuous delivery pipeline to release a new major version of the
-`@ridedott/eslint-config` package.
+**IMPORTANT** Changes that would require updates be made to the setup of
+projects that are using this package should me marked as `BREAKING CHANGE`.
+Doing so will configure the continuous delivery pipeline to release a new major
+version of the `@ridedott/eslint-config` package.
 
-Opposite to this, changes that require no updates be made to the setup of projects
-that are using this package will trigger the continuous delivery pipeline to release
-either a `minor` or `patch` version of `@ridedott/eslint-config`.
+Opposite to this, changes that require no updates be made to the setup of
+projects that are using this package will trigger the continuous delivery
+pipeline to release either a `minor` or `patch` version of
+`@ridedott/eslint-config`.
