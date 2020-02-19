@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ridedott/eslint-config/compare/v1.0.0...v1.0.1) (2020-02-19)
+
+### Continuous Integration
+
+- limit integration workflow to only run on pull requests
+  ([276174c](https://github.com/ridedott/eslint-config/commit/276174ce6f8572a12a2d819da90d7c722724f4cb))
+
 # 1.0.0 (2020-02-19)
 
 ### Bug Fixes
