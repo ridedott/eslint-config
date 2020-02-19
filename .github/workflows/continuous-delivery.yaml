@@ -34,7 +34,7 @@ jobs:
         name: Release
         uses: ridedott/release-me-action@master
         with:
-          branch: 'ci/migrate-to-release-me-action'
+          release-branch: 'ci/migrate-to-release-me-action'
           dry-run: true
           node-module: true
 #      - name: Setup Node.js
