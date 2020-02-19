@@ -166,7 +166,8 @@ npm run format:fix
 Publishing is handled in an automated way and must not be performed manually.
 
 Each commit to the master branch is automatically deployed to both npm and
-GitHub Packages registries with a version specified in `package.json`.
+GitHub Packages registries with a version specified in `package.json`. All other
+commits are published as pre-releases by the integration pipeline.
 
 ## Contributing
 

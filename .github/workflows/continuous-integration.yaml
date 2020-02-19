@@ -79,7 +79,7 @@ jobs:
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         name: Publish to GitHub Packages
-        run: npm publish --tag="dev" --dry-run
+        run: npm publish --tag="dev"
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
@@ -88,4 +88,4 @@ jobs:
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         name: Publish to npm
-        run: npm publish --tag="dev" --dry-run
+        run: npm publish --tag="dev"
