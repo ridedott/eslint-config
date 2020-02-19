@@ -1,6 +1,7 @@
 # eslint-config
 
 [![license: MIT](https://img.shields.io/github/license/ridedott/eslint-config)](https://github.com/ridedott/eslint-config/blob/master/LICENSE)
+[![GitHub Actions Status](https://github.com/ridedott/eslint-config/workflows/Continuous%20Delivery/badge.svg?branch=master)](https://github.com/ridedott/eslint-config/actions)
 [![npm version](https://img.shields.io/npm/v/@ridedott/eslint-config)](https://www.npmjs.com/package/@ridedott/eslint-config)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -164,9 +165,9 @@ npm run format:fix
 
 Publishing is handled in an automated way and must not be performed manually.
 
-Each commit to the master branch is automatically deployed to the NPM registry
-with a version specified in `package.json`. All other commits are published as
-pre-releases.
+Each commit to the master branch is automatically deployed to both npm and
+GitHub Packages registries with a version specified in `package.json`. All other
+commits are published as pre-releases by the integration pipeline.
 
 ## Contributing
 
@@ -176,8 +177,11 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ### Automation
 
-- [Google Cloud Build](https://cloud.google.com/cloud-build/)
+- [GitHub Actions](https://github.com/features/actions/)
 
 ## Versioning
 
 This project adheres to [Semantic Versioning](http://semver.org) v2.
+
+**IMPORTANT** Changes and additions of linting rules are not considered breaking
+changes.

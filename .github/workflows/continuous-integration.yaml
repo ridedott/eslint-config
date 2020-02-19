@@ -34,3 +34,58 @@ jobs:
         run: npm ci --ignore-scripts --no-audit --no-progress --prefer-offline
       - name: Test
         run: npm run test
+  prerelease:
+    name: Pre-release
+    needs:
+      - test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          key: npm-${{ hashFiles('package-lock.json') }}
+          path: ~/.npm
+          restore-keys: |
+            npm-
+      - name: Cache local cache
+        uses: actions/cache@v1
+        with:
+          key: local-${{ github.sha }}
+          path: .cache
+          restore-keys: |
+            local-
+      - name: Install dependencies
+        run: npm ci --ignore-scripts --no-audit --no-progress --prefer-offline
+      - name: Version
+        run: |
+          npm version prerelease \
+            --commit-hooks=false \
+            --git-tag-version=false \
+            --preid="${GITHUB_SHA::7}"
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: 'https://npm.pkg.github.com'
+      - env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: Publish to GitHub Packages
+        run: npm publish --tag="dev"
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@ridedott'
+      - env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        name: Publish to npm
+        run: npm publish --tag="dev"

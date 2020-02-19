@@ -84,6 +84,14 @@ git merge upstream/master
 git push origin my-fix-branch
 ```
 
+If the changes contained within the PR require updates to the package setup in
+downstream projects, the merge commit should be marked as a `BREAKING CHANGE`.
+Doing so will trigger the continuous delivery pipeline to release a new major
+version of the `@ridedott/eslint-config` package on PR merge.
+
+All other changes will trigger the continuous delivery pipeline to release
+either a `minor` or `patch` version of the package.
+
 That's it! Thank you for your contribution!
 
 ## <a name="rules"></a> Coding Rules
