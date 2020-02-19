@@ -68,7 +68,11 @@ jobs:
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         name: Version
-        run: npm version prerelease --preid="${GITHUB_SHA}"
+        run: |
+          npm version prerelease \
+            --preid="${GITHUB_SHA}" \
+            --git-tag-version=false \
+            --commit-hooks=false
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
