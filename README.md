@@ -184,4 +184,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 This project adheres to [Semantic Versioning](http://semver.org) v2.
 
 **IMPORTANT** Changes and additions of linting rules are not considered breaking
-changes. 
+changes.
