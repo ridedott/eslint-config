@@ -1,6 +1,9 @@
 name: Continuous Delivery
 
-on: push
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   release:
@@ -34,8 +37,6 @@ jobs:
         name: Release
         uses: ridedott/release-me-action@master
         with:
-          release-branch: 'ci/migrate-to-release-me-action'
-          dry-run: true
           node-module: true
       - name: Setup Node.js
         uses: actions/setup-node@v1
@@ -44,7 +45,7 @@ jobs:
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         name: Publish to GitHub Packages
-        run: npm publish --dry-run
+        run: npm publish
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
@@ -53,4 +54,4 @@ jobs:
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         name: Publish to npm
-        run: npm publish --dry-run
+        run: npm publish
