@@ -183,12 +183,5 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 This project adheres to [Semantic Versioning](http://semver.org) v2.
 
-**IMPORTANT** Changes that would require updates be made to the setup of
-projects that are using this package should me marked as `BREAKING CHANGE`.
-Doing so will configure the continuous delivery pipeline to release a new major
-version of the `@ridedott/eslint-config` package.
-
-Opposite to this, changes that require no updates be made to the setup of
-projects that are using this package will trigger the continuous delivery
-pipeline to release either a `minor` or `patch` version of
-`@ridedott/eslint-config`.
+**IMPORTANT** Changes and additions of linting rules are not considered breaking
+changes. 

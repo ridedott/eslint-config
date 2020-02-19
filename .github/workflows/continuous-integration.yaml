@@ -68,9 +68,9 @@ jobs:
       - name: Version
         run: |
           npm version prerelease \
-            --preid="${GITHUB_SHA::7}" \
+            --commit-hooks=false \
             --git-tag-version=false \
-            --commit-hooks=false
+            --preid="${GITHUB_SHA::7}"
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
