@@ -37,20 +37,20 @@ jobs:
           release-branch: 'ci/migrate-to-release-me-action'
           dry-run: true
           node-module: true
-#      - name: Setup Node.js
-#        uses: actions/setup-node@v1
-#        with:
-#          registry-url: 'https://npm.pkg.github.com'
-#      - env:
-#          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#        name: Publish to GitHub Packages
-#        run: npm publish
-#      - name: Setup Node.js
-#        uses: actions/setup-node@v1
-#        with:
-#          registry-url: 'https://registry.npmjs.org'
-#          scope: '@ridedott'
-#      - env:
-#          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-#        name: Publish to npm
-#        run: npm publish
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          registry-url: 'https://npm.pkg.github.com'
+      - env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        name: Publish to GitHub Packages
+        run: npm publish --dry-run
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@ridedott'
+      - env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        name: Publish to npm
+        run: npm publish --dry-run
