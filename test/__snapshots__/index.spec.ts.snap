@@ -1827,6 +1827,17 @@ Array [
   },
   Object {
     "column": 1,
+    "endColumn": 51,
+    "endLine": 4,
+    "line": 4,
+    "message": "There is a TODO that is past due package version: >1. If your package.json version is > 1.",
+    "messageId": "reachedPackageVersion",
+    "nodeType": null,
+    "ruleId": "unicorn/expiring-todo-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
     "endColumn": 56,
     "endLine": 6,
     "fix": Object {
