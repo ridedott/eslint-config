@@ -82,6 +82,7 @@ module.exports = {
         ignoreMixedLogicalExpressions: true,
       },
     ],
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/promise-function-async': ['error', { allowAny: true }],
     '@typescript-eslint/return-await': ['error', 'in-try-catch'],
     // Code should be formatted using Prettier.
