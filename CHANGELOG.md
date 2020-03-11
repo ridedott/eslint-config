@@ -1,3 +1,15 @@
+## [1.0.8](https://github.com/ridedott/eslint-config/compare/v1.0.7...v1.0.8) (2020-03-11)
+
+### Chores
+
+- **deps:** bump eslint-plugin-unicorn from 16.1.1 to 17.2.0
+  ([9b5a0b3](https://github.com/ridedott/eslint-config/commit/9b5a0b32f60ac1e13724faf56e358f8712662b21))
+
+### Continuous Integration
+
+- remove an unnecessary precondition causing pipeline failures
+  ([4a42093](https://github.com/ridedott/eslint-config/commit/4a420936cf30b56f00c68b87ba9b27c8940f4146))
+
 ## [1.0.7](https://github.com/ridedott/eslint-config/compare/v1.0.6...v1.0.7) (2020-03-11)
 
 ### Chores
