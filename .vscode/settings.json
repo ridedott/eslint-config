@@ -10,8 +10,5 @@
   "eslint.options": {
     "resolvePluginsRelativeTo": "./node_modules/@ridedott/eslint-config"
   },
-  "eslint.run": "onType",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  }
+  "eslint.run": "onType"
 }
