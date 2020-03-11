@@ -1573,8 +1573,8 @@ Array [
   Object {
     "column": 18,
     "endColumn": 19,
-    "endLine": 6,
-    "line": 6,
+    "endLine": 7,
+    "line": 7,
     "message": "No magic number: 2.",
     "messageId": "noMagic",
     "nodeType": "Literal",
@@ -1584,8 +1584,8 @@ Array [
   Object {
     "column": 24,
     "endColumn": 28,
-    "endLine": 7,
-    "line": 7,
+    "endLine": 8,
+    "line": 8,
     "message": "Invalid type of template literal expression.",
     "messageId": "invalidType",
     "nodeType": "Identifier",
@@ -1595,8 +1595,8 @@ Array [
   Object {
     "column": 24,
     "endColumn": 36,
-    "endLine": 10,
-    "line": 10,
+    "endLine": 11,
+    "line": 11,
     "message": "Invalid type of template literal expression.",
     "messageId": "invalidType",
     "nodeType": "LogicalExpression",
@@ -1612,6 +1612,13 @@ Array [
     "column": 5,
     "endColumn": 35,
     "endLine": 12,
+    "fix": Object {
+      "range": Array [
+        428,
+        428,
+      ],
+      "text": "await ",
+    },
     "line": 12,
     "message": "returning an awaited promise is required in this context",
     "messageId": "requiredPromiseAwait",
@@ -1623,6 +1630,13 @@ Array [
     "column": 3,
     "endColumn": 39,
     "endLine": 17,
+    "fix": Object {
+      "range": Array [
+        519,
+        525,
+      ],
+      "text": "",
+    },
     "line": 17,
     "message": "returning an awaited promise is not allowed in this context",
     "messageId": "disallowedPromiseAwait",
@@ -1634,6 +1648,13 @@ Array [
     "column": 3,
     "endColumn": 24,
     "endLine": 21,
+    "fix": Object {
+      "range": Array [
+        599,
+        605,
+      ],
+      "text": "",
+    },
     "line": 21,
     "message": "returning an awaited value that is not a promise is not allowed",
     "messageId": "nonPromiseAwait",
