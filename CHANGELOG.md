@@ -1,3 +1,24 @@
+## [1.0.6](https://github.com/ridedott/eslint-config/compare/v1.0.5...v1.0.6) (2020-03-11)
+
+### Chores
+
+- **deps:** bump eslint-plugin-jest from 23.7.0 to 23.8.2
+  ([82f1fec](https://github.com/ridedott/eslint-config/commit/82f1fec5ce754b8cfc671ce15ae10cd6c1e70892))
+
+## [1.0.5](https://github.com/ridedott/eslint-config/compare/v1.0.4...v1.0.5) (2020-03-11)
+
+### Chores
+
+- **deps:** bump eslint-plugin-array-func from 3.1.3 to 3.1.4
+  ([a83d5f2](https://github.com/ridedott/eslint-config/commit/a83d5f2520d1c747900eacf43a1b09df32fef81f))
+- **deps-dev:** bump lint-staged from 10.0.7 to 10.0.8
+  ([a2c054e](https://github.com/ridedott/eslint-config/commit/a2c054e6c616c4d598ce37b0869d5991c07dfbe0))
+
+### Continuous Integration
+
+- use Merge me! Action
+  ([3dd36e1](https://github.com/ridedott/eslint-config/commit/3dd36e13255d72a20ddfba52e94d9170ac940655))
+
 ## [1.0.4](https://github.com/ridedott/eslint-config/compare/v1.0.3...v1.0.4) (2020-03-10)
 
 ### Chores
