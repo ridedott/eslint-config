@@ -1681,6 +1681,165 @@ Array [
 ]
 `;
 
+exports[`unicorn rules unicorn/better-regex should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 29,
+    "endColumn": 36,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        128,
+        135,
+      ],
+      "text": "/\\\\d/",
+    },
+    "line": 4,
+    "message": "/[0-9]/ can be optimized to /\\\\d/",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/better-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 37,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        165,
+        173,
+      ],
+      "text": "/\\\\D/",
+    },
+    "line": 5,
+    "message": "/[^0-9]/ can be optimized to /\\\\D/",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/better-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 43,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        203,
+        217,
+      ],
+      "text": "/\\\\w/",
+    },
+    "line": 6,
+    "message": "/[a-zA-Z0-9_]/ can be optimized to /\\\\w/",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/better-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 41,
+    "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        247,
+        259,
+      ],
+      "text": "/\\\\w/i",
+    },
+    "line": 7,
+    "message": "/[a-z0-9_]/i can be optimized to /\\\\w/i",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/better-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 44,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        289,
+        304,
+      ],
+      "text": "/\\\\W/",
+    },
+    "line": 8,
+    "message": "/[^a-zA-Z0-9_]/ can be optimized to /\\\\W/",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/better-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 42,
+    "endLine": 9,
+    "fix": Object {
+      "range": Array [
+        334,
+        347,
+      ],
+      "text": "/\\\\W/i",
+    },
+    "line": 9,
+    "message": "/[^a-z0-9_]/i can be optimized to /\\\\W/i",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/better-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 29,
+    "endColumn": 59,
+    "endLine": 10,
+    "fix": Object {
+      "range": Array [
+        377,
+        407,
+      ],
+      "text": "/\\\\d\\\\.\\\\w-\\\\D/i",
+    },
+    "line": 10,
+    "message": "/[0-9]\\\\.[a-zA-Z0-9_]\\\\-[^0-9]/i can be optimized to /\\\\d\\\\.\\\\w-\\\\D/i",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/better-regex",
+    "severity": 2,
+  },
+  Object {
+    "column": 49,
+    "endColumn": 50,
+    "endLine": 10,
+    "line": 10,
+    "message": "Unnecessary escape character: \\\\-.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Remove the \`\\\\\`. This maintains the current functionality.",
+        "fix": Object {
+          "range": Array [
+            397,
+            398,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      Object {
+        "desc": "Replace the \`\\\\\` with \`\\\\\\\\\` to include the actual backslash character.",
+        "fix": Object {
+          "range": Array [
+            397,
+            397,
+          ],
+          "text": "\\\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+]
+`;
+
 exports[`unicorn rules unicorn/catch-error-name should fail on an invalid fixture 1`] = `
 Array [
   Object {
@@ -1710,8 +1869,8 @@ Array [
     "endColumn": 4,
     "endLine": 12,
     "line": 10,
-    "message": "Move function to the outer scope.",
-    "messageId": "FunctionDeclaration",
+    "message": "Move function \`doBar\` to the outer scope.",
+    "messageId": "named",
     "nodeType": "FunctionDeclaration",
     "ruleId": "unicorn/consistent-function-scoping",
     "severity": 2,
@@ -1721,8 +1880,8 @@ Array [
     "endColumn": 4,
     "endLine": 20,
     "line": 18,
-    "message": "Move arrow function to the outer scope.",
-    "messageId": "ArrowFunctionExpression",
+    "message": "Move arrow function \`doBar\` to the outer scope.",
+    "messageId": "named",
     "nodeType": "ArrowFunctionExpression",
     "ruleId": "unicorn/consistent-function-scoping",
     "severity": 2,
@@ -2105,6 +2264,7 @@ Array [
     },
     "line": 3,
     "message": "Use \`new Array()\` instead of \`Array()\`.",
+    "messageId": "enforce",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
@@ -2466,7 +2626,7 @@ Array [
     "fix": Object {
       "range": Array [
         175,
-        undefined,
+        185,
       ],
       "text": "Buffer.alloc",
     },
@@ -2548,6 +2708,7 @@ Array [
     },
     "line": 4,
     "message": "Use \`new RegExp()\` instead of \`RegExp()\`.",
+    "messageId": "enforce",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
@@ -2565,6 +2726,7 @@ Array [
     },
     "line": 4,
     "message": "Use \`new Array()\` instead of \`Array()\`.",
+    "messageId": "enforce",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
@@ -2593,6 +2755,7 @@ Array [
     },
     "line": 4,
     "message": "Use \`new Array()\` instead of \`Array()\`.",
+    "messageId": "enforce",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
@@ -2962,18 +3125,19 @@ Array [
   Object {
     "column": 1,
     "endColumn": 15,
-    "endLine": 4,
+    "endLine": 3,
     "fix": Object {
       "range": Array [
-        110,
-        124,
+        58,
+        72,
       ],
-      "text": "2 ** 4",
+      "text": "2**4",
     },
-    "line": 4,
-    "message": "Prefer the exponentiation operator over \`Math.pow()\`.",
+    "line": 3,
+    "message": "Use the '**' operator instead of 'Math.pow'.",
+    "messageId": "useExponentiation",
     "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-exponentiation-operator",
+    "ruleId": "prefer-exponentiation-operator",
     "severity": 2,
   },
 ]
@@ -3624,165 +3788,6 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/regex-shorthand should fail on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 29,
-    "endColumn": 36,
-    "endLine": 4,
-    "fix": Object {
-      "range": Array [
-        128,
-        135,
-      ],
-      "text": "/\\\\d/",
-    },
-    "line": 4,
-    "message": "/[0-9]/ can be optimized to /\\\\d/",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/regex-shorthand",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "endColumn": 37,
-    "endLine": 5,
-    "fix": Object {
-      "range": Array [
-        165,
-        173,
-      ],
-      "text": "/\\\\D/",
-    },
-    "line": 5,
-    "message": "/[^0-9]/ can be optimized to /\\\\D/",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/regex-shorthand",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "endColumn": 43,
-    "endLine": 6,
-    "fix": Object {
-      "range": Array [
-        203,
-        217,
-      ],
-      "text": "/\\\\w/",
-    },
-    "line": 6,
-    "message": "/[a-zA-Z0-9_]/ can be optimized to /\\\\w/",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/regex-shorthand",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "endColumn": 41,
-    "endLine": 7,
-    "fix": Object {
-      "range": Array [
-        247,
-        259,
-      ],
-      "text": "/\\\\w/i",
-    },
-    "line": 7,
-    "message": "/[a-z0-9_]/i can be optimized to /\\\\w/i",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/regex-shorthand",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "endColumn": 44,
-    "endLine": 8,
-    "fix": Object {
-      "range": Array [
-        289,
-        304,
-      ],
-      "text": "/\\\\W/",
-    },
-    "line": 8,
-    "message": "/[^a-zA-Z0-9_]/ can be optimized to /\\\\W/",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/regex-shorthand",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "endColumn": 42,
-    "endLine": 9,
-    "fix": Object {
-      "range": Array [
-        334,
-        347,
-      ],
-      "text": "/\\\\W/i",
-    },
-    "line": 9,
-    "message": "/[^a-z0-9_]/i can be optimized to /\\\\W/i",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/regex-shorthand",
-    "severity": 2,
-  },
-  Object {
-    "column": 29,
-    "endColumn": 59,
-    "endLine": 10,
-    "fix": Object {
-      "range": Array [
-        377,
-        407,
-      ],
-      "text": "/\\\\d\\\\.\\\\w-\\\\D/i",
-    },
-    "line": 10,
-    "message": "/[0-9]\\\\.[a-zA-Z0-9_]\\\\-[^0-9]/i can be optimized to /\\\\d\\\\.\\\\w-\\\\D/i",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/regex-shorthand",
-    "severity": 2,
-  },
-  Object {
-    "column": 49,
-    "endColumn": 50,
-    "endLine": 10,
-    "line": 10,
-    "message": "Unnecessary escape character: \\\\-.",
-    "messageId": "unnecessaryEscape",
-    "nodeType": "Literal",
-    "ruleId": "no-useless-escape",
-    "severity": 2,
-    "suggestions": Array [
-      Object {
-        "desc": "Remove the \`\\\\\`. This maintains the current functionality.",
-        "fix": Object {
-          "range": Array [
-            397,
-            398,
-          ],
-          "text": "",
-        },
-        "messageId": "removeEscape",
-      },
-      Object {
-        "desc": "Replace the \`\\\\\` with \`\\\\\\\\\` to include the actual backslash character.",
-        "fix": Object {
-          "range": Array [
-            397,
-            397,
-          ],
-          "text": "\\\\",
-        },
-        "messageId": "escapeBackslash",
-      },
-    ],
-  },
-]
-`;
-
 exports[`unicorn rules unicorn/throw-new-error should fail on an invalid fixture 1`] = `
 Array [
   Object {
@@ -3825,6 +3830,7 @@ Array [
     },
     "line": 5,
     "message": "Use \`new Error()\` instead of \`Error()\`.",
+    "messageId": "enforce",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,

@@ -1,5 +1,6 @@
 module.exports = {
   rules: {
+    'unicorn/better-regex': 'error',
     'unicorn/catch-error-name': 'error',
     'unicorn/consistent-function-scoping': 'error',
     'unicorn/custom-error-definition': 'off',
@@ -59,7 +60,6 @@ module.exports = {
         checkVariables: true,
       },
     ],
-    'unicorn/regex-shorthand': 'error',
     'unicorn/throw-new-error': 'error',
   },
 };
