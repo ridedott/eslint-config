@@ -65,6 +65,24 @@ module.exports = {
       { allowConstantLoopConditions: false, ignoreRhs: true },
     ],
     /**
+     * `any` type can only come from libraries. Until correct types are added
+     * to those libraries, it is too much of an overhead to define all types
+     * manually.
+     */
+    '@typescript-eslint/no-unsafe-call': 'off',
+    /**
+     * `any` type can only come from libraries. Until correct types are added
+     * to those libraries, it is too much of an overhead to define all types
+     * manually.
+     */
+    '@typescript-eslint/no-unsafe-member-access': 'off',
+    /**
+     * `any` type can only come from libraries. Until correct types are added
+     * to those libraries, it is too much of an overhead to define all types
+     * manually.
+     */
+    '@typescript-eslint/no-unsafe-return': 'off',
+    /**
      * This rule has been deprecated and replaced by
      * explicit-module-boundary-types as of @typescript-eslint/* v2.17.0.
      */
@@ -73,7 +91,6 @@ module.exports = {
       'error',
       { ignoreRestSiblings: true },
     ],
-    '@typescript-eslint/prefer-optional-chain': ['error'],
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
       {
@@ -82,6 +99,11 @@ module.exports = {
         ignoreMixedLogicalExpressions: true,
       },
     ],
+    '@typescript-eslint/prefer-optional-chain': ['error'],
+    /**
+     * Mutations are disallowed altogether, therefore it is not required to
+     * mark function parameters as readonly.
+     */
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/promise-function-async': ['error', { allowAny: true }],
     '@typescript-eslint/return-await': ['error', 'in-try-catch'],
