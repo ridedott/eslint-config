@@ -704,6 +704,84 @@ Array [
 ]
 `;
 
+exports[`jest rules jest/prefer-expect-assertions should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 3,
+    "endLine": 4,
+    "line": 1,
+    "message": "Every test should have either \`expect.assertions(<number of assertions>)\` or \`expect.hasAssertions()\` as its first expression",
+    "messageId": "haveExpectAssertions",
+    "nodeType": "CallExpression",
+    "ruleId": "jest/prefer-expect-assertions",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "endColumn": 20,
+    "endLine": 1,
+    "line": 1,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 13,
+    "endColumn": 20,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        60,
+        67,
+      ],
+      "text": "toStrictEqual",
+    },
+    "line": 3,
+    "message": "Use toStrictEqual() instead",
+    "messageId": "useToStrictEqual",
+    "nodeType": "Identifier",
+    "ruleId": "jest/prefer-strict-equal",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 3,
+    "endLine": 8,
+    "line": 6,
+    "message": "Every test should have either \`expect.assertions(<number of assertions>)\` or \`expect.hasAssertions()\` as its first expression",
+    "messageId": "haveExpectAssertions",
+    "nodeType": "CallExpression",
+    "ruleId": "jest/prefer-expect-assertions",
+    "severity": 2,
+  },
+  Object {
+    "column": 4,
+    "endColumn": 13,
+    "endLine": 6,
+    "line": 6,
+    "message": "Test title is used multiple times in the same describe block.",
+    "messageId": "multipleTestTitle",
+    "nodeType": "Literal",
+    "ruleId": "jest/no-identical-title",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "endColumn": 20,
+    "endLine": 6,
+    "line": 6,
+    "message": "Missing return type on function.",
+    "messageId": "missingReturnType",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`overrides rules max-len should fail on an invalid fixture 1`] = `
 Array [
   Object {

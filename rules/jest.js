@@ -8,5 +8,6 @@ module.exports = {
     'jest/require-top-level-describe': 'off',
     'jest/prefer-called-with': 'off',
     'jest/prefer-inline-snapshots': 'off',
+    'jest/prefer-expect-assertions': 'error',
   },
 };
