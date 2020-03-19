@@ -708,24 +708,6 @@ exports[`jest rules jest/prefer-expect-assertions should fail on an invalid fixt
 Array [
   Object {
     "column": 1,
-    "endColumn": 5,
-    "endLine": 1,
-    "fix": Object {
-      "range": Array [
-        0,
-        4,
-      ],
-      "text": "it",
-    },
-    "line": 1,
-    "message": "Prefer using 'it' instead of 'test'",
-    "messageId": "consistentMethod",
-    "nodeType": "Identifier",
-    "ruleId": "jest/consistent-test-it",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
     "endColumn": 3,
     "endLine": 4,
     "line": 1,
@@ -736,8 +718,8 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 17,
-    "endColumn": 22,
+    "column": 15,
+    "endColumn": 20,
     "endLine": 1,
     "line": 1,
     "message": "Missing return type on function.",
@@ -752,8 +734,8 @@ Array [
     "endLine": 3,
     "fix": Object {
       "range": Array [
-        62,
-        69,
+        60,
+        67,
       ],
       "text": "toStrictEqual",
     },
@@ -762,24 +744,6 @@ Array [
     "messageId": "useToStrictEqual",
     "nodeType": "Identifier",
     "ruleId": "jest/prefer-strict-equal",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "endColumn": 5,
-    "endLine": 6,
-    "fix": Object {
-      "range": Array [
-        83,
-        87,
-      ],
-      "text": "it",
-    },
-    "line": 6,
-    "message": "Prefer using 'it' instead of 'test'",
-    "messageId": "consistentMethod",
-    "nodeType": "Identifier",
-    "ruleId": "jest/consistent-test-it",
     "severity": 2,
   },
   Object {
@@ -794,8 +758,8 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 6,
-    "endColumn": 15,
+    "column": 4,
+    "endColumn": 13,
     "endLine": 6,
     "line": 6,
     "message": "Test title is used multiple times in the same describe block.",
@@ -805,8 +769,8 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 17,
-    "endColumn": 22,
+    "column": 15,
+    "endColumn": 20,
     "endLine": 6,
     "line": 6,
     "message": "Missing return type on function.",
