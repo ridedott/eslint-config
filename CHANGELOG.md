@@ -1,3 +1,16 @@
+## [1.0.12](https://github.com/ridedott/eslint-config/compare/v1.0.11...v1.0.12) (2020-03-22)
+
+### Chores
+
+- **deps:** bump eslint-config-prettier from 6.10.0 to 6.10.1
+  ([3e603ad](https://github.com/ridedott/eslint-config/commit/3e603ad3d5681648b345befcccf928f7df4cbedc))
+- **deps-dev:** bump prettier from 1.19.1 to 2.0.0
+  ([c693f31](https://github.com/ridedott/eslint-config/commit/c693f31e8eb76904e4c9751d26c8e65da012844f))
+- **deps-dev:** bump prettier from 2.0.0 to 2.0.1
+  ([0e5356e](https://github.com/ridedott/eslint-config/commit/0e5356e829de99dda26d4e74d038d808325cb26d))
+- configure jest/prefer-expect-assertions
+  ([8e2e2b2](https://github.com/ridedott/eslint-config/commit/8e2e2b26d9b4fa3c6f32ecc45c01b91157c116f6))
+
 ## [1.0.11](https://github.com/ridedott/eslint-config/compare/v1.0.10...v1.0.11) (2020-03-16)
 
 ### Chores
