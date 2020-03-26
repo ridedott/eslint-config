@@ -1,3 +1,18 @@
+## [1.0.15](https://github.com/ridedott/eslint-config/compare/v1.0.14...v1.0.15) (2020-03-26)
+
+### Chores
+
+- **deps:** bump eslint-plugin-unicorn from 17.2.0 to 18.0.0
+  ([559c657](https://github.com/ridedott/eslint-config/commit/559c6577415edb1fc5b1056442db952ffd40bffd))
+- **deps-dev:** bump jest from 25.1.0 to 25.2.0
+  ([c5f568f](https://github.com/ridedott/eslint-config/commit/c5f568fe42223609ba0f3911d055c97a908b045b))
+- **deps-dev:** bump jest from 25.2.0 to 25.2.1
+  ([304c966](https://github.com/ridedott/eslint-config/commit/304c966ab2a68cf82885412ec83791568c7ff401))
+- **deps-dev:** bump lint-staged from 10.0.8 to 10.0.9
+  ([e419038](https://github.com/ridedott/eslint-config/commit/e419038a2d8e04b8ae33f9f9ec191de84cb4b694))
+- **deps-dev:** bump prettier from 2.0.1 to 2.0.2
+  ([45f00ae](https://github.com/ridedott/eslint-config/commit/45f00ae65e1005f9e9ef0859b5b7de88cb85831c))
+
 ## [1.0.14](https://github.com/ridedott/eslint-config/compare/v1.0.13...v1.0.14) (2020-03-23)
 
 ### Chores
