@@ -1,3 +1,4 @@
+/* eslint-disable @ridedott/no-template-literals-without-expression */
 /* eslint-disable no-console */
 
 console.log('abc ', 'def');

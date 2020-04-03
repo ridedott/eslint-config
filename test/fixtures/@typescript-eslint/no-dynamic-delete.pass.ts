@@ -1,3 +1,4 @@
+/* eslint-disable @ridedott/no-single-line-comment-block */
 /* eslint-disable @typescript-eslint/no-magic-numbers */
 
 const containerPass: { [i: string]: number } = {

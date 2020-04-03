@@ -2,8 +2,10 @@ module.exports = {
   extends: [
     'eslint:all',
     'plugin:@typescript-eslint/all',
+    'plugin:@ridedott/all',
     'plugin:jest/all',
     './rules/array-func.js',
+    './rules/ridedott.js',
     './rules/eslint-comments.js',
     './rules/eslint.js',
     './rules/immutable.js',
@@ -16,6 +18,7 @@ module.exports = {
     './rules/overrides.js',
   ],
   plugins: [
+    '@ridedott',
     '@typescript-eslint',
     'array-func',
     'eslint-comments',

@@ -1,3 +1,6 @@
+/* eslint-disable @ridedott/no-single-line-comment-block */
+/* eslint-disable @ridedott/no-single-line-comment-block.js */
+import { rules as ridedottEslintRules } from '@ridedott/eslint-plugin';
 import { rules as typescriptEslintRules } from '@typescript-eslint/eslint-plugin';
 import { CLIEngine, Linter } from 'eslint';
 import { rules as arrayFuncRules } from 'eslint-plugin-array-func';
@@ -13,6 +16,7 @@ import * as eslintComments from '../rules/eslint-comments';
 import * as immutable from '../rules/immutable';
 import * as jestConfiguredRules from '../rules/jest';
 import * as overrides from '../rules/overrides';
+import * as ridedottPlugin from '../rules/ridedott';
 import * as simpleImportSort from '../rules/simple-import-sort';
 import * as typescriptEslint from '../rules/typescript';
 import * as unicorn from '../rules/unicorn';
@@ -41,6 +45,7 @@ const configuredRules = {
   immutable,
   jest: jestConfiguredRules,
   overrides,
+  ridedott: ridedottPlugin,
   simpleImportSort,
   typescriptEslint,
   unicorn,
@@ -53,6 +58,7 @@ const configuredRulesToOriginalMap = {
   immutable: immutableRules,
   jest: jestRules,
   overrides: eslintRules,
+  ridedott: ridedottEslintRules,
   simpleImportSort: simpleImportSortRules,
   typescriptEslint: typescriptEslintRules,
   unicorn: unicornRules,
@@ -123,7 +129,7 @@ const getRuleName = (configuredRule: string): string => {
 };
 
 /*
- * Tests
+ * Tests.
  */
 describe.each(Object.keys(configuredRules))(
   '%s rules',
