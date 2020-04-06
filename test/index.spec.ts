@@ -1,5 +1,5 @@
 /* eslint-disable @ridedott/no-single-line-comment-block */
-/* eslint-disable @ridedott/no-single-line-comment-block.js */
+
 import { rules as ridedottEslintRules } from '@ridedott/eslint-plugin';
 import { rules as typescriptEslintRules } from '@typescript-eslint/eslint-plugin';
 import { CLIEngine, Linter } from 'eslint';
