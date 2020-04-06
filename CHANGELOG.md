@@ -1,3 +1,30 @@
+## [1.0.19](https://github.com/ridedott/eslint-config/compare/v1.0.18...v1.0.19) (2020-04-06)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 2.26.0 to 2.27.0
+  ([cafa62c](https://github.com/ridedott/eslint-config/commit/cafa62c759c8a5c1dfa940ea3a98be6bb3903abb))
+- **deps-dev:** bump @types/jest from 25.1.4 to 25.1.5
+  ([633a2ac](https://github.com/ridedott/eslint-config/commit/633a2ac09e509d1c1c13a95167d13849a178142e))
+- **deps-dev:** bump @types/jest from 25.1.5 to 25.2.0
+  ([a23b4fd](https://github.com/ridedott/eslint-config/commit/a23b4fd24a60d4d1f51e435cb86113967a95046d))
+- **deps-dev:** bump @types/jest from 25.2.0 to 25.2.1
+  ([1f19a1c](https://github.com/ridedott/eslint-config/commit/1f19a1c0d0557f206dc5c0460eebf2ae58f0ee0a))
+- **deps-dev:** bump jest from 25.2.4 to 25.2.6
+  ([afc0b2e](https://github.com/ridedott/eslint-config/commit/afc0b2e81a6674ae5236371004f0836b898f3f8d))
+- **deps-dev:** bump jest from 25.2.6 to 25.2.7
+  ([3fed42d](https://github.com/ridedott/eslint-config/commit/3fed42d16fc6b3ab5da8db1521c538ab5ad7fa2e))
+- **deps-dev:** bump lint-staged from 10.1.0 to 10.1.1
+  ([d1a8b66](https://github.com/ridedott/eslint-config/commit/d1a8b66e997a7cf6c5bd4e8f5ef32ca57a5f2a91))
+- **deps-dev:** bump lint-staged from 10.1.1 to 10.1.2
+  ([52a10e3](https://github.com/ridedott/eslint-config/commit/52a10e3a435bfe03b41f2904eebf7e15d964c767))
+- **deps-dev:** bump prettier from 2.0.2 to 2.0.3
+  ([4b138c5](https://github.com/ridedott/eslint-config/commit/4b138c5fbddb574b5d5a98cd77ff8c300587b592))
+- **deps-dev:** bump prettier from 2.0.3 to 2.0.4
+  ([f0f0250](https://github.com/ridedott/eslint-config/commit/f0f02508a5745196ad61fa9ecd15c04e45d770ab))
+- **deps-dev:** bump ts-jest from 25.3.0 to 25.3.1
+  ([ddc69d7](https://github.com/ridedott/eslint-config/commit/ddc69d70ca662be4e23779898109017f320eaaa9))
+
 ## [1.0.18](https://github.com/ridedott/eslint-config/compare/v1.0.17...v1.0.18) (2020-03-30)
 
 ### Chores
