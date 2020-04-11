@@ -1,3 +1,27 @@
+# [1.1.0](https://github.com/ridedott/eslint-config/compare/v1.0.19...v1.1.0) (2020-04-11)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/eslint-plugin from 2.26.0 to 2.27.0
+  ([fc6403d](https://github.com/ridedott/eslint-config/commit/fc6403d2a5e85fe91a54d7cd43ac0485b6e632e0))
+- **deps:** bump eslint-plugin-array-func from 3.1.4 to 3.1.5
+  ([a1e4819](https://github.com/ridedott/eslint-config/commit/a1e4819e8eca964a8651360f1d36c4e8f8d6c217))
+- **deps-dev:** bump commitizen from 4.0.3 to 4.0.4
+  ([ea01c63](https://github.com/ridedott/eslint-config/commit/ea01c639691c50234ad1a8ed57a4219567bc384f))
+- **deps-dev:** bump husky from 4.2.3 to 4.2.4
+  ([4cad5e9](https://github.com/ridedott/eslint-config/commit/4cad5e99f3cd393c38de14d9836d232718197f9d))
+- **deps-dev:** bump husky from 4.2.4 to 4.2.5
+  ([4225c33](https://github.com/ridedott/eslint-config/commit/4225c33e317790d0a60a1e21ae480f4ee4a186d9))
+- **deps-dev:** bump jest from 25.2.7 to 25.3.0
+  ([2536e9e](https://github.com/ridedott/eslint-config/commit/2536e9eff380b537e27f763a27de633b3cbdab49))
+- **deps-dev:** bump lint-staged from 10.1.2 to 10.1.3
+  ([577657e](https://github.com/ridedott/eslint-config/commit/577657ee367a93e41f8e7f79bbc988fb5561dca1))
+
+### Features
+
+- enforce lexicographical order of properties
+  ([ef7878e](https://github.com/ridedott/eslint-config/commit/ef7878e4cef4248bc73b5682a4bb1e3e1b1b4481))
+
 ## [1.0.19](https://github.com/ridedott/eslint-config/compare/v1.0.18...v1.0.19) (2020-04-06)
 
 ### Chores
