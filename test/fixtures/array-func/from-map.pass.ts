@@ -11,15 +11,15 @@
 /* eslint-disable unicorn/prevent-abbreviations */
 
 export const iterable = new Map();
-Array.from(iterable, t => t);
+Array.from(iterable, (t) => t);
 
 Array.from(
   iterable,
-  function(t) {
+  function (t) {
     this.format(t);
   },
   this,
 );
 
 const arr = Array.from(iterable);
-const mappedArray = arr.map(t => t);
+const mappedArray = arr.map((t) => t);

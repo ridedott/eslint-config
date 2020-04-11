@@ -10,7 +10,7 @@
 
 const z = 5;
 
-const foo = function(e) {};
+const foo = function (e) {};
 
 try {
   foo('');
@@ -20,7 +20,7 @@ try {
 
 const myObj = { a: 1 };
 
-a => {
+(a) => {
   a * a;
 };
 

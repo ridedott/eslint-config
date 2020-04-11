@@ -82,21 +82,21 @@ Array [
   },
   Object {
     "column": 1,
-    "endColumn": 33,
+    "endColumn": 35,
     "endLine": 8,
     "fix": Object {
       "range": Array [
         undefined,
         undefined,
       ],
-      "text": "(id) => (id => id[0])((t => t)(id))/* eslint-disable @typescript-eslint/explicit-function-return-type */
+      "text": "(id) => ((id) => id[0])(((t) => t)(id))/* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable @typescript-eslint/typedef */
 /* eslint-disable id-length */
 
 export const iterable = new Map();
-Array.from(iterable).map(t => t);
+Array.from(iterable).map((t) => t);
 
-Array.from(iterable, t => t).map(id => id[0]);
+Array.from(iterable, (t) => t).map((id) => id[0]);
 ",
     },
     "line": 8,
@@ -245,8 +245,8 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 22,
-    "endColumn": 23,
+    "column": 23,
+    "endColumn": 24,
     "endLine": 13,
     "line": 13,
     "message": "Identifier name 'e' is too short (< 2).",
@@ -278,8 +278,8 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "endColumn": 2,
+    "column": 2,
+    "endColumn": 3,
     "endLine": 23,
     "line": 23,
     "message": "Identifier name 'a' is too short (< 2).",
@@ -934,7 +934,7 @@ Array [
   },
   Object {
     "column": 18,
-    "endColumn": 28,
+    "endColumn": 29,
     "endLine": 7,
     "line": 7,
     "message": "Missing return type on function.",
@@ -979,6 +979,22 @@ Array [
     "messageId": "paramNotMatchRule",
     "nodeType": "TSTypeParameter",
     "ruleId": "@typescript-eslint/generic-type-naming",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/member-ordering should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 3,
+    "endColumn": 16,
+    "endLine": 3,
+    "line": 3,
+    "message": "Member \\"a\\" should be declared before member \\"b\\".",
+    "messageId": "incorrectOrder",
+    "nodeType": "TSPropertySignature",
+    "ruleId": "@typescript-eslint/member-ordering",
     "severity": 2,
   },
 ]
@@ -3154,24 +3170,24 @@ exports[`unicorn rules unicorn/prefer-event-key should fail on an invalid fixtur
 Array [
   Object {
     "column": 36,
-    "endColumn": 41,
-    "endLine": 1,
-    "line": 1,
-    "message": "expected event to have a type annotation",
-    "messageId": "expectedTypedefNamed",
-    "nodeType": "Identifier",
-    "ruleId": "@typescript-eslint/typedef",
-    "severity": 2,
-  },
-  Object {
-    "column": 36,
-    "endColumn": 44,
+    "endColumn": 46,
     "endLine": 1,
     "line": 1,
     "message": "Missing return type on function.",
     "messageId": "missingReturnType",
     "nodeType": "ArrowFunctionExpression",
     "ruleId": "@typescript-eslint/explicit-function-return-type",
+    "severity": 2,
+  },
+  Object {
+    "column": 37,
+    "endColumn": 42,
+    "endLine": 1,
+    "line": 1,
+    "message": "expected event to have a type annotation",
+    "messageId": "expectedTypedefNamed",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/typedef",
     "severity": 2,
   },
   Object {
@@ -3225,7 +3241,7 @@ exports[`unicorn rules unicorn/prefer-flat-map should fail on an invalid fixture
 Array [
   Object {
     "column": 20,
-    "endColumn": 25,
+    "endColumn": 27,
     "endLine": 12,
     "line": 12,
     "message": "Missing return type on function.",

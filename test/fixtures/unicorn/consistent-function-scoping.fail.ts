@@ -15,7 +15,7 @@ export function consistentFunctionScopingFail(_foo) {
 }
 
 function consistentFunctionScopingFail2(_foo) {
-  const doBar = bar => {
+  const doBar = (bar) => {
     return bar === 'bar';
   };
 }

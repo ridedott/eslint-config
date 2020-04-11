@@ -4,4 +4,4 @@
 
 const preferFlatMapPass = [1, 2, 3];
 
-preferFlatMapPass.flatMap(index => [index]);
+preferFlatMapPass.flatMap((index) => [index]);
