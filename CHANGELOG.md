@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/ridedott/eslint-config/compare/v1.1.0...v1.1.1) (2020-04-11)
+
+### Bug Fixes
+
+- restore default member ordering
+  ([4bb6eef](https://github.com/ridedott/eslint-config/commit/4bb6eef297feffd26c1fe7a5e985acb86bfe5cce))
+
 # [1.1.0](https://github.com/ridedott/eslint-config/compare/v1.0.19...v1.1.0) (2020-04-11)
 
 ### Chores
