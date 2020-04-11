@@ -3,4 +3,4 @@
 /* eslint-disable @typescript-eslint/typedef */
 /* eslint-disable unicorn/prevent-abbreviations */
 
-obj => obj.x;
+(obj) => obj.x;

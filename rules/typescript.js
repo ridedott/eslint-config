@@ -21,6 +21,10 @@ module.exports = {
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
     '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
+    '@typescript-eslint/member-ordering': [
+      'error',
+      { default: { order: 'alphabetically' } },
+    ],
     /*
      * cspell:ignore oleg-koval
      *

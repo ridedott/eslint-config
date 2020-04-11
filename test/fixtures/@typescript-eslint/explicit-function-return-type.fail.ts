@@ -4,7 +4,7 @@
 
 const arrowFn = () => 'test';
 
-const funcExpr = function() {
+const funcExpr = function () {
   return 'test';
 };
 

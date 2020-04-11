@@ -4,15 +4,15 @@
 /* eslint-disable @typescript-eslint/typedef */
 /* eslint-disable id-length */
 
-const oneActionPreferFlatMapPass = [].flatMap(m => m);
+const oneActionPreferFlatMapPass = [].flatMap((m) => m);
 
 const flattenedPreferFlatMapPass = [].flat();
 
-const mappedPreferFlatMapPass = [].map(r => r + 1);
+const mappedPreferFlatMapPass = [].map((r) => r + 1);
 
-const mappedThenFlattenedPreferFlatMapPass = [].flat().map(r => r);
+const mappedThenFlattenedPreferFlatMapPass = [].flat().map((r) => r);
 
 const flatMappedWithExtraPreferFlatMapPass = []
-  .map(r => r + 1)
+  .map((r) => r + 1)
   .reverse()
   .flat();
