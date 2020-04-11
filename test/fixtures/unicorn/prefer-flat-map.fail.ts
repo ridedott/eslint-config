@@ -9,4 +9,4 @@
 
 const testForMapFail = [];
 
-testForMapFail.map(el => el);
+testForMapFail.map((el) => el);

@@ -7,7 +7,7 @@ type FuncType = () => string;
 
 const arrowFnPass: FuncType = () => 'test';
 
-const funcExprPass: FuncType = function() {
+const funcExprPass: FuncType = function () {
   return 'test';
 };
 

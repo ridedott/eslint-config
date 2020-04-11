@@ -6,11 +6,11 @@
 /* eslint-disable no-invalid-this */
 
 class MyClass2 {
+  public logBound = () => console.log(this);
+
   public logUnbound(): void {
     console.log(this);
   }
-
-  public logBound = () => console.log(this);
 }
 
 const instance2 = new MyClass2();

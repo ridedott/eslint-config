@@ -1,3 +1,3 @@
-window.addEventListener('keydown', event => {
+window.addEventListener('keydown', (event) => {
   console.log(event.keyCode);
 });
