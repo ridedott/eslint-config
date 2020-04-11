@@ -15,7 +15,7 @@ const asTyped = (() => '') as () => string;
 const castTyped = <() => string>(() => '');
 
 interface ObjectType {
-  foo(): number;
+  foo: () => number;
 }
 const objectPropertyPass = {
   foo: () => 1,
