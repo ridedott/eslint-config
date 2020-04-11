@@ -69,8 +69,8 @@ Array [
     "endLine": 6,
     "fix": Object {
       "range": Array [
-        NaN,
-        undefined,
+        204,
+        210,
       ],
       "text": ", ",
     },
@@ -86,18 +86,10 @@ Array [
     "endLine": 8,
     "fix": Object {
       "range": Array [
-        undefined,
-        undefined,
+        243,
+        271,
       ],
-      "text": "(id) => ((id) => id[0])(((t) => t)(id))/* eslint-disable @typescript-eslint/explicit-function-return-type */
-/* eslint-disable @typescript-eslint/typedef */
-/* eslint-disable id-length */
-
-export const iterable = new Map();
-Array.from(iterable).map((t) => t);
-
-Array.from(iterable, (t) => t).map((id) => id[0]);
-",
+      "text": "(id) => ((id) => id[0])(((t) => t)(id)))",
     },
     "line": 8,
     "message": "Use mapFn callback of Array.from instead of map()",
