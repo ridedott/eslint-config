@@ -111,6 +111,7 @@ module.exports = {
       'error',
       { allowConstantLoopConditions: false, ignoreRhs: true },
     ],
+    '@typescript-eslint/no-unsafe-assignment': 'off',
     /**
      * `any` type can only come from libraries. Until correct types are added
      * to those libraries, it is too much of an overhead to define all types
@@ -152,6 +153,8 @@ module.exports = {
      * mark function parameters as readonly.
      */
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
+    // Conflicts with @typescript-eslint/typedef
+    '@typescript-eslint/prefer-reduce-type-parameter': 'off',
     '@typescript-eslint/promise-function-async': ['error', { allowAny: true }],
     '@typescript-eslint/return-await': ['error', 'in-try-catch'],
     // Code should be formatted using Prettier.
