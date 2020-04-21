@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/ridedott/eslint-config/compare/v1.1.10...v1.1.11) (2020-04-21)
+
+### Bug Fixes
+
+- disable native init-declarations rule
+  ([347f80c](https://github.com/ridedott/eslint-config/commit/347f80c99b2aeacce2210e7899c2986e11889c55))
+
 ## [1.1.10](https://github.com/ridedott/eslint-config/compare/v1.1.9...v1.1.10) (2020-04-20)
 
 ### Chores
