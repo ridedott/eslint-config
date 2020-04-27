@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/ridedott/eslint-config/compare/v1.1.15...v1.1.16) (2020-04-27)
+
+### Chores
+
+- **deps:** bump eslint-plugin-simple-import-sort from 5.0.2 to 5.0.3
+  ([d9afb77](https://github.com/ridedott/eslint-config/commit/d9afb77034362c51b4caf4e2d7292b6503b97865))
+
 ## [1.1.15](https://github.com/ridedott/eslint-config/compare/v1.1.14...v1.1.15) (2020-04-27)
 
 ### Chores
