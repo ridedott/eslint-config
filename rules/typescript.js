@@ -84,10 +84,11 @@ module.exports = {
       'error',
       { ignore: [-1, 0, 1], ignoreNumericLiteralTypes: true },
     ],
-
     '@typescript-eslint/no-misused-promises': [
       'error',
       {
+        // Redundant with @typescript-eslint/no-unnecessary-condition.
+        checksConditionals: false,
         // It is often convenient when using async functions as callbacks.
         checksVoidReturn: false,
       },
