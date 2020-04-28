@@ -10,9 +10,7 @@ module.exports = {
       },
     ],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-    /**
-     * Formatting should be done by Prettier.
-     */
+    // Code should be formatted using Prettier.
     '@typescript-eslint/comma-spacing': 'off',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
@@ -86,9 +84,15 @@ module.exports = {
       'error',
       { ignore: [-1, 0, 1], ignoreNumericLiteralTypes: true },
     ],
-    /*
-     * Custom objects are often used in class-free applications.
-     */
+
+    '@typescript-eslint/no-misused-promises': [
+      'error',
+      {
+        // It is often convenient when using async functions as callbacks.
+        checksVoidReturn: false,
+      },
+    ],
+    // Custom objects are often used in class-free applications.
     '@typescript-eslint/no-throw-literal': 'off',
     /*
      * Type aliases are often needed when deriving and extending existing type

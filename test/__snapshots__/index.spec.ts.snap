@@ -1432,6 +1432,44 @@ Array [
 ]
 `;
 
+exports[`typescriptEslint rules @typescript-eslint/no-misused-promises should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Expected non-Promise value in a boolean conditional.",
+    "messageId": "conditional",
+    "nodeType": "CallExpression",
+    "ruleId": "@typescript-eslint/no-misused-promises",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unnecessary conditional, value is always truthy.",
+    "messageId": "alwaysTruthy",
+    "nodeType": "CallExpression",
+    "ruleId": "@typescript-eslint/no-unnecessary-condition",
+    "severity": 2,
+  },
+  Object {
+    "column": 5,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected object value in conditional. The condition is always true.",
+    "messageId": "conditionErrorObject",
+    "nodeType": "CallExpression",
+    "ruleId": "@typescript-eslint/strict-boolean-expressions",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition should fail on an invalid fixture 1`] = `
 Array [
   Object {
