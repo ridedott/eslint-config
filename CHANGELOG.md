@@ -1,3 +1,10 @@
+## [1.1.19](https://github.com/ridedott/eslint-config/compare/v1.1.18...v1.1.19) (2020-04-30)
+
+### Chores
+
+- **deps-dev:** bump commitizen from 4.0.4 to 4.0.5
+  ([09e4f3b](https://github.com/ridedott/eslint-config/commit/09e4f3b563eec93fb9339a677cde751d272f9b4a))
+
 ## [1.1.18](https://github.com/ridedott/eslint-config/compare/v1.1.17...v1.1.18) (2020-04-30)
 
 ### Chores
