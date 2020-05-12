@@ -1,3 +1,10 @@
+## [1.1.30](https://github.com/ridedott/eslint-config/compare/v1.1.29...v1.1.30) (2020-05-12)
+
+### Chores
+
+- **deps:** bump typescript from 3.8.3 to 3.9.2
+  ([a683690](https://github.com/ridedott/eslint-config/commit/a683690703a26bb612e9dfddd21488f16c5bb940))
+
 ## [1.1.29](https://github.com/ridedott/eslint-config/compare/v1.1.28...v1.1.29) (2020-05-12)
 
 ### Chores
