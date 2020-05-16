@@ -1,3 +1,10 @@
+## [1.1.33](https://github.com/ridedott/eslint-config/compare/v1.1.32...v1.1.33) (2020-05-16)
+
+### Chores
+
+- **deps:** bump eslint-plugin-jest from 23.11.0 to 23.12.0
+  ([de32361](https://github.com/ridedott/eslint-config/commit/de323611fcea963e305abda8651033563a5bed66))
+
 ## [1.1.32](https://github.com/ridedott/eslint-config/compare/v1.1.31...v1.1.32) (2020-05-13)
 
 ### Chores
