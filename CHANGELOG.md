@@ -1,3 +1,10 @@
+## [1.1.39](https://github.com/ridedott/eslint-config/compare/v1.1.38...v1.1.39) (2020-05-19)
+
+### Chores
+
+- **deps:** bump eslint-plugin-array-func from 3.1.5 to 3.1.6
+  ([cc342a4](https://github.com/ridedott/eslint-config/commit/cc342a4d9d0191dd74bd22f2c2881fff6118bf3c))
+
 ## [1.1.38](https://github.com/ridedott/eslint-config/compare/v1.1.37...v1.1.38) (2020-05-18)
 
 ### Chores
