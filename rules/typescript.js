@@ -73,8 +73,8 @@ module.exports = {
       },
       {
         custom: {
-          regex: '[A-Z][a-zA-Z]+',
           match: true,
+          regex: '[A-Z][a-zA-Z]+',
         },
         format: ['PascalCase'],
         selector: 'typeLike',
@@ -82,11 +82,20 @@ module.exports = {
       // Interfaces must not be prefixed with `I`.
       {
         custom: {
-          regex: 'I[A-Z].+',
           match: false,
+          regex: 'I[A-Z].+',
         },
         format: ['PascalCase'],
         selector: 'interface',
+      },
+      // Allow full uppercase names, e.g. CIA, FBI, R2D2.
+      {
+        filter: {
+          match: true,
+          regex: '[A-Z0-9]+',
+        },
+        format: null,
+        selector: 'default',
       },
     ],
     '@typescript-eslint/no-dynamic-delete': 'error',

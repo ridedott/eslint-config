@@ -9,3 +9,8 @@ const { categoryId } = query;
 type ReadOnlyPass<TType extends Record<string, unknown>> = {
   readonly [TKey in keyof TType]: TType[TKey];
 };
+
+const agenices = {
+  CIA: true,
+  FBI: true,
+};
