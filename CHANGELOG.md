@@ -1,3 +1,14 @@
+# [2.0.0](https://github.com/ridedott/eslint-config/compare/v1.1.44...v2.0.0) (2020-05-22)
+
+### Features
+
+- update to ESLint 7
+  ([7a7ffad](https://github.com/ridedott/eslint-config/commit/7a7ffade370cbe9a606741d4246e2a03b4f19656))
+
+### BREAKING CHANGE
+
+- ESLint 7 is now required. Node.js versions <10 are not supported.
+
 ## [1.1.44](https://github.com/ridedott/eslint-config/compare/v1.1.43...v1.1.44) (2020-05-22)
 
 ### Chores
