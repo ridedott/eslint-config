@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: ${{ matrix.node }}
+          node-version: ${{ matrix.node-version }}
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
@@ -39,7 +39,7 @@ jobs:
         run: npm run test
     strategy:
       matrix:
-        node: [10, 12, 14]
+        node-version: [10, 12, 14]
   pre-release:
     name: Pre-release
     needs:
