@@ -19,6 +19,8 @@ module.exports = {
     'max-statements': ['error', { max: 15 }],
     // Duplicate of @typescript-eslint/no-array-constructor.
     'no-array-constructor': 'off',
+    // Duplicate of unicorn/no-new-buffer.
+    'no-buffer-constructor': 'off',
     // Safety of this pattern is achieved by typechecking.
     'no-constructor-return': 'off',
     // Duplicate of @typescript-eslint/no-empty-function.
@@ -42,6 +44,8 @@ module.exports = {
     'no-undef': 'off',
     // Only applicable to ECMAScript 3.
     'no-undefined': 'off',
+    // Covered by the TypeScript compiler error TS7027.
+    'no-unreachable': 'off',
     // Duplicate of @typescript-eslint/no-unused-vars.
     'no-unused-vars': 'off',
     // Duplicate of @typescript-eslint/no-use-before-define.

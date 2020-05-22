@@ -292,22 +292,22 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 9,
-    "endColumn": 10,
+    "column": 12,
+    "endColumn": 13,
     "endLine": 27,
     "line": 27,
-    "message": "Identifier name 'x' is too short (< 2).",
+    "message": "Identifier name 'a' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
     "ruleId": "id-length",
     "severity": 2,
   },
   Object {
-    "column": 3,
-    "endColumn": 4,
+    "column": 7,
+    "endColumn": 8,
     "endLine": 29,
     "line": 29,
-    "message": "Identifier name 'a' is too short (< 2).",
+    "message": "Identifier name 'x' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
     "ruleId": "id-length",
@@ -386,6 +386,7 @@ Array [
     },
     "line": 5,
     "message": "Split 'const' declarations into multiple statements.",
+    "messageId": "split",
     "nodeType": "VariableDeclaration",
     "ruleId": "one-var",
     "severity": 2,
@@ -409,6 +410,7 @@ Array [
     },
     "line": 13,
     "message": "Expected blank line before this statement.",
+    "messageId": "expectedBlankLine",
     "nodeType": "IfStatement",
     "ruleId": "padding-line-between-statements",
     "severity": 2,
@@ -427,6 +429,7 @@ Array [
     },
     "line": 15,
     "message": "Expected blank line before this statement.",
+    "messageId": "expectedBlankLine",
     "nodeType": "ExpressionStatement",
     "ruleId": "padding-line-between-statements",
     "severity": 2,
@@ -445,6 +448,7 @@ Array [
     },
     "line": 17,
     "message": "Expected blank line before this statement.",
+    "messageId": "expectedBlankLine",
     "nodeType": "ReturnStatement",
     "ruleId": "padding-line-between-statements",
     "severity": 2,
@@ -665,6 +669,7 @@ Array [
     "endLine": 6,
     "line": 6,
     "message": "Unexpected 'this'.",
+    "messageId": "unexpectedThis",
     "nodeType": "ThisExpression",
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
@@ -838,66 +843,6 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/camelcase should fail on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 7,
-    "endColumn": 24,
-    "endLine": 4,
-    "line": 4,
-    "message": "Identifier 'my_favorite_color' is not in camel case.",
-    "messageId": "notCamelCase",
-    "nodeType": "Identifier",
-    "ruleId": "@typescript-eslint/camelcase",
-    "severity": 2,
-  },
-  Object {
-    "column": 25,
-    "endColumn": 30,
-    "endLine": 6,
-    "line": 6,
-    "message": "Identifier 't_foo' is not in camel case.",
-    "messageId": "notCamelCase",
-    "nodeType": "Identifier",
-    "ruleId": "@typescript-eslint/camelcase",
-    "severity": 2,
-  },
-  Object {
-    "column": 18,
-    "endColumn": 23,
-    "endLine": 7,
-    "line": 7,
-    "message": "Identifier 't_foo' is not in camel case.",
-    "messageId": "notCamelCase",
-    "nodeType": "Identifier",
-    "ruleId": "@typescript-eslint/camelcase",
-    "severity": 2,
-  },
-  Object {
-    "column": 17,
-    "endColumn": 28,
-    "endLine": 10,
-    "line": 10,
-    "message": "Identifier 'category_id' is not in camel case.",
-    "messageId": "notCamelCase",
-    "nodeType": "Identifier",
-    "ruleId": "@typescript-eslint/camelcase",
-    "severity": 2,
-  },
-  Object {
-    "column": 9,
-    "endColumn": 20,
-    "endLine": 12,
-    "line": 12,
-    "message": "Identifier 'category_id' is not in camel case.",
-    "messageId": "notCamelCase",
-    "nodeType": "Identifier",
-    "ruleId": "@typescript-eslint/camelcase",
-    "severity": 2,
-  },
-]
-`;
-
 exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions should fail on an invalid fixture 1`] = `
 Array [
   Object {
@@ -959,33 +904,6 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/generic-type-naming should fail on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 15,
-    "endColumn": 31,
-    "endLine": 1,
-    "line": 1,
-    "message": "Type parameter T does not match rule ^[A-Z][a-zA-Z]+$.",
-    "messageId": "paramNotMatchRule",
-    "nodeType": "TSTypeParameter",
-    "ruleId": "@typescript-eslint/generic-type-naming",
-    "severity": 2,
-  },
-  Object {
-    "column": 21,
-    "endColumn": 22,
-    "endLine": 3,
-    "line": 3,
-    "message": "Type parameter T does not match rule ^[A-Z][a-zA-Z]+$.",
-    "messageId": "paramNotMatchRule",
-    "nodeType": "TSTypeParameter",
-    "ruleId": "@typescript-eslint/generic-type-naming",
-    "severity": 2,
-  },
-]
-`;
-
 exports[`typescriptEslint rules @typescript-eslint/member-ordering should fail on an invalid fixture 1`] = `
 Array [
   Object {
@@ -997,6 +915,77 @@ Array [
     "messageId": "incorrectOrder",
     "nodeType": "TSPropertySignature",
     "ruleId": "@typescript-eslint/member-ordering",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/naming-convention should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 24,
+    "endLine": 3,
+    "line": 3,
+    "message": "Variable name my_favorite_color must match one of the following formats: camelCase, UPPER_CASE",
+    "messageId": "doesNotMatchFormat",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "endColumn": 18,
+    "endLine": 5,
+    "line": 5,
+    "message": "Interface name IPrefix must not match the RegExp: /I[A-Z].+/",
+    "messageId": "satisfyCustom",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+  Object {
+    "column": 11,
+    "endColumn": 24,
+    "endLine": 9,
+    "line": 9,
+    "message": "Interface name camelCaseFail must match one of the following formats: PascalCase",
+    "messageId": "doesNotMatchFormat",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+  Object {
+    "column": 25,
+    "endColumn": 30,
+    "endLine": 9,
+    "line": 9,
+    "message": "Type Parameter name t_foo must match the RegExp: /[A-Z][a-zA-Z]+/",
+    "messageId": "satisfyCustom",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+  Object {
+    "column": 15,
+    "endColumn": 16,
+    "endLine": 13,
+    "line": 13,
+    "message": "Type Parameter name T must match the RegExp: /[A-Z][a-zA-Z]+/",
+    "messageId": "satisfyCustom",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+  Object {
+    "column": 21,
+    "endColumn": 22,
+    "endLine": 17,
+    "line": 17,
+    "message": "Type Parameter name T must match the RegExp: /[A-Z][a-zA-Z]+/",
+    "messageId": "satisfyCustom",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
 ]
@@ -1447,8 +1436,8 @@ Array [
   Object {
     "column": 7,
     "endColumn": 12,
-    "endLine": 12,
-    "line": 12,
+    "endLine": 10,
+    "line": 10,
     "message": "Unnecessary conditional, value is always truthy.",
     "messageId": "alwaysTruthy",
     "nodeType": "Identifier",
@@ -1458,8 +1447,8 @@ Array [
   Object {
     "column": 7,
     "endColumn": 10,
-    "endLine": 19,
-    "line": 19,
+    "endLine": 17,
+    "line": 17,
     "message": "Unnecessary conditional, value is always truthy.",
     "messageId": "alwaysTruthy",
     "nodeType": "Identifier",
@@ -1469,16 +1458,16 @@ Array [
   Object {
     "column": 13,
     "endColumn": 15,
-    "endLine": 25,
+    "endLine": 23,
     "fix": Object {
       "range": Array [
-        853,
-        855,
+        728,
+        730,
       ],
       "text": ".",
     },
-    "line": 25,
-    "message": "Unnecessary optional chain on a non-nullish value.",
+    "line": 23,
+    "message": "Unnecessary optional chain on a non-nullish value",
     "messageId": "neverOptionalChain",
     "nodeType": "OptionalMemberExpression",
     "ruleId": "@typescript-eslint/no-unnecessary-condition",
@@ -1495,6 +1484,7 @@ Array [
     "endLine": 1,
     "line": 1,
     "message": "'noUnusedVars1' is assigned a value but never used.",
+    "messageId": "unusedVar",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/no-unused-vars",
     "severity": 2,
@@ -1505,6 +1495,7 @@ Array [
     "endLine": 2,
     "line": 2,
     "message": "'noUnusedVars2' is assigned a value but never used.",
+    "messageId": "unusedVar",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/no-unused-vars",
     "severity": 2,
@@ -1520,6 +1511,7 @@ Array [
     "endLine": 8,
     "line": 8,
     "message": "'somethingShouldFailNow' is assigned a value but never used.",
+    "messageId": "unusedVar",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/no-unused-vars",
     "severity": 2,
@@ -1533,73 +1525,97 @@ Array [
     "column": 1,
     "endColumn": 37,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
-        195,
-        231,
-      ],
-      "text": "foo?.a?.b?.c",
-    },
     "line": 5,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Change to an optional chain.",
+        "fix": Object {
+          "range": Array [
+            195,
+            231,
+          ],
+          "text": "foo?.a?.b?.c",
+        },
+        "messageId": "optionalChainSuggest",
+      },
+    ],
   },
   Object {
     "column": 1,
     "endColumn": 37,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
-        233,
-        269,
-      ],
-      "text": "foo?.a?.b?.c",
-    },
     "line": 6,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Change to an optional chain.",
+        "fix": Object {
+          "range": Array [
+            233,
+            269,
+          ],
+          "text": "foo?.a?.b?.c",
+        },
+        "messageId": "optionalChainSuggest",
+      },
+    ],
   },
   Object {
     "column": 1,
     "endColumn": 62,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
-        271,
-        332,
-      ],
-      "text": "foo?.a?.b?.method?.()",
-    },
     "line": 7,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Change to an optional chain.",
+        "fix": Object {
+          "range": Array [
+            271,
+            332,
+          ],
+          "text": "foo?.a?.b?.method?.()",
+        },
+        "messageId": "optionalChainSuggest",
+      },
+    ],
   },
   Object {
     "column": 1,
     "endColumn": 16,
     "endLine": 14,
-    "fix": Object {
-      "range": Array [
-        335,
-        457,
-      ],
-      "text": "foo?.a?.b?.c?.d?.e",
-    },
     "line": 9,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Change to an optional chain.",
+        "fix": Object {
+          "range": Array [
+            335,
+            457,
+          ],
+          "text": "foo?.a?.b?.c?.d?.e",
+        },
+        "messageId": "optionalChainSuggest",
+      },
+    ],
   },
   Object {
     "column": 3,
@@ -1756,6 +1772,22 @@ Array [
     "messageId": "nonPromiseAwait",
     "nodeType": "ReturnStatement",
     "ruleId": "@typescript-eslint/return-await",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 5,
+    "endColumn": 12,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected string value in conditional. An explicit empty string check is required.",
+    "messageId": "conditionErrorString",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/strict-boolean-expressions",
     "severity": 2,
   },
 ]
@@ -1964,8 +1996,8 @@ Array [
   Object {
     "column": 3,
     "endColumn": 4,
-    "endLine": 12,
-    "line": 10,
+    "endLine": 13,
+    "line": 11,
     "message": "Move function \`doBar\` to the outer scope.",
     "messageId": "named",
     "nodeType": "FunctionDeclaration",
@@ -1975,8 +2007,8 @@ Array [
   Object {
     "column": 17,
     "endColumn": 4,
-    "endLine": 20,
-    "line": 18,
+    "endLine": 21,
+    "line": 19,
     "message": "Move arrow function \`doBar\` to the outer scope.",
     "messageId": "named",
     "nodeType": "ArrowFunctionExpression",
@@ -2195,6 +2227,7 @@ Array [
     "endLine": 11,
     "line": 11,
     "message": "Unexpected 'todo' comment.",
+    "messageId": "unexpectedComment",
     "nodeType": "Line",
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
@@ -2694,15 +2727,15 @@ Array [
   Object {
     "column": 20,
     "endColumn": 34,
-    "endLine": 5,
+    "endLine": 4,
     "fix": Object {
       "range": Array [
-        175,
-        185,
+        132,
+        142,
       ],
       "text": "Buffer.alloc",
     },
-    "line": 5,
+    "line": 4,
     "message": "\`new Buffer()\` is deprecated, use \`Buffer.alloc()\` instead.",
     "nodeType": "NewExpression",
     "ruleId": "unicorn/no-new-buffer",
@@ -3438,6 +3471,7 @@ Array [
     "endLine": 7,
     "line": 7,
     "message": "'hereTofailThisFixture' is assigned a value but never used.",
+    "messageId": "unusedVar",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/no-unused-vars",
     "severity": 2,
@@ -3453,6 +3487,7 @@ Array [
     "endLine": 7,
     "line": 7,
     "message": "'hereTofailThisFixture2' is assigned a value but never used.",
+    "messageId": "unusedVar",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/no-unused-vars",
     "severity": 2,
@@ -3551,6 +3586,7 @@ Array [
     "endLine": 9,
     "line": 9,
     "message": "Unexpected 'this'.",
+    "messageId": "unexpectedThis",
     "nodeType": "ThisExpression",
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
@@ -3599,6 +3635,7 @@ Array [
     "endLine": 10,
     "line": 10,
     "message": "Unexpected 'this'.",
+    "messageId": "unexpectedThis",
     "nodeType": "ThisExpression",
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
@@ -3681,6 +3718,7 @@ Array [
     "endLine": 13,
     "line": 13,
     "message": "Unexpected 'this'.",
+    "messageId": "unexpectedThis",
     "nodeType": "ThisExpression",
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
@@ -3718,6 +3756,7 @@ Array [
     "endLine": 14,
     "line": 14,
     "message": "Unexpected 'this'.",
+    "messageId": "unexpectedThis",
     "nodeType": "ThisExpression",
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
@@ -3731,8 +3770,16 @@ Array [
     "column": 1,
     "endColumn": 19,
     "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        116,
+        133,
+      ],
+      "text": "'foo'.startsWith('bar'",
+    },
     "line": 4,
     "message": "Prefer \`String#startsWith()\` over a regex with \`^\`.",
+    "messageId": "prefer-starts-with",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/prefer-starts-ends-with",
     "severity": 2,
@@ -3741,8 +3788,16 @@ Array [
     "column": 1,
     "endColumn": 19,
     "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        136,
+        153,
+      ],
+      "text": "'foo'.endsWith('bar'",
+    },
     "line": 5,
     "message": "Prefer \`String#endsWith()\` over a regex with \`$\`.",
+    "messageId": "prefer-ends-with",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/prefer-starts-ends-with",
     "severity": 2,
@@ -3797,6 +3852,7 @@ Array [
     "endLine": 7,
     "line": 7,
     "message": "'hereTofailThisFixture3' is assigned a value but never used.",
+    "messageId": "unusedVar",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/no-unused-vars",
     "severity": 2,
@@ -3863,46 +3919,19 @@ Array [
 exports[`unicorn rules unicorn/throw-new-error should fail on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 1,
-    "endColumn": 15,
-    "endLine": 5,
-    "line": 5,
-    "message": "Pass a message to the error constructor.",
-    "nodeType": "ThrowStatement",
-    "ruleId": "unicorn/error-message",
-    "severity": 2,
-  },
-  Object {
     "column": 7,
-    "endColumn": 14,
+    "endColumn": 23,
     "endLine": 5,
     "fix": Object {
       "range": Array [
-        125,
-        125,
-      ],
-      "text": "new ",
-    },
-    "line": 5,
-    "message": "Use \`new Error()\` instead of \`Error()\`.",
-    "messageId": "enforce",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/new-for-builtins",
-    "severity": 2,
-  },
-  Object {
-    "column": 7,
-    "endColumn": 14,
-    "endLine": 5,
-    "fix": Object {
-      "range": Array [
-        125,
-        125,
+        135,
+        135,
       ],
       "text": "new ",
     },
     "line": 5,
     "message": "Use \`new\` when throwing an error.",
+    "messageId": "throw-new-error",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/throw-new-error",
     "severity": 2,
@@ -3913,13 +3942,14 @@ Array [
     "endLine": 6,
     "fix": Object {
       "range": Array [
-        140,
-        140,
+        159,
+        159,
       ],
       "text": "new ",
     },
     "line": 6,
     "message": "Use \`new\` when throwing an error.",
+    "messageId": "throw-new-error",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/throw-new-error",
     "severity": 2,

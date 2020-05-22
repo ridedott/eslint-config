@@ -1,14 +1,6 @@
 module.exports = {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
-    '@typescript-eslint/camelcase': [
-      'error',
-      {
-        genericType: 'always',
-        ignoreDestructuring: false,
-        properties: 'always',
-      },
-    ],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     /**
      * Formatting should be done by Prettier.
@@ -20,7 +12,6 @@ module.exports = {
     ],
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
-    '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
     '@typescript-eslint/member-ordering': [
       'error',
       {
@@ -68,12 +59,36 @@ module.exports = {
         },
       },
     ],
-    /*
-     * cspell:ignore oleg-koval
-     *
-     * TODO (oleg-koval) [2020-01-29] Enable and configure this rule after alignment.
-     */
-    '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        format: ['camelCase'],
+        leadingUnderscore: 'forbid',
+        selector: 'default',
+        trailingUnderscore: 'forbid',
+      },
+      {
+        format: ['camelCase', 'UPPER_CASE'],
+        selector: 'variable',
+      },
+      {
+        custom: {
+          regex: '[A-Z][a-zA-Z]+',
+          match: true,
+        },
+        format: ['PascalCase'],
+        selector: 'typeLike',
+      },
+      // Interfaces must not be prefixed with `I`.
+      {
+        custom: {
+          regex: 'I[A-Z].+',
+          match: false,
+        },
+        format: ['PascalCase'],
+        selector: 'interface',
+      },
+    ],
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
     '@typescript-eslint/no-empty-function': 'off',
@@ -109,7 +124,7 @@ module.exports = {
      */
     '@typescript-eslint/no-unnecessary-condition': [
       'error',
-      { allowConstantLoopConditions: false, ignoreRhs: true },
+      { allowConstantLoopConditions: false },
     ],
     '@typescript-eslint/no-unsafe-assignment': 'off',
     /**
@@ -169,6 +184,18 @@ module.exports = {
     '@typescript-eslint/semi': 'off',
     // Code should be formatted using Prettier.
     '@typescript-eslint/space-before-function-paren': 'off',
+    '@typescript-eslint/strict-boolean-expressions': [
+      'error',
+      {
+        allowString: false,
+        allowNumber: false,
+        allowNullableObject: false,
+        allowNullableBoolean: false,
+        allowNullableString: false,
+        allowNullableNumber: false,
+        allowAny: false,
+      },
+    ],
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
   },
 };

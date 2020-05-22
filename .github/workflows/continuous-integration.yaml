@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: ${{ matrix.node }}
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
@@ -37,7 +37,10 @@ jobs:
         run: npm ci --ignore-scripts --no-audit --no-progress --prefer-offline
       - name: Test
         run: npm run test
-  prerelease:
+    strategy:
+      matrix:
+        node: [10, 12, 14]
+  pre-release:
     name: Pre-release
     needs:
       - test
@@ -51,7 +54,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 14
       - name: Cache dependencies
         uses: actions/cache@v1
         with:
@@ -77,7 +80,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 14
           registry-url: 'https://npm.pkg.github.com'
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

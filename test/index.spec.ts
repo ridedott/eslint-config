@@ -24,9 +24,9 @@ import * as fixturesPromises from './fixtures';
 
 interface VerifyResponse {
   [key: string]: unknown;
-  warningCount: number;
-  messages: [];
   errorCount: number;
+  messages: [];
+  warningCount: number;
 }
 
 const cli = new CLIEngine();
@@ -73,14 +73,14 @@ const fixtureFilePath = (ruleSet: string): string => {
 };
 
 const lintFixture = async ({
-  ruleSet,
-  ruleName,
   configuredRule,
+  ruleName,
+  ruleSet,
   type,
 }: {
-  ruleSet: string;
-  ruleName: string;
   configuredRule: string;
+  ruleName: string;
+  ruleSet: string;
   type: 'pass' | 'fail';
 }): Promise<VerifyResponse> => {
   const ruleSetFixtures = await fixturesPromises[ruleSet];
