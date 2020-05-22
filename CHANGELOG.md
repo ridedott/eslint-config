@@ -1,3 +1,10 @@
+## [1.1.44](https://github.com/ridedott/eslint-config/compare/v1.1.43...v1.1.44) (2020-05-22)
+
+### Chores
+
+- **deps-dev:** bump jest from 25.4.0 to 25.5.4
+  ([30de0c0](https://github.com/ridedott/eslint-config/commit/30de0c0fc3a637c3a411e60eec9f8b0a35d8ec7d))
+
 ## [1.1.43](https://github.com/ridedott/eslint-config/compare/v1.1.42...v1.1.43) (2020-05-22)
 
 ### Chores
