@@ -16,3 +16,10 @@ const agenices = {
 };
 
 const ncFn = (_: string): void => bar();
+
+enum NCE {
+  Aaa,
+  Bbb,
+}
+
+const { Aaa } = NCE;
