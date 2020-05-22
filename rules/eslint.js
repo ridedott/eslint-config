@@ -5,6 +5,8 @@ module.exports = {
     'capitalized-comments': ['error', 'always', { ignorePattern: 'cspell' }],
     // TypeScript will always make sure return values are correct.
     'consistent-return': 'off',
+    // Duplicate of @typescript-eslint/dot-notation.
+    'dot-notation': 'off',
     // This is handled by @typescript-eslint/member-ordering.
     'grouped-accessor-pairs': 'off',
     // Ignored properties in TypeScript consist of underscores.
@@ -19,6 +21,8 @@ module.exports = {
     'max-statements': ['error', { max: 15 }],
     // Duplicate of @typescript-eslint/no-array-constructor.
     'no-array-constructor': 'off',
+    // Duplicate of unicorn/no-new-buffer.
+    'no-buffer-constructor': 'off',
     // Safety of this pattern is achieved by typechecking.
     'no-constructor-return': 'off',
     // Duplicate of @typescript-eslint/no-empty-function.
@@ -42,6 +46,8 @@ module.exports = {
     'no-undef': 'off',
     // Only applicable to ECMAScript 3.
     'no-undefined': 'off',
+    // Covered by the TypeScript compiler error TS7027.
+    'no-unreachable': 'off',
     // Duplicate of @typescript-eslint/no-unused-vars.
     'no-unused-vars': 'off',
     // Duplicate of @typescript-eslint/no-use-before-define.

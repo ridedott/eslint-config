@@ -1,12 +1,44 @@
 module.exports = {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
-    '@typescript-eslint/camelcase': [
+    '@typescript-eslint/ban-types': [
       'error',
       {
-        genericType: 'always',
-        ignoreDestructuring: false,
-        properties: 'always',
+        extendDefaults: false,
+        types: {
+          '{}': {
+            fixWith: 'object',
+            message: '`{}` actually means "any non-nullish value".',
+          },
+          Boolean: {
+            fixWith: 'boolean',
+            message: 'Use boolean instead.',
+          },
+          Function: {
+            message: [
+              'The `Function` type accepts any function-like value.',
+              'It provides no type safety when calling the function, which can be a common source of bugs.',
+              'It also accepts things like class declarations, which will throw at runtime as they will not be called with `new`.',
+              'If the function is expected to accept certain arguments, define the function shape explicitly.',
+            ].join(' '),
+          },
+          Number: {
+            fixWith: 'number',
+            message: 'Use number instead.',
+          },
+          Object: {
+            fixWith: 'object',
+            message: 'Use object instead.',
+          },
+          String: {
+            fixWith: 'string',
+            message: 'Use string instead.',
+          },
+          Symbol: {
+            fixWith: 'symbol',
+            message: 'Use symbol instead.',
+          },
+        },
       },
     ],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
@@ -20,7 +52,6 @@ module.exports = {
     ],
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
-    '@typescript-eslint/generic-type-naming': ['error', '^[A-Z][a-zA-Z]+$'],
     '@typescript-eslint/member-ordering': [
       'error',
       {
@@ -68,12 +99,62 @@ module.exports = {
         },
       },
     ],
-    /*
-     * cspell:ignore oleg-koval
-     *
-     * TODO (oleg-koval) [2020-01-29] Enable and configure this rule after alignment.
-     */
-    '@typescript-eslint/naming-convention': 'off',
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        format: ['camelCase'],
+        leadingUnderscore: 'forbid',
+        selector: 'default',
+        trailingUnderscore: 'forbid',
+      },
+      {
+        format: ['camelCase', 'PascalCase', 'UPPER_CASE'],
+        selector: 'variable',
+      },
+      {
+        custom: {
+          match: true,
+          regex: '[A-Z][a-zA-Z]+',
+        },
+        format: ['PascalCase'],
+        selector: 'typeLike',
+      },
+      // Interfaces must not be prefixed with `I`.
+      {
+        custom: {
+          match: false,
+          regex: '^I[A-Z][a-z].+',
+        },
+        format: ['PascalCase'],
+        selector: 'interface',
+      },
+      // Allow full uppercase names, e.g. CIA, FBI, R2D2.
+      {
+        filter: {
+          match: true,
+          regex: '[A-Z0-9]+',
+        },
+        format: null,
+        selector: 'default',
+      },
+      // Allow unused parameters.
+      {
+        filter: {
+          match: true,
+          regex: '^_+$',
+        },
+        format: null,
+        selector: 'parameter',
+      },
+      {
+        filter: {
+          match: true,
+          regex: '^_+$',
+        },
+        format: null,
+        selector: 'variable',
+      },
+    ],
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
     '@typescript-eslint/no-empty-function': 'off',
@@ -109,7 +190,7 @@ module.exports = {
      */
     '@typescript-eslint/no-unnecessary-condition': [
       'error',
-      { allowConstantLoopConditions: false, ignoreRhs: true },
+      { allowConstantLoopConditions: false },
     ],
     '@typescript-eslint/no-unsafe-assignment': 'off',
     /**
@@ -169,6 +250,18 @@ module.exports = {
     '@typescript-eslint/semi': 'off',
     // Code should be formatted using Prettier.
     '@typescript-eslint/space-before-function-paren': 'off',
+    '@typescript-eslint/strict-boolean-expressions': [
+      'error',
+      {
+        allowString: false,
+        allowNumber: false,
+        allowNullableObject: false,
+        allowNullableBoolean: false,
+        allowNullableString: false,
+        allowNullableNumber: false,
+        allowAny: false,
+      },
+    ],
     '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
   },
 };

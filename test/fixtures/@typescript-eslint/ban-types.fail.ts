@@ -1,0 +1,1 @@
+type BTFail = Object;

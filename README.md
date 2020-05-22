@@ -60,7 +60,8 @@ dependencies:
 ```json
 {
   "scripts": {
-    "lint": "eslint --resolve-plugins-relative-to './node_modules/@ridedott/eslint-config' '**/*.ts'"
+    "lint": "eslint '**/*.ts'",
+    "lint:fix": "eslint --fix '**/*.ts'"
   }
 }
 ```
@@ -91,9 +92,6 @@ Add ESLint settings to the workspace settings in `.vscode/settings.json`:
     "enable": true
   },
   "eslint.enable": true,
-  "eslint.options": {
-    "resolvePluginsRelativeTo": "./node_modules/@ridedott/eslint-config"
-  },
   "eslint.run": "onType",
   "eslint.validate": [
     {

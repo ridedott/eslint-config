@@ -1,4 +1,5 @@
 {
+  "cSpell.enabled": false,
   "eslint.codeAction.disableRuleComment": {
     "enable": true,
     "location": "sameLine"
@@ -10,5 +11,6 @@
   "eslint.options": {
     "resolvePluginsRelativeTo": "./node_modules/@ridedott/eslint-config"
   },
-  "eslint.run": "onType"
+  "eslint.run": "onType",
+  "jest.autoEnable": false
 }

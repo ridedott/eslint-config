@@ -1,4 +1,3 @@
-/* eslint-disable no-unreachable */
 /* eslint-disable padding-line-between-statements */
 /* eslint-disable unicorn/error-message */
 
