@@ -11,6 +11,8 @@ module.exports = {
     'id-length': ['error', { exceptions: ['_', '__', '___', '____'] }],
     // Using functions and firestore, and Prettier formatting result in extra
     // lines being used.
+    // Duplicate of @typescript-eslint/lines-between-class-members.
+    'lines-between-class-members': 'off',
     'max-lines-per-function': ['error', { max: 70 }],
     // Using functions and firestore result in a higher number of statements
     // being used.
@@ -21,6 +23,8 @@ module.exports = {
     'no-constructor-return': 'off',
     // Duplicate of @typescript-eslint/no-empty-function.
     'no-empty-function': 'off',
+    // Duplicate of @typescript-eslint/no-invalid-this.
+    'no-invalid-this': 'off',
     // Duplicate of @typescript-eslint/no-magic-numbers.
     'no-magic-numbers': 'off',
     // Ternary operators are helpful to write immutable code.
