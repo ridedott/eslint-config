@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable id-length */
+/* eslint-disable id-length */
 
-const noDuplicateFail = bar();
+const s = bar();

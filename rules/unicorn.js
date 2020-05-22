@@ -14,7 +14,8 @@ module.exports = {
     'unicorn/filename-case': ['error', { case: 'camelCase' }],
     'unicorn/import-index': 'error',
     'unicorn/new-for-builtins': 'error',
-    'unicorn/no-abusive-eslint-disable': 'error',
+    // Covered by eslint-comments/no-unlimited-disable.
+    'unicorn/no-abusive-eslint-disable': 'off',
     'unicorn/no-array-instanceof': 'error',
     'unicorn/no-console-spaces': 'error',
     'unicorn/no-fn-reference-in-iterator': 'off',
