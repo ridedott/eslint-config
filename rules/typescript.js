@@ -6,9 +6,13 @@ module.exports = {
       {
         extendDefaults: false,
         types: {
+          '{}': {
+            fixWith: 'object',
+            message: '`{}` actually means "any non-nullish value".',
+          },
           Boolean: {
-            message: 'Use boolean instead.',
             fixWith: 'boolean',
+            message: 'Use boolean instead.',
           },
           Function: {
             message: [
@@ -19,20 +23,20 @@ module.exports = {
             ].join(' '),
           },
           Number: {
-            message: 'Use number instead.',
             fixWith: 'number',
+            message: 'Use number instead.',
           },
           Object: {
-            message: 'Use object instead.',
             fixWith: 'object',
+            message: 'Use object instead.',
           },
           String: {
-            message: 'Use string instead.',
             fixWith: 'string',
+            message: 'Use string instead.',
           },
           Symbol: {
-            message: 'Use symbol instead.',
             fixWith: 'symbol',
+            message: 'Use symbol instead.',
           },
         },
       },
