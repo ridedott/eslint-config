@@ -843,6 +843,29 @@ Array [
 ]
 `;
 
+exports[`typescriptEslint rules @typescript-eslint/ban-types should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 15,
+    "endColumn": 21,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        14,
+        20,
+      ],
+      "text": "object",
+    },
+    "line": 1,
+    "message": "Don't use \`Object\` as a type. Use object instead.",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions should fail on an invalid fixture 1`] = `
 Array [
   Object {

@@ -1,0 +1,1 @@
+type BTPass = object;

@@ -1,6 +1,42 @@
 module.exports = {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+    '@typescript-eslint/ban-types': [
+      'error',
+      {
+        extendDefaults: false,
+        types: {
+          Boolean: {
+            message: 'Use boolean instead.',
+            fixWith: 'boolean',
+          },
+          Function: {
+            message: [
+              'The `Function` type accepts any function-like value.',
+              'It provides no type safety when calling the function, which can be a common source of bugs.',
+              'It also accepts things like class declarations, which will throw at runtime as they will not be called with `new`.',
+              'If the function is expected to accept certain arguments, define the function shape explicitly.',
+            ].join(' '),
+          },
+          Number: {
+            message: 'Use number instead.',
+            fixWith: 'number',
+          },
+          Object: {
+            message: 'Use object instead.',
+            fixWith: 'object',
+          },
+          String: {
+            message: 'Use string instead.',
+            fixWith: 'string',
+          },
+          Symbol: {
+            message: 'Use symbol instead.',
+            fixWith: 'symbol',
+          },
+        },
+      },
+    ],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     /**
      * Formatting should be done by Prettier.

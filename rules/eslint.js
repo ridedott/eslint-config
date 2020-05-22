@@ -5,6 +5,8 @@ module.exports = {
     'capitalized-comments': ['error', 'always', { ignorePattern: 'cspell' }],
     // TypeScript will always make sure return values are correct.
     'consistent-return': 'off',
+    // Duplicate of @typescript-eslint/dot-notation.
+    'dot-notation': 'off',
     // This is handled by @typescript-eslint/member-ordering.
     'grouped-accessor-pairs': 'off',
     // Ignored properties in TypeScript consist of underscores.
