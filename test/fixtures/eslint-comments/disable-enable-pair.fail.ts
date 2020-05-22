@@ -1,4 +1,6 @@
-/* eslint-disable no-unused-vars */
+/* eslint-disable id-length */
 
-const deFoo = bar();
-const fizz = buzz();
+const t = (): void => bar();
+
+/* eslint-disable @typescript-eslint/no-unused-vars */
+const fizz = t();

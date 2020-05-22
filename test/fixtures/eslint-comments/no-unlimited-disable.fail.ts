@@ -1,4 +1,4 @@
-/* eslint-disable eslint-comments/no-use */
 /* eslint-disable unicorn/no-abusive-eslint-disable */
+/* eslint-disable */
 
 const noUnlimitedDisableFail = 0;
