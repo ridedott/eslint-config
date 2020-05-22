@@ -17,3 +17,5 @@ type ReadOnly<T extends Record<string, unknown>> = {
 interface SimpleMap<T> {
   [Key: string]: T;
 }
+
+const ncFnf = (_fail: string): void => bar();

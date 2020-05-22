@@ -14,3 +14,5 @@ const agenices = {
   CIA: true,
   FBI: true,
 };
+
+const ncFn = (_: string): void => bar();

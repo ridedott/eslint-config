@@ -97,6 +97,15 @@ module.exports = {
         format: null,
         selector: 'default',
       },
+      // Allow unused parameters.
+      {
+        filter: {
+          match: true,
+          regex: '_+$',
+        },
+        format: null,
+        selector: 'parameter',
+      },
     ],
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
