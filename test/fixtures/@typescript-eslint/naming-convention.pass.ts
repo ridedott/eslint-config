@@ -17,6 +17,8 @@ const agenices = {
 
 const ncFn = (_: string): void => bar();
 
+const { dontNeedYou: _, ...other } = { dontNeedYou: true };
+
 enum NCE {
   Aaa,
   Bbb,

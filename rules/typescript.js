@@ -119,7 +119,7 @@ module.exports = {
       {
         custom: {
           match: false,
-          regex: 'I[A-Z].+',
+          regex: '^I[A-Z][a-z].+',
         },
         format: ['PascalCase'],
         selector: 'interface',
@@ -137,10 +137,18 @@ module.exports = {
       {
         filter: {
           match: true,
-          regex: '_+$',
+          regex: '^_+$',
         },
         format: null,
         selector: 'parameter',
+      },
+      {
+        filter: {
+          match: true,
+          regex: '^_+$',
+        },
+        format: null,
+        selector: 'variable',
       },
     ],
     '@typescript-eslint/no-dynamic-delete': 'error',

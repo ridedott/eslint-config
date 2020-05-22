@@ -961,7 +961,7 @@ Array [
     "endColumn": 18,
     "endLine": 5,
     "line": 5,
-    "message": "Interface name IPrefix must not match the RegExp: /I[A-Z].+/",
+    "message": "Interface name IPrefix must not match the RegExp: /^I[A-Z][a-z].+/",
     "messageId": "satisfyCustom",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/naming-convention",
