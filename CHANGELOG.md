@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/ridedott/eslint-config/compare/v2.0.1...v2.0.2) (2020-05-25)
+
+### Documentation
+
+- simplify suggested VS Code configuration
+  ([6406936](https://github.com/ridedott/eslint-config/commit/64069361fb87e85c64973bdf533d720720a8e7b0))
+
 ## [2.0.1](https://github.com/ridedott/eslint-config/compare/v2.0.0...v2.0.1) (2020-05-23)
 
 ### Chores
