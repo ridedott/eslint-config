@@ -83,22 +83,16 @@ Add ESLint settings to the workspace settings in `.vscode/settings.json`:
 
 ```json
 {
-  "eslint.autoFixOnSave": true,
   "eslint.codeAction.disableRuleComment": {
     "enable": true,
-    "location": "sameLine"
+    "location": "separateLine"
   },
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
   "eslint.enable": true,
-  "eslint.run": "onType",
-  "eslint.validate": [
-    {
-      "autoFix": true,
-      "language": "typescript"
-    }
-  ]
+  "eslint.lintTask.enable": true,
+  "eslint.run": "onType"
 }
 ```
 
