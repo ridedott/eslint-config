@@ -1,3 +1,10 @@
+## [2.0.7](https://github.com/ridedott/eslint-config/compare/v2.0.6...v2.0.7) (2020-05-26)
+
+### Bug Fixes
+
+- remove a conflicting no-undef-init rule
+  ([38bb26e](https://github.com/ridedott/eslint-config/commit/38bb26e18647c566a82e983851f1f4ff7094c214))
+
 ## [2.0.6](https://github.com/ridedott/eslint-config/compare/v2.0.5...v2.0.6) (2020-05-26)
 
 ### Chores
