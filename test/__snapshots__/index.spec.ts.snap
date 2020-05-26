@@ -482,6 +482,18 @@ Array [
     "nodeType": null,
     "ruleId": "eslint-comments/no-unused-disable",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Remove \`eslint-disable\` comment.",
+        "fix": Object {
+          "range": Array [
+            55,
+            85,
+          ],
+          "text": "",
+        },
+      },
+    ],
   },
   Object {
     "column": 19,
@@ -507,6 +519,18 @@ Array [
     "nodeType": null,
     "ruleId": "eslint-comments/no-unused-disable",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Remove \`eslint-disable\` comment.",
+        "fix": Object {
+          "range": Array [
+            0,
+            54,
+          ],
+          "text": "",
+        },
+      },
+    ],
   },
   Object {
     "column": 0,
@@ -524,14 +548,26 @@ Array [
 exports[`eslintComments rules eslint-comments/no-unused-disable should fail on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 18,
-    "endColumn": 51,
-    "endLine": 2,
-    "line": 2,
-    "message": "'eslint-comments/no-unused-disable' rule is re-enabled but it has not been disabled.",
+    "column": 19,
+    "endColumn": 52,
+    "endLine": 1,
+    "line": 1,
+    "message": "'@typescript-eslint/no-unused-vars' rule is disabled but never reported.",
     "nodeType": null,
-    "ruleId": "eslint-comments/no-unused-enable",
+    "ruleId": "eslint-comments/no-unused-disable",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Remove \`eslint-disable\` comment.",
+        "fix": Object {
+          "range": Array [
+            0,
+            54,
+          ],
+          "text": "",
+        },
+      },
+    ],
   },
 ]
 `;
