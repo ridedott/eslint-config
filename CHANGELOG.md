@@ -1,3 +1,10 @@
+## [2.0.6](https://github.com/ridedott/eslint-config/compare/v2.0.5...v2.0.6) (2020-05-26)
+
+### Chores
+
+- regenerate package-lock.json
+  ([8683600](https://github.com/ridedott/eslint-config/commit/86836007e089316a6cb30319d2aa53f02bb65bd8))
+
 ## [2.0.5](https://github.com/ridedott/eslint-config/compare/v2.0.4...v2.0.5) (2020-05-26)
 
 ### Chores
