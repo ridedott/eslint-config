@@ -44,6 +44,8 @@ module.exports = {
     'no-ternary': 'off',
     // Unnecessary in TypeScript projects.
     'no-undef': 'off',
+    // Conflicts with @typescript-eslint/init-declarations.
+    'no-undef-init': 'off',
     // Only applicable to ECMAScript 3.
     'no-undefined': 'off',
     // Covered by the TypeScript compiler error TS7027.
