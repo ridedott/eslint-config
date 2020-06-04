@@ -14,7 +14,7 @@
     "eslint-plugin-jest": "^23.13.2",
     "eslint-plugin-simple-import-sort": "^5.0.3",
     "eslint-plugin-unicorn": "^20.1.0",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.5"
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
   "devDependencies": {
