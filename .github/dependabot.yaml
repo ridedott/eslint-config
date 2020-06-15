@@ -8,7 +8,7 @@ updates:
     ignore:
       - dependency-name: '@types/node'
         versions:
-          - '> 10'
+          - '>= 13'
     open-pull-requests-limit: 99
     package-ecosystem: npm
     schedule:
