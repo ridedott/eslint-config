@@ -5,8 +5,8 @@
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.2.0",
-    "@typescript-eslint/parser": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^3.3.0",
+    "@typescript-eslint/parser": "^3.3.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-array-func": "^3.1.6",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -68,5 +68,5 @@
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
-  "version": "2.0.22"
+  "version": "2.0.24"
 }
