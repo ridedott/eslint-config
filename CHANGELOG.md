@@ -1,3 +1,10 @@
+## [2.0.25](https://github.com/ridedott/eslint-config/compare/v2.0.24...v2.0.25) (2020-06-16)
+
+### Chores
+
+- update Dependabot configuration to v2
+  ([1012b22](https://github.com/ridedott/eslint-config/commit/1012b223005658d3e0188ee407da7dc6cc1459f8))
+
 ## [2.0.24](https://github.com/ridedott/eslint-config/compare/v2.0.23...v2.0.24) (2020-06-16)
 
 ### Chores
