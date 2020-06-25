@@ -1,3 +1,52 @@
+## [2.0.25](https://github.com/ridedott/eslint-config/compare/v2.0.24...v2.0.25) (2020-06-16)
+
+### Chores
+
+- update Dependabot configuration to v2
+  ([1012b22](https://github.com/ridedott/eslint-config/commit/1012b223005658d3e0188ee407da7dc6cc1459f8))
+
+## [2.0.24](https://github.com/ridedott/eslint-config/compare/v2.0.23...v2.0.24) (2020-06-16)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 3.2.0 to 3.3.0
+  ([1e23ee6](https://github.com/ridedott/eslint-config/commit/1e23ee6550d775d5a102534e9e475f3664c84405))
+
+## [2.0.23](https://github.com/ridedott/eslint-config/compare/v2.0.22...v2.0.23) (2020-06-16)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/eslint-plugin from 3.2.0 to 3.3.0
+  ([b467527](https://github.com/ridedott/eslint-config/commit/b467527465ce1ce995355cecca65e78830b514a0))
+
+## [2.0.22](https://github.com/ridedott/eslint-config/compare/v2.0.21...v2.0.22) (2020-06-15)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 10.2.9 to 10.2.10
+  ([dc491a2](https://github.com/ridedott/eslint-config/commit/dc491a25d2b22788aad7c76b0331ff703ca72974))
+
+## [2.0.21](https://github.com/ridedott/eslint-config/compare/v2.0.20...v2.0.21) (2020-06-11)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/eslint-plugin from 3.0.2 to 3.2.0
+  ([325b991](https://github.com/ridedott/eslint-config/commit/325b991e6d53e91bd390da71f847f310d5c8ae79))
+
+## [2.0.20](https://github.com/ridedott/eslint-config/compare/v2.0.19...v2.0.20) (2020-06-10)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 25.2.3 to 26.0.0
+  ([7e91003](https://github.com/ridedott/eslint-config/commit/7e91003d20b32a317b8bfee93addbf33e15c5304))
+
+## [2.0.19](https://github.com/ridedott/eslint-config/compare/v2.0.18...v2.0.19) (2020-06-09)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 3.1.0 to 3.2.0
+  ([34676e3](https://github.com/ridedott/eslint-config/commit/34676e3bbf7f4b1c4ffbadf4ea3650d5754f3a62))
+
 ## [2.0.18](https://github.com/ridedott/eslint-config/compare/v2.0.17...v2.0.18) (2020-06-08)
 
 ### Chores
