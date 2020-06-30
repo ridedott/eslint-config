@@ -1,3 +1,14 @@
+## [2.0.29](https://github.com/ridedott/eslint-config/compare/v2.0.28...v2.0.29) (2020-06-30)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 8.3.5 to 9.0.1
+  ([424fd1d](https://github.com/ridedott/eslint-config/commit/424fd1d7ae90c84d6073d5a6c024e887bc77ac7e))
+- **deps-dev:** bump @types/jest from 26.0.0 to 26.0.3
+  ([6608944](https://github.com/ridedott/eslint-config/commit/6608944b19c7a335e13cd95f26e4f01b2dfb30e9))
+- **deps-dev:** bump lint-staged from 10.2.10 to 10.2.11
+  ([b493e01](https://github.com/ridedott/eslint-config/commit/b493e013a728aa3964c432321f0739e560276c82))
+
 ## [2.0.28](https://github.com/ridedott/eslint-config/compare/v2.0.27...v2.0.28) (2020-06-30)
 
 ### Continuous Integration
