@@ -1,3 +1,16 @@
+## [2.0.30](https://github.com/ridedott/eslint-config/compare/v2.0.29...v2.0.30) (2020-06-30)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 3.3.0 to 3.5.0
+  ([2c6b2b6](https://github.com/ridedott/eslint-config/commit/2c6b2b68c66065933785862d4d983b47e656b0d2))
+- **deps-dev:** bump @commitlint/config-conventional from 8.3.4 to 9.0.1
+  ([feaabff](https://github.com/ridedott/eslint-config/commit/feaabffa38a4e768a561d49830ad24c3d25e6743))
+- **deps-dev:** bump @types/node from 10.17.24 to 12.12.47
+  ([3d02c13](https://github.com/ridedott/eslint-config/commit/3d02c134e1307729cc0c3907045daab9dace2e98))
+- **deps-dev:** bump ts-jest from 26.1.0 to 26.1.1
+  ([2ee2766](https://github.com/ridedott/eslint-config/commit/2ee2766da5ba2af3ef90eddcfaf2339f7ae29261))
+
 ## [2.0.29](https://github.com/ridedott/eslint-config/compare/v2.0.28...v2.0.29) (2020-06-30)
 
 ### Chores
