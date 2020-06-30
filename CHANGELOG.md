@@ -1,3 +1,10 @@
+## [2.0.27](https://github.com/ridedott/eslint-config/compare/v2.0.26...v2.0.27) (2020-06-30)
+
+### Bug Fixes
+
+- use a correct name of jest/no-try-expect rule
+  ([b409495](https://github.com/ridedott/eslint-config/commit/b4094954a6b68a305746f359abc1eedc5f13beda))
+
 ## [2.0.26](https://github.com/ridedott/eslint-config/compare/v2.0.25...v2.0.26) (2020-06-30)
 
 ### Chores
