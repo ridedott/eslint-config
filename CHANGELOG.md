@@ -1,3 +1,10 @@
+## [2.0.28](https://github.com/ridedott/eslint-config/compare/v2.0.27...v2.0.28) (2020-06-30)
+
+### Continuous Integration
+
+- use a correct bot name for the Merge me! Action
+  ([7a9639c](https://github.com/ridedott/eslint-config/commit/7a9639c429c58bfde5e568b767cd21259e6b648f))
+
 ## [2.0.27](https://github.com/ridedott/eslint-config/compare/v2.0.26...v2.0.27) (2020-06-30)
 
 ### Bug Fixes
