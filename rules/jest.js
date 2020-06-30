@@ -5,7 +5,7 @@ module.exports = {
     'jest/no-hooks': 'off',
     'jest/no-large-snapshots': 'off',
     // Can be safely used thanks to jest/prefer-expect-assertions.
-    'jest/try-expect': 'off',
+    'jest/no-try-expect': 'off',
     // Can be safely used thanks to jest/prefer-expect-assertions.
     'jest/no-conditional-expect': 'off',
     'jest/require-top-level-describe': 'off',
