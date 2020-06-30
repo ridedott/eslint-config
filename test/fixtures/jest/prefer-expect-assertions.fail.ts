@@ -1,8 +1,3 @@
-it('my test', () => {
-  expect.assertions('1');
-  expect(1).toEqual('foo');
-});
-
-it('my test', () => {
+it('my second test', (): void => {
   expect(1).toStrictEqual('foo');
 });
