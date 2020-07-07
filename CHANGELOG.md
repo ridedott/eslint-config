@@ -1,3 +1,118 @@
+## [2.0.40](https://github.com/ridedott/eslint-config/compare/v2.0.39...v2.0.40) (2020-07-07)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/eslint-plugin from 3.3.0 to 3.6.0
+  ([24e8133](https://github.com/ridedott/eslint-config/commit/24e8133baa4130c13ee8aaca60d86f6012d6ce2d))
+
+## [2.0.39](https://github.com/ridedott/eslint-config/compare/v2.0.38...v2.0.39) (2020-07-07)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 12.12.47 to 12.12.48
+  ([5d782aa](https://github.com/ridedott/eslint-config/commit/5d782aaff35f13c851c591360ab2ff7364279f87))
+
+## [2.0.38](https://github.com/ridedott/eslint-config/compare/v2.0.37...v2.0.38) (2020-07-07)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 3.5.0 to 3.6.0
+  ([05b66bb](https://github.com/ridedott/eslint-config/commit/05b66bbfc47da56a69171527ec04a8483d920b10))
+
+## [2.0.37](https://github.com/ridedott/eslint-config/compare/v2.0.36...v2.0.37) (2020-07-07)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 26.0.3 to 26.0.4
+  ([3eb2128](https://github.com/ridedott/eslint-config/commit/3eb2128b09da2af8cfac0b142998b13c143588da))
+
+## [2.0.36](https://github.com/ridedott/eslint-config/compare/v2.0.35...v2.0.36) (2020-07-06)
+
+### Chores
+
+- **deps-dev:** bump eslint from 7.3.1 to 7.4.0
+  ([01dfe89](https://github.com/ridedott/eslint-config/commit/01dfe894d7509d083ac408ed266922231ccaf0e5))
+
+## [2.0.35](https://github.com/ridedott/eslint-config/compare/v2.0.34...v2.0.35) (2020-07-06)
+
+### Chores
+
+- **deps:** bump eslint-plugin-jest from 23.17.1 to 23.18.0
+  ([3345d00](https://github.com/ridedott/eslint-config/commit/3345d00c080d4d2ad874fc6e7f1a25ca75179782))
+
+## [2.0.34](https://github.com/ridedott/eslint-config/compare/v2.0.33...v2.0.34) (2020-07-02)
+
+### Chores
+
+- **deps:** bump typescript from 3.9.5 to 3.9.6
+  ([674aadd](https://github.com/ridedott/eslint-config/commit/674aaddd19fb4deb7dccc509b77d6e11bee2e200))
+
+## [2.0.33](https://github.com/ridedott/eslint-config/compare/v2.0.32...v2.0.33) (2020-06-30)
+
+### Chores
+
+- **deps-dev:** bump eslint from 7.2.0 to 7.3.1
+  ([273b598](https://github.com/ridedott/eslint-config/commit/273b598b596333484d75659455c89edf320971f7))
+
+## [2.0.32](https://github.com/ridedott/eslint-config/compare/v2.0.31...v2.0.32) (2020-06-30)
+
+### Chores
+
+- **deps-dev:** bump eslint from 7.2.0 to 7.3.0
+  ([39be0fc](https://github.com/ridedott/eslint-config/commit/39be0fce86ad80641900f3c12754c7e0a46df93c))
+
+## [2.0.31](https://github.com/ridedott/eslint-config/compare/v2.0.30...v2.0.31) (2020-06-30)
+
+### Chores
+
+- **deps-dev:** bump jest from 26.0.1 to 26.1.0
+  ([156ee32](https://github.com/ridedott/eslint-config/commit/156ee321f9ad27123ecb781098d4a6e3d2a3d63a))
+
+## [2.0.30](https://github.com/ridedott/eslint-config/compare/v2.0.29...v2.0.30) (2020-06-30)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 3.3.0 to 3.5.0
+  ([2c6b2b6](https://github.com/ridedott/eslint-config/commit/2c6b2b68c66065933785862d4d983b47e656b0d2))
+- **deps-dev:** bump @commitlint/config-conventional from 8.3.4 to 9.0.1
+  ([feaabff](https://github.com/ridedott/eslint-config/commit/feaabffa38a4e768a561d49830ad24c3d25e6743))
+- **deps-dev:** bump @types/node from 10.17.24 to 12.12.47
+  ([3d02c13](https://github.com/ridedott/eslint-config/commit/3d02c134e1307729cc0c3907045daab9dace2e98))
+- **deps-dev:** bump ts-jest from 26.1.0 to 26.1.1
+  ([2ee2766](https://github.com/ridedott/eslint-config/commit/2ee2766da5ba2af3ef90eddcfaf2339f7ae29261))
+
+## [2.0.29](https://github.com/ridedott/eslint-config/compare/v2.0.28...v2.0.29) (2020-06-30)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 8.3.5 to 9.0.1
+  ([424fd1d](https://github.com/ridedott/eslint-config/commit/424fd1d7ae90c84d6073d5a6c024e887bc77ac7e))
+- **deps-dev:** bump @types/jest from 26.0.0 to 26.0.3
+  ([6608944](https://github.com/ridedott/eslint-config/commit/6608944b19c7a335e13cd95f26e4f01b2dfb30e9))
+- **deps-dev:** bump lint-staged from 10.2.10 to 10.2.11
+  ([b493e01](https://github.com/ridedott/eslint-config/commit/b493e013a728aa3964c432321f0739e560276c82))
+
+## [2.0.28](https://github.com/ridedott/eslint-config/compare/v2.0.27...v2.0.28) (2020-06-30)
+
+### Continuous Integration
+
+- use a correct bot name for the Merge me! Action
+  ([7a9639c](https://github.com/ridedott/eslint-config/commit/7a9639c429c58bfde5e568b767cd21259e6b648f))
+
+## [2.0.27](https://github.com/ridedott/eslint-config/compare/v2.0.26...v2.0.27) (2020-06-30)
+
+### Bug Fixes
+
+- use a correct name of jest/no-try-expect rule
+  ([b409495](https://github.com/ridedott/eslint-config/commit/b4094954a6b68a305746f359abc1eedc5f13beda))
+
+## [2.0.26](https://github.com/ridedott/eslint-config/compare/v2.0.25...v2.0.26) (2020-06-30)
+
+### Chores
+
+- **deps:** bump eslint-plugin-jest from 23.13.2 to 23.17.1
+  ([cfdf830](https://github.com/ridedott/eslint-config/commit/cfdf830fd754cbe8c6a6da81845a8ca94a5a885f))
+
 ## [2.0.25](https://github.com/ridedott/eslint-config/compare/v2.0.24...v2.0.25) (2020-06-16)
 
 ### Chores
