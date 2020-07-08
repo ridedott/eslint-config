@@ -7,3 +7,4 @@ export * from './overrides';
 export * from './simple-import-sort';
 export * from './@typescript-eslint';
 export * from './unicorn';
+export * from './@ridedott';
