@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/ridedott/eslint-config/compare/v2.0.40...v2.1.0) (2020-07-08)
+
+### Features
+
+- add @ridedott eslint plugin
+  ([a5b3e12](https://github.com/ridedott/eslint-config/commit/a5b3e120ee61c0ca922fbe48870ee96528db80a7))
+
 ## [2.0.40](https://github.com/ridedott/eslint-config/compare/v2.0.39...v2.0.40) (2020-07-07)
 
 ### Chores
