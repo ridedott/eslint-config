@@ -807,6 +807,13 @@ Array [
     "column": 1,
     "endColumn": 4,
     "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        0,
+        37,
+      ],
+      "text": "// Only one line in this block",
+    },
     "line": 1,
     "message": "Use line comment notation instead.",
     "messageId": "useSingleLineNotation",
@@ -818,6 +825,13 @@ Array [
     "column": 1,
     "endColumn": 48,
     "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        39,
+        86,
+      ],
+      "text": "// Only one line in this block (single line)",
+    },
     "line": 5,
     "message": "Use line comment notation instead.",
     "messageId": "useSingleLineNotation",
