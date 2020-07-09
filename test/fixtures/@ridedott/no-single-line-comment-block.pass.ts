@@ -8,3 +8,5 @@
  */
 
 // Only one line in comment notation
+
+/* cspell:ignore timeshift logstash */
