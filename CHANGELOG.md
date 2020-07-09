@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/ridedott/eslint-config/compare/v2.1.1...v2.1.2) (2020-07-09)
+
+### Bug Fixes
+
+- ignore cspell for no-single-line-comment-block
+  ([f4c7eb5](https://github.com/ridedott/eslint-config/commit/f4c7eb5892fc909881c8144e8deed83235e3f8b0))
+
 ## [2.1.1](https://github.com/ridedott/eslint-config/compare/v2.1.0...v2.1.1) (2020-07-09)
 
 ### Chores
