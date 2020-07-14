@@ -1,3 +1,10 @@
+## [2.1.7](https://github.com/ridedott/eslint-config/compare/v2.1.6...v2.1.7) (2020-07-14)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional from 9.0.1 to 9.1.1
+  ([90311f0](https://github.com/ridedott/eslint-config/commit/90311f0aaf681565bef5e1c153c62591f2e5f6b6))
+
 ## [2.1.6](https://github.com/ridedott/eslint-config/compare/v2.1.5...v2.1.6) (2020-07-14)
 
 ### Chores
