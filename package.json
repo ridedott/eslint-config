@@ -22,7 +22,7 @@
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.0.1",
     "@types/jest": "^26.0.4",
-    "@types/node": "^12.12.48",
+    "@types/node": "^12.12.50",
     "commitizen": "^4.1.2",
     "eslint": "^7.4.0",
     "husky": "^4.2.5",
