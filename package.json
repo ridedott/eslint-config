@@ -20,7 +20,7 @@
   "description": "Safety-oriented, fp-first configuration of ESLint.",
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.0.1",
+    "@commitlint/config-conventional": "^9.1.1",
     "@types/jest": "^26.0.4",
     "@types/node": "^12.12.50",
     "commitizen": "^4.1.2",
