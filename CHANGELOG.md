@@ -1,3 +1,10 @@
+## [2.1.20](https://github.com/ridedott/eslint-config/compare/v2.1.19...v2.1.20) (2020-07-28)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 3.7.0 to 3.7.1
+  ([869c370](https://github.com/ridedott/eslint-config/commit/869c370a7ac2cd4899dcba149c7cc57640fe5df9))
+
 ## [2.1.19](https://github.com/ridedott/eslint-config/compare/v2.1.18...v2.1.19) (2020-07-28)
 
 ### Chores
