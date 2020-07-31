@@ -21,7 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
     "@commitlint/config-conventional": "^9.1.1",
-    "@types/jest": "^26.0.7",
+    "@types/jest": "^26.0.8",
     "@types/node": "^12.12.53",
     "commitizen": "^4.1.2",
     "eslint": "^7.4.0",
