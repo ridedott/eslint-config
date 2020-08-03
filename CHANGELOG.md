@@ -1,3 +1,10 @@
+## [2.1.23](https://github.com/ridedott/eslint-config/compare/v2.1.22...v2.1.23) (2020-08-03)
+
+### Chores
+
+- **deps-dev:** bump jest from 26.2.1 to 26.2.2
+  ([bbe45d7](https://github.com/ridedott/eslint-config/commit/bbe45d7c364ec071f18635ab33d87253735b13b0))
+
 ## [2.1.22](https://github.com/ridedott/eslint-config/compare/v2.1.21...v2.1.22) (2020-07-31)
 
 ### Chores
