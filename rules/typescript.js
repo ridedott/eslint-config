@@ -165,7 +165,11 @@ module.exports = {
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-magic-numbers': [
       'error',
-      { ignore: [-1, 0, 1], ignoreNumericLiteralTypes: true },
+      {
+        ignore: [-1, 0, 1],
+        ignoreEnums: true,
+        ignoreNumericLiteralTypes: true,
+      },
     ],
     /*
      * Custom objects are often used in class-free applications.
