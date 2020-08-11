@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/ridedott/eslint-config/compare/v2.1.28...v2.2.0) (2020-08-11)
+
+### Features
+
+- ignore magic numbers in enums
+  ([e46f963](https://github.com/ridedott/eslint-config/commit/e46f963fb67c888a8ffd03ae6fc5747de505d4ba))
+
 ## [2.1.28](https://github.com/ridedott/eslint-config/compare/v2.1.27...v2.1.28) (2020-08-11)
 
 ### Chores
