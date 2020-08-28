@@ -24,7 +24,7 @@
     "@types/jest": "^26.0.10",
     "@types/node": "^12.12.54",
     "commitizen": "^4.2.1",
-    "eslint": "^7.4.0",
+    "eslint": "^7.7.0",
     "husky": "^4.2.5",
     "jest": "^26.4.2",
     "lint-staged": "^10.2.13",
@@ -54,7 +54,7 @@
   "main": "index.js",
   "name": "@ridedott/eslint-config",
   "peerDependencies": {
-    "eslint": "^7.4.0"
+    "eslint": "^7.7.0"
   },
   "repository": {
     "type": "git",
