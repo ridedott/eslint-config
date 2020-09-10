@@ -15,6 +15,7 @@ module.exports = {
     // lines being used.
     // Duplicate of @typescript-eslint/lines-between-class-members.
     'lines-between-class-members': 'off',
+    'max-lines': 'off',
     'max-lines-per-function': ['error', { max: 70 }],
     // Using functions and firestore result in a higher number of statements
     // being used.
