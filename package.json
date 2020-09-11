@@ -22,7 +22,7 @@
     "@commitlint/cli": "^9.1.2",
     "@commitlint/config-conventional": "^9.1.2",
     "@types/jest": "^26.0.13",
-    "@types/node": "^12.12.56",
+    "@types/node": "^12.12.57",
     "commitizen": "^4.2.1",
     "eslint": "^7.4.0",
     "husky": "^4.3.0",
@@ -69,5 +69,5 @@
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
-  "version": "2.2.24"
+  "version": "2.2.25"
 }
