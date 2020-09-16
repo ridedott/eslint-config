@@ -1,3 +1,10 @@
+## [2.2.32](https://github.com/ridedott/eslint-config/compare/v2.2.31...v2.2.32) (2020-09-16)
+
+### Chores
+
+- **deps:** bump lodash from 4.17.15 to 4.17.20
+  ([e9a5d95](https://github.com/ridedott/eslint-config/commit/e9a5d95554e6dbddfac15c8e78c3de62ae75b8c0))
+
 ## [2.2.31](https://github.com/ridedott/eslint-config/compare/v2.2.30...v2.2.31) (2020-09-16)
 
 ### Chores
