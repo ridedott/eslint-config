@@ -1,3 +1,10 @@
+## [2.3.7](https://github.com/ridedott/eslint-config/compare/v2.3.6...v2.3.7) (2020-09-17)
+
+### Bug Fixes
+
+- disable @typescrip-eslint/consistent-type-imports
+  ([4bddd40](https://github.com/ridedott/eslint-config/commit/4bddd405230487f91c2031497d0985f07ef63fb9))
+
 ## [2.3.6](https://github.com/ridedott/eslint-config/compare/v2.3.5...v2.3.6) (2020-09-17)
 
 ### Chores
