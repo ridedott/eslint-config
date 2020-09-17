@@ -589,6 +589,8 @@ Array [
   },
   Object {
     "column": 1,
+    "endColumn": 196,
+    "endLine": 1,
     "line": 1,
     "message": "This line has a comment length of 195. Maximum allowed is 80.",
     "messageId": "maxComment",
@@ -769,6 +771,8 @@ exports[`overrides rules max-len should fail on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
+    "endColumn": 83,
+    "endLine": 3,
     "line": 3,
     "message": "This line has a comment length of 82. Maximum allowed is 80.",
     "messageId": "maxComment",
@@ -2255,7 +2259,7 @@ Array [
     "endColumn": 23,
     "endLine": 11,
     "line": 11,
-    "message": "Unexpected 'todo' comment.",
+    "message": "Unexpected 'todo' comment: 'TODO: Add unicorns.'.",
     "messageId": "unexpectedComment",
     "nodeType": "Line",
     "ruleId": "unicorn/expiring-todo-comments",
