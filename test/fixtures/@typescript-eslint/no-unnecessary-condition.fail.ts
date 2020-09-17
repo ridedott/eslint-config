@@ -16,8 +16,3 @@ function noUnnecessaryConditionFail2(arg: 'bar' | 'baz') {
   if (arg) {
   }
 }
-
-function noUnnecessaryConditionFail3(arg: string) {
-  // Arg can never be nullish, so ?. is unnecessary
-  return arg?.length;
-}
