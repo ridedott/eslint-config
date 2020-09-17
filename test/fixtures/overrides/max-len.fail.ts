@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable unicorn/prevent-abbreviations */
 /**
  * This is a comment that violates the maximum line length specified for comments.

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable unicorn/prevent-abbreviations */
 /**
  * This is a comment that complies with the maximum line length we have

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable unicorn/prevent-abbreviations */
 
 const arrayTypeFail1: Array<string | number> = ['a', 'b'];

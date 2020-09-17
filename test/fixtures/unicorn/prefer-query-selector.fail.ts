@@ -4,4 +4,4 @@
  * The fixture bellow fails for a different reason on purpose.
  */
 
-const hereTofailThisFixture2 = 0;
+const hereTofailThisFixture2 = 0 << 1;

@@ -1,9 +1,30 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
-    "lib": ["ES2019"],
+    "allowSyntheticDefaultImports": false,
+    "alwaysStrict": true,
+    "charset": "utf-8",
+    "declaration": false,
+    "downlevelIteration": false,
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "error",
+    "lib": ["ES2020"],
     "module": "commonjs",
-    "target": "ES2019"
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./lib",
+    "pretty": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "target": "ES2020",
+    "typeRoots": ["./@types", "./node_modules/@types"]
   },
-  "include": ["test/**/*.ts"]
+  "include": ["./test/**/*"]
 }

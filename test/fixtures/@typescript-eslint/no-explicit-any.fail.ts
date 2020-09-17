@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-unused-vars-experimental */
 /* eslint-disable unicorn/prevent-abbreviations */
 
 const bar1 = (...args: any[]): void => {};

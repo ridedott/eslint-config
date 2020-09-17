@@ -2,5 +2,6 @@
 
 const t = (): void => bar();
 
-/* eslint-disable @typescript-eslint/no-unused-vars */
-const fizz = t();
+/* eslint-disable no-bitwise */
+
+const fizz = 0 << 1;

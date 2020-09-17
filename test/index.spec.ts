@@ -47,7 +47,7 @@ const configuredRules = {
   simpleImportSort,
   typescriptEslint,
   unicorn,
-};
+} as const;
 
 const configuredRulesToOriginalMap = {
   arrayFunc: arrayFuncRules,
@@ -103,7 +103,7 @@ const lintFixture = async ({
   return report.results[0];
 };
 
-const getRuleName = (configuredRule: string): string => {
+const getRuleName = (configuredRule: string): string  => {
   /**
    * Rules from plugins are prefixed but rules from Eslint are not.
    */
@@ -112,13 +112,13 @@ const getRuleName = (configuredRule: string): string => {
   const match = regex.exec(configuredRule);
 
   if (match === null) {
-    return;
+    return 'unknown';
   }
 
   const { groups } = match;
 
   if (groups === undefined) {
-    return;
+    return 'unknown';
   }
 
   const { prefixed, unPrefixed } = groups;

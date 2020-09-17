@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable prefer-named-capture-group */
 /* eslint-disable require-unicode-regexp */
 /* eslint-disable unicorn/better-regex */
