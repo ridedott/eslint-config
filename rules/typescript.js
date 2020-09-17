@@ -43,6 +43,10 @@ module.exports = {
     ],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     /**
+     * Conflicts with simple-import-sort/sort.
+     */
+    '@typescrip-eslint/consistent-type-imports': 'off',
+    /**
      * Formatting should be done by Prettier.
      */
     '@typescript-eslint/comma-spacing': 'off',
