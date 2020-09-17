@@ -15,6 +15,10 @@ module.exports = {
     // lines being used.
     // Duplicate of @typescript-eslint/lines-between-class-members.
     'lines-between-class-members': 'off',
+    // This rule was initially enabled, however in practice it appears that
+    // developers can judge better if the file is too large or not, with many
+    // valid exceptions created over time.
+    'max-lines': 'off',
     'max-lines-per-function': ['error', { max: 70 }],
     // Using functions and firestore result in a higher number of statements
     // being used.
