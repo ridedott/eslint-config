@@ -4,6 +4,6 @@ const catchErrorNamePass = () => {};
 
 try {
   catchErrorNamePass();
-} catch (error) {
+} catch (error: unknown) {
   // …
 }

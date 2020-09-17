@@ -4,6 +4,6 @@ const catchErrorNameFail = () => {};
 
 try {
   catchErrorNameFail();
-} catch (ohNoes) {
+} catch (ohNoes: unknown) {
   // …
 }

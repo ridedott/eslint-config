@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 const myFavoriteColor = '#112C85';
 
 const query = { categoryId: 1 };
@@ -20,8 +18,8 @@ const ncFn = (_: string): void => bar();
 const { dontNeedYou: _, ...other } = { dontNeedYou: true };
 
 enum NCE {
-  Aaa,
-  Bbb,
+  Aaa = 'a',
+  Bbb = 'b',
 }
 
 const { Aaa } = NCE;

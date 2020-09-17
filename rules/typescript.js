@@ -220,10 +220,15 @@ module.exports = {
      * explicit-module-boundary-types as of @typescript-eslint/* v2.17.0.
      */
     '@typescript-eslint/no-untyped-public-signature': 'off',
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      { ignoreRestSiblings: true },
-    ],
+    /**
+     * Use TypeScript compiler options `noUnusedLocals` and `noUnusedParameters`
+     * instead.
+     */
+    '@typescript-eslint/no-unused-vars': 'off',
+    /**
+     * Superseded by @typescript-eslint/no-unused-vars.
+     */
+    '@typescript-eslint/no-unused-vars-experimental': 'off',
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
       {
@@ -238,10 +243,15 @@ module.exports = {
      * mark function parameters as readonly.
      */
     '@typescript-eslint/prefer-readonly-parameter-types': 'off',
-    // Conflicts with @typescript-eslint/typedef
+    // Conflicts with @typescript-eslint/typedef.
     '@typescript-eslint/prefer-reduce-type-parameter': 'off',
     '@typescript-eslint/promise-function-async': ['error', { allowAny: true }],
     '@typescript-eslint/return-await': ['error', 'in-try-catch'],
+    /**
+     * Use TypeScript compiler options `noImplicitAny` and
+     * `strictPropertyInitialization` instead.
+     */
+    '@typescript-eslint/typedef': 'off',
     // Code should be formatted using Prettier.
     '@typescript-eslint/quotes': 'off',
     // Conflicts with @typescript-eslint/promise-function-async.

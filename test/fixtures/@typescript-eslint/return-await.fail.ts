@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/await-thenable */
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable func-style */
 /* eslint-disable id-length */
 /* eslint-disable no-empty */
@@ -10,7 +9,7 @@
 async function invalidInTryCatch1() {
   try {
     return Promise.resolve('try');
-  } catch (e) {}
+  } catch (e: unknown) {}
 }
 
 async function invalidInTryCatch2() {

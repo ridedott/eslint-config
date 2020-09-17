@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/typedef */
 /* eslint-disable unicorn/prevent-abbreviations */
 
 /*

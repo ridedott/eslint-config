@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable unicorn/no-hex-escape */
 
 const escapeCasePass1 = '\xA9';

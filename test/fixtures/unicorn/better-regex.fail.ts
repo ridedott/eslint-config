@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable require-unicode-regexp */
 
 const regexShorthandFail1 = /[0-9]/;

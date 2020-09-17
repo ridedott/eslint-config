@@ -5,4 +5,4 @@
  * See: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-nullish-coalescing.md
  */
 
-const somethingShouldFailNow = 1;
+const somethingShouldFailNow = 0 << 1;

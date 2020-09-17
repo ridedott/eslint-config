@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-
 const regexFail1 = /^(a?){25}(a){25}$/;
 const regexFail2 = RegExp(Array(27).join('a?') + Array(27).join('a'));
 const regexFail3 = /(x+x+)+y/;

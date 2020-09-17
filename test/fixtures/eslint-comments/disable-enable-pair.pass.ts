@@ -1,3 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-const passDisableEnable = bar();
-/* eslint-enable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-bitwise */
+const passDisableEnable = 0 << 1;
+/* eslint-enable no-bitwise */
