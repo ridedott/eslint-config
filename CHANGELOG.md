@@ -1,3 +1,10 @@
+## [2.3.8](https://github.com/ridedott/eslint-config/compare/v2.3.7...v2.3.8) (2020-09-17)
+
+### Bug Fixes
+
+- correct a typo in @typescript-eslint/consistent-type-imports rule name
+  ([a07595e](https://github.com/ridedott/eslint-config/commit/a07595e11e548ce732cebb9eb95eba3f5365c959))
+
 ## [2.3.7](https://github.com/ridedott/eslint-config/compare/v2.3.6...v2.3.7) (2020-09-17)
 
 ### Bug Fixes
