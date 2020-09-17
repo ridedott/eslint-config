@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/ridedott/eslint-config/compare/v2.2.35...v2.3.0) (2020-09-17)
+
+### Features
+
+- disable max-lines rule
+  ([20a99dc](https://github.com/ridedott/eslint-config/commit/20a99dcb54c589288c2789f36e611fcb04eced04))
+
 ## [2.2.35](https://github.com/ridedott/eslint-config/compare/v2.2.34...v2.2.35) (2020-09-17)
 
 ### Chores
