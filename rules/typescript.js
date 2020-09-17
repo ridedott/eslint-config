@@ -45,7 +45,7 @@ module.exports = {
     /**
      * Conflicts with simple-import-sort/sort.
      */
-    '@typescrip-eslint/consistent-type-imports': 'off',
+    '@typescript-eslint/consistent-type-imports': 'off',
     /**
      * Formatting should be done by Prettier.
      */
