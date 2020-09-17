@@ -8,8 +8,8 @@ Array [
     "endLine": 6,
     "fix": Object {
       "range": Array [
-        undefined,
-        undefined,
+        231,
+        247,
       ],
       "text": "reduceRight",
     },
@@ -36,8 +36,8 @@ Array [
     "endLine": 8,
     "fix": Object {
       "range": Array [
-        undefined,
-        undefined,
+        296,
+        317,
       ],
       "text": "reduce",
     },
