@@ -2512,15 +2512,15 @@ Array [
   Object {
     "column": 13,
     "endColumn": 19,
-    "endLine": 4,
+    "endLine": 3,
     "fix": Object {
       "range": Array [
-        117,
-        121,
+        46,
+        50,
       ],
       "text": "abc",
     },
-    "line": 4,
+    "line": 3,
     "message": "Do not use leading/trailing space between \`console.log\` parameters.",
     "nodeType": "Literal",
     "ruleId": "unicorn/no-console-spaces",
@@ -2529,15 +2529,15 @@ Array [
   Object {
     "column": 20,
     "endColumn": 26,
-    "endLine": 5,
+    "endLine": 4,
     "fix": Object {
       "range": Array [
-        152,
-        156,
+        81,
+        85,
       ],
       "text": "def",
     },
-    "line": 5,
+    "line": 4,
     "message": "Do not use leading/trailing space between \`console.log\` parameters.",
     "nodeType": "Literal",
     "ruleId": "unicorn/no-console-spaces",
@@ -2546,15 +2546,15 @@ Array [
   Object {
     "column": 13,
     "endColumn": 19,
-    "endLine": 7,
+    "endLine": 6,
     "fix": Object {
       "range": Array [
-        174,
-        178,
+        103,
+        107,
       ],
       "text": "abc",
     },
-    "line": 7,
+    "line": 6,
     "message": "Do not use leading/trailing space between \`console.log\` parameters.",
     "nodeType": "Literal",
     "ruleId": "unicorn/no-console-spaces",
@@ -2563,15 +2563,15 @@ Array [
   Object {
     "column": 21,
     "endColumn": 27,
-    "endLine": 7,
+    "endLine": 6,
     "fix": Object {
       "range": Array [
-        182,
-        186,
+        111,
+        115,
       ],
       "text": "def",
     },
-    "line": 7,
+    "line": 6,
     "message": "Do not use leading/trailing space between \`console.log\` parameters.",
     "nodeType": "Literal",
     "ruleId": "unicorn/no-console-spaces",
@@ -2580,15 +2580,15 @@ Array [
   Object {
     "column": 13,
     "endColumn": 19,
-    "endLine": 8,
+    "endLine": 7,
     "fix": Object {
       "range": Array [
-        203,
-        207,
+        132,
+        136,
       ],
       "text": "abc",
     },
-    "line": 8,
+    "line": 7,
     "message": "Do not use leading/trailing space between \`console.log\` parameters.",
     "nodeType": "TemplateLiteral",
     "ruleId": "unicorn/no-console-spaces",
@@ -2597,15 +2597,15 @@ Array [
   Object {
     "column": 21,
     "endColumn": 27,
-    "endLine": 8,
+    "endLine": 7,
     "fix": Object {
       "range": Array [
-        211,
-        215,
+        140,
+        144,
       ],
       "text": "def",
     },
-    "line": 8,
+    "line": 7,
     "message": "Do not use leading/trailing space between \`console.log\` parameters.",
     "nodeType": "TemplateLiteral",
     "ruleId": "unicorn/no-console-spaces",
@@ -2614,16 +2614,33 @@ Array [
   Object {
     "column": 15,
     "endColumn": 21,
+    "endLine": 9,
+    "fix": Object {
+      "range": Array [
+        164,
+        168,
+      ],
+      "text": "abc",
+    },
+    "line": 9,
+    "message": "Do not use leading/trailing space between \`console.debug\` parameters.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/no-console-spaces",
+    "severity": 2,
+  },
+  Object {
+    "column": 14,
+    "endColumn": 20,
     "endLine": 10,
     "fix": Object {
       "range": Array [
-        235,
-        239,
+        193,
+        197,
       ],
       "text": "abc",
     },
     "line": 10,
-    "message": "Do not use leading/trailing space between \`console.debug\` parameters.",
+    "message": "Do not use leading/trailing space between \`console.info\` parameters.",
     "nodeType": "Literal",
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
@@ -2634,29 +2651,12 @@ Array [
     "endLine": 11,
     "fix": Object {
       "range": Array [
-        264,
-        268,
+        222,
+        226,
       ],
       "text": "abc",
     },
     "line": 11,
-    "message": "Do not use leading/trailing space between \`console.info\` parameters.",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/no-console-spaces",
-    "severity": 2,
-  },
-  Object {
-    "column": 14,
-    "endColumn": 20,
-    "endLine": 12,
-    "fix": Object {
-      "range": Array [
-        293,
-        297,
-      ],
-      "text": "abc",
-    },
-    "line": 12,
     "message": "Do not use leading/trailing space between \`console.warn\` parameters.",
     "nodeType": "Literal",
     "ruleId": "unicorn/no-console-spaces",
@@ -2665,15 +2665,15 @@ Array [
   Object {
     "column": 15,
     "endColumn": 21,
-    "endLine": 13,
+    "endLine": 12,
     "fix": Object {
       "range": Array [
-        323,
-        327,
+        252,
+        256,
       ],
       "text": "abc",
     },
-    "line": 13,
+    "line": 12,
     "message": "Do not use leading/trailing space between \`console.error\` parameters.",
     "nodeType": "Literal",
     "ruleId": "unicorn/no-console-spaces",
