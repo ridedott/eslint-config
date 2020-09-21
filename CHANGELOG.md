@@ -1,3 +1,10 @@
+## [2.3.11](https://github.com/ridedott/eslint-config/compare/v2.3.10...v2.3.11) (2020-09-21)
+
+### Bug Fixes
+
+- disable @typescript-eslint/comma-dangle rule
+  ([8cc0927](https://github.com/ridedott/eslint-config/commit/8cc0927ecbc1d6f7245597ed700f14aa888cfaee))
+
 ## [2.3.10](https://github.com/ridedott/eslint-config/compare/v2.3.9...v2.3.10) (2020-09-21)
 
 ### Chores
