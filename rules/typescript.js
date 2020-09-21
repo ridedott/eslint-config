@@ -41,6 +41,10 @@ module.exports = {
         },
       },
     ],
+    /**
+     * Formatting should be done by Prettier.
+     */
+    '@typescript-eslint/comma-dangle': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     /**
      * Conflicts with simple-import-sort/sort.
