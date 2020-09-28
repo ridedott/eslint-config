@@ -1,3 +1,12 @@
+## [2.3.14](https://github.com/ridedott/eslint-config/compare/v2.3.13...v2.3.14) (2020-09-28)
+
+### Chores
+
+- **deps:** bump eslint-config-prettier from 6.11.0 to 6.12.0
+  ([c994771](https://github.com/ridedott/eslint-config/commit/c99477174fbcece9cc3790ffea14b6ff0036c542))
+- **deps-dev:** bump eslint from 7.9.0 to 7.10.0
+  ([e698986](https://github.com/ridedott/eslint-config/commit/e698986acb5a2bcb7d65a65e8c5750c7113027a1))
+
 ## [2.3.13](https://github.com/ridedott/eslint-config/compare/v2.3.12...v2.3.13) (2020-09-22)
 
 ### Chores
