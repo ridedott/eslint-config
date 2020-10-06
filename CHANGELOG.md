@@ -1,3 +1,10 @@
+# [2.4.0](https://github.com/ridedott/eslint-config/compare/v2.3.20...v2.4.0) (2020-10-06)
+
+### Features
+
+- disable @typescript-eslint/consistent-indexed-object-style
+  ([09364fd](https://github.com/ridedott/eslint-config/commit/09364fd1a609373d7c3ebcbb9b547ed03f56e127))
+
 ## [2.3.20](https://github.com/ridedott/eslint-config/compare/v2.3.19...v2.3.20) (2020-10-06)
 
 ### Chores
