@@ -45,6 +45,10 @@ module.exports = {
      * Formatting should be done by Prettier.
      */
     '@typescript-eslint/comma-dangle': 'off',
+    /**
+     * Does not make it possible to define recursive types.
+     */
+    '@typescript-eslint/consistent-indexed-object-style': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     /**
      * Conflicts with simple-import-sort/sort.
