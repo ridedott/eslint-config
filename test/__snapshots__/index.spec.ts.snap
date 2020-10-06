@@ -3885,8 +3885,8 @@ Array [
 exports[`unicorn rules unicorn/prefer-trim-start-end should fail on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 1,
-    "endColumn": 17,
+    "column": 7,
+    "endColumn": 15,
     "endLine": 1,
     "fix": Object {
       "range": Array [
@@ -3896,15 +3896,15 @@ Array [
       "text": "trimStart",
     },
     "line": 1,
-    "message": "Prefer \`String#trimLeft()\` over \`String#trimStart()\`.",
+    "message": "Prefer \`String#trimStart()\` over \`String#trimLeft()\`.",
     "messageId": "trimLeft",
-    "nodeType": "CallExpression",
+    "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-trim-start-end",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "endColumn": 18,
+    "column": 7,
+    "endColumn": 16,
     "endLine": 2,
     "fix": Object {
       "range": Array [
@@ -3914,9 +3914,9 @@ Array [
       "text": "trimEnd",
     },
     "line": 2,
-    "message": "Prefer \`String#trimRight()\` over \`String#trimEnd()\`.",
+    "message": "Prefer \`String#trimEnd()\` over \`String#trimRight()\`.",
     "messageId": "trimRight",
-    "nodeType": "CallExpression",
+    "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-trim-start-end",
     "severity": 2,
   },
