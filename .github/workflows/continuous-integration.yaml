@@ -20,14 +20,14 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v2
         with:
           key: npm-${{ hashFiles('./package-lock.json') }}
           path: ~/.npm
           restore-keys: |
             npm-
       - name: Cache local cache
-        uses: actions/cache@v1
+        uses: actions/cache@v2
         with:
           key: local-${{ github.sha }}
           path: .cache
@@ -56,7 +56,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache dependencies
-        uses: actions/cache@v1
+        uses: actions/cache@v2
         with:
           key: npm-${{ hashFiles('./package-lock.json') }}
           path: ~/.npm
