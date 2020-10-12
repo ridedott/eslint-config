@@ -1,3 +1,10 @@
+## [2.4.7](https://github.com/ridedott/eslint-config/compare/v2.4.6...v2.4.7) (2020-10-12)
+
+### Continuous Integration
+
+- update cache dependencies to actions/cache@v2
+  ([9733e06](https://github.com/ridedott/eslint-config/commit/9733e0639b08e32f22de2dafd5226d93fe72b46d))
+
 ## [2.4.6](https://github.com/ridedott/eslint-config/compare/v2.4.5...v2.4.6) (2020-10-12)
 
 ### Chores
