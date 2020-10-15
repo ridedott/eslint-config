@@ -2,25 +2,3 @@
 # for more info about CODEOWNERS file
 
 *                                         @ridedott/platform
-
-.github/ISSUE_TEMPLATE                    @ridedott/platform
-.github/pull_request_template.md          @ridedott/platform
-
-.vscode                                   @ridedott/platform
-
-decisions/DECISION_TEMPLATE.md            @ridedott/platform
-decisions/README.md                       @ridedott/platform
-
-
-.editorconfig                             @ridedott/platform
-
-.prettierignore                           @ridedott/platform
-.prettierrc.yml                           @ridedott/platform
-
-CODEOWNERS                                @ridedott/platform
-
-commitlint.config.js                      @ridedott/platform
-CONTRIBUTING.md                           @ridedott/platform
-
-tsconfig.json                             @ridedott/platform
-tsconfig.production.json                  @ridedott/platform
