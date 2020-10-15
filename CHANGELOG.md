@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/ridedott/eslint-config/compare/v2.4.9...v2.5.0) (2020-10-15)
+
+### Features
+
+- add code owners file
+  ([13cbd4b](https://github.com/ridedott/eslint-config/commit/13cbd4b3db38ba1b7f237b463faf2a737bb20dae))
+
 ## [2.4.9](https://github.com/ridedott/eslint-config/compare/v2.4.8...v2.4.9) (2020-10-13)
 
 ### Chores
