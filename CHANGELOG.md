@@ -1,3 +1,12 @@
+## [2.5.1](https://github.com/ridedott/eslint-config/compare/v2.5.0...v2.5.1) (2020-10-19)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 12.12.67 to 12.12.68
+  ([d11e88d](https://github.com/ridedott/eslint-config/commit/d11e88d30b92be9f6aaff24c5f633286fc4609a1))
+- **deps-dev:** bump lint-staged from 10.4.0 to 10.4.2
+  ([5b05791](https://github.com/ridedott/eslint-config/commit/5b057911401cec6ecc5fd2bffd9f8659fc7725b8))
+
 # [2.5.0](https://github.com/ridedott/eslint-config/compare/v2.4.9...v2.5.0) (2020-10-15)
 
 ### Features
