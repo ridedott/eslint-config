@@ -1,3 +1,10 @@
+## [2.5.13](https://github.com/ridedott/eslint-config/compare/v2.5.12...v2.5.13) (2020-10-27)
+
+### Chores
+
+- **deps-dev:** bump eslint from 7.12.0 to 7.12.1
+  ([a6154cb](https://github.com/ridedott/eslint-config/commit/a6154cb13df7dd9ba7ad77ea132eb5c039f207ea))
+
 ## [2.5.12](https://github.com/ridedott/eslint-config/compare/v2.5.11...v2.5.12) (2020-10-27)
 
 ### Chores
