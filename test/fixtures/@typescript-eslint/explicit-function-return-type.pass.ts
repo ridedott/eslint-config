@@ -2,11 +2,11 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable func-names */
 
-type FuncType = () => string;
+type FunctionType = () => string;
 
-const arrowFnPass: FuncType = () => 'test';
+const arrowFunctionPass: FunctionType = () => 'test';
 
-const funcExprPass: FuncType = function () {
+const functionExpressionPass: FunctionType = function () {
   return 'test';
 };
 
