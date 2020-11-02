@@ -1,9 +1,9 @@
 /* eslint-disable func-names */
 /* eslint-disable unicorn/prevent-abbreviations */
 
-const arrowFn = () => 'test';
+const arrowFunction = () => 'test';
 
-const funcExpr = function () {
+const functionExpression = function () {
   return 'test';
 };
 
