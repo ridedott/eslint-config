@@ -1,3 +1,10 @@
+## [2.5.19](https://github.com/ridedott/eslint-config/compare/v2.5.18...v2.5.19) (2020-11-02)
+
+### Chores
+
+- **deps:** bump eslint-plugin-unicorn from 22.0.0 to 23.0.0
+  ([0c6d97e](https://github.com/ridedott/eslint-config/commit/0c6d97ecca1f43c45b66394ec14713abd45e6042))
+
 ## [2.5.18](https://github.com/ridedott/eslint-config/compare/v2.5.17...v2.5.18) (2020-11-02)
 
 ### Chores
