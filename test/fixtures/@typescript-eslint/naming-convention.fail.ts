@@ -16,4 +16,4 @@ interface SimpleMap<T> {
   [Key: string]: T;
 }
 
-const ncFnf = (_fail: string): void => bar();
+const ncFunctionf = (_fail: string): void => bar();
