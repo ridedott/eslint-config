@@ -1,3 +1,10 @@
+## [2.5.25](https://github.com/ridedott/eslint-config/compare/v2.5.24...v2.5.25) (2020-11-09)
+
+### Chores
+
+- **deps-dev:** bump ts-jest from 26.4.3 to 26.4.4
+  ([4a33788](https://github.com/ridedott/eslint-config/commit/4a33788db210c8de7a6c51cb7d9f32bcf988ba15))
+
 ## [2.5.24](https://github.com/ridedott/eslint-config/compare/v2.5.23...v2.5.24) (2020-11-05)
 
 ### Chores
