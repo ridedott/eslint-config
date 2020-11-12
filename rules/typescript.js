@@ -167,6 +167,13 @@ module.exports = {
         selector: 'variable',
       },
     ],
+    /**
+     * Somehow this rule is reported before using
+     * @typescript-eslint/eslint-plugin V4.7.0 (where it was added), see
+     * https://github.com/typescript-eslint/typescript-eslint/releases/tag/v4.7.0
+     * https://github.com/ridedott/fastwheel-service/pull/339/checks?check_run_id=1390826071.
+     */
+    '@typescript-eslint/no-confusing-void-expression': 'off',
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
     '@typescript-eslint/no-empty-function': 'off',
