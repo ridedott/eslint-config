@@ -168,10 +168,10 @@ module.exports = {
       },
     ],
     /**
-     * Somehow this rule is reported before using
-     * @typescript-eslint/eslint-plugin V4.7.0 (where it was added), see
-     * https://github.com/typescript-eslint/typescript-eslint/releases/tag/v4.7.0
-     * https://github.com/ridedott/fastwheel-service/pull/339/checks?check_run_id=1390826071.
+     * TODO [@typescript-eslint/eslint-plugin@>=4.7.0] (@ridedott/platform)
+     * Somehow this rule is reported before using current version (4.6.1)
+     * enable it when upgrading to V4.7.0, see
+     * https://github.com/typescript-eslint/typescript-eslint/releases/tag/v4.7.0.
      */
     '@typescript-eslint/no-confusing-void-expression': 'off',
     '@typescript-eslint/no-dynamic-delete': 'error',
