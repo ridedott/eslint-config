@@ -1,3 +1,12 @@
+## [2.5.34](https://github.com/ridedott/eslint-config/compare/v2.5.33...v2.5.34) (2020-11-20)
+
+### Chores
+
+- **deps:** bump typescript from 4.0.5 to 4.1.2
+  ([503a050](https://github.com/ridedott/eslint-config/commit/503a050308dfd524207d19bbf41ac00baa422f92))
+- **deps-dev:** bump prettier from 2.1.2 to 2.2.0
+  ([534e7aa](https://github.com/ridedott/eslint-config/commit/534e7aa5de182aae223905b048c3223b03c62823))
+
 ## [2.5.33](https://github.com/ridedott/eslint-config/compare/v2.5.32...v2.5.33) (2020-11-20)
 
 ### Chores
