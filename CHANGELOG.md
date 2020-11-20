@@ -1,3 +1,10 @@
+## [2.5.33](https://github.com/ridedott/eslint-config/compare/v2.5.32...v2.5.33) (2020-11-20)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 12.19.5 to 12.19.6
+  ([4494a59](https://github.com/ridedott/eslint-config/commit/4494a59713e8ff5bfd816520e16603b61fce1ab7))
+
 ## [2.5.32](https://github.com/ridedott/eslint-config/compare/v2.5.31...v2.5.32) (2020-11-18)
 
 ### Chores
