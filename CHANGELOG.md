@@ -1,3 +1,10 @@
+## [2.5.48](https://github.com/ridedott/eslint-config/compare/v2.5.47...v2.5.48) (2020-12-11)
+
+### Chores
+
+- **deps:** bump ini from 1.3.5 to 1.3.7
+  ([3dc3cc9](https://github.com/ridedott/eslint-config/commit/3dc3cc9b762d7c8752a2ebd6622f3940ad7e399a))
+
 ## [2.5.47](https://github.com/ridedott/eslint-config/compare/v2.5.46...v2.5.47) (2020-12-09)
 
 ### Chores
