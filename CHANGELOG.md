@@ -1,3 +1,10 @@
+## [2.5.50](https://github.com/ridedott/eslint-config/compare/v2.5.49...v2.5.50) (2020-12-14)
+
+### Chores
+
+- **deps-dev:** bump husky from 4.3.5 to 4.3.6
+  ([f37b718](https://github.com/ridedott/eslint-config/commit/f37b71817a39d576685961590759ea797aa8b238))
+
 ## [2.5.49](https://github.com/ridedott/eslint-config/compare/v2.5.48...v2.5.49) (2020-12-11)
 
 ### Chores
