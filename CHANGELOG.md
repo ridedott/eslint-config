@@ -1,3 +1,12 @@
+## [2.5.51](https://github.com/ridedott/eslint-config/compare/v2.5.50...v2.5.51) (2020-12-14)
+
+### Chores
+
+- **deps:** bump typescript from 4.1.2 to 4.1.3
+  ([303dbf6](https://github.com/ridedott/eslint-config/commit/303dbf6f7cb82c9bb87e38674cbc1d2ebc43cc92))
+- **deps-dev:** bump @types/node from 12.19.8 to 12.19.9
+  ([7f96e35](https://github.com/ridedott/eslint-config/commit/7f96e35e20e8872f614887f955bed5fef45aba22))
+
 ## [2.5.50](https://github.com/ridedott/eslint-config/compare/v2.5.49...v2.5.50) (2020-12-14)
 
 ### Chores
