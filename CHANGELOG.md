@@ -1,3 +1,10 @@
+## [2.5.55](https://github.com/ridedott/eslint-config/compare/v2.5.54...v2.5.55) (2020-12-22)
+
+### Chores
+
+- **deps:** bump node-notifier from 8.0.0 to 8.0.1
+  ([2c940c6](https://github.com/ridedott/eslint-config/commit/2c940c665585f6d19de24620fcaf95c971470cde))
+
 ## [2.5.54](https://github.com/ridedott/eslint-config/compare/v2.5.53...v2.5.54) (2020-12-22)
 
 ### Chores
