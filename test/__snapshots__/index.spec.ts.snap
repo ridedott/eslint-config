@@ -1084,6 +1084,17 @@ Array [
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
+  Object {
+    "column": 3,
+    "endColumn": 8,
+    "endLine": 22,
+    "line": 22,
+    "message": "Property name \`_fail\` must not have a leading underscore.",
+    "messageId": "unexpectedUnderscore",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
 ]
 `;
 
@@ -3318,10 +3329,45 @@ Array [
 exports[`unicorn rules unicorn/prefer-flat-map should fail on an invalid fixture 1`] = `
 Array [
   Object {
+    "column": 1,
+    "endColumn": 38,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        95,
+        118,
+      ],
+      "text": "flatMap((el) => el);",
+    },
+    "line": 5,
+    "message": "Prefer \`.flatMap(…)\` over \`.map(…).flat()\`.",
+    "messageId": "flat-map",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-flat-map",
+    "severity": 2,
+  },
+  Object {
+    "column": 16,
+    "endColumn": 38,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        95,
+        117,
+      ],
+      "text": "flatMap((el) => el)",
+    },
+    "line": 5,
+    "message": "Use flatMap instead of .map().flat()",
+    "nodeType": null,
+    "ruleId": "array-func/prefer-flat-map",
+    "severity": 2,
+  },
+  Object {
     "column": 20,
     "endColumn": 27,
-    "endLine": 11,
-    "line": 11,
+    "endLine": 5,
+    "line": 5,
     "message": "Missing return type on function.",
     "messageId": "missingReturnType",
     "nodeType": "ArrowFunctionExpression",
