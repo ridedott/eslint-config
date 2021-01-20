@@ -1,3 +1,14 @@
+## [2.6.2](https://github.com/ridedott/eslint-config/compare/v2.6.1...v2.6.2) (2021-01-20)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 26.0.19 to 26.0.20
+  ([842523b](https://github.com/ridedott/eslint-config/commit/842523bd07ab4310e17677afd86edded1bc8b3b0))
+- **deps-dev:** bump commitizen from 4.2.2 to 4.2.3
+  ([96355bd](https://github.com/ridedott/eslint-config/commit/96355bd5001c07004679533402a34f5e22e216a6))
+- **deps-dev:** bump husky from 4.3.6 to 4.3.8
+  ([514a65b](https://github.com/ridedott/eslint-config/commit/514a65bb0dd62bfc7b9535ba2281a32032117234))
+
 ## [2.6.1](https://github.com/ridedott/eslint-config/compare/v2.6.0...v2.6.1) (2021-01-20)
 
 ### Chores
