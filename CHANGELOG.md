@@ -1,3 +1,10 @@
+## [2.6.1](https://github.com/ridedott/eslint-config/compare/v2.6.0...v2.6.1) (2021-01-20)
+
+### Chores
+
+- **deps-dev:** bump eslint from 7.16.0 to 7.18.0
+  ([9611499](https://github.com/ridedott/eslint-config/commit/9611499b1139aae38f1772e52b57abad71e29f60))
+
 # [2.6.0](https://github.com/ridedott/eslint-config/compare/v2.5.56...v2.6.0) (2021-01-20)
 
 ### Features
