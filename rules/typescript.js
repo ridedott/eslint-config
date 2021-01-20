@@ -166,6 +166,15 @@ module.exports = {
         format: null,
         selector: 'variable',
       },
+      // Allow certain keywords that are used by engineering at Dott.
+      {
+        filter: {
+          match: true,
+          regex: '_version',
+        },
+        format: null,
+        selector: 'default',
+      },
     ],
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
