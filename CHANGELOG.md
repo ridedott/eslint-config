@@ -1,3 +1,10 @@
+# [2.6.0](https://github.com/ridedott/eslint-config/compare/v2.5.56...v2.6.0) (2021-01-20)
+
+### Features
+
+- add an exception to naming convention
+  ([d146000](https://github.com/ridedott/eslint-config/commit/d146000113fdb4614d4bc455cb1ffe62ac509ec1))
+
 ## [2.5.56](https://github.com/ridedott/eslint-config/compare/v2.5.55...v2.5.56) (2020-12-24)
 
 ### Chores
