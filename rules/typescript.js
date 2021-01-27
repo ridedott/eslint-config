@@ -250,6 +250,7 @@ module.exports = {
      * Superseded by @typescript-eslint/no-unused-vars.
      */
     '@typescript-eslint/no-unused-vars-experimental': 'off',
+    '@typescript-eslint/object-curly-spacing': 'off',
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
       {
