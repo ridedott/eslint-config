@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/ridedott/eslint-config/compare/v2.6.6...v2.7.0) (2021-01-27)
+
+### Features
+
+- disable @typescript-eslint/object-curly-spacing rule
+  ([8b2a62c](https://github.com/ridedott/eslint-config/commit/8b2a62caddb8baaf0557c77ad31795c7af1b2a28))
+
 ## [2.6.6](https://github.com/ridedott/eslint-config/compare/v2.6.5...v2.6.6) (2021-01-26)
 
 ### Chores
