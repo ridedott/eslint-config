@@ -1,3 +1,10 @@
+## [2.7.1](https://github.com/ridedott/eslint-config/compare/v2.7.0...v2.7.1) (2021-01-30)
+
+### Chores
+
+- **deps:** bump eslint-plugin-simple-import-sort from 5.0.3 to 7.0.0
+  ([f06e0a4](https://github.com/ridedott/eslint-config/commit/f06e0a43b6d970f105d7e0c1132c57d34be0e8ce))
+
 # [2.7.0](https://github.com/ridedott/eslint-config/compare/v2.6.6...v2.7.0) (2021-01-27)
 
 ### Features
