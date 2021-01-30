@@ -59,6 +59,7 @@ module.exports = {
         checkProperties: true,
         checkShorthandImports: true,
         checkVariables: true,
+        whitelist: { i18n: true },
       },
     ],
     'unicorn/throw-new-error': 'error',
