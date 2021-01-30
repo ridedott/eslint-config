@@ -2071,8 +2071,8 @@ Array [
   Object {
     "column": 3,
     "endColumn": 17,
-    "endLine": 8,
-    "line": 8,
+    "endLine": 9,
+    "line": 9,
     "message": "Move function 'doBar' to the outer scope.",
     "messageId": "consistent-function-scoping",
     "nodeType": "FunctionDeclaration",
@@ -2082,8 +2082,8 @@ Array [
   Object {
     "column": 23,
     "endColumn": 25,
-    "endLine": 16,
-    "line": 16,
+    "endLine": 17,
+    "line": 17,
     "message": "Move arrow function 'doBar' to the outer scope.",
     "messageId": "consistent-function-scoping",
     "nodeType": "ArrowFunctionExpression",
