@@ -865,7 +865,31 @@ Array [
 ]
 `;
 
-exports[`simpleImportSort rules simple-import-sort/sort should fail on an invalid fixture 1`] = `
+exports[`simpleImportSort rules simple-import-sort/exports should fail on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 2,
+    "fix": Object {
+      "range": Array [
+        0,
+        52,
+      ],
+      "text": "export * as b from 'path';
+export * as a from 'url';",
+    },
+    "line": 1,
+    "message": "Run autofix to sort these exports!",
+    "messageId": "sort",
+    "nodeType": null,
+    "ruleId": "simple-import-sort/exports",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`simpleImportSort rules simple-import-sort/imports should fail on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -883,7 +907,7 @@ import * as path from 'path';",
     "message": "Run autofix to sort these imports!",
     "messageId": "sort",
     "nodeType": null,
-    "ruleId": "simple-import-sort/sort",
+    "ruleId": "simple-import-sort/imports",
     "severity": 2,
   },
 ]
