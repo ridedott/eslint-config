@@ -1,3 +1,10 @@
+## [2.7.5](https://github.com/ridedott/eslint-config/compare/v2.7.4...v2.7.5) (2021-02-04)
+
+### Chores
+
+- update Dependabot configuration
+  ([00e6904](https://github.com/ridedott/eslint-config/commit/00e6904e20e22ce90fc3444f2b9bc79ed0d431b0))
+
 ## [2.7.4](https://github.com/ridedott/eslint-config/compare/v2.7.3...v2.7.4) (2021-02-02)
 
 ### Chores
