@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: 14
       - name: Cache dependencies
@@ -36,7 +36,7 @@ jobs:
         with:
           node-module: true
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: 14
           registry-url: 'https://npm.pkg.github.com'
@@ -45,7 +45,7 @@ jobs:
         name: Publish to GitHub Packages
         run: npm publish
       - name: Setup Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2.1.4
         with:
           node-version: 14
           registry-url: 'https://registry.npmjs.org'
