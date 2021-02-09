@@ -1,3 +1,12 @@
+## [2.7.10](https://github.com/ridedott/eslint-config/compare/v2.7.9...v2.7.10) (2021-02-09)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 4.14.2 to 4.15.0
+  ([5f621cd](https://github.com/ridedott/eslint-config/commit/5f621cd753f215939cbe6d5aa91cd3888c6fbdd8))
+- **deps-dev:** bump husky from 4.3.8 to 5.0.9
+  ([76ac813](https://github.com/ridedott/eslint-config/commit/76ac813fa1111fde7afb1beeaa3f9cbf45f48148))
+
 ## [2.7.9](https://github.com/ridedott/eslint-config/compare/v2.7.8...v2.7.9) (2021-02-08)
 
 ### Chores
