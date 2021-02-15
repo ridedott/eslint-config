@@ -1,3 +1,10 @@
+# [2.8.0](https://github.com/ridedott/eslint-config/compare/v2.7.14...v2.8.0) (2021-02-15)
+
+### Features
+
+- disable no-else-return rule
+  ([5181f0a](https://github.com/ridedott/eslint-config/commit/5181f0afbb922b94fcd8b40c1c7397fbb9fe14c8))
+
 ## [2.7.14](https://github.com/ridedott/eslint-config/compare/v2.7.13...v2.7.14) (2021-02-12)
 
 ### Chores
