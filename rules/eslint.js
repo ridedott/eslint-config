@@ -29,6 +29,10 @@ module.exports = {
     'no-buffer-constructor': 'off',
     // Safety of this pattern is achieved by typechecking.
     'no-constructor-return': 'off',
+    // Sometimes it makes code less readable. TypeScript already ensures that
+    // all code paths return a value, so it does not increase safety, only
+    // enforces a certain style.
+    'no-else-return': 'off',
     // Duplicate of @typescript-eslint/no-empty-function.
     'no-empty-function': 'off',
     // Duplicate of @typescript-eslint/no-invalid-this.
