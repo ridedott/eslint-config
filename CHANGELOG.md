@@ -1,3 +1,10 @@
+## [2.8.4](https://github.com/ridedott/eslint-config/compare/v2.8.3...v2.8.4) (2021-02-22)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 14.14.30 to 14.14.31
+  ([33a1462](https://github.com/ridedott/eslint-config/commit/33a14625ada75960c1fb2c1e388b874544bf443a))
+
 ## [2.8.3](https://github.com/ridedott/eslint-config/compare/v2.8.2...v2.8.3) (2021-02-19)
 
 ### Chores
