@@ -1,3 +1,10 @@
+## [2.8.5](https://github.com/ridedott/eslint-config/compare/v2.8.4...v2.8.5) (2021-02-22)
+
+### Chores
+
+- **deps-dev:** bump husky from 5.0.9 to 5.1.0
+  ([dd2eb72](https://github.com/ridedott/eslint-config/commit/dd2eb72a27f6564a0aa5cb84aa592e3d0d0deade))
+
 ## [2.8.4](https://github.com/ridedott/eslint-config/compare/v2.8.3...v2.8.4) (2021-02-22)
 
 ### Chores
