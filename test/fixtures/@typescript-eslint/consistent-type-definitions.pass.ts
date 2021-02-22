@@ -1,5 +1,5 @@
 type ConsistentTypeDefinitionsPass = string;
-type Foo = string | Record<string, unknown>;
+type Foo = Record<string, unknown> | string;
 
 interface T {
   x: number;

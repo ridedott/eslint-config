@@ -461,8 +461,8 @@ Array [
   Object {
     "column": 19,
     "endColumn": 29,
-    "endLine": 5,
-    "line": 5,
+    "endLine": 7,
+    "line": 7,
     "message": "Requires 'eslint-enable' directive for 'no-bitwise'.",
     "nodeType": null,
     "ruleId": "eslint-comments/disable-enable-pair",
@@ -628,9 +628,9 @@ Array [
     "fix": Object {
       "range": Array [
         0,
-        3,
+        18,
       ],
-      "text": "const",
+      "text": "const noLetFail = 0;",
     },
     "line": 1,
     "message": "'noLetFail' is never reassigned. Use 'const' instead.",
@@ -1111,9 +1111,9 @@ Array [
   Object {
     "column": 3,
     "endColumn": 8,
-    "endLine": 22,
-    "line": 22,
-    "message": "Property name \`_fail\` must not have a leading underscore.",
+    "endLine": 24,
+    "line": 24,
+    "message": "Type Property name \`_fail\` must not have a leading underscore.",
     "messageId": "unexpectedUnderscore",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/naming-convention",
@@ -1727,6 +1727,13 @@ Array [
     "column": 37,
     "endColumn": 67,
     "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        139,
+        139,
+      ],
+      "text": "async ",
+    },
     "line": 4,
     "message": "Functions that return promises must be async.",
     "messageId": "missingAsync",
@@ -1738,6 +1745,13 @@ Array [
     "column": 1,
     "endColumn": 2,
     "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        172,
+        172,
+      ],
+      "text": "async ",
+    },
     "line": 6,
     "message": "Functions that return promises must be async.",
     "messageId": "missingAsync",

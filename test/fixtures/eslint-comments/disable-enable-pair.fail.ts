@@ -1,6 +1,8 @@
 /* eslint-disable id-length */
 
-const t = (): void => bar();
+const t = (): void => {
+  bar();
+};
 
 /* eslint-disable no-bitwise */
 

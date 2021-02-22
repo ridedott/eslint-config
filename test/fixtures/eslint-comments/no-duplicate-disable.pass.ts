@@ -1,1 +1,1 @@
-const noDuplicatePass = bar();
+const noDuplicatePass = 0;
