@@ -1,3 +1,10 @@
+## [2.8.9](https://github.com/ridedott/eslint-config/compare/v2.8.8...v2.8.9) (2021-02-23)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 11.0.0 to 12.0.0
+  ([003313c](https://github.com/ridedott/eslint-config/commit/003313c2b2a521756f283f7fbceeeb5e15d221f8))
+
 ## [2.8.8](https://github.com/ridedott/eslint-config/compare/v2.8.7...v2.8.8) (2021-02-23)
 
 ### Chores
