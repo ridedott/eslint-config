@@ -1,3 +1,10 @@
+# [2.9.0](https://github.com/ridedott/eslint-config/compare/v2.8.9...v2.9.0) (2021-02-23)
+
+### Features
+
+- update eslint, typescript-eslint plugin and fix the tests
+  ([281813c](https://github.com/ridedott/eslint-config/commit/281813c7da1a277dee96e1f6fc42d16b80f68c53))
+
 ## [2.8.9](https://github.com/ridedott/eslint-config/compare/v2.8.8...v2.8.9) (2021-02-23)
 
 ### Chores
