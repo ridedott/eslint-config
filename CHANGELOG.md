@@ -1,3 +1,10 @@
+# [2.10.0](https://github.com/ridedott/eslint-config/compare/v2.9.2...v2.10.0) (2021-02-23)
+
+### Features
+
+- do not push a release in ci on chore release messages
+  ([6e4469f](https://github.com/ridedott/eslint-config/commit/6e4469fe73b9c854bcf77379292a0aae40ff2174))
+
 ## [2.9.2](https://github.com/ridedott/eslint-config/compare/v2.9.1...v2.9.2) (2021-02-23)
 
 ### Chores
