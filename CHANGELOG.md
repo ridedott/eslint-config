@@ -1,3 +1,10 @@
+## [2.9.1](https://github.com/ridedott/eslint-config/compare/v2.9.0...v2.9.1) (2021-02-23)
+
+### Continuous Integration
+
+- add formatting step
+  ([e34a3dc](https://github.com/ridedott/eslint-config/commit/e34a3dca4c34f9b5afcbd2a6776a85670c5ae7af))
+
 # [2.9.0](https://github.com/ridedott/eslint-config/compare/v2.8.9...v2.9.0) (2021-02-23)
 
 ### Features
