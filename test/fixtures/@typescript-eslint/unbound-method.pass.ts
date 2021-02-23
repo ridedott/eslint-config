@@ -4,7 +4,7 @@
 
 class MyClass2 {
   public logBound = () => {
-    console.log(this)
+    console.log(this);
   };
 
   public logUnbound(): void {
