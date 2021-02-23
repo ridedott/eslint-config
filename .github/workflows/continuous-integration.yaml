@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 1
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.1.5
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache dependencies
@@ -52,7 +52,7 @@ jobs:
           fetch-depth: 1
           persist-credentials: false
       - name: Setup Node.js
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.1.5
         with:
           node-version: 14
       - name: Cache dependencies
@@ -71,7 +71,7 @@ jobs:
             --git-tag-version=false \
             --preid="${GITHUB_SHA::7}"
       - name: Setup Node.js
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.1.5
         with:
           node-version: 14
           registry-url: 'https://npm.pkg.github.com'
@@ -80,7 +80,7 @@ jobs:
         name: Publish to GitHub Packages
         run: npm publish --tag="dev"
       - name: Setup Node.js
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.1.5
         with:
           registry-url: 'https://registry.npmjs.org'
           scope: '@ridedott'
