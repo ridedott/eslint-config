@@ -1,3 +1,40 @@
+# [2.9.0](https://github.com/ridedott/eslint-config/compare/v2.8.9...v2.9.0) (2021-02-23)
+
+### Features
+
+- update eslint, typescript-eslint plugin and fix the tests
+  ([281813c](https://github.com/ridedott/eslint-config/commit/281813c7da1a277dee96e1f6fc42d16b80f68c53))
+
+## [2.8.9](https://github.com/ridedott/eslint-config/compare/v2.8.8...v2.8.9) (2021-02-23)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 11.0.0 to 12.0.0
+  ([003313c](https://github.com/ridedott/eslint-config/commit/003313c2b2a521756f283f7fbceeeb5e15d221f8))
+
+## [2.8.8](https://github.com/ridedott/eslint-config/compare/v2.8.7...v2.8.8) (2021-02-23)
+
+### Chores
+
+- **deps:** bump actions/setup-node from v2.1.4 to v2.1.5
+  ([a7e01ab](https://github.com/ridedott/eslint-config/commit/a7e01abc7b30241787705a7bc761bccd546e5229))
+
+## [2.8.7](https://github.com/ridedott/eslint-config/compare/v2.8.6...v2.8.7) (2021-02-23)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional from 11.0.0 to 12.0.0
+  ([4cdbf89](https://github.com/ridedott/eslint-config/commit/4cdbf89455dfef656c944ffc8e112452a07af8dc))
+
+## [2.8.6](https://github.com/ridedott/eslint-config/compare/v2.8.5...v2.8.6) (2021-02-23)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 4.15.1 to 4.15.2
+  ([2083256](https://github.com/ridedott/eslint-config/commit/2083256cfe80e8ae6f9262307064c085359c50a3))
+- **deps-dev:** bump husky from 5.1.0 to 5.1.1
+  ([f0b1cec](https://github.com/ridedott/eslint-config/commit/f0b1cecd4e05f223f0c7375172d7f1970c0bf026))
+
 ## [2.8.5](https://github.com/ridedott/eslint-config/compare/v2.8.4...v2.8.5) (2021-02-22)
 
 ### Chores
