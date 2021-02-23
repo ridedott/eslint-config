@@ -14,7 +14,6 @@ module.exports = {
     './rules/typescript.js',
     './rules/unicorn.js',
     'prettier',
-    'prettier/@typescript-eslint',
     './rules/overrides.js',
   ],
   plugins: [
