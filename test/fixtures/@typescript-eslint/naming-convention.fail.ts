@@ -16,7 +16,9 @@ interface SimpleMap<T> {
   [Key: string]: T;
 }
 
-const ncFunctionf = (_fail: string): void => bar();
+const ncFunctionf = (_fail: string): void => {
+  bar();
+};
 
 interface Entity {
   _fail: boolean;

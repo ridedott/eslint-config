@@ -13,7 +13,9 @@ const agenices = {
   FBI: true,
 };
 
-const ncFunction = (_: string): void => bar();
+const ncFunction = (_: string): void => {
+  bar();
+};
 
 const { dontNeedYou: _, ...other } = { dontNeedYou: true };
 

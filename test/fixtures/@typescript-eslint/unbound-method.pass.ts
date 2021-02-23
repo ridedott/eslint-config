@@ -3,7 +3,9 @@
 /* eslint-disable no-console */
 
 class MyClass2 {
-  public logBound = () => console.log(this);
+  public logBound = () => {
+    console.log(this)
+  };
 
   public logUnbound(): void {
     console.log(this);
@@ -17,4 +19,7 @@ logBound();
 
 // .bind and lambdas will also add a correct scope
 const dotBindLog = instance2.logBound.bind(instance2);
-const innerLog = () => instance2.logBound();
+
+const innerLog = () => {
+  instance2.logBound();
+};
