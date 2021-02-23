@@ -55,9 +55,7 @@ export const generatePluginFixture = async (
 
       const fixtureContent = await readFileAsync(
         join(pluginFixturePath, fileName),
-        {
-          encoding: 'utf-8',
-        },
+        { encoding: 'utf-8' },
       );
 
       return {
