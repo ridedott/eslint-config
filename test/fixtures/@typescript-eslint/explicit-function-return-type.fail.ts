@@ -1,4 +1,3 @@
-/* eslint-disable func-names */
 /* eslint-disable unicorn/prevent-abbreviations */
 
 const arrowFunction = () => 'test';

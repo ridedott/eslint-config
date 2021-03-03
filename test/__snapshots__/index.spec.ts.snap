@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`arrayFunc rules array-func/avoid-reverse should fail on an invalid fixture 1`] = `
+exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 27,
@@ -61,7 +61,7 @@ Array [
 ]
 `;
 
-exports[`arrayFunc rules array-func/from-map should fail on an invalid fixture 1`] = `
+exports[`arrayFunc rules array-func/from-map fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -100,7 +100,7 @@ Array [
 ]
 `;
 
-exports[`arrayFunc rules array-func/prefer-array-from should fail on an invalid fixture 1`] = `
+exports[`arrayFunc rules array-func/prefer-array-from fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 25,
@@ -139,68 +139,7 @@ Array [
 ]
 `;
 
-exports[`arrayFunc rules array-func/prefer-flat should fail on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 34,
-    "endColumn": 51,
-    "endLine": 4,
-    "fix": Object {
-      "range": Array [
-        135,
-        152,
-      ],
-      "text": "[1].flat()",
-    },
-    "line": 4,
-    "message": "Use flat to flatten an array",
-    "nodeType": "CallExpression",
-    "ruleId": "array-func/prefer-flat",
-    "severity": 2,
-  },
-  Object {
-    "column": 34,
-    "endColumn": 70,
-    "endLine": 6,
-    "fix": Object {
-      "range": Array [
-        188,
-        224,
-      ],
-      "text": "[].flat()",
-    },
-    "line": 6,
-    "message": "Use flat to flatten an array",
-    "nodeType": "CallExpression",
-    "ruleId": "array-func/prefer-flat",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`arrayFunc rules array-func/prefer-flat-map should fail on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 23,
-    "endColumn": 42,
-    "endLine": 1,
-    "fix": Object {
-      "range": Array [
-        22,
-        41,
-      ],
-      "text": "array.flat()",
-    },
-    "line": 1,
-    "message": "Use flat to flatten an array",
-    "nodeType": "CallExpression",
-    "ruleId": "array-func/prefer-flat",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`eslint rules capitalized-comments should fail on an invalid fixture 1`] = `
+exports[`eslint rules capitalized-comments fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -223,13 +162,29 @@ Array [
 ]
 `;
 
-exports[`eslint rules id-length should fail on an invalid fixture 1`] = `
+exports[`eslint rules func-names fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 23,
+    "endColumn": 46,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected named generator function 'funcNamesFail'.",
+    "messageId": "named",
+    "nodeType": "FunctionExpression",
+    "ruleId": "func-names",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`eslint rules id-length fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 7,
     "endColumn": 8,
-    "endLine": 7,
-    "line": 7,
+    "endLine": 6,
+    "line": 6,
     "message": "Identifier name 'z' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
@@ -239,8 +194,8 @@ Array [
   Object {
     "column": 23,
     "endColumn": 24,
-    "endLine": 9,
-    "line": 9,
+    "endLine": 8,
+    "line": 8,
     "message": "Identifier name 'e' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
@@ -250,8 +205,8 @@ Array [
   Object {
     "column": 10,
     "endColumn": 20,
-    "endLine": 13,
-    "line": 13,
+    "endLine": 12,
+    "line": 12,
     "message": "Identifier name 'e' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
@@ -261,8 +216,8 @@ Array [
   Object {
     "column": 17,
     "endColumn": 18,
-    "endLine": 17,
-    "line": 17,
+    "endLine": 16,
+    "line": 16,
     "message": "Identifier name 'a' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
@@ -272,8 +227,8 @@ Array [
   Object {
     "column": 2,
     "endColumn": 3,
-    "endLine": 19,
-    "line": 19,
+    "endLine": 18,
+    "line": 18,
     "message": "Identifier name 'a' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
@@ -283,8 +238,8 @@ Array [
   Object {
     "column": 9,
     "endColumn": 10,
-    "endLine": 23,
-    "line": 23,
+    "endLine": 22,
+    "line": 22,
     "message": "Identifier name 'y' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
@@ -294,8 +249,8 @@ Array [
   Object {
     "column": 12,
     "endColumn": 13,
-    "endLine": 24,
-    "line": 24,
+    "endLine": 23,
+    "line": 23,
     "message": "Identifier name 'a' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
@@ -305,8 +260,8 @@ Array [
   Object {
     "column": 7,
     "endColumn": 8,
-    "endLine": 26,
-    "line": 26,
+    "endLine": 25,
+    "line": 25,
     "message": "Identifier name 'x' is too short (< 2).",
     "messageId": "tooShort",
     "nodeType": "Identifier",
@@ -316,7 +271,7 @@ Array [
 ]
 `;
 
-exports[`eslint rules max-lines-per-function should fail on an invalid fixture 1`] = `
+exports[`eslint rules max-lines-per-function fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 22,
@@ -343,7 +298,7 @@ Array [
 ]
 `;
 
-exports[`eslint rules max-statements should fail on an invalid fixture 1`] = `
+exports[`eslint rules max-statements fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 32,
@@ -370,21 +325,21 @@ Array [
 ]
 `;
 
-exports[`eslint rules one-var should fail on an invalid fixture 1`] = `
+exports[`eslint rules one-var fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 3,
     "endColumn": 17,
-    "endLine": 5,
+    "endLine": 6,
     "fix": Object {
       "range": Array [
-        116,
-        122,
+        167,
+        173,
       ],
       "text": ";
     const ",
     },
-    "line": 4,
+    "line": 5,
     "message": "Split 'const' declarations into multiple statements.",
     "messageId": "split",
     "nodeType": "VariableDeclaration",
@@ -394,7 +349,7 @@ Array [
 ]
 `;
 
-exports[`eslint rules padding-line-between-statements should fail on an invalid fixture 1`] = `
+exports[`eslint rules padding-line-between-statements fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 3,
@@ -456,7 +411,7 @@ Array [
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/disable-enable-pair should fail on an invalid fixture 1`] = `
+exports[`eslintComments rules eslint-comments/disable-enable-pair fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 19,
@@ -471,7 +426,7 @@ Array [
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/no-duplicate-disable should fail on an invalid fixture 1`] = `
+exports[`eslintComments rules eslint-comments/no-duplicate-disable fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 19,
@@ -508,7 +463,7 @@ Array [
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/no-unlimited-disable should fail on an invalid fixture 1`] = `
+exports[`eslintComments rules eslint-comments/no-unlimited-disable fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 0,
@@ -523,7 +478,7 @@ Array [
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/no-unused-disable should fail on an invalid fixture 1`] = `
+exports[`eslintComments rules eslint-comments/no-unused-disable fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 19,
@@ -550,7 +505,7 @@ Array [
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/no-unused-enable should fail on an invalid fixture 1`] = `
+exports[`eslintComments rules eslint-comments/no-unused-enable fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -575,7 +530,7 @@ Array [
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/no-use should fail on an invalid fixture 1`] = `
+exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 0,
@@ -609,7 +564,7 @@ Array [
 ]
 `;
 
-exports[`immutable rules immutable/no-let should fail on an invalid fixture 1`] = `
+exports[`immutable rules immutable/no-let fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -642,7 +597,7 @@ Array [
 ]
 `;
 
-exports[`immutable rules immutable/no-mutation should fail on an invalid fixture 1`] = `
+exports[`immutable rules immutable/no-mutation fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -657,7 +612,7 @@ Array [
 ]
 `;
 
-exports[`immutable rules immutable/no-this should fail on an invalid fixture 1`] = `
+exports[`immutable rules immutable/no-this fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 3,
@@ -704,7 +659,22 @@ Array [
 ]
 `;
 
-exports[`jest rules jest/consistent-test-it should fail on an invalid fixture 1`] = `
+exports[`import rules import/no-default-export fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 1,
+    "line": 1,
+    "message": "Prefer named exports.",
+    "nodeType": "ExportDefaultDeclaration",
+    "ruleId": "import/no-default-export",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`jest rules jest/consistent-test-it fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -727,7 +697,23 @@ Array [
 ]
 `;
 
-exports[`jest rules jest/prefer-expect-assertions should fail on an invalid fixture 1`] = `
+exports[`jest rules jest/no-interpolation-in-snapshots fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 37,
+    "endColumn": 47,
+    "endLine": 4,
+    "line": 4,
+    "message": "Do not use string interpolation inside of snapshots",
+    "messageId": "noInterpolation",
+    "nodeType": "TemplateLiteral",
+    "ruleId": "jest/no-interpolation-in-snapshots",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`jest rules jest/prefer-expect-assertions fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -767,7 +753,23 @@ Array [
 ]
 `;
 
-exports[`overrides rules max-len should fail on an invalid fixture 1`] = `
+exports[`jest rules jest/valid-title fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 4,
+    "endColumn": 21,
+    "endLine": 1,
+    "line": 1,
+    "message": "\\"should\\" is not allowed in test titles.",
+    "messageId": "disallowedWord",
+    "nodeType": "Literal",
+    "ruleId": "jest/valid-title",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`overrides rules max-len fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -783,7 +785,7 @@ Array [
 ]
 `;
 
-exports[`ridedott rules @ridedott/no-single-line-comment-block should fail on an invalid fixture 1`] = `
+exports[`ridedott rules @ridedott/no-single-line-comment-block fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -824,7 +826,7 @@ Array [
 ]
 `;
 
-exports[`ridedott rules @ridedott/no-template-literals-without-expression should fail on an invalid fixture 1`] = `
+exports[`ridedott rules @ridedott/no-template-literals-without-expression fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -865,7 +867,7 @@ Array [
 ]
 `;
 
-exports[`simpleImportSort rules simple-import-sort/exports should fail on an invalid fixture 1`] = `
+exports[`simpleImportSort rules simple-import-sort/exports fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -889,7 +891,7 @@ export * as a from 'url';",
 ]
 `;
 
-exports[`simpleImportSort rules simple-import-sort/imports should fail on an invalid fixture 1`] = `
+exports[`simpleImportSort rules simple-import-sort/imports fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -913,7 +915,7 @@ import * as path from 'path';",
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/array-type should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/array-type fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 44,
@@ -929,7 +931,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/ban-types should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/ban-types fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 15,
@@ -952,7 +954,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 6,
@@ -975,13 +977,13 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 23,
     "endColumn": 28,
-    "endLine": 4,
-    "line": 4,
+    "endLine": 3,
+    "line": 3,
     "message": "Missing return type on function.",
     "messageId": "missingReturnType",
     "nodeType": "ArrowFunctionExpression",
@@ -991,8 +993,8 @@ Array [
   Object {
     "column": 28,
     "endColumn": 39,
-    "endLine": 6,
-    "line": 6,
+    "endLine": 5,
+    "line": 5,
     "message": "Missing return type on function.",
     "messageId": "missingReturnType",
     "nodeType": "FunctionExpression",
@@ -1002,8 +1004,8 @@ Array [
   Object {
     "column": 8,
     "endColumn": 13,
-    "endLine": 11,
-    "line": 11,
+    "endLine": 10,
+    "line": 10,
     "message": "Missing return type on function.",
     "messageId": "missingReturnType",
     "nodeType": "ArrowFunctionExpression",
@@ -1013,7 +1015,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/member-ordering should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/member-ordering fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 3,
@@ -1029,7 +1031,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/naming-convention should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 7,
@@ -1122,7 +1124,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 22,
@@ -1221,7 +1223,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-explicit-any should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 24,
@@ -1430,7 +1432,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 38,
@@ -1517,7 +1519,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 28,
@@ -1544,7 +1546,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 7,
@@ -1571,7 +1573,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 32,
@@ -1587,7 +1589,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -1721,7 +1723,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/promise-function-async should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 37,
@@ -1762,7 +1764,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 18,
@@ -1800,7 +1802,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/return-await should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/return-await fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 12,
@@ -1859,7 +1861,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 5,
@@ -1875,7 +1877,7 @@ Array [
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/unbound-method should fail on an invalid fixture 1`] = `
+exports[`typescriptEslint rules @typescript-eslint/unbound-method fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 15,
@@ -1891,7 +1893,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/better-regex should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/better-regex fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 29,
@@ -2057,7 +2059,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/catch-error-name should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/catch-error-name fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 10,
@@ -2066,9 +2068,9 @@ Array [
     "fix": Object {
       "range": Array [
         148,
-        163,
+        154,
       ],
-      "text": "error: unknown",
+      "text": "error",
     },
     "line": 7,
     "message": "The catch parameter \`ohNoes\` should be named \`error\`.",
@@ -2080,7 +2082,41 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/consistent-function-scoping should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/consistent-destructuring fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 16,
+    "endColumn": 47,
+    "endLine": 6,
+    "line": 6,
+    "message": "Use destructured variables over properties.",
+    "messageId": "consistentDestructuring",
+    "nodeType": "MemberExpression",
+    "ruleId": "unicorn/consistent-destructuring",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "data": Object {
+          "expression": "consistentDestructructingFail.b",
+          "property": "b",
+        },
+        "desc": "Replace \`consistentDestructructingFail.b\` with destructured property \`b\`.",
+        "fix": Object {
+          "range": Array [
+            165,
+            247,
+          ],
+          "text": ", b } = consistentDestructructingFail;
+console.log(a, b",
+        },
+        "messageId": "consistentDestructuringSuggest",
+      },
+    ],
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/consistent-function-scoping fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 3,
@@ -2107,23 +2143,55 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/error-message should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/custom-error-definition fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 1,
-    "endColumn": 15,
+    "column": 5,
+    "endColumn": 20,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        172,
+        201,
+      ],
+      "text": "",
+    },
+    "line": 6,
+    "message": "Pass the error message to \`super()\` instead of setting \`this.message\`.",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "unicorn/custom-error-definition",
+    "severity": 2,
+  },
+  Object {
+    "column": 17,
+    "endColumn": 30,
+    "endLine": 9,
+    "line": 9,
+    "message": "The \`name\` property should be set to \`CustomFailError\`.",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/custom-error-definition",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/error-message fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 14,
     "endLine": 4,
     "line": 4,
-    "message": "Pass a message to the error constructor.",
+    "message": "Pass a message to the \`Error\` constructor.",
     "messageId": "constructorMissingMessage",
-    "nodeType": "ThrowStatement",
+    "nodeType": "CallExpression",
     "ruleId": "unicorn/error-message",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/escape-case should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/escape-case fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 25,
@@ -2182,7 +2250,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/expiring-todo-comments should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -2361,15 +2429,22 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/explicit-length-check should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 5,
     "endColumn": 20,
     "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        102,
+        117,
+      ],
+      "text": "'string'.length > 0",
+    },
     "line": 4,
-    "message": "\`length\` property should be compared to a value.",
-    "messageId": "compareToValue",
+    "message": "Use \`.length > 0\` when checking length is not zero.",
+    "messageId": "non-zero",
     "nodeType": "MemberExpression",
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
@@ -2378,21 +2453,35 @@ Array [
     "column": 5,
     "endColumn": 14,
     "endLine": 7,
+    "fix": Object {
+      "range": Array [
+        128,
+        137,
+      ],
+      "text": "[].length > 0",
+    },
     "line": 7,
-    "message": "\`length\` property should be compared to a value.",
-    "messageId": "compareToValue",
+    "message": "Use \`.length > 0\` when checking length is not zero.",
+    "messageId": "non-zero",
     "nodeType": "MemberExpression",
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
   Object {
-    "column": 6,
+    "column": 5,
     "endColumn": 15,
     "endLine": 10,
+    "fix": Object {
+      "range": Array [
+        148,
+        158,
+      ],
+      "text": "[].length === 0",
+    },
     "line": 10,
-    "message": "\`length\` property should be compared to a value.",
-    "messageId": "compareToValue",
-    "nodeType": "MemberExpression",
+    "message": "Use \`.length === 0\` when checking length is zero.",
+    "messageId": "zero",
+    "nodeType": "UnaryExpression",
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
@@ -2408,8 +2497,8 @@ Array [
       "text": "[1, 2, 3].length > 0",
     },
     "line": 13,
-    "message": "Non-zero \`.length\` should be compared with \`> 0\`.",
-    "messageId": "nonZeroGreater",
+    "message": "Use \`.length > 0\` when checking length is not zero.",
+    "messageId": "non-zero",
     "nodeType": "BinaryExpression",
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
@@ -2439,7 +2528,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/filename-case should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 18,
@@ -2454,7 +2543,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/import-index should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/import-index fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -2477,294 +2566,279 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/new-for-builtins should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/new-for-builtins fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 18,
-    "endColumn": 27,
+    "column": 28,
+    "endColumn": 33,
     "endLine": 1,
     "fix": Object {
       "range": Array [
-        17,
-        17,
+        27,
+        27,
       ],
       "text": "new ",
     },
     "line": 1,
-    "message": "Use \`new Array()\` instead of \`Array()\`.",
+    "message": "Use \`new Set()\` instead of \`Set()\`.",
     "messageId": "enforce",
     "nodeType": "CallExpression",
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
   },
   Object {
-    "column": 24,
-    "endColumn": 26,
+    "column": 28,
+    "endColumn": 31,
     "endLine": 1,
     "line": 1,
-    "message": "No magic number: 10.",
-    "messageId": "noMagic",
-    "nodeType": "Literal",
-    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "message": "A function with a name starting with an uppercase letter should only be used as a constructor.",
+    "messageId": "upper",
+    "nodeType": "CallExpression",
+    "ruleId": "new-cap",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/no-array-instanceof should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/no-array-for-each fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 1,
-    "endColumn": 20,
-    "endLine": 3,
-    "fix": Object {
-      "range": Array [
-        63,
-        82,
-      ],
-      "text": "Array.isArray([])",
-    },
-    "line": 3,
-    "message": "Use \`Array.isArray()\` instead of \`instanceof Array\`.",
-    "messageId": "no-array-instanceof",
-    "nodeType": "BinaryExpression",
-    "ruleId": "unicorn/no-array-instanceof",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "endColumn": 27,
+    "column": 4,
+    "endColumn": 11,
     "endLine": 4,
     "fix": Object {
       "range": Array [
-        84,
-        110,
+        103,
+        156,
       ],
-      "text": "Array.isArray([1, 2, 3])",
+      "text": "for (const element of []) {
+  console.log(element);
+}",
     },
     "line": 4,
-    "message": "Use \`Array.isArray()\` instead of \`instanceof Array\`.",
-    "messageId": "no-array-instanceof",
-    "nodeType": "BinaryExpression",
-    "ruleId": "unicorn/no-array-instanceof",
-    "severity": 2,
-  },
-  Object {
-    "column": 5,
-    "endColumn": 6,
-    "endLine": 4,
-    "line": 4,
-    "message": "No magic number: 2.",
-    "messageId": "noMagic",
-    "nodeType": "Literal",
-    "ruleId": "@typescript-eslint/no-magic-numbers",
-    "severity": 2,
-  },
-  Object {
-    "column": 8,
-    "endColumn": 9,
-    "endLine": 4,
-    "line": 4,
-    "message": "No magic number: 3.",
-    "messageId": "noMagic",
-    "nodeType": "Literal",
-    "ruleId": "@typescript-eslint/no-magic-numbers",
+    "message": "Do not use \`Array#forEach(…)\`.",
+    "messageId": "no-array-for-each",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/no-array-for-each",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/no-console-spaces should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/no-array-push-push fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 13,
-    "endColumn": 19,
+    "column": 21,
+    "endColumn": 25,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        69,
+        100,
+      ],
+      "text": ", 0);",
+    },
+    "line": 4,
+    "message": "Do not call \`Array#push()\` multiple times.",
+    "messageId": "error",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/no-array-push-push",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 17,
+    "endColumn": 18,
     "endLine": 3,
     "fix": Object {
       "range": Array [
-        46,
+        49,
         50,
       ],
-      "text": "abc",
+      "text": "",
     },
     "line": 3,
     "message": "Do not use trailing space between \`console.log\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 20,
-    "endColumn": 26,
+    "column": 21,
+    "endColumn": 22,
     "endLine": 4,
     "fix": Object {
       "range": Array [
         81,
-        85,
+        82,
       ],
-      "text": "def",
+      "text": "",
     },
     "line": 4,
     "message": "Do not use leading space between \`console.log\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 13,
-    "endColumn": 19,
+    "column": 17,
+    "endColumn": 18,
     "endLine": 6,
     "fix": Object {
       "range": Array [
-        103,
+        106,
         107,
       ],
-      "text": "abc",
+      "text": "",
     },
     "line": 6,
     "message": "Do not use trailing space between \`console.log\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 21,
-    "endColumn": 27,
+    "column": 22,
+    "endColumn": 23,
     "endLine": 6,
     "fix": Object {
       "range": Array [
         111,
-        115,
+        112,
       ],
-      "text": "def",
+      "text": "",
     },
     "line": 6,
     "message": "Do not use leading space between \`console.log\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 13,
-    "endColumn": 19,
+    "column": 17,
+    "endColumn": 18,
     "endLine": 7,
     "fix": Object {
       "range": Array [
-        132,
+        135,
         136,
       ],
-      "text": "abc",
+      "text": "",
     },
     "line": 7,
     "message": "Do not use trailing space between \`console.log\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "TemplateLiteral",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 21,
-    "endColumn": 27,
+    "column": 22,
+    "endColumn": 23,
     "endLine": 7,
     "fix": Object {
       "range": Array [
         140,
-        144,
+        141,
       ],
-      "text": "def",
+      "text": "",
     },
     "line": 7,
     "message": "Do not use leading space between \`console.log\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "TemplateLiteral",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 15,
-    "endColumn": 21,
+    "column": 19,
+    "endColumn": 20,
     "endLine": 9,
     "fix": Object {
       "range": Array [
-        164,
+        167,
         168,
       ],
-      "text": "abc",
+      "text": "",
     },
     "line": 9,
     "message": "Do not use trailing space between \`console.debug\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 14,
-    "endColumn": 20,
+    "column": 18,
+    "endColumn": 19,
     "endLine": 10,
     "fix": Object {
       "range": Array [
-        193,
+        196,
         197,
       ],
-      "text": "abc",
+      "text": "",
     },
     "line": 10,
     "message": "Do not use trailing space between \`console.info\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 14,
-    "endColumn": 20,
+    "column": 18,
+    "endColumn": 19,
     "endLine": 11,
     "fix": Object {
       "range": Array [
-        222,
+        225,
         226,
       ],
-      "text": "abc",
+      "text": "",
     },
     "line": 11,
     "message": "Do not use trailing space between \`console.warn\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
   Object {
-    "column": 15,
-    "endColumn": 21,
+    "column": 19,
+    "endColumn": 20,
     "endLine": 12,
     "fix": Object {
       "range": Array [
-        252,
+        255,
         256,
       ],
-      "text": "abc",
+      "text": "",
     },
     "line": 12,
     "message": "Do not use trailing space between \`console.error\` parameters.",
     "messageId": "no-console-spaces",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/no-for-loop should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/no-for-loop fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
-    "endColumn": 2,
-    "endLine": 7,
+    "endColumn": 51,
+    "endLine": 4,
     "fix": Object {
       "range": Array [
         76,
@@ -2776,14 +2850,14 @@ Array [
     "line": 4,
     "message": "Use a \`for-of\` loop instead of this \`for\` loop.",
     "messageId": "no-for-loop",
-    "nodeType": "ForStatement",
+    "nodeType": null,
     "ruleId": "unicorn/no-for-loop",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/no-hex-escape should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/no-hex-escape fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 26,
@@ -2835,7 +2909,96 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/no-new-buffer should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/no-instanceof-array fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        120,
+        139,
+      ],
+      "text": "Array.isArray([])",
+    },
+    "line": 4,
+    "message": "Use \`Array.isArray()\` instead of \`instanceof Array\`.",
+    "messageId": "no-instanceof-array",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-array",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        141,
+        167,
+      ],
+      "text": "Array.isArray([1, 2, 3])",
+    },
+    "line": 5,
+    "message": "Use \`Array.isArray()\` instead of \`instanceof Array\`.",
+    "messageId": "no-instanceof-array",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-array",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-lonely-if fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 8,
+    "fix": Object {
+      "range": Array [
+        144,
+        197,
+      ],
+      "text": "(true && true) {
+    console.log('true');
+  }",
+    },
+    "line": 6,
+    "message": "Unexpected \`if\` as the only statement in a \`if\` block without \`else\`.",
+    "messageId": "no-lonely-if",
+    "nodeType": "IfStatement",
+    "ruleId": "unicorn/no-lonely-if",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-new-array fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 24,
+    "endColumn": 36,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        23,
+        35,
+      ],
+      "text": "Array.from({length: 0})",
+    },
+    "line": 1,
+    "message": "Do not use \`new Array()\`.",
+    "messageId": "error",
+    "nodeType": "NewExpression",
+    "ruleId": "unicorn/no-new-array",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/no-new-buffer fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 20,
@@ -2850,7 +3013,7 @@ Array [
     },
     "line": 3,
     "message": "\`new Buffer()\` is deprecated, use \`Buffer.alloc()\` instead.",
-    "messageId": "no-new-buffer",
+    "messageId": "error",
     "nodeType": "NewExpression",
     "ruleId": "unicorn/no-new-buffer",
     "severity": 2,
@@ -2858,7 +3021,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/no-unsafe-regex should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 20,
@@ -3159,7 +3322,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/no-zero-fractions should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 21,
@@ -3199,30 +3362,12 @@ Array [
   },
   Object {
     "column": 21,
-    "endColumn": 32,
-    "endLine": 3,
-    "fix": Object {
-      "range": Array [
-        71,
-        82,
-      ],
-      "text": "123123123",
-    },
-    "line": 3,
-    "message": "Don't use a zero fraction in the number.",
-    "messageId": "zero-fraction",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/no-zero-fractions",
-    "severity": 2,
-  },
-  Object {
-    "column": 21,
     "endColumn": 29,
     "endLine": 6,
     "fix": Object {
       "range": Array [
-        156,
-        164,
+        158,
+        166,
       ],
       "text": "123e20",
     },
@@ -3236,7 +3381,30 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-add-event-listener should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/numeric-separators-style fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 36,
+    "endColumn": 45,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        35,
+        44,
+      ],
+      "text": "1_234_444",
+    },
+    "line": 1,
+    "message": "Invalid group length in numeric value.",
+    "messageId": "numeric-separators-style",
+    "nodeType": "Literal",
+    "ruleId": "unicorn/numeric-separators-style",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -3280,146 +3448,162 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-dataset should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-array-find fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 13,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        170,
+        198,
+      ],
+      "text": "find((x) => x === '🦄')",
+    },
+    "line": 5,
+    "message": "Prefer \`.find(…)\` over \`.filter(…)[0]\`.",
+    "messageId": "error-zero-index",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-array-find",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-array-flat-map fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
-    "endColumn": 43,
+    "endColumn": 38,
+    "endLine": 6,
+    "fix": Object {
+      "range": Array [
+        165,
+        188,
+      ],
+      "text": "flatMap((el) => el);",
+    },
+    "line": 6,
+    "message": "Prefer \`.flatMap(…)\` over \`.map(…).flat()\`.",
+    "messageId": "flat-map",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-array-flat-map",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-array-index-of fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 7,
+    "endColumn": 16,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        108,
+        135,
+      ],
+      "text": "indexOf('🦄'",
+    },
+    "line": 4,
+    "message": "Use \`.indexOf()\` instead of \`.findIndex()\` when looking for the index of an item.",
+    "messageId": "prefer-indexOf-over-findIndex//error",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-array-index-of",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-array-some fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 11,
+    "endColumn": 15,
+    "endLine": 4,
+    "line": 4,
+    "message": "Prefer \`.some(…)\` over \`.find(…)\`.",
+    "messageId": "error",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-array-some",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Replace \`.find(…)\` with \`.some(…)\`.",
+        "fix": Object {
+          "range": Array [
+            148,
+            152,
+          ],
+          "text": "some",
+        },
+        "messageId": "suggestion",
+      },
+    ],
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-date-now fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 12,
+    "endColumn": 19,
     "endLine": 1,
     "fix": Object {
       "range": Array [
         0,
-        42,
+        20,
       ],
-      "text": "element.dataset.unicorn = '🦄'",
+      "text": "Date.now()",
     },
     "line": 1,
-    "message": "Prefer \`.dataset\` over \`setAttribute(…)\`.",
-    "messageId": "prefer-dataset",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-dataset",
+    "message": "Prefer \`Date.now()\` over \`Date#getTime()\`.",
+    "messageId": "prefer-date-now-over-methods",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-date-now",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-event-key should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-default-parameters fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 36,
-    "endColumn": 46,
-    "endLine": 1,
-    "line": 1,
-    "message": "Missing return type on function.",
-    "messageId": "missingReturnType",
-    "nodeType": "ArrowFunctionExpression",
-    "ruleId": "@typescript-eslint/explicit-function-return-type",
-    "severity": 2,
-  },
-  Object {
     "column": 3,
-    "endColumn": 14,
-    "endLine": 2,
-    "line": 2,
-    "message": "Unexpected console statement.",
-    "messageId": "unexpected",
-    "nodeType": "MemberExpression",
-    "ruleId": "no-console",
-    "severity": 2,
-  },
-  Object {
-    "column": 21,
     "endColumn": 28,
     "endLine": 2,
     "line": 2,
-    "message": "Use \`.key\` instead of \`.keyCode\`.",
-    "messageId": "prefer-event-key",
-    "nodeType": "Identifier",
-    "ruleId": "unicorn/prefer-event-key",
+    "message": "Prefer default parameters over reassignment.",
+    "messageId": "preferDefaultParameters",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "unicorn/prefer-default-parameters",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Replace reassignment with default parameter.",
+        "fix": Object {
+          "range": Array [
+            37,
+            103,
+          ],
+          "text": "bar = 'bar'): string => {
+",
+        },
+        "messageId": "preferDefaultParametersSuggest",
+      },
+    ],
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-exponentiation-operator should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 1,
-    "endColumn": 15,
-    "endLine": 3,
-    "fix": Object {
-      "range": Array [
-        58,
-        72,
-      ],
-      "text": "2**4",
-    },
-    "line": 3,
-    "message": "Use the '**' operator instead of 'Math.pow'.",
-    "messageId": "useExponentiation",
-    "nodeType": "CallExpression",
-    "ruleId": "prefer-exponentiation-operator",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`unicorn rules unicorn/prefer-flat-map should fail on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "endColumn": 38,
-    "endLine": 5,
-    "fix": Object {
-      "range": Array [
-        95,
-        118,
-      ],
-      "text": "flatMap((el) => el);",
-    },
-    "line": 5,
-    "message": "Prefer \`.flatMap(…)\` over \`.map(…).flat()\`.",
-    "messageId": "flat-map",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-flat-map",
-    "severity": 2,
-  },
-  Object {
-    "column": 16,
-    "endColumn": 38,
-    "endLine": 5,
-    "fix": Object {
-      "range": Array [
-        95,
-        117,
-      ],
-      "text": "flatMap((el) => el)",
-    },
-    "line": 5,
-    "message": "Use flatMap instead of .map().flat()",
-    "nodeType": null,
-    "ruleId": "array-func/prefer-flat-map",
-    "severity": 2,
-  },
-  Object {
-    "column": 20,
-    "endColumn": 27,
-    "endLine": 5,
-    "line": 5,
-    "message": "Missing return type on function.",
-    "messageId": "missingReturnType",
-    "nodeType": "ArrowFunctionExpression",
-    "ruleId": "@typescript-eslint/explicit-function-return-type",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`unicorn rules unicorn/prefer-includes should fail on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "endColumn": 25,
+    "column": 4,
+    "endColumn": 11,
     "endLine": 4,
     "fix": Object {
       "range": Array [
@@ -3431,13 +3615,13 @@ Array [
     "line": 4,
     "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
     "messageId": "prefer-includes",
-    "nodeType": "BinaryExpression",
+    "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "endColumn": 23,
+    "column": 3,
+    "endColumn": 10,
     "endLine": 5,
     "fix": Object {
       "range": Array [
@@ -3449,7 +3633,7 @@ Array [
     "line": 5,
     "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
     "messageId": "prefer-includes",
-    "nodeType": "BinaryExpression",
+    "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
@@ -3465,8 +3649,8 @@ Array [
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "endColumn": 24,
+    "column": 5,
+    "endColumn": 12,
     "endLine": 6,
     "fix": Object {
       "range": Array [
@@ -3478,13 +3662,13 @@ Array [
     "line": 6,
     "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
     "messageId": "prefer-includes",
-    "nodeType": "BinaryExpression",
+    "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "endColumn": 29,
+    "column": 10,
+    "endColumn": 17,
     "endLine": 7,
     "fix": Object {
       "range": Array [
@@ -3496,13 +3680,13 @@ Array [
     "line": 7,
     "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
     "messageId": "prefer-includes",
-    "nodeType": "BinaryExpression",
+    "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
   Object {
-    "column": 1,
-    "endColumn": 24,
+    "column": 3,
+    "endColumn": 10,
     "endLine": 8,
     "fix": Object {
       "range": Array [
@@ -3514,14 +3698,63 @@ Array [
     "line": 8,
     "message": "Use \`.includes()\`, rather than \`.indexOf()\`, when checking for existence.",
     "messageId": "prefer-includes",
-    "nodeType": "BinaryExpression",
+    "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-negative-index should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-keyboard-event-key fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 21,
+    "endColumn": 28,
+    "endLine": 5,
+    "line": 5,
+    "message": "Use \`.key\` instead of \`.keyCode\`.",
+    "messageId": "prefer-keyboard-event-key",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-keyboard-event-key",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-math-trunc fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 13,
+    "endColumn": 21,
+    "endLine": 5,
+    "line": 5,
+    "message": "Use \`Math.trunc\` instead of \`| 0\`.",
+    "messageId": "error-bitwise",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/prefer-math-trunc",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "data": Object {
+          "operator": "|",
+          "value": "0",
+        },
+        "desc": "Replace \`| 0\` with \`Math.trunc\`.",
+        "fix": Object {
+          "range": Array [
+            134,
+            142,
+          ],
+          "text": "Math.trunc(37.4)",
+        },
+        "messageId": "suggestion-bitwise",
+      },
+    ],
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -3601,46 +3834,30 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-node-append should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-number-properties fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
-    "endColumn": 28,
+    "endColumn": 9,
     "endLine": 3,
     "fix": Object {
       "range": Array [
-        35,
         46,
+        54,
       ],
-      "text": "append",
+      "text": "Number.parseInt",
     },
     "line": 3,
-    "message": "Prefer \`Node#append()\` over \`Node#appendChild()\`.",
-    "messageId": "prefer-node-append",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-node-append",
+    "message": "Prefer \`Number.parseInt()\` over \`parseInt()\`.",
+    "messageId": "method-error",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-number-properties",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-node-remove should fail on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 31,
-    "endColumn": 37,
-    "endLine": 7,
-    "line": 7,
-    "message": "Unexpected use of '<<'.",
-    "messageId": "unexpected",
-    "nodeType": "BinaryExpression",
-    "ruleId": "no-bitwise",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`unicorn rules unicorn/prefer-query-selector should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-query-selector fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 32,
@@ -3656,7 +3873,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-reflect-apply should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -3933,48 +4150,55 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-starts-ends-with should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-set-has fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 1,
-    "endColumn": 19,
-    "endLine": 4,
+    "column": 7,
+    "endColumn": 23,
+    "endLine": 1,
     "fix": Object {
       "range": Array [
-        116,
-        133,
+        25,
+        110,
       ],
-      "text": "'foo'.startsWith('bar'",
+      "text": "new Set([1]);
+const preferSetHasFailFunction = (value): boolean =>
+  preferSetHasFail.has",
     },
-    "line": 4,
-    "message": "Prefer \`String#startsWith()\` over a regex with \`^\`.",
-    "messageId": "prefer-starts-with",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-starts-ends-with",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "endColumn": 19,
-    "endLine": 5,
-    "fix": Object {
-      "range": Array [
-        136,
-        153,
-      ],
-      "text": "'foo'.endsWith('bar'",
-    },
-    "line": 5,
-    "message": "Prefer \`String#endsWith()\` over a regex with \`$\`.",
-    "messageId": "prefer-ends-with",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-starts-ends-with",
+    "line": 1,
+    "message": "\`preferSetHasFail\` should be a \`Set\`, and use \`preferSetHasFail.has()\` to check existence or non-existence.",
+    "messageId": "preferSetHas",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-set-has",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-string-slice should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-string-replace-all fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 55,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        11,
+        49,
+      ],
+      "text": "All('This has no special regex symbols'",
+    },
+    "line": 1,
+    "message": "Prefer \`String#replaceAll()\` over \`String#replace()\`.",
+    "messageId": "prefer-string-replace-all",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-string-replace-all",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prefer-string-slice fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
@@ -4015,23 +4239,48 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-text-content should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-string-starts-ends-with fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 32,
-    "endColumn": 38,
-    "endLine": 7,
-    "line": 7,
-    "message": "Unexpected use of '<<'.",
-    "messageId": "unexpected",
-    "nodeType": "BinaryExpression",
-    "ruleId": "no-bitwise",
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 4,
+    "fix": Object {
+      "range": Array [
+        116,
+        133,
+      ],
+      "text": "'foo'.startsWith('bar'",
+    },
+    "line": 4,
+    "message": "Prefer \`String#startsWith()\` over a regex with \`^\`.",
+    "messageId": "prefer-starts-with",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-string-starts-ends-with",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        136,
+        153,
+      ],
+      "text": "'foo'.endsWith('bar'",
+    },
+    "line": 5,
+    "message": "Prefer \`String#endsWith()\` over a regex with \`$\`.",
+    "messageId": "prefer-ends-with",
+    "nodeType": "CallExpression",
+    "ruleId": "unicorn/prefer-string-starts-ends-with",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-trim-start-end should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-string-trim-start-end fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 7,
@@ -4048,7 +4297,7 @@ Array [
     "message": "Prefer \`String#trimStart()\` over \`String#trimLeft()\`.",
     "messageId": "trimLeft",
     "nodeType": "Identifier",
-    "ruleId": "unicorn/prefer-trim-start-end",
+    "ruleId": "unicorn/prefer-string-trim-start-end",
     "severity": 2,
   },
   Object {
@@ -4066,13 +4315,36 @@ Array [
     "message": "Prefer \`String#trimEnd()\` over \`String#trimRight()\`.",
     "messageId": "trimRight",
     "nodeType": "Identifier",
-    "ruleId": "unicorn/prefer-trim-start-end",
+    "ruleId": "unicorn/prefer-string-trim-start-end",
     "severity": 2,
   },
 ]
 `;
 
-exports[`unicorn rules unicorn/prevent-abbreviations should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/prefer-ternary fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 11,
+    "fix": Object {
+      "range": Array [
+        289,
+        344,
+      ],
+      "text": "yield ('a' ? 'a' : 'b');",
+    },
+    "line": 7,
+    "message": "This \`if\` statement can be replaced by a ternary expression.",
+    "messageId": "prefer-ternary",
+    "nodeType": "IfStatement",
+    "ruleId": "unicorn/prefer-ternary",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules unicorn/prevent-abbreviations fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 7,
@@ -4087,7 +4359,7 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/throw-new-error should fail on an invalid fixture 1`] = `
+exports[`unicorn rules unicorn/throw-new-error fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 7,

@@ -1,1 +1,0 @@
-const flattenedFail = [].concat(...array);

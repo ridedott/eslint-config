@@ -7,6 +7,8 @@ module.exports = {
     'consistent-return': 'off',
     // Duplicate of @typescript-eslint/dot-notation.
     'dot-notation': 'off',
+    // Use lambda expressions.
+    'func-names': ['error', 'never', { generators: 'never' }],
     // This is handled by @typescript-eslint/member-ordering.
     'grouped-accessor-pairs': 'off',
     // Ignored properties in TypeScript consist of underscores.

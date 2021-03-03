@@ -3,6 +3,7 @@ module.exports = {
     'jest/consistent-test-it': ['error', { fn: 'it', withinDescribe: 'it' }],
     'jest/expect-expect': 'off',
     'jest/no-hooks': 'off',
+    'jest/no-interpolation-in-snapshots': 'error',
     'jest/no-large-snapshots': 'off',
     // Can be safely used thanks to jest/prefer-expect-assertions.
     'jest/no-try-expect': 'off',
@@ -12,5 +13,6 @@ module.exports = {
     'jest/prefer-called-with': 'off',
     'jest/prefer-inline-snapshots': 'off',
     'jest/prefer-expect-assertions': 'error',
+    'jest/valid-title': ['error', { disallowedWords: ['should'] }],
   },
 };

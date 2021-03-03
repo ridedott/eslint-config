@@ -41,22 +41,14 @@ module.exports = {
         },
       },
     ],
-    /**
-     * Formatting should be done by Prettier.
-     */
+    // Code should be formatted using Prettier.
     '@typescript-eslint/comma-dangle': 'off',
-    /**
-     * Does not make it possible to define recursive types.
-     */
+    // Does not make it possible to define recursive types.
     '@typescript-eslint/consistent-indexed-object-style': 'off',
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-    /**
-     * Conflicts with simple-import-sort/sort.
-     */
+    // Conflicts with simple-import-sort/sort.
     '@typescript-eslint/consistent-type-imports': 'off',
-    /**
-     * Formatting should be done by Prettier.
-     */
+    // Code should be formatted using Prettier.
     '@typescript-eslint/comma-spacing': 'off',
     '@typescript-eslint/explicit-function-return-type': [
       'error',
@@ -192,9 +184,7 @@ module.exports = {
         ignoreNumericLiteralTypes: true,
       },
     ],
-    /*
-     * Custom objects are often used in class-free applications.
-     */
+    // Custom objects are often used in class-free applications.
     '@typescript-eslint/no-throw-literal': 'off',
     /*
      * Type aliases are often needed when deriving and extending existing type
