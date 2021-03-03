@@ -1727,7 +1727,7 @@ exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails 
 Array [
   Object {
     "column": 37,
-    "endColumn": 67,
+    "endColumn": 42,
     "endLine": 4,
     "fix": Object {
       "range": Array [
@@ -1745,8 +1745,8 @@ Array [
   },
   Object {
     "column": 1,
-    "endColumn": 2,
-    "endLine": 8,
+    "endColumn": 34,
+    "endLine": 6,
     "fix": Object {
       "range": Array [
         172,
