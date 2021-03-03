@@ -8,7 +8,7 @@ import { rules as importRules } from 'eslint-plugin-import';
 import { rules as jestRules } from 'eslint-plugin-jest';
 import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort';
 import { rules as unicornRules } from 'eslint-plugin-unicorn';
-import { writeFile } from 'fs/promises';
+import { writeFileSync } from 'fs';
 import { resolve } from 'path';
 
 import * as arrayFunction from '../rules/array-func';
@@ -97,16 +97,14 @@ const lintFixture = async ({
   const ruleFixtures = ruleSetFixtures[ruleName];
 
   if (ruleFixtures === undefined) {
-    await Promise.all([
-      writeFile(
-        resolve(__dirname, 'fixtures', ruleSet, `${ruleName}.fail.ts`),
-        'Implement me!',
-      ),
-      writeFile(
-        resolve(__dirname, 'fixtures', ruleSet, `${ruleName}.pass.ts`),
-        'Implement me!',
-      ),
-    ]);
+    writeFileSync(
+      resolve(__dirname, 'fixtures', ruleSet, `${ruleName}.fail.ts`),
+      'Implement me!',
+    );
+    writeFileSync(
+      resolve(__dirname, 'fixtures', ruleSet, `${ruleName}.pass.ts`),
+      'Implement me!',
+    );
 
     throw new Error(`Missing fixtures for ${ruleSet}/${ruleName}.`);
   }
