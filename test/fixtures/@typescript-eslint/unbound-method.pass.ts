@@ -17,8 +17,8 @@ const instance2 = new MyClass2();
 const { logBound } = instance2;
 logBound();
 
-// .bind and lambdas will also add a correct scope
-const dotBindLog = instance2.logBound.bind(instance2);
+// .bind and lambdas will also add a correct scope.
+const dotBindLog = logBound.bind(instance2);
 
 const innerLog = () => {
   instance2.logBound();

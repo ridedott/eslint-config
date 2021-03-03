@@ -1,3 +1,3 @@
 import { generatePluginFixture } from '../../common/generatePluginFixture';
 
-export const eslint = generatePluginFixture(__dirname);
+export const eslintFixtures = generatePluginFixture(__dirname);

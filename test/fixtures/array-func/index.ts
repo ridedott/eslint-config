@@ -1,3 +1,3 @@
 import { generatePluginFixture } from '../../common/generatePluginFixture';
 
-export const arrayFunc = generatePluginFixture(__dirname);
+export const arrayFuncFixtures = generatePluginFixture(__dirname);

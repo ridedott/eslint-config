@@ -7,7 +7,7 @@
     "downlevelIteration": false,
     "forceConsistentCasingInFileNames": true,
     "importsNotUsedAsValues": "error",
-    "lib": ["ES2020"],
+    "lib": ["DOM", "ES2020"],
     "module": "commonjs",
     "noImplicitAny": false,
     "noImplicitReturns": true,
