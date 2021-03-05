@@ -21,6 +21,11 @@ updates:
       - dependency-name: '@types/node'
         versions:
           - '> 12'
+      # Husky version 5 is in early access, with a license for sponsors and open
+      # source projects only. After the early access, husky v5 will be MIT.
+      - dependency-name: husky
+        versions:
+          - "5"
     open-pull-requests-limit: 99
     package-ecosystem: npm
     reviewers:
