@@ -25,7 +25,7 @@ updates:
       # source projects only. After the early access, husky v5 will be MIT.
       - dependency-name: husky
         versions:
-          - "5"
+          - '5'
     open-pull-requests-limit: 99
     package-ecosystem: npm
     reviewers:
