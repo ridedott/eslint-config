@@ -1,3 +1,10 @@
+## [2.10.19](https://github.com/ridedott/eslint-config/compare/v2.10.18...v2.10.19) (2021-03-08)
+
+### Chores
+
+- **deps:** bump eslint-plugin-jest from 24.1.5 to 24.1.8
+  ([609a98c](https://github.com/ridedott/eslint-config/commit/609a98c170639953b5bbc1bd09dcc709dbf78051))
+
 ## [2.10.18](https://github.com/ridedott/eslint-config/compare/v2.10.17...v2.10.18) (2021-03-05)
 
 ### Chores
