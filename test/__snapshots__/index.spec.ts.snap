@@ -159,6 +159,42 @@ Array [
     "ruleId": "capitalized-comments",
     "severity": 2,
   },
+  Object {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        25,
+        26,
+      ],
+      "text": "C",
+    },
+    "line": 3,
+    "message": "Comments should not begin with a lowercase character.",
+    "messageId": "unexpectedLowercaseComment",
+    "nodeType": null,
+    "ruleId": "capitalized-comments",
+    "severity": 2,
+  },
+  Object {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 5,
+    "fix": Object {
+      "range": Array [
+        48,
+        49,
+      ],
+      "text": "C",
+    },
+    "line": 5,
+    "message": "Comments should not begin with a lowercase character.",
+    "messageId": "unexpectedLowercaseComment",
+    "nodeType": null,
+    "ruleId": "capitalized-comments",
+    "severity": 2,
+  },
 ]
 `;
 
