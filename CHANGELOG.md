@@ -1,3 +1,10 @@
+# [2.11.0](https://github.com/ridedott/eslint-config/compare/v2.10.19...v2.11.0) (2021-03-15)
+
+### Features
+
+- ignore cspell and c8 block comments for capitalized-comments rule
+  ([654ff98](https://github.com/ridedott/eslint-config/commit/654ff98c0db3f8c4f3ba6b9921eab845c391f12c))
+
 ## [2.10.19](https://github.com/ridedott/eslint-config/compare/v2.10.18...v2.10.19) (2021-03-08)
 
 ### Chores
