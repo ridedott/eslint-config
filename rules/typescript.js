@@ -240,6 +240,8 @@ module.exports = {
      * Superseded by @typescript-eslint/no-unused-vars.
      */
     '@typescript-eslint/no-unused-vars-experimental': 'off',
+    // Conflicts with non-null assertions.
+    '@typescript-eslint/non-nullable-type-assertion-style': 'off',
     '@typescript-eslint/object-curly-spacing': 'off',
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
