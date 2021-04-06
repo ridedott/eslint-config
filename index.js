@@ -12,6 +12,7 @@ module.exports = {
     './rules/import.js',
     './rules/jest.js',
     './rules/simple-import-sort.js',
+    './rules/sort-keys-fix.js',
     './rules/typescript.js',
     './rules/unicorn.js',
     'prettier',
