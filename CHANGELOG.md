@@ -1,3 +1,10 @@
+## [2.12.1](https://github.com/ridedott/eslint-config/compare/v2.12.0...v2.12.1) (2021-04-06)
+
+### Bug Fixes
+
+- fully enable sort-keys fixer
+  ([be2cb95](https://github.com/ridedott/eslint-config/commit/be2cb957509539da63d0de9108c4f9942c6e7e97))
+
 # [2.12.0](https://github.com/ridedott/eslint-config/compare/v2.11.0...v2.12.0) (2021-04-06)
 
 ### Features
