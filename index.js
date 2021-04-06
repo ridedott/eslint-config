@@ -26,6 +26,7 @@ module.exports = {
     'import',
     'jest',
     'simple-import-sort',
+    'sort-keys-fix',
     'unicorn',
   ],
   parser: '@typescript-eslint/parser',
