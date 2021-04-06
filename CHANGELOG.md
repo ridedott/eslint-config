@@ -1,3 +1,10 @@
+# [2.12.0](https://github.com/ridedott/eslint-config/compare/v2.11.0...v2.12.0) (2021-04-06)
+
+### Features
+
+- add a fixer for key order
+  ([cfc493a](https://github.com/ridedott/eslint-config/commit/cfc493aa500ee3123a0fe7683028e88b21a3b95a))
+
 # [2.11.0](https://github.com/ridedott/eslint-config/compare/v2.10.19...v2.11.0) (2021-03-15)
 
 ### Features
