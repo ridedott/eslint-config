@@ -35,7 +35,8 @@
     "ts-jest": "^26.5.3"
   },
   "engines": {
-    "node": ">= 12"
+    "node": "^15",
+    "npm": "^7"
   },
   "files": [
     "index.js",
@@ -71,5 +72,6 @@
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
-  "version": "2.12.2"
+  "version": "2.12.2",
+  "enginesStrict": true
 }
