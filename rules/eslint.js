@@ -25,7 +25,10 @@ module.exports = {
     // developers can judge better if the file is too large or not, with many
     // valid exceptions created over time.
     'max-lines': 'off',
-    'max-lines-per-function': ['error', { max: 70 }],
+    // This rule was initially enabled, however in practice it appears that
+    // developers often struggle to restructure code to adere, which lowers
+    // overall productivity.
+    'max-lines-per-function': 'off',
     // Using functions and firestore result in a higher number of statements
     // being used.
     'max-statements': ['error', { max: 15 }],
