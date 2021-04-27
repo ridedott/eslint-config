@@ -1,3 +1,10 @@
+# [2.13.0](https://github.com/ridedott/eslint-config/compare/v2.12.2...v2.13.0) (2021-04-27)
+
+### Features
+
+- disable max-lines-per-function rule
+  ([41ab936](https://github.com/ridedott/eslint-config/commit/41ab9363d7d83ac149aa53bf5f24c195f782c33a))
+
 ## [2.12.2](https://github.com/ridedott/eslint-config/compare/v2.12.1...v2.12.2) (2021-04-08)
 
 ### Continuous Integration
