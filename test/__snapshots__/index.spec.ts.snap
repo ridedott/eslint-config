@@ -307,46 +307,8 @@ Array [
 ]
 `;
 
-exports[`eslint rules max-lines-per-function fails on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 22,
-    "endColumn": 2,
-    "endLine": 89,
-    "line": 3,
-    "message": "Arrow function has too many lines (87). Maximum allowed is 70.",
-    "messageId": "exceed",
-    "nodeType": "ArrowFunctionExpression",
-    "ruleId": "max-lines-per-function",
-    "severity": 2,
-  },
-  Object {
-    "column": 22,
-    "endColumn": 2,
-    "endLine": 89,
-    "line": 3,
-    "message": "Arrow function has too many statements (83). Maximum allowed is 15.",
-    "messageId": "exceed",
-    "nodeType": "ArrowFunctionExpression",
-    "ruleId": "max-statements",
-    "severity": 2,
-  },
-]
-`;
-
 exports[`eslint rules max-statements fails on an invalid fixture 1`] = `
 Array [
-  Object {
-    "column": 32,
-    "endColumn": 2,
-    "endLine": 89,
-    "line": 3,
-    "message": "Arrow function has too many lines (87). Maximum allowed is 70.",
-    "messageId": "exceed",
-    "nodeType": "ArrowFunctionExpression",
-    "ruleId": "max-lines-per-function",
-    "severity": 2,
-  },
   Object {
     "column": 32,
     "endColumn": 2,
