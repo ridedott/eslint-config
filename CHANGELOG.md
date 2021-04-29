@@ -1,3 +1,10 @@
+## [2.13.6](https://github.com/ridedott/eslint-config/compare/v2.13.5...v2.13.6) (2021-04-29)
+
+### Chores
+
+- **deps:** bump eslint-config-prettier from 8.1.0 to 8.3.0
+  ([1c8e623](https://github.com/ridedott/eslint-config/commit/1c8e623705efe8863cefce48693b04720bd04f40))
+
 ## [2.13.5](https://github.com/ridedott/eslint-config/compare/v2.13.4...v2.13.5) (2021-04-29)
 
 ### Chores
