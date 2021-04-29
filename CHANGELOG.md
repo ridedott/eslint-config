@@ -1,3 +1,10 @@
+## [2.13.1](https://github.com/ridedott/eslint-config/compare/v2.13.0...v2.13.1) (2021-04-29)
+
+### Continuous Integration
+
+- update GitHub token used for publishing packages
+  ([1ea38eb](https://github.com/ridedott/eslint-config/commit/1ea38eb44e0f080f71f6ad14c8e473f9b137cff7))
+
 # [2.13.0](https://github.com/ridedott/eslint-config/compare/v2.12.2...v2.13.0) (2021-04-27)
 
 ### Features
