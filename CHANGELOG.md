@@ -1,3 +1,31 @@
+# [2.13.0](https://github.com/ridedott/eslint-config/compare/v2.12.2...v2.13.0) (2021-04-27)
+
+### Features
+
+- disable max-lines-per-function rule
+  ([41ab936](https://github.com/ridedott/eslint-config/commit/41ab9363d7d83ac149aa53bf5f24c195f782c33a))
+
+## [2.12.2](https://github.com/ridedott/eslint-config/compare/v2.12.1...v2.12.2) (2021-04-08)
+
+### Continuous Integration
+
+- update merge-me action to new workflow
+  ([5a0ba36](https://github.com/ridedott/eslint-config/commit/5a0ba36a0c9dbdd0d92dcd6a308dc4740d621de4))
+
+## [2.12.1](https://github.com/ridedott/eslint-config/compare/v2.12.0...v2.12.1) (2021-04-06)
+
+### Bug Fixes
+
+- fully enable sort-keys fixer
+  ([be2cb95](https://github.com/ridedott/eslint-config/commit/be2cb957509539da63d0de9108c4f9942c6e7e97))
+
+# [2.12.0](https://github.com/ridedott/eslint-config/compare/v2.11.0...v2.12.0) (2021-04-06)
+
+### Features
+
+- add a fixer for key order
+  ([cfc493a](https://github.com/ridedott/eslint-config/commit/cfc493aa500ee3123a0fe7683028e88b21a3b95a))
+
 # [2.11.0](https://github.com/ridedott/eslint-config/compare/v2.10.19...v2.11.0) (2021-03-15)
 
 ### Features
