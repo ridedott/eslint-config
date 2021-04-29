@@ -1,3 +1,10 @@
+## [2.13.7](https://github.com/ridedott/eslint-config/compare/v2.13.6...v2.13.7) (2021-04-29)
+
+### Chores
+
+- **deps:** bump typescript from 4.2.3 to 4.2.4
+  ([f23e3b5](https://github.com/ridedott/eslint-config/commit/f23e3b585619eabc19994758241ac2ef6370c9bd))
+
 ## [2.13.6](https://github.com/ridedott/eslint-config/compare/v2.13.5...v2.13.6) (2021-04-29)
 
 ### Chores
