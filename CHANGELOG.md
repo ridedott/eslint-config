@@ -1,3 +1,24 @@
+## [2.13.2](https://github.com/ridedott/eslint-config/compare/v2.13.1...v2.13.2) (2021-04-29)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 26.0.20 to 26.0.23
+  ([63d2b66](https://github.com/ridedott/eslint-config/commit/63d2b66a71203d7ec9553a551b29212598b5f2a2))
+
+## [2.13.1](https://github.com/ridedott/eslint-config/compare/v2.13.0...v2.13.1) (2021-04-29)
+
+### Continuous Integration
+
+- update GitHub token used for publishing packages
+  ([1ea38eb](https://github.com/ridedott/eslint-config/commit/1ea38eb44e0f080f71f6ad14c8e473f9b137cff7))
+
+# [2.13.0](https://github.com/ridedott/eslint-config/compare/v2.12.2...v2.13.0) (2021-04-27)
+
+### Features
+
+- disable max-lines-per-function rule
+  ([41ab936](https://github.com/ridedott/eslint-config/commit/41ab9363d7d83ac149aa53bf5f24c195f782c33a))
+
 ## [2.12.2](https://github.com/ridedott/eslint-config/compare/v2.12.1...v2.12.2) (2021-04-08)
 
 ### Continuous Integration
