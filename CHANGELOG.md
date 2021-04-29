@@ -1,3 +1,10 @@
+## [2.13.4](https://github.com/ridedott/eslint-config/compare/v2.13.3...v2.13.4) (2021-04-29)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([c8c0b43](https://github.com/ridedott/eslint-config/commit/c8c0b43109de5e011906dda8c7c320f05cdd2b01))
+
 ## [2.13.3](https://github.com/ridedott/eslint-config/compare/v2.13.2...v2.13.3) (2021-04-29)
 
 ### Chores
