@@ -69,6 +69,8 @@ jobs:
     name: Pre-release
     needs:
       - test
+    permissions:
+      packages: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
