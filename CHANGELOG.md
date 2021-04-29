@@ -1,3 +1,38 @@
+## [2.13.9](https://github.com/ridedott/eslint-config/compare/v2.13.8...v2.13.9) (2021-04-29)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 12.0.1 to 12.1.1
+  ([0ccbd27](https://github.com/ridedott/eslint-config/commit/0ccbd2761ec7df32e411253b00f5155122188798))
+
+## [2.13.8](https://github.com/ridedott/eslint-config/compare/v2.13.7...v2.13.8) (2021-04-29)
+
+### Chores
+
+- **deps-dev:** bump eslint from 7.21.0 to 7.25.0
+  ([ab3071e](https://github.com/ridedott/eslint-config/commit/ab3071eb44710198bf9d61816349ca1512c0b8b7))
+
+## [2.13.7](https://github.com/ridedott/eslint-config/compare/v2.13.6...v2.13.7) (2021-04-29)
+
+### Chores
+
+- **deps:** bump typescript from 4.2.3 to 4.2.4
+  ([f23e3b5](https://github.com/ridedott/eslint-config/commit/f23e3b585619eabc19994758241ac2ef6370c9bd))
+
+## [2.13.6](https://github.com/ridedott/eslint-config/compare/v2.13.5...v2.13.6) (2021-04-29)
+
+### Chores
+
+- **deps:** bump eslint-config-prettier from 8.1.0 to 8.3.0
+  ([1c8e623](https://github.com/ridedott/eslint-config/commit/1c8e623705efe8863cefce48693b04720bd04f40))
+
+## [2.13.5](https://github.com/ridedott/eslint-config/compare/v2.13.4...v2.13.5) (2021-04-29)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 4.16.1 to 4.22.0
+  ([7e740c4](https://github.com/ridedott/eslint-config/commit/7e740c42f2b253fa8868c5198b5be7096e7df170))
+
 ## [2.13.4](https://github.com/ridedott/eslint-config/compare/v2.13.3...v2.13.4) (2021-04-29)
 
 ### Chores
