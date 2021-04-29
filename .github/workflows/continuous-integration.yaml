@@ -69,8 +69,7 @@ jobs:
     name: Pre-release
     needs:
       - test
-    permissions:
-      packages: read-all|write-all
+    permissions: read-all|write-all
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
