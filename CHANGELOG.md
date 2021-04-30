@@ -1,3 +1,10 @@
+## [2.13.12](https://github.com/ridedott/eslint-config/compare/v2.13.11...v2.13.12) (2021-04-30)
+
+### Chores
+
+- replace usage of deprecated CliEngine with ESLint
+  ([fb12048](https://github.com/ridedott/eslint-config/commit/fb12048ac2bf3684a17e079e869348216ed7acf8))
+
 ## [2.13.11](https://github.com/ridedott/eslint-config/compare/v2.13.10...v2.13.11) (2021-04-29)
 
 ### Continuous Integration
