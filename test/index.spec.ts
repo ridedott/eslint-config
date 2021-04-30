@@ -104,12 +104,9 @@ const lintFixture = async ({
 
   const fixture = ruleFixtures[type];
 
-  const results = await esLint.lintText(
-    fixture,
-    {
-      filePath: `${fixtureFilePath(ruleSet)}/${configuredRule}.${type}.ts`
-    },
-  );
+  const results = await esLint.lintText(fixture, {
+    filePath: `${fixtureFilePath(ruleSet)}/${configuredRule}.${type}.ts`,
+  });
 
   return results[0];
 };
