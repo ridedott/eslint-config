@@ -2255,7 +2255,7 @@ Array [
     "endColumn": 47,
     "endLine": 1,
     "line": 1,
-    "message": "There is a TODO that is past due date: 2000-01-01. I'll fix this next week.",
+    "message": "There is a TODO that is past due date: 1960-01-01. I'll fix this next week.",
     "messageId": "unicorn/expiredTodo",
     "nodeType": null,
     "ruleId": "unicorn/expiring-todo-comments",
@@ -2271,8 +2271,8 @@ Array [
         107,
       ],
       "text": "/*
- * TODO [2000-01-01]: I'll fix this next week.
- * TODO [2000-01-01, 2001-01-01]: Multiple dates won't work.
+ * TODO [1960-01-01]: I'll fix this next week.
+ * TODO [1960-01-01, 1961-01-01]: Multiple dates won't work.
  */",
     },
     "line": 1,
@@ -2287,7 +2287,7 @@ Array [
     "endColumn": 61,
     "endLine": 2,
     "line": 2,
-    "message": "Avoid using multiple expiration dates in TODO: 2000-01-01, 2001-01-01. Multiple dates won't work.",
+    "message": "Avoid using multiple expiration dates in TODO: 1960-01-01, 1961-01-01. Multiple dates won't work.",
     "messageId": "unicorn/avoidMultipleDates",
     "nodeType": null,
     "ruleId": "unicorn/expiring-todo-comments",
@@ -2396,7 +2396,7 @@ Array [
     "endColumn": 4,
     "endLine": 17,
     "line": 13,
-    "message": "There is a TODO that is past due date: 2002-12-25. Yet",
+    "message": "There is a TODO that is past due date: 1962-12-25. Yet",
     "messageId": "unicorn/expiredTodo",
     "nodeType": null,
     "ruleId": "unicorn/expiring-todo-comments",
@@ -2407,7 +2407,7 @@ Array [
     "endColumn": 4,
     "endLine": 17,
     "line": 13,
-    "message": "There is a TODO that is past due date: 2002-12-25. Another",
+    "message": "There is a TODO that is past due date: 1962-12-25. Another",
     "messageId": "unicorn/expiredTodo",
     "nodeType": null,
     "ruleId": "unicorn/expiring-todo-comments",
@@ -2418,7 +2418,7 @@ Array [
     "endColumn": 4,
     "endLine": 17,
     "line": 13,
-    "message": "There is a TODO that is past due date: 2002-12-25. Way",
+    "message": "There is a TODO that is past due date: 1962-12-25. Way",
     "messageId": "unicorn/expiredTodo",
     "nodeType": null,
     "ruleId": "unicorn/expiring-todo-comments",
