@@ -1,5 +1,5 @@
-// TODO [1960-01-01]: I'll fix this next week.
-// TODO [1960-01-01, 1961-01-01]: Multiple dates won't work.
+// TODO [2000-01-01]: I'll fix this next week.
+// TODO [2000-01-01, 2001-01-01]: Multiple dates won't work.
 
 // TODO [>1]: If your package.json version is > 1.
 // TODO [>=1]: If your package.json version is >= 1.
@@ -11,7 +11,7 @@
 // TODO: Add unicorns.
 
 /*
- * TODO [1962-12-25]: Yet
- * TODO [1962-12-25]: Another
- * TODO [1962-12-25]: Way
+ * TODO [2002-12-25]: Yet
+ * TODO [2002-12-25]: Another
+ * TODO [2002-12-25]: Way
  */
