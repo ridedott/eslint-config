@@ -103,7 +103,7 @@ const lintFixture = async ({
   }
 
   const fixture = ruleFixtures[type];
-  const results = cli.lintText(fixture, {
+  const results = await cli.lintText(fixture, {
     filePath: `${fixtureFilePath(ruleSet)}/${configuredRule}.${type}.ts`,
   });
 
