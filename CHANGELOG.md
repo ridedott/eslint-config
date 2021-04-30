@@ -1,3 +1,17 @@
+## [2.13.11](https://github.com/ridedott/eslint-config/compare/v2.13.10...v2.13.11) (2021-04-29)
+
+### Continuous Integration
+
+- fix pre-release step failing the integration workflow
+  ([50b3d6d](https://github.com/ridedott/eslint-config/commit/50b3d6d0bef8a395ac05ef237709e39b144e8593))
+
+## [2.13.10](https://github.com/ridedott/eslint-config/compare/v2.13.9...v2.13.10) (2021-04-29)
+
+### Chores
+
+- **deps:** bump actions/cache from v2.1.4 to v2.1.5
+  ([c8a0052](https://github.com/ridedott/eslint-config/commit/c8a005284d39eca63f361e45e4c8e9e1f9a41bad))
+
 ## [2.13.9](https://github.com/ridedott/eslint-config/compare/v2.13.8...v2.13.9) (2021-04-29)
 
 ### Chores

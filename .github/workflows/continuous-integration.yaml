@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache dependencies
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v2.1.5
         with:
           key: npm-${{ hashFiles('./package-lock.json') }}
           path: ~/.npm
@@ -45,14 +45,14 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache dependencies
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v2.1.5
         with:
           key: npm-${{ hashFiles('./package-lock.json') }}
           path: ~/.npm
           restore-keys: |
             npm-
       - name: Cache local cache
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v2.1.5
         with:
           key: local-${{ github.sha }}
           path: .cache
@@ -69,6 +69,8 @@ jobs:
     name: Pre-release
     needs:
       - test
+    permissions:
+      packages: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -81,7 +83,7 @@ jobs:
         with:
           node-version: 14
       - name: Cache dependencies
-        uses: actions/cache@v2.1.4
+        uses: actions/cache@v2.1.5
         with:
           key: npm-${{ hashFiles('./package-lock.json') }}
           path: ~/.npm
@@ -101,7 +103,7 @@ jobs:
           node-version: 14
           registry-url: 'https://npm.pkg.github.com'
       - env:
-          NODE_AUTH_TOKEN: ${{ secrets.DOTTBOTT_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         name: Publish to GitHub Packages
         run: npm publish --tag="dev"
       - name: Setup Node.js
