@@ -4165,7 +4165,7 @@ const preferSetHasFailFunction = (value): boolean =>
     },
     "line": 1,
     "message": "\`preferSetHasFail\` should be a \`Set\`, and use \`preferSetHasFail.has()\` to check existence or non-existence.",
-    "messageId": "preferSetHas",
+    "messageId": "error",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-set-has",
     "severity": 2,
