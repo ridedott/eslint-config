@@ -1,6 +1,6 @@
 import { rules as ridedottEslintRules } from '@ridedott/eslint-plugin';
 import { rules as typescriptEslintRules } from '@typescript-eslint/eslint-plugin';
-import { CLIEngine, Linter } from 'eslint';
+import { ESLint, Linter } from 'eslint';
 import { rules as arrayFunctionRules } from 'eslint-plugin-array-func';
 import { rules as eslintCommentsRules } from 'eslint-plugin-eslint-comments';
 import { rules as immutableRules } from 'eslint-plugin-immutable';
@@ -28,14 +28,7 @@ import * as fixturesPromises from './fixtures';
  * Test utilities
  */
 
-interface VerifyResponse {
-  [key: string]: unknown;
-  errorCount: number;
-  messages: [];
-  warningCount: number;
-}
-
-const cli = new CLIEngine();
+const cli = new ESLint();
 const linter = new Linter();
 
 const eslintRules = Object.fromEntries(linter.getRules());
@@ -92,7 +85,7 @@ const lintFixture = async ({
   ruleName: string;
   ruleSet: string;
   type: 'fail' | 'pass';
-}): Promise<VerifyResponse> => {
+}): Promise<ESLint.LintResult> => {
   const ruleSetFixtures = await fixturesPromises[`${ruleSet}Fixtures`];
   const ruleFixtures = ruleSetFixtures[ruleName];
 
@@ -110,12 +103,11 @@ const lintFixture = async ({
   }
 
   const fixture = ruleFixtures[type];
-  const report = cli.executeOnText(
-    fixture,
-    `${fixtureFilePath(ruleSet)}/${configuredRule}.${type}.ts`,
-  );
+  const results = cli.lintText(fixture, {
+    filePath: `${fixtureFilePath(ruleSet)}/${configuredRule}.${type}.ts`,
+  });
 
-  return report.results[0];
+  return results[0];
 };
 
 const getRuleName = (configuredRule: string): string => {
