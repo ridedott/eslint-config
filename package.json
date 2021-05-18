@@ -5,7 +5,7 @@
     }
   },
   "dependencies": {
-    "@ridedott/eslint-plugin": "^1.6.195",
+    "@ridedott/eslint-plugin": "^1.6.209",
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.22.0",
     "eslint-config-prettier": "^8.3.0",
@@ -36,11 +36,12 @@
     "ts-jest": "^26.5.5"
   },
   "engines": {
-    "node": ">= 12"
+    "node": "12 || >=14"
   },
   "files": [
     "index.js",
-    "rules"
+    "rules",
+    "README.md"
   ],
   "husky": {
     "hooks": {
@@ -54,7 +55,7 @@
       "prettier --write"
     ]
   },
-  "main": "index.js",
+  "main": "./index.js",
   "name": "@ridedott/eslint-config",
   "peerDependencies": {
     "eslint": "^7.18.0"
@@ -67,8 +68,8 @@
     "clean": "rm -rf lib",
     "cz": "git-cz",
     "cz:retry": "git-cz --retry",
-    "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
-    "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\"",
+    "format": "prettier --check '**/*.{js,json,md,ts,yml,yaml}'",
+    "format:fix": "prettier --write '**/*.{js,json,md,ts,yml,yaml}'",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
