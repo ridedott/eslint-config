@@ -1,3 +1,10 @@
+## [2.13.13](https://github.com/ridedott/eslint-config/compare/v2.13.12...v2.13.13) (2021-05-18)
+
+### Continuous Integration
+
+- remove pre-releases
+  ([c5d0266](https://github.com/ridedott/eslint-config/commit/c5d02660245786829edd7de1b7946bb555d1e747))
+
 ## [2.13.12](https://github.com/ridedott/eslint-config/compare/v2.13.11...v2.13.12) (2021-04-30)
 
 ### Chores
