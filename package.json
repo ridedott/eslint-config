@@ -40,7 +40,8 @@
   },
   "files": [
     "index.js",
-    "rules"
+    "rules",
+    "README.md"
   ],
   "husky": {
     "hooks": {
@@ -54,7 +55,7 @@
       "prettier --write"
     ]
   },
-  "main": "index.js",
+  "main": "./index.js",
   "name": "@ridedott/eslint-config",
   "peerDependencies": {
     "eslint": "^7.18.0"
@@ -62,13 +63,13 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:ridedott/eslint-config.git"
-  },
+  },'
   "scripts": {
     "clean": "rm -rf lib",
     "cz": "git-cz",
     "cz:retry": "git-cz --retry",
-    "format": "prettier --check \"**/*.{js,json,md,ts,yml,yaml}\"",
-    "format:fix": "prettier --write \"**/*.{js,json,md,ts,yml,yaml}\"",
+    "format": "prettier --check '**/*.{js,json,md,ts,yml,yaml}'",
+    "format:fix": "prettier --write '**/*.{js,json,md,ts,yml,yaml}'",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
