@@ -1,3 +1,10 @@
+## [2.13.18](https://github.com/ridedott/eslint-config/compare/v2.13.17...v2.13.18) (2021-05-18)
+
+### Chores
+
+- **deps:** bump eslint-plugin-import from 2.22.1 to 2.23.2
+  ([c8290cb](https://github.com/ridedott/eslint-config/commit/c8290cb1a23f223e2d275d753e6e6f7cc058f0f8))
+
 ## [2.13.17](https://github.com/ridedott/eslint-config/compare/v2.13.16...v2.13.17) (2021-05-18)
 
 ### Chores
