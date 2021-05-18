@@ -1,3 +1,18 @@
+## [2.13.16](https://github.com/ridedott/eslint-config/compare/v2.13.15...v2.13.16) (2021-05-18)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([8e81af0](https://github.com/ridedott/eslint-config/commit/8e81af02e5cf4eb7fd9ac8f771f57a29f89c4a87))
+- **deps-dev:** bump commitizen from 4.2.3 to 4.2.4
+  ([ac9584f](https://github.com/ridedott/eslint-config/commit/ac9584f71403a23516d1b6ad486ab1927ba3af67))
+- **deps-dev:** bump husky from 5.1.3 to 6.0.0
+  ([85e5e59](https://github.com/ridedott/eslint-config/commit/85e5e5989e464a89288e4a2f60c7347818abe5eb))
+- **deps-dev:** bump lint-staged from 10.5.4 to 11.0.0
+  ([8c259e1](https://github.com/ridedott/eslint-config/commit/8c259e141357dda6a9f65aca4456a95e698722cc))
+- **deps-dev:** bump ts-jest from 26.5.5 to 26.5.6
+  ([0376e81](https://github.com/ridedott/eslint-config/commit/0376e81d6e91dff0c5e138d36aec6d1f8894f277))
+
 ## [2.13.15](https://github.com/ridedott/eslint-config/compare/v2.13.14...v2.13.15) (2021-05-18)
 
 ### Chores
