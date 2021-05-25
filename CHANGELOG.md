@@ -1,3 +1,10 @@
+## [2.13.22](https://github.com/ridedott/eslint-config/compare/v2.13.21...v2.13.22) (2021-05-25)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 4.24.0 to 4.25.0
+  ([f50d1a6](https://github.com/ridedott/eslint-config/commit/f50d1a6163ede2264b5d0c3fcb4bed162944eb76))
+
 ## [2.13.21](https://github.com/ridedott/eslint-config/compare/v2.13.20...v2.13.21) (2021-05-24)
 
 ### Chores
