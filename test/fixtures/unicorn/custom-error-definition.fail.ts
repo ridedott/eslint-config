@@ -2,10 +2,9 @@
 /* eslint-disable immutable/no-this */
 
 class CustomFailError extends Error {
-  public constructor(message) {
+  public constructor(message: string) {
     super(message);
 
-    this.message = message;
     this.name = 'CustomError';
   }
 }

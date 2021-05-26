@@ -758,8 +758,9 @@ Array [
     "endColumn": 27,
     "endLine": 12,
     "line": 12,
-    "message": "Avoid referencing unbound methods which may cause unintentional scoping of \`this\`.",
-    "messageId": "unbound",
+    "message": "Avoid referencing unbound methods which may cause unintentional scoping of \`this\`.
+If your function does not access \`this\`, you can annotate it with \`this: void\`, or consider using an arrow function instead.",
+    "messageId": "unboundWithoutThisAnnotation",
     "nodeType": "MemberExpression",
     "ruleId": "jest/unbound-method",
     "severity": 2,
@@ -1887,6 +1888,41 @@ Array [
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/strict-boolean-expressions",
     "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Change condition to check string's length (\`value.length !== 0\`)",
+        "fix": Object {
+          "range": Array [
+            49,
+            56,
+          ],
+          "text": "strictA.length > 0",
+        },
+        "messageId": "conditionFixCompareStringLength",
+      },
+      Object {
+        "desc": "Change condition to check for empty string (\`value !== \\"\\"\`)",
+        "fix": Object {
+          "range": Array [
+            49,
+            56,
+          ],
+          "text": "strictA !== \\"\\"",
+        },
+        "messageId": "conditionFixCompareEmptyString",
+      },
+      Object {
+        "desc": "Explicitly cast value to a boolean (\`Boolean(value)\`)",
+        "fix": Object {
+          "range": Array [
+            49,
+            56,
+          ],
+          "text": "Boolean(strictA)",
+        },
+        "messageId": "conditionFixCastBoolean",
+      },
+    ],
   },
 ]
 `;
@@ -2144,27 +2180,10 @@ Array [
 exports[`unicorn rules unicorn/custom-error-definition fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 5,
-    "endColumn": 20,
-    "endLine": 6,
-    "fix": Object {
-      "range": Array [
-        172,
-        201,
-      ],
-      "text": "",
-    },
-    "line": 6,
-    "message": "Pass the error message to \`super()\` instead of setting \`this.message\`.",
-    "nodeType": "ExpressionStatement",
-    "ruleId": "unicorn/custom-error-definition",
-    "severity": 2,
-  },
-  Object {
     "column": 17,
     "endColumn": 30,
-    "endLine": 9,
-    "line": 9,
+    "endLine": 8,
+    "line": 8,
     "message": "The \`name\` property should be set to \`CustomFailError\`.",
     "nodeType": "Literal",
     "ruleId": "unicorn/custom-error-definition",
@@ -4049,120 +4068,6 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
-    "column": 1,
-    "endColumn": 46,
-    "endLine": 11,
-    "fix": Object {
-      "range": Array [
-        396,
-        441,
-      ],
-      "text": "Reflect.apply(preferReflectApplyFail, null, arguments)",
-    },
-    "line": 11,
-    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
-    "messageId": "prefer-reflect-apply",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-reflect-apply",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "endColumn": 71,
-    "endLine": 12,
-    "fix": Object {
-      "range": Array [
-        443,
-        513,
-      ],
-      "text": "Reflect.apply(preferReflectApplyFail, null, arguments)",
-    },
-    "line": 12,
-    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
-    "messageId": "prefer-reflect-apply",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-reflect-apply",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "endColumn": 46,
-    "endLine": 13,
-    "fix": Object {
-      "range": Array [
-        515,
-        560,
-      ],
-      "text": "Reflect.apply(preferReflectApplyFail, this, arguments)",
-    },
-    "line": 13,
-    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
-    "messageId": "prefer-reflect-apply",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-reflect-apply",
-    "severity": 2,
-  },
-  Object {
-    "column": 30,
-    "endColumn": 34,
-    "endLine": 13,
-    "line": 13,
-    "message": "Unexpected this, use functions not classes.",
-    "nodeType": "ThisExpression",
-    "ruleId": "immutable/no-this",
-    "severity": 2,
-  },
-  Object {
-    "column": 30,
-    "endColumn": 34,
-    "endLine": 13,
-    "line": 13,
-    "message": "Unexpected 'this'.",
-    "messageId": "unexpectedThis",
-    "nodeType": "ThisExpression",
-    "ruleId": "@typescript-eslint/no-invalid-this",
-    "severity": 2,
-  },
-  Object {
-    "column": 1,
-    "endColumn": 71,
-    "endLine": 14,
-    "fix": Object {
-      "range": Array [
-        562,
-        632,
-      ],
-      "text": "Reflect.apply(preferReflectApplyFail, this, arguments)",
-    },
-    "line": 14,
-    "message": "Prefer \`Reflect.apply()\` over \`Function#apply()\`.",
-    "messageId": "prefer-reflect-apply",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/prefer-reflect-apply",
-    "severity": 2,
-  },
-  Object {
-    "column": 55,
-    "endColumn": 59,
-    "endLine": 14,
-    "line": 14,
-    "message": "Unexpected this, use functions not classes.",
-    "nodeType": "ThisExpression",
-    "ruleId": "immutable/no-this",
-    "severity": 2,
-  },
-  Object {
-    "column": 55,
-    "endColumn": 59,
-    "endLine": 14,
-    "line": 14,
-    "message": "Unexpected 'this'.",
-    "messageId": "unexpectedThis",
-    "nodeType": "ThisExpression",
-    "ruleId": "@typescript-eslint/no-invalid-this",
-    "severity": 2,
-  },
 ]
 `;
 
@@ -4175,10 +4080,10 @@ Array [
     "fix": Object {
       "range": Array [
         25,
-        110,
+        118,
       ],
       "text": "new Set([1]);
-const preferSetHasFailFunction = (value): boolean =>
+const preferSetHasFailFunction = (value: number): boolean =>
   preferSetHasFail.has",
     },
     "line": 1,
