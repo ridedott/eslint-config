@@ -288,6 +288,7 @@ module.exports = {
         allowAny: false,
       },
     ],
-    '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
+    // Extended by jest/unbound-method.
+    '@typescript-eslint/unbound-method': 'off',
   },
 };
