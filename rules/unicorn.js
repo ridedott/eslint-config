@@ -11,7 +11,7 @@ module.exports = {
     'unicorn/escape-case': 'error',
     'unicorn/expiring-todo-comments': [
       'error',
-      { allowWarningComments: false },
+      { allowWarningComments: false, ignoreDatesOnPullRequests: false },
     ],
     'unicorn/explicit-length-check': ['error', { 'non-zero': 'greater-than' }],
     'unicorn/filename-case': ['error', { case: 'camelCase' }],
