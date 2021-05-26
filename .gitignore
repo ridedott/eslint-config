@@ -1,3 +1,6 @@
+# Cache
+.cache
+
 # Dependency directories
 node_modules
 
