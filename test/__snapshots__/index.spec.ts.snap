@@ -751,6 +751,22 @@ Array [
 ]
 `;
 
+exports[`jest rules jest/unbound-method fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 15,
+    "endColumn": 27,
+    "endLine": 12,
+    "line": 12,
+    "message": "Avoid referencing unbound methods which may cause unintentional scoping of \`this\`.",
+    "messageId": "unbound",
+    "nodeType": "MemberExpression",
+    "ruleId": "jest/unbound-method",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`jest rules jest/valid-title fails on an invalid fixture 1`] = `
 Array [
   Object {
@@ -1870,22 +1886,6 @@ Array [
     "messageId": "conditionErrorString",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/strict-boolean-expressions",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`typescriptEslint rules @typescript-eslint/unbound-method fails on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 15,
-    "endColumn": 27,
-    "endLine": 12,
-    "line": 12,
-    "message": "Avoid referencing unbound methods which may cause unintentional scoping of \`this\`.",
-    "messageId": "unbound",
-    "nodeType": "MemberExpression",
-    "ruleId": "@typescript-eslint/unbound-method",
     "severity": 2,
   },
 ]
