@@ -111,6 +111,8 @@ module.exports = {
     semi: 'off',
     // This is handled by simple-import-sort plugin.
     'sort-imports': 'off',
+    // This is handled by sort-keys-fix plugin.
+    'sort-keys': 'off',
     // This is handled by typescript-eslint plugin.
     'init-declarations': 'off',
   },
