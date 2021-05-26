@@ -1,3 +1,10 @@
+## [2.13.28](https://github.com/ridedott/eslint-config/compare/v2.13.27...v2.13.28) (2021-05-26)
+
+### Chores
+
+- **deps-dev:** bump jest from 26.6.3 to 27.0.1
+  ([df3ebb6](https://github.com/ridedott/eslint-config/commit/df3ebb63b0670715418ffa25f2d1b22214722d64))
+
 ## [2.13.27](https://github.com/ridedott/eslint-config/compare/v2.13.26...v2.13.27) (2021-05-26)
 
 ### Chores
