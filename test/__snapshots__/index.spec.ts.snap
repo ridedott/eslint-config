@@ -2614,7 +2614,7 @@ Array [
 }",
     },
     "line": 4,
-    "message": "Do not use \`Array#forEach(…)\`.",
+    "message": "Use \`for…of\` instead of \`Array#forEach(…)\`.",
     "messageId": "no-array-for-each",
     "nodeType": "Identifier",
     "ruleId": "unicorn/no-array-for-each",
@@ -3323,7 +3323,7 @@ Array [
 exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 21,
+    "column": 22,
     "endColumn": 24,
     "endLine": 1,
     "fix": Object {
@@ -3336,12 +3336,12 @@ Array [
     "line": 1,
     "message": "Don't use a zero fraction in the number.",
     "messageId": "zero-fraction",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
   Object {
-    "column": 22,
+    "column": 23,
     "endColumn": 25,
     "endLine": 2,
     "fix": Object {
@@ -3354,13 +3354,31 @@ Array [
     "line": 2,
     "message": "Don't use a zero fraction in the number.",
     "messageId": "zero-fraction",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
   Object {
-    "column": 21,
-    "endColumn": 29,
+    "column": 32,
+    "endColumn": 34,
+    "endLine": 3,
+    "fix": Object {
+      "range": Array [
+        71,
+        84,
+      ],
+      "text": "123_123_123",
+    },
+    "line": 3,
+    "message": "Don't use a zero fraction in the number.",
+    "messageId": "zero-fraction",
+    "nodeType": null,
+    "ruleId": "unicorn/no-zero-fractions",
+    "severity": 2,
+  },
+  Object {
+    "column": 24,
+    "endColumn": 26,
     "endLine": 6,
     "fix": Object {
       "range": Array [
@@ -3372,7 +3390,7 @@ Array [
     "line": 6,
     "message": "Don't use a zero fraction in the number.",
     "messageId": "zero-fraction",
-    "nodeType": "Literal",
+    "nodeType": null,
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
@@ -4165,7 +4183,7 @@ const preferSetHasFailFunction = (value): boolean =>
     },
     "line": 1,
     "message": "\`preferSetHasFail\` should be a \`Set\`, and use \`preferSetHasFail.has()\` to check existence or non-existence.",
-    "messageId": "preferSetHas",
+    "messageId": "error",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-set-has",
     "severity": 2,
@@ -4293,7 +4311,7 @@ Array [
     },
     "line": 1,
     "message": "Prefer \`String#trimStart()\` over \`String#trimLeft()\`.",
-    "messageId": "trimLeft",
+    "messageId": "prefer-string-trim-start-end",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-string-trim-start-end",
     "severity": 2,
@@ -4311,7 +4329,7 @@ Array [
     },
     "line": 2,
     "message": "Prefer \`String#trimEnd()\` over \`String#trimRight()\`.",
-    "messageId": "trimRight",
+    "messageId": "prefer-string-trim-start-end",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-string-trim-start-end",
     "severity": 2,
