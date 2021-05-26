@@ -1,3 +1,10 @@
+## [2.13.27](https://github.com/ridedott/eslint-config/compare/v2.13.26...v2.13.27) (2021-05-26)
+
+### Chores
+
+- **deps-dev:** bump prettier from 2.2.1 to 2.3.0
+  ([38814b7](https://github.com/ridedott/eslint-config/commit/38814b796ff9115dde237d14d102b45d3a3deb7a))
+
 ## [2.13.26](https://github.com/ridedott/eslint-config/compare/v2.13.25...v2.13.26) (2021-05-26)
 
 ### Chores
