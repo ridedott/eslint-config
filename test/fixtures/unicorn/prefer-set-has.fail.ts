@@ -1,3 +1,3 @@
 const preferSetHasFail = [1];
-const preferSetHasFailFunction = (value): boolean =>
+const preferSetHasFailFunction = (value: number): boolean =>
   preferSetHasFail.includes(value);
