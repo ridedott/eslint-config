@@ -1,3 +1,10 @@
+## [2.13.24](https://github.com/ridedott/eslint-config/compare/v2.13.23...v2.13.24) (2021-05-26)
+
+### Chores
+
+- **deps:** bump eslint-plugin-unicorn from 28.0.2 to 31.0.0
+  ([70aaa98](https://github.com/ridedott/eslint-config/commit/70aaa988da6adf75b35fa5a36c993b9704934628))
+
 ## [2.13.23](https://github.com/ridedott/eslint-config/compare/v2.13.22...v2.13.23) (2021-05-26)
 
 ### Chores
