@@ -1,3 +1,10 @@
+## [2.13.29](https://github.com/ridedott/eslint-config/compare/v2.13.28...v2.13.29) (2021-05-26)
+
+### Bug Fixes
+
+- disable duplicate sort-keys rule
+  ([d341fbc](https://github.com/ridedott/eslint-config/commit/d341fbc3f466172c9f4cbafb19ce2e899e1bba64))
+
 ## [2.13.28](https://github.com/ridedott/eslint-config/compare/v2.13.27...v2.13.28) (2021-05-26)
 
 ### Chores
