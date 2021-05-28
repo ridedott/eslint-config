@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 16
       - name: Cache dependencies
-        uses: actions/cache@v2.1.5
+        uses: actions/cache@v2.1.6
         with:
           key: npm-${{ hashFiles('./package-lock.json') }}
           path: ~/.npm
@@ -45,7 +45,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: Cache dependencies
-        uses: actions/cache@v2.1.5
+        uses: actions/cache@v2.1.6
         with:
           key: npm-${{ hashFiles('./package-lock.json') }}
           path: ~/.npm
