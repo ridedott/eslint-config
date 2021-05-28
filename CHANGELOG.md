@@ -1,3 +1,10 @@
+## [2.13.31](https://github.com/ridedott/eslint-config/compare/v2.13.30...v2.13.31) (2021-05-28)
+
+### Chores
+
+- **deps:** bump actions/cache from 2.1.5 to 2.1.6
+  ([3de70ae](https://github.com/ridedott/eslint-config/commit/3de70ae3613d94652074625d3ad3666527b43a78))
+
 ## [2.13.30](https://github.com/ridedott/eslint-config/compare/v2.13.29...v2.13.30) (2021-05-27)
 
 ### Chores
