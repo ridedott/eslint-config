@@ -1,3 +1,5 @@
+version: 2
+
 updates:
   - allow:
       - dependency-type: direct
@@ -28,4 +30,3 @@ updates:
     schedule:
       interval: daily
     versioning-strategy: increase
-version: 2
