@@ -1,3 +1,10 @@
+## [2.13.35](https://github.com/ridedott/eslint-config/compare/v2.13.34...v2.13.35) (2021-06-14)
+
+### Continuous Integration
+
+- update dependabot configuration
+  ([2471f71](https://github.com/ridedott/eslint-config/commit/2471f717b058df87bd02e0a1626545d1828b51b1))
+
 ## [2.13.34](https://github.com/ridedott/eslint-config/compare/v2.13.33...v2.13.34) (2021-05-31)
 
 ### Chores
