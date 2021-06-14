@@ -26,7 +26,7 @@
     "@babel/preset-env": "^7.14.4",
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
-    "@types/eslint": "^7.2.12",
+    "@types/eslint": "^7.2.13",
     "@types/jest": "^26.0.23",
     "@types/node": "^12.20.4",
     "babel-jest": "^27.0.2",
