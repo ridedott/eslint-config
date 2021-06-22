@@ -7,7 +7,7 @@
   "dependencies": {
     "@ridedott/eslint-plugin": "^1.6.211",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
-    "@typescript-eslint/parser": "^4.27.0",
+    "@typescript-eslint/parser": "^4.28.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
