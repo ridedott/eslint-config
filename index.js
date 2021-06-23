@@ -4,6 +4,8 @@ module.exports = {
     'plugin:@typescript-eslint/all',
     'plugin:@ridedott/all',
     'plugin:jest/all',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
     './rules/array-func.js',
     './rules/ridedott.js',
     './rules/eslint-comments.js',
