@@ -657,6 +657,21 @@ Array [
 ]
 `;
 
+exports[`import rules import/no-cycle fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 38,
+    "endLine": 1,
+    "line": 1,
+    "message": "Dependency cycle detected.",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import/no-cycle",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`import rules import/no-default-export fails on an invalid fixture 1`] = `
 Array [
   Object {
@@ -667,6 +682,21 @@ Array [
     "message": "Prefer named exports.",
     "nodeType": "ExportDefaultDeclaration",
     "ruleId": "import/no-default-export",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`import rules import/no-self-import fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 32,
+    "endLine": 1,
+    "line": 1,
+    "message": "Module imports itself.",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "import/no-self-import",
     "severity": 2,
   },
 ]
