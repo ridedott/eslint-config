@@ -1,0 +1,1 @@
+import './no-cycle.fail';
