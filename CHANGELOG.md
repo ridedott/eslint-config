@@ -1,3 +1,10 @@
+# [2.14.0](https://github.com/ridedott/eslint-config/compare/v2.13.47...v2.14.0) (2021-06-24)
+
+### Features
+
+- detect dependency cycle issues
+  ([cdf70d8](https://github.com/ridedott/eslint-config/commit/cdf70d888dc47a0b79358b3aab6458cf5f283f98))
+
 ## [2.13.47](https://github.com/ridedott/eslint-config/compare/v2.13.46...v2.13.47) (2021-06-22)
 
 ### Chores
