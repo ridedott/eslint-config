@@ -1,3 +1,12 @@
+## [2.14.5](https://github.com/ridedott/eslint-config/compare/v2.14.4...v2.14.5) (2021-07-01)
+
+### Chores
+
+- **deps:** bump typescript from 4.3.4 to 4.3.5
+  ([f35e968](https://github.com/ridedott/eslint-config/commit/f35e9685e543465f8302425454612da7c028015c))
+- **deps-dev:** bump husky from 6.0.0 to 7.0.0
+  ([8d7943b](https://github.com/ridedott/eslint-config/commit/8d7943b58894a772382653064e2fbebd3736f5cb))
+
 ## [2.14.4](https://github.com/ridedott/eslint-config/compare/v2.14.3...v2.14.4) (2021-06-30)
 
 ### Chores
