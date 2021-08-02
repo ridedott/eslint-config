@@ -1,3 +1,12 @@
+## [2.15.3](https://github.com/ridedott/eslint-config/compare/v2.15.2...v2.15.3) (2021-08-02)
+
+### Chores
+
+- **deps-dev:** bump @types/eslint from 7.2.13 to 7.28.0
+  ([d434eba](https://github.com/ridedott/eslint-config/commit/d434eba34cf44fea6403e1fd66c19d87fb994e59))
+- **deps-dev:** bump ts-jest from 27.0.3 to 27.0.4
+  ([94a50f4](https://github.com/ridedott/eslint-config/commit/94a50f43e7d02b6e27c81b152838f436345f2536))
+
 ## [2.15.2](https://github.com/ridedott/eslint-config/compare/v2.15.1...v2.15.2) (2021-08-02)
 
 ### Chores
