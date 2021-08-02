@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable @typescript-eslint/no-invalid-this */
+/* eslint-disable functional/no-this-expression */
 /* eslint-disable id-length */
-/* eslint-disable immutable/no-this */
 /* eslint-disable unicorn/prevent-abbreviations */
 
 export const iterable = new Map();

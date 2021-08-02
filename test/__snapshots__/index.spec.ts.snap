@@ -562,16 +562,33 @@ Array [
 ]
 `;
 
-exports[`immutable rules immutable/no-let fails on an invalid fixture 1`] = `
+exports[`functional rules functional/immutable-data fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 24,
+    "endLine": 3,
+    "line": 3,
+    "message": "Modifying an existing object/array is not allowed.",
+    "messageId": "generic",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "functional/immutable-data",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`functional rules functional/no-let fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 1,
     "endColumn": 19,
     "endLine": 1,
     "line": 1,
-    "message": "Unexpected let, use const.",
+    "message": "Unexpected let, use const instead.",
+    "messageId": "generic",
     "nodeType": "VariableDeclaration",
-    "ruleId": "immutable/no-let",
+    "ruleId": "functional/no-let",
     "severity": 2,
   },
   Object {
@@ -595,31 +612,17 @@ Array [
 ]
 `;
 
-exports[`immutable rules immutable/no-mutation fails on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "endColumn": 24,
-    "endLine": 3,
-    "line": 3,
-    "message": "No object mutation allowed.",
-    "nodeType": "AssignmentExpression",
-    "ruleId": "immutable/no-mutation",
-    "severity": 2,
-  },
-]
-`;
-
-exports[`immutable rules immutable/no-this fails on an invalid fixture 1`] = `
+exports[`functional rules functional/no-this-expression fails on an invalid fixture 1`] = `
 Array [
   Object {
     "column": 3,
     "endColumn": 13,
     "endLine": 5,
     "line": 5,
-    "message": "No object mutation allowed.",
+    "message": "Modifying an existing object/array is not allowed.",
+    "messageId": "generic",
     "nodeType": "AssignmentExpression",
-    "ruleId": "immutable/no-mutation",
+    "ruleId": "functional/immutable-data",
     "severity": 2,
   },
   Object {
@@ -628,8 +631,9 @@ Array [
     "endLine": 5,
     "line": 5,
     "message": "Unexpected this, use functions not classes.",
+    "messageId": "generic",
     "nodeType": "ThisExpression",
-    "ruleId": "immutable/no-this",
+    "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
   Object {
@@ -1174,15 +1178,15 @@ Array [
   Object {
     "column": 22,
     "endColumn": 27,
-    "endLine": 3,
+    "endLine": 5,
     "fix": Object {
       "range": Array [
-        118,
-        125,
+        166,
+        173,
       ],
       "text": ".aaa",
     },
-    "line": 3,
+    "line": 5,
     "message": "Do not delete dynamically computed property keys.",
     "messageId": "dynamicDelete",
     "nodeType": "Literal",
@@ -1192,15 +1196,15 @@ Array [
   Object {
     "column": 22,
     "endColumn": 27,
-    "endLine": 3,
+    "endLine": 5,
     "fix": Object {
       "range": Array [
-        118,
-        125,
+        166,
+        173,
       ],
       "text": ".aaa",
     },
-    "line": 3,
+    "line": 5,
     "message": "[\\"aaa\\"] is better written in dot notation.",
     "messageId": "useDot",
     "nodeType": "Literal",
@@ -1210,15 +1214,15 @@ Array [
   Object {
     "column": 22,
     "endColumn": 32,
-    "endLine": 4,
+    "endLine": 6,
     "fix": Object {
       "range": Array [
-        147,
-        159,
+        195,
+        207,
       ],
       "text": ".Infinity",
     },
-    "line": 4,
+    "line": 6,
     "message": "Do not delete dynamically computed property keys.",
     "messageId": "dynamicDelete",
     "nodeType": "Literal",
@@ -1228,15 +1232,15 @@ Array [
   Object {
     "column": 22,
     "endColumn": 32,
-    "endLine": 4,
+    "endLine": 6,
     "fix": Object {
       "range": Array [
-        147,
-        159,
+        195,
+        207,
       ],
       "text": ".Infinity",
     },
-    "line": 4,
+    "line": 6,
     "message": "[\\"Infinity\\"] is better written in dot notation.",
     "messageId": "useDot",
     "nodeType": "Literal",
@@ -1246,8 +1250,8 @@ Array [
   Object {
     "column": 22,
     "endColumn": 26,
-    "endLine": 8,
-    "line": 8,
+    "endLine": 10,
+    "line": 10,
     "message": "Do not delete dynamically computed property keys.",
     "messageId": "dynamicDelete",
     "nodeType": "Identifier",
@@ -1257,8 +1261,8 @@ Array [
   Object {
     "column": 22,
     "endColumn": 40,
-    "endLine": 9,
-    "line": 9,
+    "endLine": 11,
+    "line": 11,
     "message": "Do not delete dynamically computed property keys.",
     "messageId": "dynamicDelete",
     "nodeType": "CallExpression",
@@ -2212,8 +2216,8 @@ Array [
   Object {
     "column": 17,
     "endColumn": 30,
-    "endLine": 8,
-    "line": 8,
+    "endLine": 7,
+    "line": 7,
     "message": "The \`name\` property should be set to \`CustomFailError\`.",
     "nodeType": "Literal",
     "ruleId": "unicorn/custom-error-definition",
@@ -2677,15 +2681,15 @@ Array [
   Object {
     "column": 21,
     "endColumn": 25,
-    "endLine": 4,
+    "endLine": 6,
     "fix": Object {
       "range": Array [
-        69,
-        100,
+        117,
+        148,
       ],
       "text": ", 0);",
     },
-    "line": 4,
+    "line": 6,
     "message": "Do not call \`Array#push()\` multiple times.",
     "messageId": "error",
     "nodeType": "Identifier",
@@ -2888,8 +2892,8 @@ Array [
     "endLine": 4,
     "fix": Object {
       "range": Array [
-        76,
-        156,
+        77,
+        157,
       ],
       "text": "const [index, element] of array.entries()) {
 ",
@@ -3472,27 +3476,17 @@ Array [
 exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 1,
-    "endColumn": 28,
-    "endLine": 1,
-    "line": 1,
-    "message": "No object mutation allowed.",
-    "nodeType": "AssignmentExpression",
-    "ruleId": "immutable/no-mutation",
-    "severity": 2,
-  },
-  Object {
     "column": 10,
     "endColumn": 17,
-    "endLine": 1,
+    "endLine": 3,
     "fix": Object {
       "range": Array [
-        0,
-        27,
+        48,
+        75,
       ],
       "text": "someFail.addEventListener('click', () => {})",
     },
-    "line": 1,
+    "line": 3,
     "message": "Prefer \`addEventListener\` over \`onclick\`.",
     "messageId": "prefer-add-event-listener",
     "nodeType": "Identifier",
@@ -3502,8 +3496,8 @@ Array [
   Object {
     "column": 20,
     "endColumn": 25,
-    "endLine": 1,
-    "line": 1,
+    "endLine": 3,
+    "line": 3,
     "message": "Missing return type on function.",
     "messageId": "missingReturnType",
     "nodeType": "ArrowFunctionExpression",
@@ -3824,16 +3818,16 @@ Array [
   Object {
     "column": 1,
     "endColumn": 2,
-    "endLine": 7,
+    "endLine": 8,
     "fix": Object {
       "range": Array [
-        115,
-        172,
+        162,
+        219,
       ],
       "text": "- 2,
   ",
     },
-    "line": 4,
+    "line": 5,
     "message": "Prefer negative index over length minus index for \`slice\`.",
     "messageId": "prefer-negative-index",
     "nodeType": "CallExpression",
@@ -3843,15 +3837,15 @@ Array [
   Object {
     "column": 1,
     "endColumn": 58,
-    "endLine": 8,
+    "endLine": 9,
     "fix": Object {
       "range": Array [
-        205,
-        230,
+        252,
+        277,
       ],
       "text": "",
     },
-    "line": 8,
+    "line": 9,
     "message": "Prefer negative index over length minus index for \`splice\`.",
     "messageId": "prefer-negative-index",
     "nodeType": "CallExpression",
@@ -3861,16 +3855,16 @@ Array [
   Object {
     "column": 1,
     "endColumn": 2,
-    "endLine": 13,
+    "endLine": 14,
     "fix": Object {
       "range": Array [
-        290,
-        347,
+        337,
+        394,
       ],
       "text": "- 2,
   ",
     },
-    "line": 9,
+    "line": 10,
     "message": "Prefer negative index over length minus index for \`slice\`.",
     "messageId": "prefer-negative-index",
     "nodeType": "CallExpression",
@@ -3880,16 +3874,16 @@ Array [
   Object {
     "column": 1,
     "endColumn": 3,
-    "endLine": 17,
+    "endLine": 18,
     "fix": Object {
       "range": Array [
-        406,
-        463,
+        453,
+        510,
       ],
       "text": "- 2,
   ",
     },
-    "line": 14,
+    "line": 15,
     "message": "Prefer negative index over length minus index for \`slice\`.",
     "messageId": "prefer-negative-index",
     "nodeType": "CallExpression",
@@ -4022,8 +4016,9 @@ Array [
     "endLine": 9,
     "line": 9,
     "message": "Unexpected this, use functions not classes.",
+    "messageId": "generic",
     "nodeType": "ThisExpression",
-    "ruleId": "immutable/no-this",
+    "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
   Object {
@@ -4072,8 +4067,9 @@ Array [
     "endLine": 10,
     "line": 10,
     "message": "Unexpected this, use functions not classes.",
+    "messageId": "generic",
     "nodeType": "ThisExpression",
-    "ruleId": "immutable/no-this",
+    "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
   Object {

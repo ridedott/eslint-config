@@ -1,4 +1,4 @@
-/* eslint-disable immutable/no-let */
+/* eslint-disable functional/no-let */
 /* eslint-disable no-console */
 
 for (let index = 0; index < array.length; index++) {

@@ -1,3 +1,5 @@
+/* eslint-disable functional/immutable-data */
+
 const noArrayPushPushFail: number[] = [];
 
 noArrayPushPushFail.push(0);

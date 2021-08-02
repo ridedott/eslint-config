@@ -1,5 +1,4 @@
-/* eslint-disable immutable/no-mutation */
-/* eslint-disable immutable/no-this */
+/* eslint-disable functional/no-this-expression */
 
 class CustomPassError extends Error {
   public constructor(message: string) {
