@@ -1,3 +1,10 @@
+# [2.15.0](https://github.com/ridedott/eslint-config/compare/v2.14.5...v2.15.0) (2021-08-02)
+
+### Features
+
+- enable local mutation
+  ([019a210](https://github.com/ridedott/eslint-config/commit/019a2104651ac0c025b9d2feecf418a948e37974))
+
 ## [2.14.5](https://github.com/ridedott/eslint-config/compare/v2.14.4...v2.14.5) (2021-07-01)
 
 ### Chores
