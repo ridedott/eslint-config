@@ -3,7 +3,7 @@ export * from './@typescript-eslint';
 export * from './array-func';
 export * from './eslint';
 export * from './eslint-comments';
-export * from './immutable';
+export * from './functional';
 export * from './import';
 export * from './jest';
 export * from './overrides';

@@ -1,4 +1,4 @@
-/* eslint-disable immutable/no-this */
+/* eslint-disable functional/no-this-expression */
 /* eslint-disable no-console */
 
 class MyClass {

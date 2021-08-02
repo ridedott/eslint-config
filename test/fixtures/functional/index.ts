@@ -1,3 +1,3 @@
 import { generatePluginFixture } from '../../common/generatePluginFixture';
 
-export const immutableFixtures = generatePluginFixture(__dirname);
+export const functionalFixtures = generatePluginFixture(__dirname);

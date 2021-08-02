@@ -1,4 +1,4 @@
-## [2.14.5](https://github.com/ridedott/eslint-config/compare/v2.14.4...v2.14.5) (2021-07-01)
+## [2.14.5](https://github.com/ridedott/eslint-config/compare/v2.14.4...v2.14.5) (2021-09-01)
 
 ### Chores
 

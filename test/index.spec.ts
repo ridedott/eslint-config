@@ -3,7 +3,7 @@ import { rules as typescriptEslintRules } from '@typescript-eslint/eslint-plugin
 import { ESLint, Linter } from 'eslint';
 import { rules as arrayFunctionRules } from 'eslint-plugin-array-func';
 import { rules as eslintCommentsRules } from 'eslint-plugin-eslint-comments';
-import { rules as immutableRules } from 'eslint-plugin-immutable';
+import { rules as functionalRules } from 'eslint-plugin-functional';
 import { rules as importRules } from 'eslint-plugin-import';
 import { rules as jestRules } from 'eslint-plugin-jest';
 import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort';
@@ -14,7 +14,7 @@ import { resolve } from 'path';
 import * as arrayFunction from '../rules/array-func';
 import * as eslint from '../rules/eslint';
 import * as eslintComments from '../rules/eslint-comments';
-import * as immutable from '../rules/immutable';
+import * as functional from '../rules/functional';
 import * as importConfiguredRules from '../rules/import';
 import * as jestConfiguredRules from '../rules/jest';
 import * as overrides from '../rules/overrides';
@@ -37,7 +37,7 @@ const configuredRules = {
   arrayFunc: arrayFunction,
   eslint,
   eslintComments,
-  immutable,
+  functional,
   import: importConfiguredRules,
   jest: jestConfiguredRules,
   overrides,
@@ -51,7 +51,7 @@ const configuredRulesToOriginalMap = {
   arrayFunc: arrayFunctionRules,
   eslint: eslintRules,
   eslintComments: eslintCommentsRules,
-  immutable: immutableRules,
+  functional: functionalRules,
   import: importRules,
   jest: jestRules,
   overrides: eslintRules,
