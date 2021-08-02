@@ -1,3 +1,12 @@
+## [2.15.1](https://github.com/ridedott/eslint-config/compare/v2.15.0...v2.15.1) (2021-08-02)
+
+### Chores
+
+- **deps:** bump eslint-plugin-jest from 24.3.6 to 24.4.0
+  ([30e2a6d](https://github.com/ridedott/eslint-config/commit/30e2a6dca2467e1566d2ee3aa84670d1637da715))
+- **deps-dev:** bump eslint from 7.29.0 to 7.32.0
+  ([3873cae](https://github.com/ridedott/eslint-config/commit/3873cae7c4f761d939291e241c50c7777d625d56))
+
 # [2.15.0](https://github.com/ridedott/eslint-config/compare/v2.14.5...v2.15.0) (2021-08-02)
 
 ### Features
