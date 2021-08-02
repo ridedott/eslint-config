@@ -1,3 +1,10 @@
+## [2.15.6](https://github.com/ridedott/eslint-config/compare/v2.15.5...v2.15.6) (2021-08-02)
+
+### Chores
+
+- **deps:** bump eslint-plugin-sort-keys-fix from 1.1.1 to 1.1.2
+  ([f814857](https://github.com/ridedott/eslint-config/commit/f814857d17250b25a9037957a0e83af7b2fa5391))
+
 ## [2.15.5](https://github.com/ridedott/eslint-config/compare/v2.15.4...v2.15.5) (2021-08-02)
 
 ### Chores
