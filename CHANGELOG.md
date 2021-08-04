@@ -1,3 +1,10 @@
+## [2.15.10](https://github.com/ridedott/eslint-config/compare/v2.15.9...v2.15.10) (2021-08-04)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 2.3.1 to 2.3.2
+  ([ff2fa35](https://github.com/ridedott/eslint-config/commit/ff2fa35c10ac74f0d7d6df61e0532329022bbff9))
+
 ## [2.15.9](https://github.com/ridedott/eslint-config/compare/v2.15.8...v2.15.9) (2021-08-03)
 
 ### Chores
