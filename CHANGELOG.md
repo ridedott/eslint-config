@@ -1,3 +1,10 @@
+## [2.15.11](https://github.com/ridedott/eslint-config/compare/v2.15.10...v2.15.11) (2021-08-05)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.14.8 to 7.15.0
+  ([960fa0d](https://github.com/ridedott/eslint-config/commit/960fa0d1c080dee9f3d78e999ce51f92e03425d7))
+
 ## [2.15.10](https://github.com/ridedott/eslint-config/compare/v2.15.9...v2.15.10) (2021-08-04)
 
 ### Chores
