@@ -1,3 +1,10 @@
+## [2.15.12](https://github.com/ridedott/eslint-config/compare/v2.15.11...v2.15.12) (2021-08-05)
+
+### Chores
+
+- **deps-dev:** bump @babel/preset-env from 7.14.9 to 7.15.0
+  ([fefcb75](https://github.com/ridedott/eslint-config/commit/fefcb75c5ec9ea730d324d8c45676cf206dbb09a))
+
 ## [2.15.11](https://github.com/ridedott/eslint-config/compare/v2.15.10...v2.15.11) (2021-08-05)
 
 ### Chores
