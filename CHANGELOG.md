@@ -1,3 +1,10 @@
+## [2.15.13](https://github.com/ridedott/eslint-config/compare/v2.15.12...v2.15.13) (2021-08-05)
+
+### Chores
+
+- **deps-dev:** bump @babel/plugin-transform-typescript
+  ([d6c9a5a](https://github.com/ridedott/eslint-config/commit/d6c9a5a13ab49064b00481559acf6d9eab8d0ebb))
+
 ## [2.15.12](https://github.com/ridedott/eslint-config/compare/v2.15.11...v2.15.12) (2021-08-05)
 
 ### Chores
