@@ -1,3 +1,10 @@
+## [2.15.17](https://github.com/ridedott/eslint-config/compare/v2.15.16...v2.15.17) (2021-08-10)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 4.29.0 to 4.29.1
+  ([f4f8373](https://github.com/ridedott/eslint-config/commit/f4f8373f4da3e2185f8316affd9ea8567ff9af2f))
+
 ## [2.15.16](https://github.com/ridedott/eslint-config/compare/v2.15.15...v2.15.16) (2021-08-10)
 
 ### Bug Fixes
