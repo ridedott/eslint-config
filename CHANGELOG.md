@@ -1,3 +1,10 @@
+## [2.15.16](https://github.com/ridedott/eslint-config/compare/v2.15.15...v2.15.16) (2021-08-10)
+
+### Bug Fixes
+
+- disable import/namespace rule
+  ([53cbc4a](https://github.com/ridedott/eslint-config/commit/53cbc4a8ee8ecdbedd85280b3a20d44b2778da77))
+
 ## [2.15.15](https://github.com/ridedott/eslint-config/compare/v2.15.14...v2.15.15) (2021-08-09)
 
 ### Chores
