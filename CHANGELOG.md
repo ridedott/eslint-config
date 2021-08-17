@@ -1,3 +1,12 @@
+## [2.15.22](https://github.com/ridedott/eslint-config/compare/v2.15.21...v2.15.22) (2021-08-17)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/eslint-plugin from 4.29.1 to 4.29.2
+  ([04d2fa8](https://github.com/ridedott/eslint-config/commit/04d2fa838494215196a109fc2494afd1275ca82c))
+- **deps-dev:** bump ts-jest from 27.0.4 to 27.0.5
+  ([15057dd](https://github.com/ridedott/eslint-config/commit/15057dd958129d7bddb5a66d8083e5747d6c37c5))
+
 ## [2.15.21](https://github.com/ridedott/eslint-config/compare/v2.15.20...v2.15.21) (2021-08-13)
 
 ### Chores
