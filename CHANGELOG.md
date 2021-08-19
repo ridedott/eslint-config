@@ -1,3 +1,10 @@
+## [2.15.28](https://github.com/ridedott/eslint-config/compare/v2.15.27...v2.15.28) (2021-08-19)
+
+### Performance
+
+- disable recommended import rules
+  ([144141c](https://github.com/ridedott/eslint-config/commit/144141c23f4ca47094bd89bcd192fb8e5de12624))
+
 ## [2.15.27](https://github.com/ridedott/eslint-config/compare/v2.15.26...v2.15.27) (2021-08-19)
 
 ### Performance
