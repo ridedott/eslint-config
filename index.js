@@ -3,7 +3,6 @@ module.exports = {
     'eslint:all',
     'plugin:@typescript-eslint/all',
     'plugin:@ridedott/all',
-    'plugin:import/recommended',
     'plugin:import/typescript',
     'plugin:jest/all',
     './rules/array-func.js',
