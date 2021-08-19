@@ -1,3 +1,10 @@
+## [2.15.26](https://github.com/ridedott/eslint-config/compare/v2.15.25...v2.15.26) (2021-08-19)
+
+### Continuous Integration
+
+- skip releases with only dev dependency updates
+  ([b6973b8](https://github.com/ridedott/eslint-config/commit/b6973b8feb47f5418c48407cdfb9a3eb397b274d))
+
 ## [2.15.25](https://github.com/ridedott/eslint-config/compare/v2.15.24...v2.15.25) (2021-08-19)
 
 ### Chores
