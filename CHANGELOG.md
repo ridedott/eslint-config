@@ -1,3 +1,10 @@
+## [2.15.24](https://github.com/ridedott/eslint-config/compare/v2.15.23...v2.15.24) (2021-08-19)
+
+### Chores
+
+- **deps:** bump eslint-plugin-unicorn from 32.0.1 to 35.0.0
+  ([c07db66](https://github.com/ridedott/eslint-config/commit/c07db6687334c4b436e7356c78529c58e9b51e55))
+
 ## [2.15.23](https://github.com/ridedott/eslint-config/compare/v2.15.22...v2.15.23) (2021-08-17)
 
 ### Chores
