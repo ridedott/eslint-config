@@ -1,3 +1,10 @@
+## [2.15.27](https://github.com/ridedott/eslint-config/compare/v2.15.26...v2.15.27) (2021-08-19)
+
+### Performance
+
+- do not detect cycles in dependencies
+  ([7cbf043](https://github.com/ridedott/eslint-config/commit/7cbf043d241f88a85f722b567f692662dab879cb))
+
 ## [2.15.26](https://github.com/ridedott/eslint-config/compare/v2.15.25...v2.15.26) (2021-08-19)
 
 ### Continuous Integration
