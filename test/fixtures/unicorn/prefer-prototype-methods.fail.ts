@@ -1,0 +1,1 @@
+[].slice.apply(0);
