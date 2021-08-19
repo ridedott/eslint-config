@@ -24,6 +24,8 @@ module.exports = {
     // Unnecessary with TypeScript.
     'unicorn/no-array-callback-reference': 'off',
     'unicorn/no-array-for-each': 'error',
+    // Covered by functional/no-this-expression.
+    'unicorn/no-array-method-this-argument': 'off',
     'unicorn/no-array-push-push': 'error',
     'unicorn/no-array-reduce': 'off',
     'unicorn/no-console-spaces': 'error',
@@ -47,6 +49,8 @@ module.exports = {
     'unicorn/no-unreadable-array-destructuring': 'off',
     'unicorn/no-unsafe-regex': 'error',
     'unicorn/no-unused-properties': 'off',
+    'unicorn/no-useless-length-check': 'error',
+    'unicorn/no-useless-spread': 'error',
     'unicorn/no-useless-undefined': 'off',
     'unicorn/no-zero-fractions': 'error',
     // Code should be formatted using Prettier.
@@ -57,6 +61,8 @@ module.exports = {
     'unicorn/prefer-array-flat-map': 'error',
     'unicorn/prefer-array-index-of': 'error',
     'unicorn/prefer-array-some': 'error',
+    // Not available in Node.js nor TypeScript yet.
+    'unicorn/prefer-at': 'off',
     'unicorn/prefer-date-now': 'error',
     'unicorn/prefer-default-parameters': 'error',
     // Manual DOM manipulation is discouraged.
@@ -71,8 +77,12 @@ module.exports = {
     'unicorn/prefer-math-trunc': 'error',
     'unicorn/prefer-negative-index': 'error',
     'unicorn/prefer-number-properties': 'error',
+    'unicorn/prefer-object-from-entries': 'error',
+    // Not supported yet.
+    'unicorn/prefer-object-has-own': 'off',
     // TypeScript `noUnusedLocals` covers this.
     'unicorn/prefer-optional-catch-binding': 'off',
+    'unicorn/prefer-prototype-methods': 'error',
     'unicorn/prefer-query-selector': 'error',
     'unicorn/prefer-reflect-apply': 'error',
     // Does not work with strict type checking.
@@ -85,6 +95,7 @@ module.exports = {
     'unicorn/prefer-string-starts-ends-with': 'error',
     'unicorn/prefer-string-trim-start-end': 'error',
     'unicorn/prefer-ternary': 'error',
+    'unicorn/prefer-top-level-await': 'error',
     // Type checks are performed by TypeScript compiler.
     'unicorn/prefer-type-error': 'off',
     'unicorn/prevent-abbreviations': [
@@ -101,6 +112,8 @@ module.exports = {
         },
       },
     ],
+    'unicorn/require-array-join-separator': 'error',
+    'unicorn/require-number-to-fixed-digits-argument': 'error',
     // No good use cases yet.
     'unicorn/string-content': 'off',
     'unicorn/throw-new-error': 'error',
