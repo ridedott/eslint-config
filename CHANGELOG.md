@@ -1,3 +1,10 @@
+## [2.15.32](https://github.com/ridedott/eslint-config/compare/v2.15.31...v2.15.32) (2021-08-21)
+
+### Reverts
+
+- perf: do not detect cycles in dependencies
+  ([bf38a98](https://github.com/ridedott/eslint-config/commit/bf38a98ebc7f1b7d08ab5eac5bab69cdf0ab8951))
+
 ## [2.15.31](https://github.com/ridedott/eslint-config/compare/v2.15.30...v2.15.31) (2021-08-20)
 
 ### Chores
