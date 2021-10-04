@@ -291,4 +291,7 @@ module.exports = {
     // Extended by jest/unbound-method.
     '@typescript-eslint/unbound-method': 'off',
   },
+  // TODO (rustyb) [2021-11-01]: Temporarly disable this rule as empty config causes an error
+  // fixed in typscript-eslint but not released yet
+  '@typescript-eslint/no-restricted-imports': 'off',
 };
