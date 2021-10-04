@@ -1,3 +1,22 @@
+## [2.15.43](https://github.com/ridedott/eslint-config/compare/v2.15.42...v2.15.43) (2021-10-04)
+
+### Chores
+
+- **deps:** bump eslint-plugin-functional from 3.7.0 to 3.7.2
+  ([8816f86](https://github.com/ridedott/eslint-config/commit/8816f86017804ef15317853b6752868ed51bfba9))
+- **deps:** bump eslint-plugin-unicorn from 35.0.0 to 36.0.0
+  ([0663325](https://github.com/ridedott/eslint-config/commit/0663325df564ab3e180c9c5dbdb56eea7562efdd))
+- **deps-dev:** bump @commitlint/cli from 13.1.0 to 13.2.0
+  ([6a52914](https://github.com/ridedott/eslint-config/commit/6a52914091ad28272de577d6ebcb988cda245570))
+- **deps-dev:** bump @types/jest from 27.0.1 to 27.0.2
+  ([edcb296](https://github.com/ridedott/eslint-config/commit/edcb2961cb36e133134d2871349c75421761d1d8))
+- **deps-dev:** bump babel-jest from 27.1.0 to 27.2.4
+  ([ce24b77](https://github.com/ridedott/eslint-config/commit/ce24b77b2b9b5fdff5135d3c9439b068ad290006))
+- **deps-dev:** bump jest from 27.1.0 to 27.2.4
+  ([db8c423](https://github.com/ridedott/eslint-config/commit/db8c423bccc865a792b07e6295d83ac8d53da7ed))
+- **deps-dev:** bump prettier from 2.3.2 to 2.4.1
+  ([7f90088](https://github.com/ridedott/eslint-config/commit/7f90088b775d03bdca58f1d1c9164a64babd210d))
+
 ## [2.15.42](https://github.com/ridedott/eslint-config/compare/v2.15.41...v2.15.42) (2021-10-04)
 
 ### Chores
