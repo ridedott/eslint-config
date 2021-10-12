@@ -1,3 +1,28 @@
+## [2.15.51](https://github.com/ridedott/eslint-config/compare/v2.15.50...v2.15.51) (2021-10-12)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.15.5 to 7.15.8
+  ([667659e](https://github.com/ridedott/eslint-config/commit/667659e3cf7d7bfb06e94ae5b7174e05c7dfc430))
+- **deps-dev:** bump @babel/plugin-transform-typescript
+  ([7dae68e](https://github.com/ridedott/eslint-config/commit/7dae68e30464f6f91467717c6d8147233c0accdd))
+- **deps-dev:** bump @commitlint/cli from 13.2.0 to 13.2.1
+  ([0256ef5](https://github.com/ridedott/eslint-config/commit/0256ef5a7bd84af076410cdf9eaeb55b87dad3d5))
+- **deps-dev:** bump @types/eslint from 7.28.0 to 7.28.1
+  ([4c5e5ab](https://github.com/ridedott/eslint-config/commit/4c5e5ab54b91ce29b8da5bd33b89d6c25cec049f))
+- **deps-dev:** bump babel-jest from 27.2.4 to 27.2.5
+  ([07946ba](https://github.com/ridedott/eslint-config/commit/07946ba7d93c12a5a2977084d48be0199b485068))
+- **deps-dev:** bump jest from 27.2.4 to 27.2.5
+  ([3ac7eea](https://github.com/ridedott/eslint-config/commit/3ac7eea3416f85d0a8418c92952fd5b48e69fa5b))
+- **deps-dev:** bump lint-staged from 11.2.0 to 11.2.3
+  ([1761d65](https://github.com/ridedott/eslint-config/commit/1761d654a6c6bc867a5f97fa71a1c2ec5ac2754a))
+- **deps-dev:** bump ts-node from 10.2.1 to 10.3.0
+  ([cd918fe](https://github.com/ridedott/eslint-config/commit/cd918fea55dfc9e2480815205462ec01da05c5cf))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.243 to 1.6.244
+  ([ab7f831](https://github.com/ridedott/eslint-config/commit/ab7f8318b75ccb54433052e56f5ff9cbd3a8c0ee))
+- **deps:** bump eslint-plugin-unicorn from 36.0.0 to 37.0.1
+  ([916c89c](https://github.com/ridedott/eslint-config/commit/916c89cdcb40702bcdc839ccaf55d886e1750a81))
+
 ## [2.15.50](https://github.com/ridedott/eslint-config/compare/v2.15.49...v2.15.50) (2021-10-07)
 
 ### Chores
