@@ -1,3 +1,18 @@
+## [2.15.54](https://github.com/ridedott/eslint-config/compare/v2.15.53...v2.15.54) (2021-10-18)
+
+### Chores
+
+- **deps-dev:** bump babel-jest from 27.2.5 to 27.3.0
+  ([d033395](https://github.com/ridedott/eslint-config/commit/d03339549e01bd50c080bc75f3ca3e8e873f8b0e))
+- **deps-dev:** bump jest from 27.2.5 to 27.3.0
+  ([7cd7eeb](https://github.com/ridedott/eslint-config/commit/7cd7eeb0e170195d004960219ef8003a5c60ab15))
+- **deps-dev:** bump ts-jest from 27.0.5 to 27.0.6
+  ([c117852](https://github.com/ridedott/eslint-config/commit/c1178520efaa21f21fef89e7879d3889418e41f3))
+- **deps-dev:** bump ts-jest from 27.0.6 to 27.0.7
+  ([c0596b1](https://github.com/ridedott/eslint-config/commit/c0596b135722285cc5dfce15288481a603824836))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.245 to 1.6.246
+  ([33da7bb](https://github.com/ridedott/eslint-config/commit/33da7bbe35aef72bab47e1978580c72fcb415d0c))
+
 ## [2.15.53](https://github.com/ridedott/eslint-config/compare/v2.15.52...v2.15.53) (2021-10-13)
 
 ### Chores
