@@ -1,3 +1,22 @@
+## [2.15.59](https://github.com/ridedott/eslint-config/compare/v2.15.58...v2.15.59) (2021-10-26)
+
+### Chores
+
+- **deps-dev:** bump @types/eslint from 7.28.1 to 7.28.2
+  ([9492514](https://github.com/ridedott/eslint-config/commit/949251481e389c50a17e6da1b057cfb1e0e5e61a))
+- **deps-dev:** bump husky from 7.0.2 to 7.0.4
+  ([06db3a8](https://github.com/ridedott/eslint-config/commit/06db3a8854f991c7bae0ec1a8e48be0b938fe899))
+- **deps-dev:** bump lint-staged from 11.2.3 to 11.2.4
+  ([844a957](https://github.com/ridedott/eslint-config/commit/844a9577754d88dfbfb807d65c521f6929032931))
+- **deps-dev:** bump lint-staged from 11.2.4 to 11.2.5
+  ([c3529b0](https://github.com/ridedott/eslint-config/commit/c3529b09806972625c8596d7d1f4e24e058052c4))
+- **deps-dev:** bump ts-node from 10.3.0 to 10.3.1
+  ([dc65799](https://github.com/ridedott/eslint-config/commit/dc6579946c35309f728da4b1821583271b92375d))
+- **deps-dev:** bump ts-node from 10.3.1 to 10.4.0
+  ([92deda7](https://github.com/ridedott/eslint-config/commit/92deda797c0a7bc23a19af8535b94b118f458916))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.248 to 1.6.249
+  ([ace557b](https://github.com/ridedott/eslint-config/commit/ace557b44176d27b02296ff43275ebaebf55e46a))
+
 ## [2.15.58](https://github.com/ridedott/eslint-config/compare/v2.15.57...v2.15.58) (2021-10-20)
 
 ### Chores
