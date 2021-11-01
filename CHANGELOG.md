@@ -1,3 +1,16 @@
+## [2.15.61](https://github.com/ridedott/eslint-config/compare/v2.15.60...v2.15.61) (2021-11-01)
+
+### Chores
+
+- **deps-dev:** bump @babel/plugin-transform-typescript
+  ([4e3e3b2](https://github.com/ridedott/eslint-config/commit/4e3e3b21e2f250a13dcd815bc43a5a09dfdd0c6e))
+- **deps-dev:** bump @babel/preset-env from 7.15.8 to 7.16.0
+  ([4de20eb](https://github.com/ridedott/eslint-config/commit/4de20ebf863730641812d068dc609e15796f9db5))
+- **deps-dev:** bump @commitlint/cli from 13.2.1 to 14.1.0
+  ([c8b296e](https://github.com/ridedott/eslint-config/commit/c8b296e1da66f0ea8f10ed1beae8ef2af4c0535e))
+- **deps:** bump ridedott/release-me-action from 3.6.7 to 3.6.9
+  ([bc24a50](https://github.com/ridedott/eslint-config/commit/bc24a506df4e8cdd7f9cb07888622d62203fbf9c))
+
 ## [2.15.60](https://github.com/ridedott/eslint-config/compare/v2.15.59...v2.15.60) (2021-11-01)
 
 ### Chores
