@@ -1,6 +1,6 @@
 /**
  * cspell:ignore viestat
- * TODO (viestat) [2021-11-01]: Nothing makes this rule fail. Need to look
+ * TODO (viestat) [2022-02-01]: Nothing makes this rule fail. Need to look
  * into it.
  * See: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-nullish-coalescing.md
  */
