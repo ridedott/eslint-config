@@ -1,3 +1,18 @@
+## [2.15.64](https://github.com/ridedott/eslint-config/compare/v2.15.63...v2.15.64) (2021-12-20)
+
+### Chores
+
+- **deps-dev:** bump @babel/preset-env from 7.16.0 to 7.16.5
+  ([6169cf7](https://github.com/ridedott/eslint-config/commit/6169cf795813865c97d3dcbccd9d52158d54b404))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([d33e45f](https://github.com/ridedott/eslint-config/commit/d33e45ff33df64075c39d0fd60ca9b9e5aa23082))
+- **deps-dev:** bump @types/jest from 27.0.2 to 27.0.3
+  ([9095999](https://github.com/ridedott/eslint-config/commit/909599923dce00e3bf6ba79872ad1c70a857b07f))
+- **deps-dev:** bump ts-jest from 27.0.7 to 27.1.2
+  ([e34aa3b](https://github.com/ridedott/eslint-config/commit/e34aa3bf311fc97d1e2847748e2fe8578b03a661))
+- **deps:** bump eslint-plugin-unicorn from 37.0.1 to 39.0.0
+  ([2b5ed02](https://github.com/ridedott/eslint-config/commit/2b5ed0240070f8a923c67b37bbb8306c8e6a7ff0))
+
 ## [2.15.63](https://github.com/ridedott/eslint-config/compare/v2.15.62...v2.15.63) (2021-12-20)
 
 ### Chores
