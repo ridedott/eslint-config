@@ -1,3 +1,10 @@
+## [2.15.62](https://github.com/ridedott/eslint-config/compare/v2.15.61...v2.15.62) (2021-12-20)
+
+### Chores
+
+- extend todos
+  ([040d574](https://github.com/ridedott/eslint-config/commit/040d574f1601bf109d76abcd871ab30e1296ad7d))
+
 ## [2.15.61](https://github.com/ridedott/eslint-config/compare/v2.15.60...v2.15.61) (2021-11-01)
 
 ### Chores
