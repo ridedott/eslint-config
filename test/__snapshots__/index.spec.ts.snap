@@ -691,6 +691,21 @@ Array [
 ]
 `;
 
+exports[`import rules import/no-extraneous-dependencies fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 39,
+    "endLine": 1,
+    "line": 1,
+    "message": "'npm-run-all' should be listed in the project's dependencies, not devDependencies.",
+    "nodeType": "ExportAllDeclaration",
+    "ruleId": "import/no-extraneous-dependencies",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`import rules import/no-self-import fails on an invalid fixture 1`] = `
 Array [
   Object {
