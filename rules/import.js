@@ -15,7 +15,6 @@ module.exports = {
           'test/',
         ],
         optionalDependencies: false,
-        peerDependencies: true,
         bundledDependencies: false,
       },
     ],
