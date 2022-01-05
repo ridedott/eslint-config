@@ -104,7 +104,7 @@ module.exports = {
         checkDefaultAndNamespaceImports: true,
         checkFilenames: true,
         checkProperties: true,
-        checkShorthandImports: true,
+        checkShorthandImports: 'internal',
         checkVariables: true,
         replacements: {
           //  Allow `i18n`.

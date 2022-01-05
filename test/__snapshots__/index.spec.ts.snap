@@ -4409,10 +4409,21 @@ Array [
 exports[`unicorn rules unicorn/prevent-abbreviations fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 7,
-    "endColumn": 8,
+    "column": 10,
+    "endColumn": 17,
     "endLine": 3,
     "line": 3,
+    "message": "Please rename the variable \`getDocs\`. Suggested names are: \`getDocumentation\`, \`getDocuments\`. A more descriptive name will do too.",
+    "messageId": "suggestion",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prevent-abbreviations",
+    "severity": 2,
+  },
+  Object {
+    "column": 7,
+    "endColumn": 8,
+    "endLine": 5,
+    "line": 5,
     "message": "Please rename the variable \`e\`. Suggested names are: \`error\`, \`event\`. A more descriptive name will do too.",
     "messageId": "suggestion",
     "nodeType": "Identifier",
