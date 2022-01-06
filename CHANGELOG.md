@@ -1,3 +1,17 @@
+# [2.16.0](https://github.com/ridedott/eslint-config/compare/v2.15.70...v2.16.0) (2022-01-06)
+
+### Chores
+
+- **deps-dev:** bump babel-jest from 27.4.5 to 27.4.6
+  ([2308749](https://github.com/ridedott/eslint-config/commit/2308749414d1700f6e2ef27f4d253e44caf07d1b))
+- **deps-dev:** bump jest from 27.4.5 to 27.4.7
+  ([00b9391](https://github.com/ridedott/eslint-config/commit/00b939110003be7b5996e3a4d0ec33a8891614cc))
+
+### Features
+
+- disable prevent-abbreviations rule for external imports
+  ([4965c99](https://github.com/ridedott/eslint-config/commit/4965c99d9ba97881887acb8d85c75839b382da06))
+
 ## [2.15.70](https://github.com/ridedott/eslint-config/compare/v2.15.69...v2.15.70) (2022-01-04)
 
 ### Chores
