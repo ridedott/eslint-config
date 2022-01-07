@@ -1,3 +1,10 @@
+# [2.17.0](https://github.com/ridedott/eslint-config/compare/v2.16.0...v2.17.0) (2022-01-07)
+
+### Features
+
+- add import/no-extraneous-dependencies rule
+  ([60d3f56](https://github.com/ridedott/eslint-config/commit/60d3f56a3b333ab18f9a42508fc49dcb3ea80efc))
+
 # [2.16.0](https://github.com/ridedott/eslint-config/compare/v2.15.70...v2.16.0) (2022-01-06)
 
 ### Chores
