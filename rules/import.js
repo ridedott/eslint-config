@@ -12,7 +12,7 @@ module.exports = {
           '**/*.spec.ts',
           '**/__tests__/**',
           '**/__mocks__/**',
-          'test/',
+          'test/**',
         ],
         optionalDependencies: false,
         bundledDependencies: false,
