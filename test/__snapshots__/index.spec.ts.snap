@@ -696,8 +696,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 39,
-    "endLine": 1,
-    "line": 1,
+    "endLine": 3,
+    "line": 3,
     "message": "'npm-run-all' should be listed in the project's dependencies, not devDependencies.",
     "nodeType": "ExportAllDeclaration",
     "ruleId": "import/no-extraneous-dependencies",
