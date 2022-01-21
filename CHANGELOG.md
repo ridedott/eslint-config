@@ -1,3 +1,25 @@
+# [2.18.0](https://github.com/ridedott/eslint-config/compare/v2.17.2...v2.18.0) (2022-01-21)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.16.7 to 7.16.10
+  ([309029f](https://github.com/ridedott/eslint-config/commit/309029fd3f60b9982c295ead45583cd522498d4d))
+- **deps-dev:** bump @babel/preset-env from 7.16.8 to 7.16.11
+  ([1ee0767](https://github.com/ridedott/eslint-config/commit/1ee07671956e084bce7eee27c69467daa1b1d20e))
+- **deps-dev:** bump @commitlint/cli from 16.0.2 to 16.0.3
+  ([3a9030c](https://github.com/ridedott/eslint-config/commit/3a9030cef0503c5a8e162447ac672762ac03d765))
+- **deps-dev:** bump @commitlint/cli from 16.0.3 to 16.1.0
+  ([e444506](https://github.com/ridedott/eslint-config/commit/e44450608fda0949aef17b7f1564538c89b01090))
+- **deps-dev:** bump @types/eslint from 8.2.2 to 8.4.0
+  ([fe9dd94](https://github.com/ridedott/eslint-config/commit/fe9dd94a119e3008d6c86eb982ecd3bb47d7365c))
+- **deps-dev:** bump lint-staged from 12.2.0 to 12.2.1
+  ([17e6e34](https://github.com/ridedott/eslint-config/commit/17e6e345bf0fffaca0c62c27bdc6dd581a765204))
+
+### Features
+
+- fix matching pattern for files in test folder
+  ([2029f56](https://github.com/ridedott/eslint-config/commit/2029f566ec7d4298948e4a19b70a80cc28cd2ad0))
+
 ## [2.17.2](https://github.com/ridedott/eslint-config/compare/v2.17.1...v2.17.2) (2022-01-18)
 
 ### Chores
