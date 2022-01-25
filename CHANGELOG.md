@@ -1,3 +1,10 @@
+# [2.19.0](https://github.com/ridedott/eslint-config/compare/v2.18.4...v2.19.0) (2022-01-25)
+
+### Features
+
+- add more paths to ignore devDependencies usage
+  ([ce4da04](https://github.com/ridedott/eslint-config/commit/ce4da0442daad43cba39293243d2e31aa6f34f18))
+
 ## [2.18.4](https://github.com/ridedott/eslint-config/compare/v2.18.3...v2.18.4) (2022-01-24)
 
 ### Chores
