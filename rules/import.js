@@ -12,6 +12,8 @@ module.exports = {
           '**/*.spec.ts',
           '**/__tests__/**',
           '**/__mocks__/**',
+          'monitoring/**',
+          'scripts/**',
           'test/**',
         ],
         optionalDependencies: false,
