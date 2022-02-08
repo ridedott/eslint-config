@@ -4054,7 +4054,7 @@ Array [
         9,
         29,
       ],
-      "text": "querySelector(\\"#foo\\"",
+      "text": "querySelector('#foo'",
     },
     "line": 1,
     "message": "Prefer \`.querySelector()\` over \`.getElementById()\`.",
