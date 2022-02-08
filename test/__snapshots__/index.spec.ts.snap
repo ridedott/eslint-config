@@ -4046,14 +4046,21 @@ Array [
 exports[`unicorn rules unicorn/prefer-query-selector fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 32,
-    "endColumn": 38,
-    "endLine": 7,
-    "line": 7,
-    "message": "Unexpected use of '<<'.",
-    "messageId": "unexpected",
-    "nodeType": "BinaryExpression",
-    "ruleId": "no-bitwise",
+    "column": 10,
+    "endColumn": 24,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        9,
+        29,
+      ],
+      "text": "querySelector(\\"#foo\\"",
+    },
+    "line": 1,
+    "message": "Prefer \`.querySelector()\` over \`.getElementById()\`.",
+    "messageId": "prefer-query-selector",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-query-selector",
     "severity": 2,
   },
 ]
