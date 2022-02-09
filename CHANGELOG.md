@@ -1,3 +1,10 @@
+## [2.19.3](https://github.com/ridedott/eslint-config/compare/v2.19.2...v2.19.3) (2022-02-09)
+
+### Chores
+
+- add missing tests
+  ([8b8655a](https://github.com/ridedott/eslint-config/commit/8b8655ae04fa814b244a3ec1ba39eb5b389e5fd1))
+
 ## [2.19.2](https://github.com/ridedott/eslint-config/compare/v2.19.1...v2.19.2) (2022-02-01)
 
 ### Chores
