@@ -1,8 +1,6 @@
-/**
- * cspell:ignore viestat
- * TODO (viestat) [2022-02-01]: Nothing makes this rule fail. Need to look
- * into it.
- * See: https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/prefer-nullish-coalescing.md
- */
-
-const somethingShouldFailNow = 0 << 1;
+/* eslint-disable functional/no-let */
+/* eslint-disable @typescript-eslint/init-declarations */
+/* eslint-disable @typescript-eslint/no-unused-expressions */
+/* eslint-disable @typescript-eslint/strict-boolean-expressions */
+let value: string | undefined;
+value || 'fallback';
