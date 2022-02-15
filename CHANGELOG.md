@@ -1,3 +1,14 @@
+## [2.19.6](https://github.com/ridedott/eslint-config/compare/v2.19.5...v2.19.6) (2022-02-15)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.17.2 to 7.17.3
+  ([039f9e2](https://github.com/ridedott/eslint-config/commit/039f9e221301ea512e474c6bdfd15d16bdedbd79))
+- **deps-dev:** bump @commitlint/cli from 16.1.0 to 16.2.1
+  ([aca20af](https://github.com/ridedott/eslint-config/commit/aca20afcd5ed80b92bd8543b3ba1a99639ed7796))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.279 to 1.6.280
+  ([abcd727](https://github.com/ridedott/eslint-config/commit/abcd727d69cbee44ee5ce463d2e574a4ee3287c3))
+
 ## [2.19.5](https://github.com/ridedott/eslint-config/compare/v2.19.4...v2.19.5) (2022-02-14)
 
 ### Chores
