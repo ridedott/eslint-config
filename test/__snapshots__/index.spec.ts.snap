@@ -679,8 +679,8 @@ Array [
 exports[`import rules import/no-default-export fails on an invalid fixture 1`] = `
 Array [
   Object {
-    "column": 1,
-    "endColumn": 20,
+    "column": 8,
+    "endColumn": 15,
     "endLine": 1,
     "line": 1,
     "message": "Prefer named exports.",
