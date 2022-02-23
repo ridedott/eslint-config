@@ -1,3 +1,3 @@
 it('my second test', (): void => {
-  expect(1).toStrictEqual('foo');
+  expect(1).toBe('foo');
 });
