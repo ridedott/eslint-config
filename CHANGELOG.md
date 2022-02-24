@@ -1,3 +1,12 @@
+## [2.19.11](https://github.com/ridedott/eslint-config/compare/v2.19.10...v2.19.11) (2022-02-24)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 27.4.0 to 27.4.1
+  ([adb1288](https://github.com/ridedott/eslint-config/commit/adb128894482fdd4ddec8295c060ab99e4a4e8df))
+- **deps:** bump eslint-plugin-jest from 24.4.0 to 26.1.1
+  ([ea38ecd](https://github.com/ridedott/eslint-config/commit/ea38ecdd510d7c0e247a32b735b76f3f0d814f02))
+
 ## [2.19.10](https://github.com/ridedott/eslint-config/compare/v2.19.9...v2.19.10) (2022-02-23)
 
 ### Chores
