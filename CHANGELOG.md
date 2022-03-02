@@ -1,3 +1,12 @@
+## [2.19.18](https://github.com/ridedott/eslint-config/compare/v2.19.17...v2.19.18) (2022-03-02)
+
+### Chores
+
+- **deps-dev:** bump ts-node from 10.5.0 to 10.6.0
+  ([5465494](https://github.com/ridedott/eslint-config/commit/54654946ffc86dc8e4ed5f5dfb98173f5f1018e7))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.286 to 1.6.288
+  ([19013e2](https://github.com/ridedott/eslint-config/commit/19013e2832c1e5b254ab6d49d38bf5390e9b74eb))
+
 ## [2.19.17](https://github.com/ridedott/eslint-config/compare/v2.19.16...v2.19.17) (2022-03-01)
 
 ### Chores
