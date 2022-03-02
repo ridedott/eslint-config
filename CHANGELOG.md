@@ -1,3 +1,12 @@
+## [2.19.19](https://github.com/ridedott/eslint-config/compare/v2.19.18...v2.19.19) (2022-03-02)
+
+### Chores
+
+- **deps:** bump actions/checkout from 2 to 3
+  ([75c4e65](https://github.com/ridedott/eslint-config/commit/75c4e65c793d245d960b0e4f3647d545cce783a3))
+- **deps:** bump ridedott/release-me-action from 3.6.27 to 3.6.28
+  ([2c615d4](https://github.com/ridedott/eslint-config/commit/2c615d4f1facfecd3a482e139d8a17e262ecd4b7))
+
 ## [2.19.18](https://github.com/ridedott/eslint-config/compare/v2.19.17...v2.19.18) (2022-03-02)
 
 ### Chores
