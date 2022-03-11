@@ -1,3 +1,39 @@
+## [2.19.21](https://github.com/ridedott/eslint-config/compare/v2.19.20...v2.19.21) (2022-03-08)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 12.3.4 to 12.3.5
+  ([d490588](https://github.com/ridedott/eslint-config/commit/d4905881a3706b6d7faceedf4138534862582bc1))
+- **deps-dev:** bump ts-node from 10.6.0 to 10.7.0
+  ([b4ff3a8](https://github.com/ridedott/eslint-config/commit/b4ff3a87c6d79605aec0af55f52c5976169eb423))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.288 to 1.6.290
+  ([a643dd5](https://github.com/ridedott/eslint-config/commit/a643dd5c2adbc45abfa08070aed372f3a5e6e51a))
+
+## [2.19.20](https://github.com/ridedott/eslint-config/compare/v2.19.19...v2.19.20) (2022-03-03)
+
+### Chores
+
+- **deps:** bump eslint-config-prettier from 8.4.0 to 8.5.0
+  ([a1f5813](https://github.com/ridedott/eslint-config/commit/a1f58131db6740c55f561c7efdbcb1332bf24283))
+
+## [2.19.19](https://github.com/ridedott/eslint-config/compare/v2.19.18...v2.19.19) (2022-03-02)
+
+### Chores
+
+- **deps:** bump actions/checkout from 2 to 3
+  ([75c4e65](https://github.com/ridedott/eslint-config/commit/75c4e65c793d245d960b0e4f3647d545cce783a3))
+- **deps:** bump ridedott/release-me-action from 3.6.27 to 3.6.28
+  ([2c615d4](https://github.com/ridedott/eslint-config/commit/2c615d4f1facfecd3a482e139d8a17e262ecd4b7))
+
+## [2.19.18](https://github.com/ridedott/eslint-config/compare/v2.19.17...v2.19.18) (2022-03-02)
+
+### Chores
+
+- **deps-dev:** bump ts-node from 10.5.0 to 10.6.0
+  ([5465494](https://github.com/ridedott/eslint-config/commit/54654946ffc86dc8e4ed5f5dfb98173f5f1018e7))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.286 to 1.6.288
+  ([19013e2](https://github.com/ridedott/eslint-config/commit/19013e2832c1e5b254ab6d49d38bf5390e9b74eb))
+
 ## [2.19.17](https://github.com/ridedott/eslint-config/compare/v2.19.16...v2.19.17) (2022-03-01)
 
 ### Chores
