@@ -4287,10 +4287,10 @@ Array [
     "endLine": 3,
     "fix": Object {
       "range": Array [
-        58,
-        76,
+        64,
+        75,
       ],
-      "text": "'foo'.slice(1, 3)",
+      "text": "slice(1, 3",
     },
     "line": 3,
     "message": "Prefer \`String#slice()\` over \`String#substr()\`.",
@@ -4305,10 +4305,10 @@ Array [
     "endLine": 4,
     "fix": Object {
       "range": Array [
-        78,
-        99,
+        84,
+        93,
       ],
-      "text": "'foo'.slice(1, 3)",
+      "text": "slice",
     },
     "line": 4,
     "message": "Prefer \`String#slice()\` over \`String#substring()\`.",
