@@ -1,3 +1,12 @@
+## [2.19.27](https://github.com/ridedott/eslint-config/compare/v2.19.26...v2.19.27) (2022-03-21)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 16.2.1 to 16.2.3
+  ([ee62bdc](https://github.com/ridedott/eslint-config/commit/ee62bdc2108b0e0f3d08017e14f5fe9ff1923730))
+- **deps:** bump actions/cache from 2.1.7 to 3
+  ([7a0a1b5](https://github.com/ridedott/eslint-config/commit/7a0a1b5bd978ef91c4a99b1531cef65be3107034))
+
 ## [2.19.26](https://github.com/ridedott/eslint-config/compare/v2.19.25...v2.19.26) (2022-03-21)
 
 ### Chores
