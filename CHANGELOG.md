@@ -1,3 +1,10 @@
+## [2.19.33](https://github.com/ridedott/eslint-config/compare/v2.19.32...v2.19.33) (2022-03-29)
+
+### Chores
+
+- **deps:** bump ansi-regex from 3.0.0 to 3.0.1
+  ([6c8c86d](https://github.com/ridedott/eslint-config/commit/6c8c86d34ad3548f135de0b427e412382e0735ed))
+
 ## [2.19.32](https://github.com/ridedott/eslint-config/compare/v2.19.31...v2.19.32) (2022-03-29)
 
 ### Chores
