@@ -1,3 +1,12 @@
+## [2.19.38](https://github.com/ridedott/eslint-config/compare/v2.19.37...v2.19.38) (2022-04-04)
+
+### Chores
+
+- **deps-dev:** bump prettier from 2.6.1 to 2.6.2
+  ([a72e9c7](https://github.com/ridedott/eslint-config/commit/a72e9c7d7e3200e8f5251eb9baf99a757dbb58bd))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.300 to 1.6.301
+  ([e13f155](https://github.com/ridedott/eslint-config/commit/e13f15518bf870f0016b20fee928add5d0a0fe63))
+
 ## [2.19.37](https://github.com/ridedott/eslint-config/compare/v2.19.36...v2.19.37) (2022-04-01)
 
 ### Chores
