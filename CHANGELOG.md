@@ -1,3 +1,10 @@
+## [2.19.43](https://github.com/ridedott/eslint-config/compare/v2.19.42...v2.19.43) (2022-04-11)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 3.1.0 to 3.1.1
+  ([f0df000](https://github.com/ridedott/eslint-config/commit/f0df00057ec3ac4e5fe45b2ccf924073ebf8c0d8))
+
 ## [2.19.42](https://github.com/ridedott/eslint-config/compare/v2.19.41...v2.19.42) (2022-04-08)
 
 ### Chores
