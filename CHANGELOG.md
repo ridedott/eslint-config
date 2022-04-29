@@ -14,6 +14,29 @@
   ([5706ea8](https://github.com/ridedott/eslint-config/commit/5706ea82a7a2bb4de2985eda1a27c0fdae3bc8d6))
 - **deps-dev:** bump babel-jest from 28.0.2 to 28.0.3
   ([4cf9eeb](https://github.com/ridedott/eslint-config/commit/4cf9eeb3ac9fe0917996914329fcc401cfdb82bb))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.311 to 1.6.312
+  ([c577c61](https://github.com/ridedott/eslint-config/commit/c577c610d26e46fc5abdc9330c88a5bb2de7c2a6))
+- **deps:** bump typescript from 4.6.3 to 4.6.4
+  ([8a68193](https://github.com/ridedott/eslint-config/commit/8a68193d7c32690a2234b580682822ef310f0f47))
+- **release:** v2.19.50
+  ([de2d449](https://github.com/ridedott/eslint-config/commit/de2d449cd0ab399d6661e6270654b4a7f3c2a704))
+
+## [2.19.50](https://github.com/ridedott/eslint-config/compare/v2.19.49...v2.19.50) (2022-04-29)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.17.9 to 7.17.10
+  ([53066ae](https://github.com/ridedott/eslint-config/commit/53066ae97d6def48bb90135dd53e3c7a84a724c5))
+- **deps-dev:** bump @babel/preset-env from 7.16.11 to 7.17.10
+  ([60ae151](https://github.com/ridedott/eslint-config/commit/60ae151a2285758f8c0e2b7c3ae3759114501510))
+- **deps-dev:** bump @commitlint/cli from 16.2.3 to 16.2.4
+  ([04c8603](https://github.com/ridedott/eslint-config/commit/04c8603fabc3144c9651f6d3636ef594d43afc14))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([a79197c](https://github.com/ridedott/eslint-config/commit/a79197cd175d783c17d4a4efe0622d1dd5e432f1))
+- **deps-dev:** bump babel-jest from 28.0.1 to 28.0.2
+  ([5706ea8](https://github.com/ridedott/eslint-config/commit/5706ea82a7a2bb4de2985eda1a27c0fdae3bc8d6))
+- **deps-dev:** bump babel-jest from 28.0.2 to 28.0.3
+  ([4cf9eeb](https://github.com/ridedott/eslint-config/commit/4cf9eeb3ac9fe0917996914329fcc401cfdb82bb))
 - **deps:** bump typescript from 4.6.3 to 4.6.4
   ([8a68193](https://github.com/ridedott/eslint-config/commit/8a68193d7c32690a2234b580682822ef310f0f47))
 
