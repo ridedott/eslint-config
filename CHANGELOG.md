@@ -1,3 +1,14 @@
+## [2.19.66](https://github.com/ridedott/eslint-config/compare/v2.19.65...v2.19.66) (2022-05-31)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 12.4.3 to 12.5.0
+  ([47a3487](https://github.com/ridedott/eslint-config/commit/47a348739f17b9ffe1ef0e57bb820a089c5b0c84))
+- **deps:** bump @ridedott/eslint-plugin from 1.6.324 to 1.6.326
+  ([36ee539](https://github.com/ridedott/eslint-config/commit/36ee539d1c0dc12f6509bfa28f51c16d23f8b201))
+- **deps:** bump eslint-plugin-jest from 26.4.5 to 26.4.6
+  ([1feccee](https://github.com/ridedott/eslint-config/commit/1feccee9f425182ae84577ee0304e2648dc3e16b))
+
 ## [2.19.65](https://github.com/ridedott/eslint-config/compare/v2.19.64...v2.19.65) (2022-05-30)
 
 ### Chores
