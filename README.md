@@ -1,5 +1,7 @@
 # eslint-config
 
+test test test
+
 [![license: MIT](https://img.shields.io/github/license/ridedott/eslint-config)](https://github.com/ridedott/eslint-config/blob/master/LICENSE)
 [![GitHub Actions Status](https://github.com/ridedott/eslint-config/workflows/Continuous%20Delivery/badge.svg?branch=master)](https://github.com/ridedott/eslint-config/actions)
 [![npm version](https://img.shields.io/npm/v/@ridedott/eslint-config)](https://www.npmjs.com/package/@ridedott/eslint-config)
