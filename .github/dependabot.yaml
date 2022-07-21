@@ -28,6 +28,10 @@ updates:
       - dependency-name: 'eslint-plugin-functional'
         versions:
           - '>3'
+        # babel-jest needs to be updated together with Jest
+      - dependency-name: 'babel-jest'
+        versions:
+          - '>27'
     open-pull-requests-limit: 99
     package-ecosystem: npm
     reviewers:
