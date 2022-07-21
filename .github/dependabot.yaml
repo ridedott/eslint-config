@@ -23,6 +23,11 @@ updates:
       - dependency-name: '@types/node'
         versions:
           - '> 12'
+        # Ignore updates for eslint-plugin-functional, as it requires ESLint v8.
+        # When ESLint is updated, this can be updated as well
+      - dependency-name: 'eslint-plugin-functional'
+        versions:
+          - '>3'
     open-pull-requests-limit: 99
     package-ecosystem: npm
     reviewers:
