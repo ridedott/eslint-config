@@ -1,3 +1,22 @@
+## [2.19.72](https://github.com/ridedott/eslint-config/compare/v2.19.71...v2.19.72) (2022-07-26)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.18.2 to 7.18.9
+  ([8b9a773](https://github.com/ridedott/eslint-config/commit/8b9a773178f2633c62c926b408364a3d6ad1fd66))
+- **deps-dev:** bump commitizen from 4.2.4 to 4.2.5
+  ([325da2e](https://github.com/ridedott/eslint-config/commit/325da2e6aafe10d156b8b106909c4df7bfe4ba36))
+- **deps-dev:** bump prettier from 2.6.2 to 2.7.1
+  ([56e309e](https://github.com/ridedott/eslint-config/commit/56e309e8f70f1857c967e79dd60b1f7b6b83031c))
+- **deps-dev:** bump ts-jest from 27.1.4 to 27.1.5
+  ([ab61ede](https://github.com/ridedott/eslint-config/commit/ab61ededac4f3a2b0e55b98604d02b806c9e8b71))
+- **deps:** bump @typescript-eslint/parser from 5.30.7 to 5.31.0
+  ([6b921d5](https://github.com/ridedott/eslint-config/commit/6b921d5dfe9269c8f85d7fcb16564e6fdb4d9c29))
+- **deps:** bump eslint-plugin-jest from 26.5.3 to 26.6.0
+  ([baf7592](https://github.com/ridedott/eslint-config/commit/baf7592564d59a452fc757c98f986c021c660db7))
+- **deps:** bump typescript from 4.7.3 to 4.7.4
+  ([b96758b](https://github.com/ridedott/eslint-config/commit/b96758bfe67c91a54c05833252deae48457a00ff))
+
 ## [2.19.71](https://github.com/ridedott/eslint-config/compare/v2.19.70...v2.19.71) (2022-07-26)
 
 ### Bug Fixes
