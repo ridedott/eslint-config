@@ -1,3 +1,15 @@
+## [2.19.71](https://github.com/ridedott/eslint-config/compare/v2.19.70...v2.19.71) (2022-07-26)
+
+### Bug Fixes
+
+- conflicting dependencies
+  ([accda04](https://github.com/ridedott/eslint-config/commit/accda04f86da60748d141b2763e5f408ef4aea78))
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 13.0.0 to 13.0.1
+  ([83707bb](https://github.com/ridedott/eslint-config/commit/83707bb7d65e9f63054de14c0520d70103956978))
+
 ## [2.19.70](https://github.com/ridedott/eslint-config/compare/v2.19.69...v2.19.70) (2022-06-07)
 
 ### Chores
