@@ -31,5 +31,5 @@ interface Entity {
 }
 
 const objectWithKeysThatRequireQuotes = {
-  'some-key': true
-}
+  'some-key': true,
+};
