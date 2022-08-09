@@ -1,3 +1,12 @@
+## [2.19.77](https://github.com/ridedott/eslint-config/compare/v2.19.76...v2.19.77) (2022-08-09)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 5.32.0 to 5.33.0
+  ([1f3ee3b](https://github.com/ridedott/eslint-config/commit/1f3ee3b18f7dd0cb091ad872c0c07ec2332e5996))
+- **deps:** bump eslint-plugin-jest from 26.8.0 to 26.8.2
+  ([8acda11](https://github.com/ridedott/eslint-config/commit/8acda11e11df17ddc085490d28c9e73fe1bf6156))
+
 ## [2.19.76](https://github.com/ridedott/eslint-config/compare/v2.19.75...v2.19.76) (2022-08-08)
 
 ### Chores
