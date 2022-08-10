@@ -29,3 +29,7 @@ const { Aaa } = NCE;
 interface Entity {
   _version: number;
 }
+
+const objectWithKeysThatRequireQuotes = {
+  'some-key': true,
+};
