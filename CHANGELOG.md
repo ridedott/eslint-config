@@ -1,3 +1,10 @@
+# [2.20.0](https://github.com/ridedott/eslint-config/compare/v2.19.80...v2.20.0) (2022-08-10)
+
+### Features
+
+- allow different casing for properties requiring quotes
+  ([7695195](https://github.com/ridedott/eslint-config/commit/76951956b02a36f8a265c2614f9833ebab4fbf4d))
+
 ## [2.19.80](https://github.com/ridedott/eslint-config/compare/v2.19.79...v2.19.80) (2022-08-10)
 
 ### Chores
