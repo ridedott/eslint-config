@@ -6,14 +6,14 @@
   },
   "dependencies": {
     "@ridedott/eslint-plugin": "^1.7.20",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
     "@typescript-eslint/parser": "^5.36.2",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-array-func": "^3.1.7",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-functional": "^3.7.2",
+    "eslint-plugin-functional": "^4.3.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.8.3",
+    "eslint-plugin-jest": "^27.0.4",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-unicorn": "^40.1.0",
@@ -63,7 +63,7 @@
   "main": "./index.js",
   "name": "@ridedott/eslint-config",
   "peerDependencies": {
-    "eslint": "^7.18.0"
+    "eslint": "^8.23.1"
   },
   "repository": {
     "type": "git",
