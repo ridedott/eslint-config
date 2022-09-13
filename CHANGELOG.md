@@ -1,3 +1,10 @@
+## [2.20.23](https://github.com/ridedott/eslint-config/compare/v2.20.22...v2.20.23) (2022-09-13)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/eslint-plugin from 5.36.2 to 5.37.0
+  ([4cd9228](https://github.com/ridedott/eslint-config/commit/4cd92289d583279d4e7e7d19bb570fe53a63aa02))
+
 ## [2.20.22](https://github.com/ridedott/eslint-config/compare/v2.20.21...v2.20.22) (2022-09-13)
 
 ### Chores
