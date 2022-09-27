@@ -15,7 +15,7 @@ module.exports = {
           'monitoring/**',
           'scripts/**',
           'test/**',
-          'dangerfile.ts'
+          'dangerfile.ts',
         ],
         optionalDependencies: false,
         bundledDependencies: false,
