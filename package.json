@@ -23,7 +23,7 @@
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/plugin-transform-typescript": "^7.19.3",
-    "@babel/preset-env": "^7.19.1",
+    "@babel/preset-env": "^7.19.3",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@types/eslint": "^8.4.2",
