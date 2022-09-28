@@ -1,3 +1,10 @@
+## [2.20.35](https://github.com/ridedott/eslint-config/compare/v2.20.34...v2.20.35) (2022-09-28)
+
+### Chores
+
+- allow external dependencies from dangerfile.ts
+  ([f598afb](https://github.com/ridedott/eslint-config/commit/f598afbe06b6711f921da468be90b3b76dfcff52))
+
 ## [2.20.34](https://github.com/ridedott/eslint-config/compare/v2.20.33...v2.20.34) (2022-09-27)
 
 ### Chores
