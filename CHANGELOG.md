@@ -1,3 +1,14 @@
+## [2.20.37](https://github.com/ridedott/eslint-config/compare/v2.20.36...v2.20.37) (2022-09-28)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.19.1 to 7.19.3
+  ([7a5e273](https://github.com/ridedott/eslint-config/commit/7a5e2738f4b45c42640c7a66e15bc96b86d22ff9))
+- **deps-dev:** bump @babel/preset-env from 7.19.1 to 7.19.3
+  ([c955011](https://github.com/ridedott/eslint-config/commit/c955011df1f2578f20a5cf4c74d77769c6817d51))
+- **deps:** bump ridedott/release-me-action from 3.6.57 to 3.6.59
+  ([bcd1487](https://github.com/ridedott/eslint-config/commit/bcd1487e7da1ddfafd9bb6abb27cfc0ccda48dc7))
+
 ## [2.20.36](https://github.com/ridedott/eslint-config/compare/v2.20.35...v2.20.36) (2022-09-28)
 
 ### Chores
