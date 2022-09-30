@@ -5,7 +5,7 @@
     }
   },
   "dependencies": {
-    "@ridedott/eslint-plugin": "^1.7.29",
+    "@ridedott/eslint-plugin": "^1.7.30",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
     "eslint-config-prettier": "^8.5.0",
