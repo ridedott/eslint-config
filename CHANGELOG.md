@@ -1,3 +1,12 @@
+## [2.20.41](https://github.com/ridedott/eslint-config/compare/v2.20.40...v2.20.41) (2022-10-04)
+
+### Chores
+
+- **deps:** bump @ridedott/eslint-plugin from 1.7.30 to 1.7.32
+  ([4915c06](https://github.com/ridedott/eslint-config/commit/4915c06d1da1f9dc0ad78b49352d3cbc76ac4a59))
+- **deps:** bump @typescript-eslint/parser from 5.38.1 to 5.39.0
+  ([3a5b444](https://github.com/ridedott/eslint-config/commit/3a5b4449757daa73c0d055b4aea22c1e9f558441))
+
 ## [2.20.40](https://github.com/ridedott/eslint-config/compare/v2.20.39...v2.20.40) (2022-10-04)
 
 ### Chores
