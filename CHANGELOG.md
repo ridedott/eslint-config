@@ -1,3 +1,12 @@
+## [2.20.42](https://github.com/ridedott/eslint-config/compare/v2.20.41...v2.20.42) (2022-10-11)
+
+### Chores
+
+- **deps-dev:** bump @babel/preset-env from 7.19.3 to 7.19.4
+  ([65ccd9b](https://github.com/ridedott/eslint-config/commit/65ccd9bdcfb6aae4a8a515aae3c422933d380192))
+- **deps:** bump @typescript-eslint/eslint-plugin from 5.39.0 to 5.40.0
+  ([d8028e2](https://github.com/ridedott/eslint-config/commit/d8028e23b975decddfcf14e5a19b7837bf878804))
+
 ## [2.20.41](https://github.com/ridedott/eslint-config/compare/v2.20.40...v2.20.41) (2022-10-04)
 
 ### Chores
