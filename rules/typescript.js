@@ -250,9 +250,9 @@ module.exports = {
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
       {
-        forceSuggestionFixer: false,
         ignoreConditionalTests: true,
         ignoreMixedLogicalExpressions: true,
+        ignoreTernaryTests: false,
       },
     ],
     '@typescript-eslint/prefer-optional-chain': ['error'],
