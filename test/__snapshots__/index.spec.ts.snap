@@ -1663,11 +1663,59 @@ Array [
       },
     ],
   },
+  Object {
+    "column": 1,
+    "endColumn": 37,
+    "endLine": 9,
+    "line": 9,
+    "message": "Prefer using nullish coalescing operator (\`??\`) instead of a ternary expression, as it is simpler to read.",
+    "messageId": "preferNullishOverTernary",
+    "nodeType": "ConditionalExpression",
+    "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Fix to nullish coalescing operator (\`??\`).",
+        "fix": Object {
+          "range": Array [
+            308,
+            344,
+          ],
+          "text": "foo ?? 'a string'",
+        },
+        "messageId": "suggestNullish",
+      },
+    ],
+  },
 ]
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails on an invalid fixture 1`] = `
 Array [
+  Object {
+    "column": 1,
+    "endColumn": 37,
+    "endLine": 4,
+    "line": 4,
+    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
+    "messageId": "preferOptionalChain",
+    "nodeType": "LogicalExpression",
+    "ruleId": "@typescript-eslint/prefer-optional-chain",
+    "severity": 2,
+    "suggestions": Array [
+      Object {
+        "desc": "Change to an optional chain.",
+        "fix": Object {
+          "range": Array [
+            130,
+            166,
+          ],
+          "text": "foo?.a?.b?.c",
+        },
+        "messageId": "optionalChainSuggest",
+      },
+    ],
+  },
   Object {
     "column": 1,
     "endColumn": 37,
@@ -1683,8 +1731,8 @@ Array [
         "desc": "Change to an optional chain.",
         "fix": Object {
           "range": Array [
-            195,
-            231,
+            168,
+            204,
           ],
           "text": "foo?.a?.b?.c",
         },
@@ -1694,7 +1742,7 @@ Array [
   },
   Object {
     "column": 1,
-    "endColumn": 37,
+    "endColumn": 62,
     "endLine": 6,
     "line": 6,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
@@ -1707,32 +1755,8 @@ Array [
         "desc": "Change to an optional chain.",
         "fix": Object {
           "range": Array [
-            233,
-            269,
-          ],
-          "text": "foo?.a?.b?.c",
-        },
-        "messageId": "optionalChainSuggest",
-      },
-    ],
-  },
-  Object {
-    "column": 1,
-    "endColumn": 62,
-    "endLine": 7,
-    "line": 7,
-    "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
-    "messageId": "preferOptionalChain",
-    "nodeType": "LogicalExpression",
-    "ruleId": "@typescript-eslint/prefer-optional-chain",
-    "severity": 2,
-    "suggestions": Array [
-      Object {
-        "desc": "Change to an optional chain.",
-        "fix": Object {
-          "range": Array [
-            271,
-            332,
+            206,
+            267,
           ],
           "text": "foo?.a?.b?.method?.()",
         },
@@ -1743,8 +1767,8 @@ Array [
   Object {
     "column": 1,
     "endColumn": 16,
-    "endLine": 14,
-    "line": 9,
+    "endLine": 13,
+    "line": 8,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
     "nodeType": "LogicalExpression",
@@ -1755,8 +1779,8 @@ Array [
         "desc": "Change to an optional chain.",
         "fix": Object {
           "range": Array [
-            335,
-            457,
+            270,
+            392,
           ],
           "text": "foo?.a?.b?.c?.d?.e",
         },
@@ -1767,8 +1791,8 @@ Array [
   Object {
     "column": 3,
     "endColumn": 16,
-    "endLine": 10,
-    "line": 10,
+    "endLine": 9,
+    "line": 9,
     "message": "Use '===' to compare with null.",
     "messageId": "unexpected",
     "nodeType": "BinaryExpression",
@@ -1778,8 +1802,8 @@ Array [
   Object {
     "column": 9,
     "endColumn": 11,
-    "endLine": 10,
-    "line": 10,
+    "endLine": 9,
+    "line": 9,
     "message": "Expected '!==' and instead saw '!='.",
     "messageId": "unexpected",
     "nodeType": "BinaryExpression",
@@ -1789,8 +1813,8 @@ Array [
   Object {
     "column": 13,
     "endColumn": 15,
-    "endLine": 12,
-    "line": 12,
+    "endLine": 11,
+    "line": 11,
     "message": "Expected '!==' and instead saw '!='.",
     "messageId": "unexpected",
     "nodeType": "BinaryExpression",

@@ -4,3 +4,6 @@
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
 let value: string | undefined;
 value || 'fallback';
+
+let foo: string | undefined;
+foo === undefined ? 'a string' : foo;
