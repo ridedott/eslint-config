@@ -1,3 +1,10 @@
+## [2.20.55](https://github.com/ridedott/eslint-config/compare/v2.20.54...v2.20.55) (2022-11-11)
+
+### Bug Fixes
+
+- correctly configure @typescript-eslint/prefer-nullish-coalescing
+  ([d6af389](https://github.com/ridedott/eslint-config/commit/d6af389cf1236ec57a92e37587d0e95cce50ccad))
+
 ## [2.20.54](https://github.com/ridedott/eslint-config/compare/v2.20.53...v2.20.54) (2022-11-08)
 
 ### Chores
