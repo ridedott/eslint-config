@@ -1,3 +1,10 @@
+## [2.20.62](https://github.com/ridedott/eslint-config/compare/v2.20.61...v2.20.62) (2022-11-22)
+
+### Chores
+
+- **deps:** bump ridedott/release-me-action from 3.6.63 to 3.6.64
+  ([6600ad2](https://github.com/ridedott/eslint-config/commit/6600ad20c6da0f00531f106e8cce6ed4b8698258))
+
 ## [2.20.61](https://github.com/ridedott/eslint-config/compare/v2.20.60...v2.20.61) (2022-11-22)
 
 ### Chores
