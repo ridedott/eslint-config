@@ -1,3 +1,20 @@
+## [2.20.64](https://github.com/ridedott/eslint-config/compare/v2.20.63...v2.20.64) (2022-11-29)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.20.2 to 7.20.5
+  ([8b3f66c](https://github.com/ridedott/eslint-config/commit/8b3f66c16876a75bf041421434e365e0451f89f4))
+- **deps-dev:** bump lint-staged from 13.0.3 to 13.0.4
+  ([64ff9d5](https://github.com/ridedott/eslint-config/commit/64ff9d54ae74171791d85fb928bd19dab7ad2fc5))
+- **deps-dev:** bump prettier from 2.7.1 to 2.8.0
+  ([383c97c](https://github.com/ridedott/eslint-config/commit/383c97cb6a3c7a44173c6f34a786d8737d934935))
+- **deps:** bump @ridedott/eslint-plugin from 1.7.48 to 1.7.51
+  ([58c949c](https://github.com/ridedott/eslint-config/commit/58c949c5e748496af063ce1b7db35752ed03fca4))
+- **deps:** bump @typescript-eslint/parser from 5.44.0 to 5.45.0
+  ([28cb174](https://github.com/ridedott/eslint-config/commit/28cb174221174964421ccddaa0f87be0f2b34b56))
+- **deps:** bump ridedott/release-me-action from 3.6.64 to 3.6.66
+  ([cefc5bc](https://github.com/ridedott/eslint-config/commit/cefc5bce97e302c3d66aecced69944d95b7f03f8))
+
 ## [2.20.63](https://github.com/ridedott/eslint-config/compare/v2.20.62...v2.20.63) (2022-11-22)
 
 ### Chores
