@@ -30,7 +30,7 @@
     "@types/jest": "^27.5.0",
     "@types/node": "^12.20.4",
     "babel-jest": "^27.5.1",
-    "commitizen": "^4.2.5",
+    "commitizen": "^4.2.6",
     "eslint": "^7.32.0",
     "husky": "^8.0.2",
     "jest": "^27.5.1",
