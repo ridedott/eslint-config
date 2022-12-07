@@ -1,3 +1,16 @@
+# [2.21.0](https://github.com/ridedott/eslint-config/compare/v2.20.66...v2.21.0) (2022-12-07)
+
+### Chores
+
+- **deps-dev:** bump commitizen from 4.2.5 to 4.2.6
+  ([ab6e4c8](https://github.com/ridedott/eslint-config/commit/ab6e4c82d5684e1c3bd6d0bd3c975424e84aeb2e))
+
+### Features
+
+- update Husky setup (#1527)
+  ([2f07fbf](https://github.com/ridedott/eslint-config/commit/2f07fbfeb485982fc49eb05c0d5a36d22211582a)),
+  closes [#1527](https://github.com/ridedott/eslint-config/issues/1527)
+
 ## [2.20.66](https://github.com/ridedott/eslint-config/compare/v2.20.65...v2.20.66) (2022-12-06)
 
 ### Chores
