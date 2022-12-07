@@ -23,11 +23,6 @@ updates:
       - dependency-name: '@types/node'
         versions:
           - '> 12'
-        # Ignore updates for eslint-plugin-functional, as it requires ESLint v8.
-        # When ESLint is updated, this can be updated as well
-      - dependency-name: 'eslint-plugin-functional'
-        versions:
-          - '>3'
         # babel-jest needs to be updated together with Jest
       - dependency-name: 'babel-jest'
         versions:
