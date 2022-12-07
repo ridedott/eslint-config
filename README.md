@@ -133,6 +133,7 @@ Go the the right directory and install dependencies:
 ```bash
 cd eslint-config
 npm install
+npx husky install
 ```
 
 That's it! You can now go to the next step.
