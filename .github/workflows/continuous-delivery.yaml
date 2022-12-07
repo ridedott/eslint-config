@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3.5.1
         with:
-          node-version: 14
+          node-version: 16
       - name: Cache dependencies
         uses: actions/cache@v3
         with:
@@ -52,7 +52,7 @@ jobs:
         name: Setup Node.js
         uses: actions/setup-node@v3.5.1
         with:
-          node-version: 14
+          node-version: 16
           registry-url: 'https://npm.pkg.github.com'
       - env:
           NODE_AUTH_TOKEN: ${{ secrets.DOTTBOTT_TOKEN }}
@@ -63,7 +63,7 @@ jobs:
         name: Setup Node.js
         uses: actions/setup-node@v3.5.1
         with:
-          node-version: 14
+          node-version: 16
           registry-url: 'https://registry.npmjs.org'
           scope: '@ridedott'
       - env:
