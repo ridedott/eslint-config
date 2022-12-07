@@ -26,7 +26,7 @@ updates:
         # babel-jest needs to be updated together with Jest
       - dependency-name: 'babel-jest'
         versions:
-          - '>27'
+          - '>29'
     open-pull-requests-limit: 99
     package-ecosystem: npm
     reviewers:
