@@ -22,7 +22,7 @@ updates:
     ignore:
       - dependency-name: '@types/node'
         versions:
-          - '> 12'
+          - '> 16'
         # babel-jest needs to be updated together with Jest
       - dependency-name: 'babel-jest'
         versions:
