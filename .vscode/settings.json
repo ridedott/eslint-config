@@ -12,5 +12,6 @@
     "resolvePluginsRelativeTo": "./node_modules/@ridedott/eslint-config"
   },
   "eslint.run": "onType",
-  "jest.autoEnable": false
+  "jest.autoEnable": false,
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
