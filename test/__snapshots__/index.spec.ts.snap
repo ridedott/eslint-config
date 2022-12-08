@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 27,
     "endColumn": 43,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         128,
         144,
       ],
@@ -19,7 +19,7 @@ Array [
     "ruleId": "array-func/avoid-reverse",
     "severity": 2,
   },
-  Object {
+  {
     "column": 54,
     "endColumn": 59,
     "endLine": 4,
@@ -30,12 +30,12 @@ Array [
     "ruleId": "@typescript-eslint/restrict-plus-operands",
     "severity": 2,
   },
-  Object {
+  {
     "column": 27,
     "endColumn": 48,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         193,
         214,
       ],
@@ -47,7 +47,7 @@ Array [
     "ruleId": "array-func/avoid-reverse",
     "severity": 2,
   },
-  Object {
+  {
     "column": 59,
     "endColumn": 64,
     "endLine": 6,
@@ -62,13 +62,13 @@ Array [
 `;
 
 exports[`arrayFunc rules array-func/from-map fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 25,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         156,
         162,
       ],
@@ -80,12 +80,12 @@ Array [
     "ruleId": "array-func/from-map",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 35,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         195,
         223,
       ],
@@ -101,13 +101,13 @@ Array [
 `;
 
 exports[`arrayFunc rules array-func/prefer-array-from fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 25,
     "endColumn": 38,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         24,
         37,
       ],
@@ -119,12 +119,12 @@ Array [
     "ruleId": "array-func/prefer-array-from",
     "severity": 2,
   },
-  Object {
+  {
     "column": 19,
     "endColumn": 32,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         58,
         71,
       ],
@@ -140,13 +140,13 @@ Array [
 `;
 
 exports[`eslint rules capitalized-comments fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 21,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         3,
         4,
       ],
@@ -159,12 +159,12 @@ Array [
     "ruleId": "capitalized-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 22,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         25,
         26,
       ],
@@ -177,12 +177,12 @@ Array [
     "ruleId": "capitalized-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 20,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         48,
         49,
       ],
@@ -199,8 +199,8 @@ Array [
 `;
 
 exports[`eslint rules func-names fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 23,
     "endColumn": 46,
     "endLine": 3,
@@ -215,8 +215,8 @@ Array [
 `;
 
 exports[`eslint rules id-length fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 8,
     "endLine": 6,
@@ -227,7 +227,7 @@ Array [
     "ruleId": "id-length",
     "severity": 2,
   },
-  Object {
+  {
     "column": 23,
     "endColumn": 24,
     "endLine": 8,
@@ -238,7 +238,7 @@ Array [
     "ruleId": "id-length",
     "severity": 2,
   },
-  Object {
+  {
     "column": 10,
     "endColumn": 20,
     "endLine": 12,
@@ -249,7 +249,7 @@ Array [
     "ruleId": "id-length",
     "severity": 2,
   },
-  Object {
+  {
     "column": 17,
     "endColumn": 18,
     "endLine": 16,
@@ -260,7 +260,7 @@ Array [
     "ruleId": "id-length",
     "severity": 2,
   },
-  Object {
+  {
     "column": 2,
     "endColumn": 3,
     "endLine": 18,
@@ -271,7 +271,7 @@ Array [
     "ruleId": "id-length",
     "severity": 2,
   },
-  Object {
+  {
     "column": 9,
     "endColumn": 10,
     "endLine": 22,
@@ -282,7 +282,7 @@ Array [
     "ruleId": "id-length",
     "severity": 2,
   },
-  Object {
+  {
     "column": 12,
     "endColumn": 13,
     "endLine": 23,
@@ -293,7 +293,7 @@ Array [
     "ruleId": "id-length",
     "severity": 2,
   },
-  Object {
+  {
     "column": 7,
     "endColumn": 8,
     "endLine": 25,
@@ -308,8 +308,8 @@ Array [
 `;
 
 exports[`eslint rules max-statements fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 32,
     "endColumn": 2,
     "endLine": 89,
@@ -324,13 +324,13 @@ Array [
 `;
 
 exports[`eslint rules one-var fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 3,
     "endColumn": 17,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         167,
         173,
       ],
@@ -348,13 +348,13 @@ Array [
 `;
 
 exports[`eslint rules padding-line-between-statements fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 3,
     "endColumn": 4,
     "endLine": 13,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         311,
         311,
       ],
@@ -368,12 +368,12 @@ Array [
     "ruleId": "padding-line-between-statements",
     "severity": 2,
   },
-  Object {
+  {
     "column": 3,
     "endColumn": 9,
     "endLine": 14,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         350,
         350,
       ],
@@ -387,12 +387,12 @@ Array [
     "ruleId": "padding-line-between-statements",
     "severity": 2,
   },
-  Object {
+  {
     "column": 3,
     "endColumn": 10,
     "endLine": 16,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         359,
         359,
       ],
@@ -410,8 +410,8 @@ Array [
 `;
 
 exports[`eslintComments rules eslint-comments/disable-enable-pair fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 19,
     "endColumn": 29,
     "endLine": 7,
@@ -425,21 +425,28 @@ Array [
 `;
 
 exports[`eslintComments rules eslint-comments/no-duplicate-disable fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 19,
     "endColumn": 28,
     "endLine": 1,
+    "fix": {
+      "range": [
+        0,
+        30,
+      ],
+      "text": " ",
+    },
     "line": 1,
     "message": "'id-length' rule is disabled but never reported.",
     "nodeType": null,
     "ruleId": "eslint-comments/no-unused-disable",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Remove \`eslint-disable\` comment.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             0,
             30,
           ],
@@ -448,7 +455,7 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 19,
     "endColumn": 28,
     "endLine": 2,
@@ -462,8 +469,8 @@ Array [
 `;
 
 exports[`eslintComments rules eslint-comments/no-unlimited-disable fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 0,
     "endColumn": 21,
     "endLine": 1,
@@ -477,21 +484,28 @@ Array [
 `;
 
 exports[`eslintComments rules eslint-comments/no-unused-disable fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 19,
     "endColumn": 29,
     "endLine": 1,
+    "fix": {
+      "range": [
+        0,
+        31,
+      ],
+      "text": " ",
+    },
     "line": 1,
     "message": "'no-bitwise' rule is disabled but never reported.",
     "nodeType": null,
     "ruleId": "eslint-comments/no-unused-disable",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Remove \`eslint-disable\` comment.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             0,
             31,
           ],
@@ -504,8 +518,8 @@ Array [
 `;
 
 exports[`eslintComments rules eslint-comments/no-unused-enable fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 74,
     "endLine": 2,
@@ -515,7 +529,7 @@ Array [
     "ruleId": "@typescript-eslint/explicit-function-return-type-init",
     "severity": 2,
   },
-  Object {
+  {
     "column": 18,
     "endColumn": 71,
     "endLine": 2,
@@ -529,8 +543,8 @@ Array [
 `;
 
 exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 0,
     "endColumn": 196,
     "endLine": 1,
@@ -540,7 +554,7 @@ Array [
     "ruleId": "eslint-comments/no-use",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 196,
     "endLine": 1,
@@ -551,11 +565,11 @@ Array [
     "ruleId": "max-len",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "fatal": true,
     "line": 1,
-    "message": "Failed to parse JSON from ' \\"no-undef\\": off / / eslint-env browser / / eslint-disable foo / / eslint-enable bar / // eslint-disable-line // eslint-disable-next-line / exported foo / / global $ / / globals a, b, c': Unexpected token o in JSON at position 14",
+    "message": "Failed to parse JSON from ' "no-undef": off / / eslint-env browser / / eslint-disable foo / / eslint-enable bar / // eslint-disable-line // eslint-disable-next-line / exported foo / / global $ / / globals a, b, c': Unexpected token o in JSON at position 14",
     "ruleId": null,
     "severity": 2,
   },
@@ -563,8 +577,8 @@ Array [
 `;
 
 exports[`functional rules functional/immutable-data fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 24,
     "endLine": 3,
@@ -579,8 +593,8 @@ Array [
 `;
 
 exports[`functional rules functional/no-let fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 19,
     "endLine": 1,
@@ -591,12 +605,12 @@ Array [
     "ruleId": "functional/no-let",
     "severity": 2,
   },
-  Object {
+  {
     "column": 5,
     "endColumn": 14,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         0,
         18,
       ],
@@ -613,8 +627,8 @@ Array [
 `;
 
 exports[`functional rules functional/no-this-expression fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 3,
     "endColumn": 13,
     "endLine": 5,
@@ -625,7 +639,7 @@ Array [
     "ruleId": "functional/immutable-data",
     "severity": 2,
   },
-  Object {
+  {
     "column": 3,
     "endColumn": 7,
     "endLine": 5,
@@ -636,7 +650,7 @@ Array [
     "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
-  Object {
+  {
     "column": 3,
     "endColumn": 7,
     "endLine": 5,
@@ -647,7 +661,7 @@ Array [
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
   },
-  Object {
+  {
     "column": 8,
     "endColumn": 9,
     "endLine": 5,
@@ -662,8 +676,8 @@ Array [
 `;
 
 exports[`import rules import/no-cycle fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 38,
     "endLine": 1,
@@ -677,8 +691,8 @@ Array [
 `;
 
 exports[`import rules import/no-default-export fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 8,
     "endColumn": 15,
     "endLine": 1,
@@ -692,8 +706,8 @@ Array [
 `;
 
 exports[`import rules import/no-extraneous-dependencies fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 39,
     "endLine": 3,
@@ -707,8 +721,8 @@ Array [
 `;
 
 exports[`import rules import/no-self-import fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 32,
     "endLine": 1,
@@ -722,13 +736,13 @@ Array [
 `;
 
 exports[`jest rules jest/consistent-test-it fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 5,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         83,
         87,
       ],
@@ -745,8 +759,8 @@ Array [
 `;
 
 exports[`jest rules jest/no-interpolation-in-snapshots fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 37,
     "endColumn": 47,
     "endLine": 4,
@@ -761,8 +775,8 @@ Array [
 `;
 
 exports[`jest rules jest/prefer-expect-assertions fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 3,
     "endLine": 3,
@@ -772,24 +786,24 @@ Array [
     "nodeType": "CallExpression",
     "ruleId": "jest/prefer-expect-assertions",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Add \`expect.hasAssertions()\`",
-        "fix": Object {
-          "range": Array [
-            37,
-            37,
+        "fix": {
+          "range": [
+            34,
+            34,
           ],
           "text": "expect.hasAssertions();",
         },
         "messageId": "suggestAddingHasAssertions",
       },
-      Object {
+      {
         "desc": "Add \`expect.assertions(<number of assertions>)\`",
-        "fix": Object {
-          "range": Array [
-            37,
-            37,
+        "fix": {
+          "range": [
+            34,
+            34,
           ],
           "text": "expect.assertions();",
         },
@@ -801,8 +815,8 @@ Array [
 `;
 
 exports[`jest rules jest/unbound-method fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 15,
     "endColumn": 27,
     "endLine": 12,
@@ -818,13 +832,13 @@ If your function does not access \`this\`, you can annotate it with \`this: void
 `;
 
 exports[`jest rules jest/valid-title fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 4,
     "endColumn": 21,
     "endLine": 1,
     "line": 1,
-    "message": "\\"should\\" is not allowed in test titles.",
+    "message": ""should" is not allowed in test titles.",
     "messageId": "disallowedWord",
     "nodeType": "Literal",
     "ruleId": "jest/valid-title",
@@ -834,8 +848,8 @@ Array [
 `;
 
 exports[`overrides rules max-len fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 83,
     "endLine": 3,
@@ -850,13 +864,13 @@ Array [
 `;
 
 exports[`ridedott rules @ridedott/no-single-line-comment-block fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 4,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         0,
         37,
       ],
@@ -869,12 +883,12 @@ Array [
     "ruleId": "@ridedott/no-single-line-comment-block",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 48,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         39,
         86,
       ],
@@ -891,13 +905,13 @@ Array [
 `;
 
 exports[`ridedott rules @ridedott/no-template-literals-without-expression fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 51,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         62,
         112,
       ],
@@ -910,16 +924,16 @@ Array [
     "ruleId": "@ridedott/no-template-literals-without-expression",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 72,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         115,
         186,
       ],
-      "text": "\\"Single line template literal without expressions with 'single quotes'\\"",
+      "text": ""Single line template literal without expressions with 'single quotes'"",
     },
     "line": 4,
     "message": "Template literals should contain an expression.",
@@ -932,13 +946,13 @@ Array [
 `;
 
 exports[`simpleImportSort rules simple-import-sort/exports fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 27,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         0,
         52,
       ],
@@ -956,13 +970,13 @@ export * as a from 'url';",
 `;
 
 exports[`simpleImportSort rules simple-import-sort/imports fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 34,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         0,
         63,
       ],
@@ -980,8 +994,8 @@ import * as path from 'path';",
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/array-type fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 44,
     "endColumn": 49,
     "endLine": 5,
@@ -996,13 +1010,13 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/ban-types fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 15,
     "endColumn": 21,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         14,
         20,
       ],
@@ -1019,13 +1033,13 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 6,
     "endColumn": 35,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         0,
         51,
       ],
@@ -1042,8 +1056,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 23,
     "endColumn": 28,
     "endLine": 3,
@@ -1054,7 +1068,7 @@ Array [
     "ruleId": "@typescript-eslint/explicit-function-return-type",
     "severity": 2,
   },
-  Object {
+  {
     "column": 28,
     "endColumn": 39,
     "endLine": 5,
@@ -1065,7 +1079,7 @@ Array [
     "ruleId": "@typescript-eslint/explicit-function-return-type",
     "severity": 2,
   },
-  Object {
+  {
     "column": 8,
     "endColumn": 13,
     "endLine": 10,
@@ -1080,8 +1094,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/member-ordering fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 3,
     "endColumn": 16,
     "endLine": 3,
@@ -1096,8 +1110,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 24,
     "endLine": 1,
@@ -1108,7 +1122,7 @@ Array [
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  Object {
+  {
     "column": 11,
     "endColumn": 18,
     "endLine": 3,
@@ -1119,7 +1133,7 @@ Array [
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  Object {
+  {
     "column": 11,
     "endColumn": 24,
     "endLine": 7,
@@ -1130,7 +1144,7 @@ Array [
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  Object {
+  {
     "column": 25,
     "endColumn": 30,
     "endLine": 7,
@@ -1141,7 +1155,7 @@ Array [
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  Object {
+  {
     "column": 15,
     "endColumn": 16,
     "endLine": 11,
@@ -1152,7 +1166,7 @@ Array [
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  Object {
+  {
     "column": 21,
     "endColumn": 22,
     "endLine": 15,
@@ -1163,7 +1177,7 @@ Array [
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  Object {
+  {
     "column": 22,
     "endColumn": 35,
     "endLine": 19,
@@ -1174,7 +1188,7 @@ Array [
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  Object {
+  {
     "column": 3,
     "endColumn": 8,
     "endLine": 24,
@@ -1189,13 +1203,13 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 22,
     "endColumn": 27,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         166,
         173,
       ],
@@ -1208,30 +1222,30 @@ Array [
     "ruleId": "@typescript-eslint/no-dynamic-delete",
     "severity": 2,
   },
-  Object {
+  {
     "column": 22,
     "endColumn": 27,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         166,
         173,
       ],
       "text": ".aaa",
     },
     "line": 5,
-    "message": "[\\"aaa\\"] is better written in dot notation.",
+    "message": "["aaa"] is better written in dot notation.",
     "messageId": "useDot",
     "nodeType": "Literal",
     "ruleId": "@typescript-eslint/dot-notation",
     "severity": 2,
   },
-  Object {
+  {
     "column": 22,
     "endColumn": 32,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         195,
         207,
       ],
@@ -1244,25 +1258,25 @@ Array [
     "ruleId": "@typescript-eslint/no-dynamic-delete",
     "severity": 2,
   },
-  Object {
+  {
     "column": 22,
     "endColumn": 32,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         195,
         207,
       ],
       "text": ".Infinity",
     },
     "line": 6,
-    "message": "[\\"Infinity\\"] is better written in dot notation.",
+    "message": "["Infinity"] is better written in dot notation.",
     "messageId": "useDot",
     "nodeType": "Literal",
     "ruleId": "@typescript-eslint/dot-notation",
     "severity": 2,
   },
-  Object {
+  {
     "column": 22,
     "endColumn": 26,
     "endLine": 10,
@@ -1273,7 +1287,7 @@ Array [
     "ruleId": "@typescript-eslint/no-dynamic-delete",
     "severity": 2,
   },
-  Object {
+  {
     "column": 22,
     "endColumn": 40,
     "endLine": 11,
@@ -1288,13 +1302,13 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 24,
     "endColumn": 27,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         75,
         78,
       ],
@@ -1306,11 +1320,11 @@ Array [
     "nodeType": "TSAnyKeyword",
     "ruleId": "@typescript-eslint/no-explicit-any",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             75,
             78,
           ],
@@ -1318,10 +1332,10 @@ Array [
         },
         "messageId": "suggestUnknown",
       },
-      Object {
+      {
         "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             75,
             78,
           ],
@@ -1331,12 +1345,12 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 33,
     "endColumn": 36,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         128,
         131,
       ],
@@ -1348,11 +1362,11 @@ Array [
     "nodeType": "TSAnyKeyword",
     "ruleId": "@typescript-eslint/no-explicit-any",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             128,
             131,
           ],
@@ -1360,10 +1374,10 @@ Array [
         },
         "messageId": "suggestUnknown",
       },
-      Object {
+      {
         "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             128,
             131,
           ],
@@ -1373,12 +1387,12 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 24,
     "endColumn": 34,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         172,
         182,
       ],
@@ -1391,12 +1405,12 @@ Array [
     "ruleId": "@typescript-eslint/array-type",
     "severity": 2,
   },
-  Object {
+  {
     "column": 30,
     "endColumn": 33,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         178,
         181,
       ],
@@ -1408,11 +1422,11 @@ Array [
     "nodeType": "TSAnyKeyword",
     "ruleId": "@typescript-eslint/no-explicit-any",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             178,
             181,
           ],
@@ -1420,10 +1434,10 @@ Array [
         },
         "messageId": "suggestUnknown",
       },
-      Object {
+      {
         "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             178,
             181,
           ],
@@ -1433,12 +1447,12 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 24,
     "endColumn": 42,
     "endLine": 9,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         221,
         239,
       ],
@@ -1451,12 +1465,12 @@ Array [
     "ruleId": "@typescript-eslint/array-type",
     "severity": 2,
   },
-  Object {
+  {
     "column": 38,
     "endColumn": 41,
     "endLine": 9,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         235,
         238,
       ],
@@ -1468,11 +1482,11 @@ Array [
     "nodeType": "TSAnyKeyword",
     "ruleId": "@typescript-eslint/no-explicit-any",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             235,
             238,
           ],
@@ -1480,10 +1494,10 @@ Array [
         },
         "messageId": "suggestUnknown",
       },
-      Object {
+      {
         "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             235,
             238,
           ],
@@ -1497,8 +1511,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 38,
     "endColumn": 48,
     "endLine": 2,
@@ -1508,11 +1522,11 @@ Array [
     "nodeType": "TSNonNullExpression",
     "ruleId": "@typescript-eslint/no-non-null-assertion",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Consider using the optional chain operator \`?.\` instead. This operator includes runtime checks, so it is safer than the compile-only non-null assertion operator.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             92,
             93,
           ],
@@ -1522,7 +1536,7 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 38,
     "endColumn": 47,
     "endLine": 2,
@@ -1533,12 +1547,12 @@ Array [
     "ruleId": "@typescript-eslint/no-non-null-assertion",
     "severity": 2,
   },
-  Object {
+  {
     "column": 38,
     "endColumn": 47,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         91,
         92,
       ],
@@ -1551,7 +1565,7 @@ Array [
     "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
     "severity": 2,
   },
-  Object {
+  {
     "column": 38,
     "endColumn": 46,
     "endLine": 2,
@@ -1562,12 +1576,12 @@ Array [
     "ruleId": "@typescript-eslint/no-non-null-assertion",
     "severity": 2,
   },
-  Object {
+  {
     "column": 38,
     "endColumn": 46,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         90,
         91,
       ],
@@ -1584,8 +1598,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 28,
     "endColumn": 29,
     "endLine": 1,
@@ -1596,7 +1610,7 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
+  {
     "column": 32,
     "endColumn": 33,
     "endLine": 1,
@@ -1611,8 +1625,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 12,
     "endLine": 9,
@@ -1623,7 +1637,7 @@ Array [
     "ruleId": "@typescript-eslint/no-unnecessary-condition",
     "severity": 2,
   },
-  Object {
+  {
     "column": 7,
     "endColumn": 10,
     "endLine": 16,
@@ -1638,8 +1652,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 9,
     "endLine": 6,
@@ -1649,11 +1663,11 @@ Array [
     "nodeType": "Punctuator",
     "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Fix to nullish coalescing operator (\`??\`).",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             263,
             265,
           ],
@@ -1663,7 +1677,7 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 37,
     "endLine": 9,
@@ -1673,11 +1687,11 @@ Array [
     "nodeType": "ConditionalExpression",
     "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Fix to nullish coalescing operator (\`??\`).",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             308,
             344,
           ],
@@ -1691,8 +1705,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 37,
     "endLine": 4,
@@ -1702,11 +1716,11 @@ Array [
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Change to an optional chain.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             130,
             166,
           ],
@@ -1716,7 +1730,7 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 37,
     "endLine": 5,
@@ -1726,11 +1740,11 @@ Array [
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Change to an optional chain.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             168,
             204,
           ],
@@ -1740,7 +1754,7 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 62,
     "endLine": 6,
@@ -1750,11 +1764,11 @@ Array [
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Change to an optional chain.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             206,
             267,
           ],
@@ -1764,7 +1778,7 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 16,
     "endLine": 13,
@@ -1774,11 +1788,11 @@ Array [
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Change to an optional chain.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             270,
             392,
           ],
@@ -1788,7 +1802,7 @@ Array [
       },
     ],
   },
-  Object {
+  {
     "column": 3,
     "endColumn": 16,
     "endLine": 9,
@@ -1799,7 +1813,7 @@ Array [
     "ruleId": "no-eq-null",
     "severity": 2,
   },
-  Object {
+  {
     "column": 9,
     "endColumn": 11,
     "endLine": 9,
@@ -1810,7 +1824,7 @@ Array [
     "ruleId": "eqeqeq",
     "severity": 2,
   },
-  Object {
+  {
     "column": 13,
     "endColumn": 15,
     "endLine": 11,
@@ -1825,13 +1839,13 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 37,
     "endColumn": 42,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         139,
         139,
       ],
@@ -1844,12 +1858,12 @@ Array [
     "ruleId": "@typescript-eslint/promise-function-async",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 34,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         172,
         172,
       ],
@@ -1866,8 +1880,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 18,
     "endColumn": 19,
     "endLine": 6,
@@ -1878,23 +1892,23 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
+  {
     "column": 24,
     "endColumn": 28,
     "endLine": 7,
     "line": 7,
-    "message": "Invalid type \\"number[]\\" of template literal expression.",
+    "message": "Invalid type "number[]" of template literal expression.",
     "messageId": "invalidType",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/restrict-template-expressions",
     "severity": 2,
   },
-  Object {
+  {
     "column": 24,
     "endColumn": 36,
     "endLine": 10,
     "line": 10,
-    "message": "Invalid type \\"{ name: string; }\\" of template literal expression.",
+    "message": "Invalid type "{ name: string; }" of template literal expression.",
     "messageId": "invalidType",
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/restrict-template-expressions",
@@ -1904,13 +1918,13 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/return-await fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 12,
     "endColumn": 34,
     "endLine": 11,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         373,
         373,
       ],
@@ -1923,12 +1937,12 @@ Array [
     "ruleId": "@typescript-eslint/return-await",
     "severity": 2,
   },
-  Object {
+  {
     "column": 10,
     "endColumn": 38,
     "endLine": 16,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         473,
         479,
       ],
@@ -1941,12 +1955,12 @@ Array [
     "ruleId": "@typescript-eslint/return-await",
     "severity": 2,
   },
-  Object {
+  {
     "column": 10,
     "endColumn": 23,
     "endLine": 20,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         553,
         559,
       ],
@@ -1963,8 +1977,8 @@ Array [
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 5,
     "endColumn": 12,
     "endLine": 3,
@@ -1974,11 +1988,11 @@ Array [
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/strict-boolean-expressions",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
         "desc": "Change condition to check string's length (\`value.length !== 0\`)",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             49,
             56,
           ],
@@ -1986,21 +2000,21 @@ Array [
         },
         "messageId": "conditionFixCompareStringLength",
       },
-      Object {
-        "desc": "Change condition to check for empty string (\`value !== \\"\\"\`)",
-        "fix": Object {
-          "range": Array [
+      {
+        "desc": "Change condition to check for empty string (\`value !== ""\`)",
+        "fix": {
+          "range": [
             49,
             56,
           ],
-          "text": "strictA !== \\"\\"",
+          "text": "strictA !== """,
         },
         "messageId": "conditionFixCompareEmptyString",
       },
-      Object {
+      {
         "desc": "Explicitly cast value to a boolean (\`Boolean(value)\`)",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             49,
             56,
           ],
@@ -2014,148 +2028,148 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/better-regex fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 29,
     "endColumn": 36,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         73,
         80,
       ],
-      "text": "/\\\\d/",
+      "text": "/\\d/",
     },
     "line": 3,
-    "message": "/[0-9]/ can be optimized to /\\\\d/.",
+    "message": "/[0-9]/ can be optimized to /\\d/.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 29,
     "endColumn": 37,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         110,
         118,
       ],
-      "text": "/\\\\D/",
+      "text": "/\\D/",
     },
     "line": 4,
-    "message": "/[^0-9]/ can be optimized to /\\\\D/.",
+    "message": "/[^0-9]/ can be optimized to /\\D/.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 29,
     "endColumn": 43,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         148,
         162,
       ],
-      "text": "/\\\\w/",
+      "text": "/\\w/",
     },
     "line": 5,
-    "message": "/[a-zA-Z0-9_]/ can be optimized to /\\\\w/.",
+    "message": "/[a-zA-Z0-9_]/ can be optimized to /\\w/.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 29,
     "endColumn": 41,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         192,
         204,
       ],
-      "text": "/\\\\w/i",
+      "text": "/\\w/i",
     },
     "line": 6,
-    "message": "/[a-z0-9_]/i can be optimized to /\\\\w/i.",
+    "message": "/[a-z0-9_]/i can be optimized to /\\w/i.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 29,
     "endColumn": 44,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         234,
         249,
       ],
-      "text": "/\\\\W/",
+      "text": "/\\W/",
     },
     "line": 7,
-    "message": "/[^a-zA-Z0-9_]/ can be optimized to /\\\\W/.",
+    "message": "/[^a-zA-Z0-9_]/ can be optimized to /\\W/.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 29,
     "endColumn": 42,
     "endLine": 8,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         279,
         292,
       ],
-      "text": "/\\\\W/i",
+      "text": "/\\W/i",
     },
     "line": 8,
-    "message": "/[^a-z0-9_]/i can be optimized to /\\\\W/i.",
+    "message": "/[^a-z0-9_]/i can be optimized to /\\W/i.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 29,
     "endColumn": 59,
     "endLine": 9,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         322,
         352,
       ],
-      "text": "/\\\\d\\\\.\\\\w-\\\\D/i",
+      "text": "/\\d\\.\\w-\\D/i",
     },
     "line": 9,
-    "message": "/[0-9]\\\\.[a-zA-Z0-9_]\\\\-[^0-9]/i can be optimized to /\\\\d\\\\.\\\\w-\\\\D/i.",
+    "message": "/[0-9]\\.[a-zA-Z0-9_]\\-[^0-9]/i can be optimized to /\\d\\.\\w-\\D/i.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 49,
     "endColumn": 50,
     "endLine": 9,
     "line": 9,
-    "message": "Unnecessary escape character: \\\\-.",
+    "message": "Unnecessary escape character: \\-.",
     "messageId": "unnecessaryEscape",
     "nodeType": "Literal",
     "ruleId": "no-useless-escape",
     "severity": 2,
-    "suggestions": Array [
-      Object {
-        "desc": "Remove the \`\\\\\`. This maintains the current functionality.",
-        "fix": Object {
-          "range": Array [
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
             342,
             343,
           ],
@@ -2163,14 +2177,14 @@ Array [
         },
         "messageId": "removeEscape",
       },
-      Object {
-        "desc": "Replace the \`\\\\\` with \`\\\\\\\\\` to include the actual backslash character.",
-        "fix": Object {
-          "range": Array [
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
             342,
             342,
           ],
-          "text": "\\\\",
+          "text": "\\",
         },
         "messageId": "escapeBackslash",
       },
@@ -2180,13 +2194,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/catch-error-name fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 10,
     "endColumn": 25,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         148,
         154,
       ],
@@ -2203,8 +2217,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/consistent-destructuring fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 16,
     "endColumn": 47,
     "endLine": 6,
@@ -2214,15 +2228,15 @@ Array [
     "nodeType": "MemberExpression",
     "ruleId": "unicorn/consistent-destructuring",
     "severity": 2,
-    "suggestions": Array [
-      Object {
-        "data": Object {
+    "suggestions": [
+      {
+        "data": {
           "expression": "consistentDestructructingFail.b",
           "property": "b",
         },
         "desc": "Replace \`consistentDestructructingFail.b\` with destructured property \`b\`.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             165,
             247,
           ],
@@ -2237,8 +2251,8 @@ console.log(a, b",
 `;
 
 exports[`unicorn rules unicorn/consistent-function-scoping fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 3,
     "endColumn": 17,
     "endLine": 9,
@@ -2249,7 +2263,7 @@ Array [
     "ruleId": "unicorn/consistent-function-scoping",
     "severity": 2,
   },
-  Object {
+  {
     "column": 23,
     "endColumn": 25,
     "endLine": 17,
@@ -2264,8 +2278,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/custom-error-definition fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 17,
     "endColumn": 30,
     "endLine": 7,
@@ -2279,8 +2293,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/error-message fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 14,
     "endLine": 4,
@@ -2295,17 +2309,17 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/escape-case fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 25,
     "endColumn": 31,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         68,
         74,
       ],
-      "text": "'\\\\xA9'",
+      "text": "'\\xA9'",
     },
     "line": 3,
     "message": "Use uppercase characters for the value of the escape sequence.",
@@ -2314,16 +2328,16 @@ Array [
     "ruleId": "unicorn/escape-case",
     "severity": 2,
   },
-  Object {
+  {
     "column": 25,
     "endColumn": 33,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         100,
         108,
       ],
-      "text": "'\\\\uD834'",
+      "text": "'\\uD834'",
     },
     "line": 4,
     "message": "Use uppercase characters for the value of the escape sequence.",
@@ -2332,16 +2346,16 @@ Array [
     "ruleId": "unicorn/escape-case",
     "severity": 2,
   },
-  Object {
+  {
     "column": 25,
     "endColumn": 36,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         134,
         145,
       ],
-      "text": "'\\\\u{1D306}'",
+      "text": "'\\u{1D306}'",
     },
     "line": 5,
     "message": "Use uppercase characters for the value of the escape sequence.",
@@ -2354,8 +2368,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 47,
     "endLine": 1,
@@ -2366,12 +2380,12 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 61,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         0,
         107,
       ],
@@ -2387,7 +2401,7 @@ Array [
     "ruleId": "multiline-comment-style",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 61,
     "endLine": 2,
@@ -2398,7 +2412,7 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 51,
     "endLine": 4,
@@ -2409,12 +2423,12 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 56,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         109,
         268,
       ],
@@ -2431,7 +2445,7 @@ Array [
     "ruleId": "multiline-comment-style",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 53,
     "endLine": 5,
@@ -2442,7 +2456,7 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 56,
     "endLine": 6,
@@ -2453,12 +2467,12 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 77,
     "endLine": 9,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         270,
         415,
       ],
@@ -2474,7 +2488,7 @@ Array [
     "ruleId": "multiline-comment-style",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 77,
     "endLine": 9,
@@ -2485,7 +2499,7 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 23,
     "endLine": 11,
@@ -2496,7 +2510,7 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 4,
     "endLine": 17,
@@ -2507,7 +2521,7 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 4,
     "endLine": 17,
@@ -2518,7 +2532,7 @@ Array [
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 4,
     "endLine": 17,
@@ -2533,13 +2547,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 5,
     "endColumn": 20,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         102,
         117,
       ],
@@ -2552,12 +2566,12 @@ Array [
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
-  Object {
+  {
     "column": 5,
     "endColumn": 14,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         128,
         137,
       ],
@@ -2570,12 +2584,12 @@ Array [
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
-  Object {
+  {
     "column": 5,
     "endColumn": 15,
     "endLine": 10,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         148,
         158,
       ],
@@ -2588,12 +2602,12 @@ Array [
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
-  Object {
+  {
     "column": 5,
     "endColumn": 27,
     "endLine": 13,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         169,
         191,
       ],
@@ -2606,7 +2620,7 @@ Array [
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
-  Object {
+  {
     "column": 9,
     "endColumn": 10,
     "endLine": 13,
@@ -2617,7 +2631,7 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
+  {
     "column": 12,
     "endColumn": 13,
     "endLine": 13,
@@ -2632,8 +2646,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 18,
     "endColumn": 39,
     "endLine": 1,
@@ -2646,32 +2660,9 @@ Array [
 ]
 `;
 
-exports[`unicorn rules unicorn/import-index fails on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "endColumn": 37,
-    "endLine": 1,
-    "fix": Object {
-      "range": Array [
-        26,
-        35,
-      ],
-      "text": "'.'",
-    },
-    "line": 1,
-    "message": "Do not reference the index file directly..",
-    "messageId": "import-index",
-    "nodeType": "ImportDeclaration",
-    "ruleId": "unicorn/import-index",
-    "severity": 2,
-  },
-]
-`;
-
 exports[`unicorn rules unicorn/new-for-builtins fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 28,
     "endColumn": 31,
     "endLine": 1,
@@ -2682,12 +2673,12 @@ Array [
     "ruleId": "new-cap",
     "severity": 2,
   },
-  Object {
+  {
     "column": 28,
     "endColumn": 33,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         27,
         27,
       ],
@@ -2704,13 +2695,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-array-for-each fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 4,
     "endColumn": 11,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         103,
         156,
       ],
@@ -2719,8 +2710,8 @@ Array [
 }",
     },
     "line": 4,
-    "message": "Use \`for…of\` instead of \`Array#forEach(…)\`.",
-    "messageId": "no-array-for-each",
+    "message": "Use \`for…of\` instead of \`.forEach(…)\`.",
+    "messageId": "no-array-for-each/error",
     "nodeType": "Identifier",
     "ruleId": "unicorn/no-array-for-each",
     "severity": 2,
@@ -2729,13 +2720,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-array-push-push fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 21,
     "endColumn": 25,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         117,
         148,
       ],
@@ -2752,13 +2743,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 17,
     "endColumn": 18,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         49,
         50,
       ],
@@ -2771,12 +2762,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 21,
     "endColumn": 22,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         81,
         82,
       ],
@@ -2789,12 +2780,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 17,
     "endColumn": 18,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         106,
         107,
       ],
@@ -2807,12 +2798,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 22,
     "endColumn": 23,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         111,
         112,
       ],
@@ -2825,12 +2816,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 17,
     "endColumn": 18,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         135,
         136,
       ],
@@ -2843,12 +2834,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 22,
     "endColumn": 23,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         140,
         141,
       ],
@@ -2861,12 +2852,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 19,
     "endColumn": 20,
     "endLine": 9,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         167,
         168,
       ],
@@ -2879,12 +2870,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 18,
     "endColumn": 19,
     "endLine": 10,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         196,
         197,
       ],
@@ -2897,12 +2888,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 18,
     "endColumn": 19,
     "endLine": 11,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         225,
         226,
       ],
@@ -2915,12 +2906,12 @@ Array [
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  Object {
+  {
     "column": 19,
     "endColumn": 20,
     "endLine": 12,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         255,
         256,
       ],
@@ -2937,13 +2928,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-for-loop fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 51,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         77,
         157,
       ],
@@ -2961,17 +2952,17 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-hex-escape fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 26,
     "endColumn": 32,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         25,
         31,
       ],
-      "text": "'\\\\u001B'",
+      "text": "'\\u001B'",
     },
     "line": 1,
     "message": "Use Unicode escapes instead of hexadecimal escapes.",
@@ -2980,16 +2971,16 @@ Array [
     "ruleId": "unicorn/no-hex-escape",
     "severity": 2,
   },
-  Object {
+  {
     "column": 26,
     "endColumn": 33,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         59,
         63,
       ],
-      "text": "\\\\u001B",
+      "text": "\\u001B",
     },
     "line": 2,
     "message": "Use Unicode escapes instead of hexadecimal escapes.",
@@ -2998,12 +2989,12 @@ Array [
     "ruleId": "unicorn/no-hex-escape",
     "severity": 2,
   },
-  Object {
+  {
     "column": 33,
     "endColumn": 36,
     "endLine": 2,
     "line": 2,
-    "message": "Invalid type \\"() => void\\" of template literal expression.",
+    "message": "Invalid type "() => void" of template literal expression.",
     "messageId": "invalidType",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/restrict-template-expressions",
@@ -3013,13 +3004,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-instanceof-array fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 4,
     "endColumn": 14,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         120,
         139,
       ],
@@ -3032,12 +3023,12 @@ Array [
     "ruleId": "unicorn/no-instanceof-array",
     "severity": 2,
   },
-  Object {
+  {
     "column": 11,
     "endColumn": 21,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         141,
         167,
       ],
@@ -3054,13 +3045,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-lonely-if fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 3,
     "endColumn": 4,
     "endLine": 8,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         144,
         197,
       ],
@@ -3079,13 +3070,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-new-array fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 24,
     "endColumn": 36,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         23,
         35,
       ],
@@ -3102,13 +3093,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-new-buffer fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 20,
     "endColumn": 34,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         77,
         87,
       ],
@@ -3125,8 +3116,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 20,
     "endColumn": 39,
     "endLine": 1,
@@ -3136,8 +3127,32 @@ Array [
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add name to capture group.",
+        "fix": {
+          "range": [
+            22,
+            22,
+          ],
+          "text": "?<temp1>",
+        },
+        "messageId": "addGroupName",
+      },
+      {
+        "desc": "Convert group to non-capturing.",
+        "fix": {
+          "range": [
+            22,
+            22,
+          ],
+          "text": "?:",
+        },
+        "messageId": "addNonCapture",
+      },
+    ],
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 39,
     "endLine": 1,
@@ -3147,8 +3162,32 @@ Array [
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add name to capture group.",
+        "fix": {
+          "range": [
+            30,
+            30,
+          ],
+          "text": "?<temp1>",
+        },
+        "messageId": "addGroupName",
+      },
+      {
+        "desc": "Convert group to non-capturing.",
+        "fix": {
+          "range": [
+            30,
+            30,
+          ],
+          "text": "?:",
+        },
+        "messageId": "addNonCapture",
+      },
+    ],
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 39,
     "endLine": 1,
@@ -3159,7 +3198,7 @@ Array [
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 39,
     "endLine": 1,
@@ -3170,7 +3209,7 @@ Array [
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 70,
     "endLine": 2,
@@ -3181,12 +3220,12 @@ Array [
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 70,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         59,
         59,
       ],
@@ -3199,12 +3238,12 @@ Array [
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
   },
-  Object {
+  {
     "column": 27,
     "endColumn": 36,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         66,
         66,
       ],
@@ -3217,7 +3256,7 @@ Array [
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
   },
-  Object {
+  {
     "column": 33,
     "endColumn": 35,
     "endLine": 2,
@@ -3228,12 +3267,12 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
+  {
     "column": 50,
     "endColumn": 59,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         89,
         89,
       ],
@@ -3246,7 +3285,7 @@ Array [
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
   },
-  Object {
+  {
     "column": 56,
     "endColumn": 58,
     "endLine": 2,
@@ -3257,7 +3296,7 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 30,
     "endLine": 3,
@@ -3267,8 +3306,32 @@ Array [
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add name to capture group.",
+        "fix": {
+          "range": [
+            132,
+            132,
+          ],
+          "text": "?<temp1>",
+        },
+        "messageId": "addGroupName",
+      },
+      {
+        "desc": "Convert group to non-capturing.",
+        "fix": {
+          "range": [
+            132,
+            132,
+          ],
+          "text": "?:",
+        },
+        "messageId": "addNonCapture",
+      },
+    ],
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 30,
     "endLine": 3,
@@ -3279,7 +3342,7 @@ Array [
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 30,
     "endLine": 3,
@@ -3290,7 +3353,7 @@ Array [
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 34,
     "endLine": 4,
@@ -3300,8 +3363,32 @@ Array [
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add name to capture group.",
+        "fix": {
+          "range": [
+            167,
+            167,
+          ],
+          "text": "?<temp1>",
+        },
+        "messageId": "addGroupName",
+      },
+      {
+        "desc": "Convert group to non-capturing.",
+        "fix": {
+          "range": [
+            167,
+            167,
+          ],
+          "text": "?:",
+        },
+        "messageId": "addNonCapture",
+      },
+    ],
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 34,
     "endLine": 4,
@@ -3312,7 +3399,7 @@ Array [
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 34,
     "endLine": 4,
@@ -3323,7 +3410,7 @@ Array [
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 31,
     "endLine": 5,
@@ -3333,8 +3420,32 @@ Array [
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add name to capture group.",
+        "fix": {
+          "range": [
+            198,
+            198,
+          ],
+          "text": "?<temp1>",
+        },
+        "messageId": "addGroupName",
+      },
+      {
+        "desc": "Convert group to non-capturing.",
+        "fix": {
+          "range": [
+            198,
+            198,
+          ],
+          "text": "?:",
+        },
+        "messageId": "addNonCapture",
+      },
+    ],
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 31,
     "endLine": 5,
@@ -3345,7 +3456,7 @@ Array [
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 31,
     "endLine": 5,
@@ -3356,7 +3467,7 @@ Array [
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 30,
     "endLine": 6,
@@ -3366,8 +3477,32 @@ Array [
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add name to capture group.",
+        "fix": {
+          "range": [
+            230,
+            230,
+          ],
+          "text": "?<temp1>",
+        },
+        "messageId": "addGroupName",
+      },
+      {
+        "desc": "Convert group to non-capturing.",
+        "fix": {
+          "range": [
+            230,
+            230,
+          ],
+          "text": "?:",
+        },
+        "messageId": "addNonCapture",
+      },
+    ],
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 30,
     "endLine": 6,
@@ -3378,7 +3513,7 @@ Array [
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 30,
     "endLine": 6,
@@ -3389,7 +3524,7 @@ Array [
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 39,
     "endLine": 7,
@@ -3399,8 +3534,32 @@ Array [
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add name to capture group.",
+        "fix": {
+          "range": [
+            261,
+            261,
+          ],
+          "text": "?<temp1>",
+        },
+        "messageId": "addGroupName",
+      },
+      {
+        "desc": "Convert group to non-capturing.",
+        "fix": {
+          "range": [
+            261,
+            261,
+          ],
+          "text": "?:",
+        },
+        "messageId": "addNonCapture",
+      },
+    ],
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 39,
     "endLine": 7,
@@ -3411,7 +3570,7 @@ Array [
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 39,
     "endLine": 7,
@@ -3426,13 +3585,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-useless-length-check fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 28,
     "endColumn": 40,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         52,
         95,
       ],
@@ -3449,13 +3608,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-useless-spread fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 33,
     "endColumn": 36,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         32,
         38,
       ],
@@ -3472,13 +3631,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 22,
     "endColumn": 24,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         20,
         23,
       ],
@@ -3491,12 +3650,12 @@ Array [
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
-  Object {
+  {
     "column": 23,
     "endColumn": 25,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         46,
         49,
       ],
@@ -3509,12 +3668,12 @@ Array [
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
-  Object {
+  {
     "column": 32,
     "endColumn": 34,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         71,
         84,
       ],
@@ -3527,12 +3686,12 @@ Array [
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
-  Object {
+  {
     "column": 24,
     "endColumn": 26,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         158,
         166,
       ],
@@ -3549,13 +3708,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/numeric-separators-style fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 36,
     "endColumn": 45,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         35,
         44,
       ],
@@ -3572,13 +3731,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 10,
     "endColumn": 17,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         48,
         75,
       ],
@@ -3591,7 +3750,7 @@ Array [
     "ruleId": "unicorn/prefer-add-event-listener",
     "severity": 2,
   },
-  Object {
+  {
     "column": 20,
     "endColumn": 25,
     "endLine": 3,
@@ -3606,13 +3765,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-array-find fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 13,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         170,
         198,
       ],
@@ -3629,13 +3788,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-array-flat-map fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 16,
     "endColumn": 38,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         165,
         187,
       ],
@@ -3652,13 +3811,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-array-index-of fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 16,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         108,
         135,
       ],
@@ -3666,7 +3825,7 @@ Array [
     },
     "line": 4,
     "message": "Use \`.indexOf()\` instead of \`.findIndex()\` when looking for the index of an item.",
-    "messageId": "prefer-indexOf-over-findIndex//error",
+    "messageId": "prefer-indexOf-over-findIndex/error",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-array-index-of",
     "severity": 2,
@@ -3675,8 +3834,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-array-some fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 11,
     "endColumn": 15,
     "endLine": 4,
@@ -3686,11 +3845,14 @@ Array [
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-array-some",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
+        "data": {
+          "method": "find",
+        },
         "desc": "Replace \`.find(…)\` with \`.some(…)\`.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             148,
             152,
           ],
@@ -3704,13 +3866,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-date-now fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 12,
     "endColumn": 19,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         0,
         20,
       ],
@@ -3727,8 +3889,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-default-parameters fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 3,
     "endColumn": 28,
     "endLine": 2,
@@ -3738,11 +3900,12 @@ Array [
     "nodeType": "VariableDeclaration",
     "ruleId": "unicorn/prefer-default-parameters",
     "severity": 2,
-    "suggestions": Array [
-      Object {
+    "suggestions": [
+      {
+        "data": {},
         "desc": "Replace reassignment with default parameter.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             37,
             103,
           ],
@@ -3757,13 +3920,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 4,
     "endColumn": 11,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         119,
         143,
       ],
@@ -3776,12 +3939,12 @@ Array [
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
-  Object {
+  {
     "column": 3,
     "endColumn": 10,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         145,
         167,
       ],
@@ -3794,7 +3957,7 @@ Array [
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
-  Object {
+  {
     "column": 18,
     "endColumn": 20,
     "endLine": 5,
@@ -3805,12 +3968,12 @@ Array [
     "ruleId": "eqeqeq",
     "severity": 2,
   },
-  Object {
+  {
     "column": 5,
     "endColumn": 12,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         169,
         192,
       ],
@@ -3823,12 +3986,12 @@ Array [
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
-  Object {
+  {
     "column": 10,
     "endColumn": 17,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         194,
         222,
       ],
@@ -3841,12 +4004,12 @@ Array [
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
-  Object {
+  {
     "column": 3,
     "endColumn": 10,
     "endLine": 8,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         224,
         247,
       ],
@@ -3863,8 +4026,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-keyboard-event-key fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 21,
     "endColumn": 28,
     "endLine": 5,
@@ -3879,8 +4042,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-math-trunc fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 13,
     "endColumn": 21,
     "endLine": 5,
@@ -3890,15 +4053,15 @@ Array [
     "nodeType": "BinaryExpression",
     "ruleId": "unicorn/prefer-math-trunc",
     "severity": 2,
-    "suggestions": Array [
-      Object {
-        "data": Object {
+    "suggestions": [
+      {
+        "data": {
           "operator": "|",
           "value": "0",
         },
         "desc": "Replace \`| 0\` with \`Math.trunc\`.",
-        "fix": Object {
-          "range": Array [
+        "fix": {
+          "range": [
             134,
             142,
           ],
@@ -3912,13 +4075,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 2,
     "endLine": 8,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         162,
         219,
       ],
@@ -3932,12 +4095,12 @@ Array [
     "ruleId": "unicorn/prefer-negative-index",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 58,
     "endLine": 9,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         252,
         277,
       ],
@@ -3950,12 +4113,12 @@ Array [
     "ruleId": "unicorn/prefer-negative-index",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 2,
     "endLine": 14,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         337,
         394,
       ],
@@ -3969,12 +4132,12 @@ Array [
     "ruleId": "unicorn/prefer-negative-index",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 3,
     "endLine": 18,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         453,
         510,
       ],
@@ -3992,21 +4155,21 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-number-properties fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 9,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         46,
         54,
       ],
       "text": "Number.parseInt",
     },
     "line": 3,
-    "message": "Prefer \`Number.parseInt()\` over \`parseInt()\`.",
-    "messageId": "method-error",
+    "message": "Prefer \`Number.parseInt\` over \`parseInt\`.",
+    "messageId": "error",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-number-properties",
     "severity": 2,
@@ -4015,13 +4178,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-object-from-entries fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 70,
     "endColumn": 76,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         134,
         369,
       ],
@@ -4045,13 +4208,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-prototype-methods fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 9,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         0,
         2,
       ],
@@ -4068,13 +4231,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-query-selector fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 10,
     "endColumn": 24,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         9,
         29,
       ],
@@ -4091,13 +4254,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 41,
     "endLine": 7,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         178,
         218,
       ],
@@ -4110,7 +4273,7 @@ Array [
     "ruleId": "unicorn/prefer-reflect-apply",
     "severity": 2,
   },
-  Object {
+  {
     "column": 37,
     "endColumn": 39,
     "endLine": 7,
@@ -4121,12 +4284,12 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 66,
     "endLine": 8,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         220,
         285,
       ],
@@ -4139,7 +4302,7 @@ Array [
     "ruleId": "unicorn/prefer-reflect-apply",
     "severity": 2,
   },
-  Object {
+  {
     "column": 62,
     "endColumn": 64,
     "endLine": 8,
@@ -4150,12 +4313,12 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 41,
     "endLine": 9,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         287,
         327,
       ],
@@ -4168,7 +4331,7 @@ Array [
     "ruleId": "unicorn/prefer-reflect-apply",
     "severity": 2,
   },
-  Object {
+  {
     "column": 30,
     "endColumn": 34,
     "endLine": 9,
@@ -4179,7 +4342,7 @@ Array [
     "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
-  Object {
+  {
     "column": 30,
     "endColumn": 34,
     "endLine": 9,
@@ -4190,7 +4353,7 @@ Array [
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
   },
-  Object {
+  {
     "column": 37,
     "endColumn": 39,
     "endLine": 9,
@@ -4201,12 +4364,12 @@ Array [
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 66,
     "endLine": 10,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         329,
         394,
       ],
@@ -4219,7 +4382,7 @@ Array [
     "ruleId": "unicorn/prefer-reflect-apply",
     "severity": 2,
   },
-  Object {
+  {
     "column": 55,
     "endColumn": 59,
     "endLine": 10,
@@ -4230,7 +4393,7 @@ Array [
     "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
-  Object {
+  {
     "column": 55,
     "endColumn": 59,
     "endLine": 10,
@@ -4241,7 +4404,7 @@ Array [
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
   },
-  Object {
+  {
     "column": 62,
     "endColumn": 64,
     "endLine": 10,
@@ -4256,13 +4419,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-set-has fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 23,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         25,
         118,
       ],
@@ -4281,13 +4444,13 @@ const preferSetHasFailFunction = (value: number): boolean =>
 `;
 
 exports[`unicorn rules unicorn/prefer-string-replace-all fails on an invalid fixture 1`] = `
-Array [
-  Object {
-    "column": 1,
-    "endColumn": 55,
+[
+  {
+    "column": 5,
+    "endColumn": 12,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         11,
         49,
       ],
@@ -4295,8 +4458,8 @@ Array [
     },
     "line": 1,
     "message": "Prefer \`String#replaceAll()\` over \`String#replace()\`.",
-    "messageId": "prefer-string-replace-all",
-    "nodeType": "CallExpression",
+    "messageId": "method",
+    "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-string-replace-all",
     "severity": 2,
   },
@@ -4304,13 +4467,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-string-slice fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 19,
     "endLine": 3,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         64,
         75,
       ],
@@ -4323,12 +4486,12 @@ Array [
     "ruleId": "unicorn/prefer-string-slice",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 22,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         84,
         93,
       ],
@@ -4345,13 +4508,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-string-starts-ends-with fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 1,
     "endColumn": 19,
     "endLine": 4,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         116,
         133,
       ],
@@ -4364,12 +4527,12 @@ Array [
     "ruleId": "unicorn/prefer-string-starts-ends-with",
     "severity": 2,
   },
-  Object {
+  {
     "column": 1,
     "endColumn": 19,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         136,
         153,
       ],
@@ -4386,13 +4549,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-string-trim-start-end fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 15,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         6,
         14,
       ],
@@ -4405,12 +4568,12 @@ Array [
     "ruleId": "unicorn/prefer-string-trim-start-end",
     "severity": 2,
   },
-  Object {
+  {
     "column": 7,
     "endColumn": 16,
     "endLine": 2,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         24,
         33,
       ],
@@ -4427,13 +4590,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-ternary fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 3,
     "endColumn": 4,
     "endLine": 11,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         289,
         344,
       ],
@@ -4450,8 +4613,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prefer-top-level-await fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 26,
     "endColumn": 28,
     "endLine": 3,
@@ -4466,8 +4629,8 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/prevent-abbreviations fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 10,
     "endColumn": 17,
     "endLine": 3,
@@ -4478,7 +4641,7 @@ Array [
     "ruleId": "unicorn/prevent-abbreviations",
     "severity": 2,
   },
-  Object {
+  {
     "column": 7,
     "endColumn": 8,
     "endLine": 5,
@@ -4493,13 +4656,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/require-array-join-separator fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 8,
     "endColumn": 10,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         8,
         8,
       ],
@@ -4516,13 +4679,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/require-number-to-fixed-digits-argument fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 12,
     "endColumn": 14,
     "endLine": 1,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         12,
         12,
       ],
@@ -4539,13 +4702,13 @@ Array [
 `;
 
 exports[`unicorn rules unicorn/throw-new-error fails on an invalid fixture 1`] = `
-Array [
-  Object {
+[
+  {
     "column": 7,
     "endColumn": 23,
     "endLine": 5,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         135,
         135,
       ],
@@ -4558,12 +4721,12 @@ Array [
     "ruleId": "unicorn/throw-new-error",
     "severity": 2,
   },
-  Object {
+  {
     "column": 7,
     "endColumn": 27,
     "endLine": 6,
-    "fix": Object {
-      "range": Array [
+    "fix": {
+      "range": [
         159,
         159,
       ],
