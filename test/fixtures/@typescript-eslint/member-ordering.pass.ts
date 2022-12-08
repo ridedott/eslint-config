@@ -3,7 +3,6 @@
 /* eslint-disable @typescript-eslint/lines-between-class-members */
 /* eslint-disable @typescript-eslint/no-useless-constructor */
 /* eslint-disable @typescript-eslint/prefer-readonly */
-/* eslint-disable id-length */
 /* eslint-disable class-methods-use-this */
 
 interface Test {

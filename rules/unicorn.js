@@ -15,6 +15,7 @@ module.exports = {
     ],
     'unicorn/explicit-length-check': ['error', { 'non-zero': 'greater-than' }],
     'unicorn/filename-case': ['error', { case: 'camelCase' }],
+    'unicorn/import-index': 'error',
     // No good use cases yet.
     'unicorn/import-style': 'off',
     'unicorn/new-for-builtins': 'error',
