@@ -1,3 +1,10 @@
+## [2.22.3](https://github.com/ridedott/eslint-config/compare/v2.22.2...v2.22.3) (2022-12-08)
+
+### Chores
+
+- allow newest node 16 typings
+  ([595cf92](https://github.com/ridedott/eslint-config/commit/595cf923e2f34bbee5352e02ada0d339c6de5759))
+
 ## [2.22.2](https://github.com/ridedott/eslint-config/compare/v2.22.1...v2.22.2) (2022-12-08)
 
 ### Chores
