@@ -1,3 +1,10 @@
+## [2.22.1](https://github.com/ridedott/eslint-config/compare/v2.22.0...v2.22.1) (2022-12-08)
+
+### Chores
+
+- re-enable dependabot
+  ([b067502](https://github.com/ridedott/eslint-config/commit/b06750279588d9b27ef72d4bfa572c3cef066809))
+
 # [2.22.0](https://github.com/ridedott/eslint-config/compare/v2.21.1...v2.22.0) (2022-12-08)
 
 ### Features
