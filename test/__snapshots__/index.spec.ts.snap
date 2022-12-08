@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 27,
     "endColumn": 43,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         128,
         144,
       ],
@@ -19,7 +19,7 @@ exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`
     "ruleId": "array-func/avoid-reverse",
     "severity": 2,
   },
-  {
+  Object {
     "column": 54,
     "endColumn": 59,
     "endLine": 4,
@@ -30,12 +30,12 @@ exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`
     "ruleId": "@typescript-eslint/restrict-plus-operands",
     "severity": 2,
   },
-  {
+  Object {
     "column": 27,
     "endColumn": 48,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         193,
         214,
       ],
@@ -47,7 +47,7 @@ exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`
     "ruleId": "array-func/avoid-reverse",
     "severity": 2,
   },
-  {
+  Object {
     "column": 59,
     "endColumn": 64,
     "endLine": 6,
@@ -62,13 +62,13 @@ exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`
 `;
 
 exports[`arrayFunc rules array-func/from-map fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 25,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         156,
         162,
       ],
@@ -80,12 +80,12 @@ exports[`arrayFunc rules array-func/from-map fails on an invalid fixture 1`] = `
     "ruleId": "array-func/from-map",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 35,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         195,
         223,
       ],
@@ -101,13 +101,13 @@ exports[`arrayFunc rules array-func/from-map fails on an invalid fixture 1`] = `
 `;
 
 exports[`arrayFunc rules array-func/prefer-array-from fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 25,
     "endColumn": 38,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         24,
         37,
       ],
@@ -119,12 +119,12 @@ exports[`arrayFunc rules array-func/prefer-array-from fails on an invalid fixtur
     "ruleId": "array-func/prefer-array-from",
     "severity": 2,
   },
-  {
+  Object {
     "column": 19,
     "endColumn": 32,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         58,
         71,
       ],
@@ -140,13 +140,13 @@ exports[`arrayFunc rules array-func/prefer-array-from fails on an invalid fixtur
 `;
 
 exports[`eslint rules capitalized-comments fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 21,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         3,
         4,
       ],
@@ -159,12 +159,12 @@ exports[`eslint rules capitalized-comments fails on an invalid fixture 1`] = `
     "ruleId": "capitalized-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 22,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         25,
         26,
       ],
@@ -177,12 +177,12 @@ exports[`eslint rules capitalized-comments fails on an invalid fixture 1`] = `
     "ruleId": "capitalized-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 20,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         48,
         49,
       ],
@@ -199,8 +199,8 @@ exports[`eslint rules capitalized-comments fails on an invalid fixture 1`] = `
 `;
 
 exports[`eslint rules func-names fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 23,
     "endColumn": 46,
     "endLine": 3,
@@ -215,8 +215,8 @@ exports[`eslint rules func-names fails on an invalid fixture 1`] = `
 `;
 
 exports[`eslint rules id-length fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 8,
     "endLine": 6,
@@ -227,7 +227,7 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
     "ruleId": "id-length",
     "severity": 2,
   },
-  {
+  Object {
     "column": 23,
     "endColumn": 24,
     "endLine": 8,
@@ -238,7 +238,7 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
     "ruleId": "id-length",
     "severity": 2,
   },
-  {
+  Object {
     "column": 10,
     "endColumn": 20,
     "endLine": 12,
@@ -249,7 +249,7 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
     "ruleId": "id-length",
     "severity": 2,
   },
-  {
+  Object {
     "column": 17,
     "endColumn": 18,
     "endLine": 16,
@@ -260,7 +260,7 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
     "ruleId": "id-length",
     "severity": 2,
   },
-  {
+  Object {
     "column": 2,
     "endColumn": 3,
     "endLine": 18,
@@ -271,7 +271,7 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
     "ruleId": "id-length",
     "severity": 2,
   },
-  {
+  Object {
     "column": 9,
     "endColumn": 10,
     "endLine": 22,
@@ -282,7 +282,7 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
     "ruleId": "id-length",
     "severity": 2,
   },
-  {
+  Object {
     "column": 12,
     "endColumn": 13,
     "endLine": 23,
@@ -293,7 +293,7 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
     "ruleId": "id-length",
     "severity": 2,
   },
-  {
+  Object {
     "column": 7,
     "endColumn": 8,
     "endLine": 25,
@@ -308,8 +308,8 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
 `;
 
 exports[`eslint rules max-statements fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 32,
     "endColumn": 2,
     "endLine": 89,
@@ -324,13 +324,13 @@ exports[`eslint rules max-statements fails on an invalid fixture 1`] = `
 `;
 
 exports[`eslint rules one-var fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 3,
     "endColumn": 17,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         167,
         173,
       ],
@@ -348,13 +348,13 @@ exports[`eslint rules one-var fails on an invalid fixture 1`] = `
 `;
 
 exports[`eslint rules padding-line-between-statements fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 3,
     "endColumn": 4,
     "endLine": 13,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         311,
         311,
       ],
@@ -368,12 +368,12 @@ exports[`eslint rules padding-line-between-statements fails on an invalid fixtur
     "ruleId": "padding-line-between-statements",
     "severity": 2,
   },
-  {
+  Object {
     "column": 3,
     "endColumn": 9,
     "endLine": 14,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         350,
         350,
       ],
@@ -387,12 +387,12 @@ exports[`eslint rules padding-line-between-statements fails on an invalid fixtur
     "ruleId": "padding-line-between-statements",
     "severity": 2,
   },
-  {
+  Object {
     "column": 3,
     "endColumn": 10,
     "endLine": 16,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         359,
         359,
       ],
@@ -410,8 +410,8 @@ exports[`eslint rules padding-line-between-statements fails on an invalid fixtur
 `;
 
 exports[`eslintComments rules eslint-comments/disable-enable-pair fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 19,
     "endColumn": 29,
     "endLine": 7,
@@ -425,28 +425,21 @@ exports[`eslintComments rules eslint-comments/disable-enable-pair fails on an in
 `;
 
 exports[`eslintComments rules eslint-comments/no-duplicate-disable fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 19,
     "endColumn": 28,
     "endLine": 1,
-    "fix": {
-      "range": [
-        0,
-        30,
-      ],
-      "text": " ",
-    },
     "line": 1,
     "message": "'id-length' rule is disabled but never reported.",
     "nodeType": null,
     "ruleId": "eslint-comments/no-unused-disable",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Remove \`eslint-disable\` comment.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             0,
             30,
           ],
@@ -455,7 +448,7 @@ exports[`eslintComments rules eslint-comments/no-duplicate-disable fails on an i
       },
     ],
   },
-  {
+  Object {
     "column": 19,
     "endColumn": 28,
     "endLine": 2,
@@ -469,8 +462,8 @@ exports[`eslintComments rules eslint-comments/no-duplicate-disable fails on an i
 `;
 
 exports[`eslintComments rules eslint-comments/no-unlimited-disable fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 0,
     "endColumn": 21,
     "endLine": 1,
@@ -484,28 +477,21 @@ exports[`eslintComments rules eslint-comments/no-unlimited-disable fails on an i
 `;
 
 exports[`eslintComments rules eslint-comments/no-unused-disable fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 19,
     "endColumn": 29,
     "endLine": 1,
-    "fix": {
-      "range": [
-        0,
-        31,
-      ],
-      "text": " ",
-    },
     "line": 1,
     "message": "'no-bitwise' rule is disabled but never reported.",
     "nodeType": null,
     "ruleId": "eslint-comments/no-unused-disable",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Remove \`eslint-disable\` comment.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             0,
             31,
           ],
@@ -518,8 +504,8 @@ exports[`eslintComments rules eslint-comments/no-unused-disable fails on an inva
 `;
 
 exports[`eslintComments rules eslint-comments/no-unused-enable fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 74,
     "endLine": 2,
@@ -529,7 +515,7 @@ exports[`eslintComments rules eslint-comments/no-unused-enable fails on an inval
     "ruleId": "@typescript-eslint/explicit-function-return-type-init",
     "severity": 2,
   },
-  {
+  Object {
     "column": 18,
     "endColumn": 71,
     "endLine": 2,
@@ -543,8 +529,8 @@ exports[`eslintComments rules eslint-comments/no-unused-enable fails on an inval
 `;
 
 exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 0,
     "endColumn": 196,
     "endLine": 1,
@@ -554,7 +540,7 @@ exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture
     "ruleId": "eslint-comments/no-use",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 196,
     "endLine": 1,
@@ -565,11 +551,11 @@ exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture
     "ruleId": "max-len",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "fatal": true,
     "line": 1,
-    "message": "Failed to parse JSON from ' "no-undef": off / / eslint-env browser / / eslint-disable foo / / eslint-enable bar / // eslint-disable-line // eslint-disable-next-line / exported foo / / global $ / / globals a, b, c': Unexpected token o in JSON at position 14",
+    "message": "Failed to parse JSON from ' \\"no-undef\\": off / / eslint-env browser / / eslint-disable foo / / eslint-enable bar / // eslint-disable-line // eslint-disable-next-line / exported foo / / global $ / / globals a, b, c': Unexpected token o in JSON at position 14",
     "ruleId": null,
     "severity": 2,
   },
@@ -577,8 +563,8 @@ exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture
 `;
 
 exports[`functional rules functional/immutable-data fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 24,
     "endLine": 3,
@@ -593,8 +579,8 @@ exports[`functional rules functional/immutable-data fails on an invalid fixture 
 `;
 
 exports[`functional rules functional/no-let fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 19,
     "endLine": 1,
@@ -605,12 +591,12 @@ exports[`functional rules functional/no-let fails on an invalid fixture 1`] = `
     "ruleId": "functional/no-let",
     "severity": 2,
   },
-  {
+  Object {
     "column": 5,
     "endColumn": 14,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         0,
         18,
       ],
@@ -627,8 +613,8 @@ exports[`functional rules functional/no-let fails on an invalid fixture 1`] = `
 `;
 
 exports[`functional rules functional/no-this-expression fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 3,
     "endColumn": 13,
     "endLine": 5,
@@ -639,7 +625,7 @@ exports[`functional rules functional/no-this-expression fails on an invalid fixt
     "ruleId": "functional/immutable-data",
     "severity": 2,
   },
-  {
+  Object {
     "column": 3,
     "endColumn": 7,
     "endLine": 5,
@@ -650,7 +636,7 @@ exports[`functional rules functional/no-this-expression fails on an invalid fixt
     "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
-  {
+  Object {
     "column": 3,
     "endColumn": 7,
     "endLine": 5,
@@ -661,7 +647,7 @@ exports[`functional rules functional/no-this-expression fails on an invalid fixt
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
   },
-  {
+  Object {
     "column": 8,
     "endColumn": 9,
     "endLine": 5,
@@ -676,8 +662,8 @@ exports[`functional rules functional/no-this-expression fails on an invalid fixt
 `;
 
 exports[`import rules import/no-cycle fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 38,
     "endLine": 1,
@@ -691,8 +677,8 @@ exports[`import rules import/no-cycle fails on an invalid fixture 1`] = `
 `;
 
 exports[`import rules import/no-default-export fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 8,
     "endColumn": 15,
     "endLine": 1,
@@ -706,8 +692,8 @@ exports[`import rules import/no-default-export fails on an invalid fixture 1`] =
 `;
 
 exports[`import rules import/no-extraneous-dependencies fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 39,
     "endLine": 3,
@@ -721,8 +707,8 @@ exports[`import rules import/no-extraneous-dependencies fails on an invalid fixt
 `;
 
 exports[`import rules import/no-self-import fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 32,
     "endLine": 1,
@@ -736,13 +722,13 @@ exports[`import rules import/no-self-import fails on an invalid fixture 1`] = `
 `;
 
 exports[`jest rules jest/consistent-test-it fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 5,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         83,
         87,
       ],
@@ -759,8 +745,8 @@ exports[`jest rules jest/consistent-test-it fails on an invalid fixture 1`] = `
 `;
 
 exports[`jest rules jest/no-interpolation-in-snapshots fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 37,
     "endColumn": 47,
     "endLine": 4,
@@ -775,8 +761,8 @@ exports[`jest rules jest/no-interpolation-in-snapshots fails on an invalid fixtu
 `;
 
 exports[`jest rules jest/prefer-expect-assertions fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 3,
     "endLine": 3,
@@ -786,24 +772,24 @@ exports[`jest rules jest/prefer-expect-assertions fails on an invalid fixture 1`
     "nodeType": "CallExpression",
     "ruleId": "jest/prefer-expect-assertions",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Add \`expect.hasAssertions()\`",
-        "fix": {
-          "range": [
-            34,
-            34,
+        "fix": Object {
+          "range": Array [
+            37,
+            37,
           ],
           "text": "expect.hasAssertions();",
         },
         "messageId": "suggestAddingHasAssertions",
       },
-      {
+      Object {
         "desc": "Add \`expect.assertions(<number of assertions>)\`",
-        "fix": {
-          "range": [
-            34,
-            34,
+        "fix": Object {
+          "range": Array [
+            37,
+            37,
           ],
           "text": "expect.assertions();",
         },
@@ -815,8 +801,8 @@ exports[`jest rules jest/prefer-expect-assertions fails on an invalid fixture 1`
 `;
 
 exports[`jest rules jest/unbound-method fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 15,
     "endColumn": 27,
     "endLine": 12,
@@ -832,13 +818,13 @@ If your function does not access \`this\`, you can annotate it with \`this: void
 `;
 
 exports[`jest rules jest/valid-title fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 4,
     "endColumn": 21,
     "endLine": 1,
     "line": 1,
-    "message": ""should" is not allowed in test titles.",
+    "message": "\\"should\\" is not allowed in test titles.",
     "messageId": "disallowedWord",
     "nodeType": "Literal",
     "ruleId": "jest/valid-title",
@@ -848,8 +834,8 @@ exports[`jest rules jest/valid-title fails on an invalid fixture 1`] = `
 `;
 
 exports[`overrides rules max-len fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 83,
     "endLine": 3,
@@ -864,13 +850,13 @@ exports[`overrides rules max-len fails on an invalid fixture 1`] = `
 `;
 
 exports[`ridedott rules @ridedott/no-single-line-comment-block fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 4,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         0,
         37,
       ],
@@ -883,12 +869,12 @@ exports[`ridedott rules @ridedott/no-single-line-comment-block fails on an inval
     "ruleId": "@ridedott/no-single-line-comment-block",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 48,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         39,
         86,
       ],
@@ -905,13 +891,13 @@ exports[`ridedott rules @ridedott/no-single-line-comment-block fails on an inval
 `;
 
 exports[`ridedott rules @ridedott/no-template-literals-without-expression fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 51,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         62,
         112,
       ],
@@ -924,16 +910,16 @@ exports[`ridedott rules @ridedott/no-template-literals-without-expression fails 
     "ruleId": "@ridedott/no-template-literals-without-expression",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 72,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         115,
         186,
       ],
-      "text": ""Single line template literal without expressions with 'single quotes'"",
+      "text": "\\"Single line template literal without expressions with 'single quotes'\\"",
     },
     "line": 4,
     "message": "Template literals should contain an expression.",
@@ -946,13 +932,13 @@ exports[`ridedott rules @ridedott/no-template-literals-without-expression fails 
 `;
 
 exports[`simpleImportSort rules simple-import-sort/exports fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 27,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         0,
         52,
       ],
@@ -970,13 +956,13 @@ export * as a from 'url';",
 `;
 
 exports[`simpleImportSort rules simple-import-sort/imports fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 34,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         0,
         63,
       ],
@@ -994,8 +980,8 @@ import * as path from 'path';",
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/array-type fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 44,
     "endColumn": 49,
     "endLine": 5,
@@ -1010,13 +996,13 @@ exports[`typescriptEslint rules @typescript-eslint/array-type fails on an invali
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/ban-types fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 15,
     "endColumn": 21,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         14,
         20,
       ],
@@ -1033,13 +1019,13 @@ exports[`typescriptEslint rules @typescript-eslint/ban-types fails on an invalid
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 6,
     "endColumn": 35,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         0,
         51,
       ],
@@ -1056,8 +1042,8 @@ exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions f
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 23,
     "endColumn": 28,
     "endLine": 3,
@@ -1068,7 +1054,7 @@ exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type
     "ruleId": "@typescript-eslint/explicit-function-return-type",
     "severity": 2,
   },
-  {
+  Object {
     "column": 28,
     "endColumn": 39,
     "endLine": 5,
@@ -1079,7 +1065,7 @@ exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type
     "ruleId": "@typescript-eslint/explicit-function-return-type",
     "severity": 2,
   },
-  {
+  Object {
     "column": 8,
     "endColumn": 13,
     "endLine": 10,
@@ -1094,8 +1080,8 @@ exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/member-ordering fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 3,
     "endColumn": 16,
     "endLine": 3,
@@ -1110,8 +1096,8 @@ exports[`typescriptEslint rules @typescript-eslint/member-ordering fails on an i
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 24,
     "endLine": 1,
@@ -1122,7 +1108,7 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  {
+  Object {
     "column": 11,
     "endColumn": 18,
     "endLine": 3,
@@ -1133,7 +1119,7 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  {
+  Object {
     "column": 11,
     "endColumn": 24,
     "endLine": 7,
@@ -1144,7 +1130,7 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  {
+  Object {
     "column": 25,
     "endColumn": 30,
     "endLine": 7,
@@ -1155,7 +1141,7 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  {
+  Object {
     "column": 15,
     "endColumn": 16,
     "endLine": 11,
@@ -1166,7 +1152,7 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  {
+  Object {
     "column": 21,
     "endColumn": 22,
     "endLine": 15,
@@ -1177,7 +1163,7 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  {
+  Object {
     "column": 22,
     "endColumn": 35,
     "endLine": 19,
@@ -1188,7 +1174,7 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
     "ruleId": "@typescript-eslint/naming-convention",
     "severity": 2,
   },
-  {
+  Object {
     "column": 3,
     "endColumn": 8,
     "endLine": 24,
@@ -1203,13 +1189,13 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 22,
     "endColumn": 27,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         166,
         173,
       ],
@@ -1222,30 +1208,30 @@ exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an
     "ruleId": "@typescript-eslint/no-dynamic-delete",
     "severity": 2,
   },
-  {
+  Object {
     "column": 22,
     "endColumn": 27,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         166,
         173,
       ],
       "text": ".aaa",
     },
     "line": 5,
-    "message": "["aaa"] is better written in dot notation.",
+    "message": "[\\"aaa\\"] is better written in dot notation.",
     "messageId": "useDot",
     "nodeType": "Literal",
     "ruleId": "@typescript-eslint/dot-notation",
     "severity": 2,
   },
-  {
+  Object {
     "column": 22,
     "endColumn": 32,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         195,
         207,
       ],
@@ -1258,25 +1244,25 @@ exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an
     "ruleId": "@typescript-eslint/no-dynamic-delete",
     "severity": 2,
   },
-  {
+  Object {
     "column": 22,
     "endColumn": 32,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         195,
         207,
       ],
       "text": ".Infinity",
     },
     "line": 6,
-    "message": "["Infinity"] is better written in dot notation.",
+    "message": "[\\"Infinity\\"] is better written in dot notation.",
     "messageId": "useDot",
     "nodeType": "Literal",
     "ruleId": "@typescript-eslint/dot-notation",
     "severity": 2,
   },
-  {
+  Object {
     "column": 22,
     "endColumn": 26,
     "endLine": 10,
@@ -1287,7 +1273,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an
     "ruleId": "@typescript-eslint/no-dynamic-delete",
     "severity": 2,
   },
-  {
+  Object {
     "column": 22,
     "endColumn": 40,
     "endLine": 11,
@@ -1302,13 +1288,13 @@ exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 24,
     "endColumn": 27,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         75,
         78,
       ],
@@ -1320,11 +1306,11 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
     "nodeType": "TSAnyKeyword",
     "ruleId": "@typescript-eslint/no-explicit-any",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             75,
             78,
           ],
@@ -1332,10 +1318,10 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
         },
         "messageId": "suggestUnknown",
       },
-      {
+      Object {
         "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             75,
             78,
           ],
@@ -1345,12 +1331,12 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
       },
     ],
   },
-  {
+  Object {
     "column": 33,
     "endColumn": 36,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         128,
         131,
       ],
@@ -1362,11 +1348,11 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
     "nodeType": "TSAnyKeyword",
     "ruleId": "@typescript-eslint/no-explicit-any",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             128,
             131,
           ],
@@ -1374,10 +1360,10 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
         },
         "messageId": "suggestUnknown",
       },
-      {
+      Object {
         "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             128,
             131,
           ],
@@ -1387,12 +1373,12 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
       },
     ],
   },
-  {
+  Object {
     "column": 24,
     "endColumn": 34,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         172,
         182,
       ],
@@ -1405,12 +1391,12 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
     "ruleId": "@typescript-eslint/array-type",
     "severity": 2,
   },
-  {
+  Object {
     "column": 30,
     "endColumn": 33,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         178,
         181,
       ],
@@ -1422,11 +1408,11 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
     "nodeType": "TSAnyKeyword",
     "ruleId": "@typescript-eslint/no-explicit-any",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             178,
             181,
           ],
@@ -1434,10 +1420,10 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
         },
         "messageId": "suggestUnknown",
       },
-      {
+      Object {
         "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             178,
             181,
           ],
@@ -1447,12 +1433,12 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
       },
     ],
   },
-  {
+  Object {
     "column": 24,
     "endColumn": 42,
     "endLine": 9,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         221,
         239,
       ],
@@ -1465,12 +1451,12 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
     "ruleId": "@typescript-eslint/array-type",
     "severity": 2,
   },
-  {
+  Object {
     "column": 38,
     "endColumn": 41,
     "endLine": 9,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         235,
         238,
       ],
@@ -1482,11 +1468,11 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
     "nodeType": "TSAnyKeyword",
     "ruleId": "@typescript-eslint/no-explicit-any",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             235,
             238,
           ],
@@ -1494,10 +1480,10 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
         },
         "messageId": "suggestUnknown",
       },
-      {
+      Object {
         "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             235,
             238,
           ],
@@ -1511,8 +1497,8 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 38,
     "endColumn": 48,
     "endLine": 2,
@@ -1522,11 +1508,11 @@ exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion f
     "nodeType": "TSNonNullExpression",
     "ruleId": "@typescript-eslint/no-non-null-assertion",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Consider using the optional chain operator \`?.\` instead. This operator includes runtime checks, so it is safer than the compile-only non-null assertion operator.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             92,
             93,
           ],
@@ -1536,7 +1522,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion f
       },
     ],
   },
-  {
+  Object {
     "column": 38,
     "endColumn": 47,
     "endLine": 2,
@@ -1547,12 +1533,12 @@ exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion f
     "ruleId": "@typescript-eslint/no-non-null-assertion",
     "severity": 2,
   },
-  {
+  Object {
     "column": 38,
     "endColumn": 47,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         91,
         92,
       ],
@@ -1565,7 +1551,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion f
     "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
     "severity": 2,
   },
-  {
+  Object {
     "column": 38,
     "endColumn": 46,
     "endLine": 2,
@@ -1576,12 +1562,12 @@ exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion f
     "ruleId": "@typescript-eslint/no-non-null-assertion",
     "severity": 2,
   },
-  {
+  Object {
     "column": 38,
     "endColumn": 46,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         90,
         91,
       ],
@@ -1598,8 +1584,8 @@ exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion f
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 28,
     "endColumn": 29,
     "endLine": 1,
@@ -1610,7 +1596,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers fails on an 
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  {
+  Object {
     "column": 32,
     "endColumn": 33,
     "endLine": 1,
@@ -1625,8 +1611,8 @@ exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers fails on an 
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 12,
     "endLine": 9,
@@ -1637,7 +1623,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition fail
     "ruleId": "@typescript-eslint/no-unnecessary-condition",
     "severity": 2,
   },
-  {
+  Object {
     "column": 7,
     "endColumn": 10,
     "endLine": 16,
@@ -1652,8 +1638,8 @@ exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition fail
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 9,
     "endLine": 6,
@@ -1663,11 +1649,11 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fai
     "nodeType": "Punctuator",
     "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Fix to nullish coalescing operator (\`??\`).",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             263,
             265,
           ],
@@ -1677,7 +1663,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fai
       },
     ],
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 37,
     "endLine": 9,
@@ -1687,11 +1673,11 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fai
     "nodeType": "ConditionalExpression",
     "ruleId": "@typescript-eslint/prefer-nullish-coalescing",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Fix to nullish coalescing operator (\`??\`).",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             308,
             344,
           ],
@@ -1705,8 +1691,8 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fai
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 37,
     "endLine": 4,
@@ -1716,11 +1702,11 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Change to an optional chain.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             130,
             166,
           ],
@@ -1730,7 +1716,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
       },
     ],
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 37,
     "endLine": 5,
@@ -1740,11 +1726,11 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Change to an optional chain.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             168,
             204,
           ],
@@ -1754,7 +1740,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
       },
     ],
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 62,
     "endLine": 6,
@@ -1764,11 +1750,11 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Change to an optional chain.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             206,
             267,
           ],
@@ -1778,7 +1764,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
       },
     ],
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 16,
     "endLine": 13,
@@ -1788,11 +1774,11 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Change to an optional chain.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             270,
             392,
           ],
@@ -1802,7 +1788,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
       },
     ],
   },
-  {
+  Object {
     "column": 3,
     "endColumn": 16,
     "endLine": 9,
@@ -1813,7 +1799,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
     "ruleId": "no-eq-null",
     "severity": 2,
   },
-  {
+  Object {
     "column": 9,
     "endColumn": 11,
     "endLine": 9,
@@ -1824,7 +1810,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
     "ruleId": "eqeqeq",
     "severity": 2,
   },
-  {
+  Object {
     "column": 13,
     "endColumn": 15,
     "endLine": 11,
@@ -1839,13 +1825,13 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 37,
     "endColumn": 42,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         139,
         139,
       ],
@@ -1858,12 +1844,12 @@ exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails 
     "ruleId": "@typescript-eslint/promise-function-async",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 34,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         172,
         172,
       ],
@@ -1880,8 +1866,8 @@ exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails 
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 18,
     "endColumn": 19,
     "endLine": 6,
@@ -1892,23 +1878,23 @@ exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  {
+  Object {
     "column": 24,
     "endColumn": 28,
     "endLine": 7,
     "line": 7,
-    "message": "Invalid type "number[]" of template literal expression.",
+    "message": "Invalid type \\"number[]\\" of template literal expression.",
     "messageId": "invalidType",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/restrict-template-expressions",
     "severity": 2,
   },
-  {
+  Object {
     "column": 24,
     "endColumn": 36,
     "endLine": 10,
     "line": 10,
-    "message": "Invalid type "{ name: string; }" of template literal expression.",
+    "message": "Invalid type \\"{ name: string; }\\" of template literal expression.",
     "messageId": "invalidType",
     "nodeType": "LogicalExpression",
     "ruleId": "@typescript-eslint/restrict-template-expressions",
@@ -1918,13 +1904,13 @@ exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/return-await fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 12,
     "endColumn": 34,
     "endLine": 11,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         373,
         373,
       ],
@@ -1937,12 +1923,12 @@ exports[`typescriptEslint rules @typescript-eslint/return-await fails on an inva
     "ruleId": "@typescript-eslint/return-await",
     "severity": 2,
   },
-  {
+  Object {
     "column": 10,
     "endColumn": 38,
     "endLine": 16,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         473,
         479,
       ],
@@ -1955,12 +1941,12 @@ exports[`typescriptEslint rules @typescript-eslint/return-await fails on an inva
     "ruleId": "@typescript-eslint/return-await",
     "severity": 2,
   },
-  {
+  Object {
     "column": 10,
     "endColumn": 23,
     "endLine": 20,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         553,
         559,
       ],
@@ -1977,8 +1963,8 @@ exports[`typescriptEslint rules @typescript-eslint/return-await fails on an inva
 `;
 
 exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 5,
     "endColumn": 12,
     "endLine": 3,
@@ -1988,11 +1974,11 @@ exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions fa
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/strict-boolean-expressions",
     "severity": 2,
-    "suggestions": [
-      {
+    "suggestions": Array [
+      Object {
         "desc": "Change condition to check string's length (\`value.length !== 0\`)",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             49,
             56,
           ],
@@ -2000,21 +1986,21 @@ exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions fa
         },
         "messageId": "conditionFixCompareStringLength",
       },
-      {
-        "desc": "Change condition to check for empty string (\`value !== ""\`)",
-        "fix": {
-          "range": [
+      Object {
+        "desc": "Change condition to check for empty string (\`value !== \\"\\"\`)",
+        "fix": Object {
+          "range": Array [
             49,
             56,
           ],
-          "text": "strictA !== """,
+          "text": "strictA !== \\"\\"",
         },
         "messageId": "conditionFixCompareEmptyString",
       },
-      {
+      Object {
         "desc": "Explicitly cast value to a boolean (\`Boolean(value)\`)",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             49,
             56,
           ],
@@ -2028,148 +2014,148 @@ exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions fa
 `;
 
 exports[`unicorn rules unicorn/better-regex fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 29,
     "endColumn": 36,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         73,
         80,
       ],
-      "text": "/\\d/",
+      "text": "/\\\\d/",
     },
     "line": 3,
-    "message": "/[0-9]/ can be optimized to /\\d/.",
+    "message": "/[0-9]/ can be optimized to /\\\\d/.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 29,
     "endColumn": 37,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         110,
         118,
       ],
-      "text": "/\\D/",
+      "text": "/\\\\D/",
     },
     "line": 4,
-    "message": "/[^0-9]/ can be optimized to /\\D/.",
+    "message": "/[^0-9]/ can be optimized to /\\\\D/.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 29,
     "endColumn": 43,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         148,
         162,
       ],
-      "text": "/\\w/",
+      "text": "/\\\\w/",
     },
     "line": 5,
-    "message": "/[a-zA-Z0-9_]/ can be optimized to /\\w/.",
+    "message": "/[a-zA-Z0-9_]/ can be optimized to /\\\\w/.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 29,
     "endColumn": 41,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         192,
         204,
       ],
-      "text": "/\\w/i",
+      "text": "/\\\\w/i",
     },
     "line": 6,
-    "message": "/[a-z0-9_]/i can be optimized to /\\w/i.",
+    "message": "/[a-z0-9_]/i can be optimized to /\\\\w/i.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 29,
     "endColumn": 44,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         234,
         249,
       ],
-      "text": "/\\W/",
+      "text": "/\\\\W/",
     },
     "line": 7,
-    "message": "/[^a-zA-Z0-9_]/ can be optimized to /\\W/.",
+    "message": "/[^a-zA-Z0-9_]/ can be optimized to /\\\\W/.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 29,
     "endColumn": 42,
     "endLine": 8,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         279,
         292,
       ],
-      "text": "/\\W/i",
+      "text": "/\\\\W/i",
     },
     "line": 8,
-    "message": "/[^a-z0-9_]/i can be optimized to /\\W/i.",
+    "message": "/[^a-z0-9_]/i can be optimized to /\\\\W/i.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 29,
     "endColumn": 59,
     "endLine": 9,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         322,
         352,
       ],
-      "text": "/\\d\\.\\w-\\D/i",
+      "text": "/\\\\d\\\\.\\\\w-\\\\D/i",
     },
     "line": 9,
-    "message": "/[0-9]\\.[a-zA-Z0-9_]\\-[^0-9]/i can be optimized to /\\d\\.\\w-\\D/i.",
+    "message": "/[0-9]\\\\.[a-zA-Z0-9_]\\\\-[^0-9]/i can be optimized to /\\\\d\\\\.\\\\w-\\\\D/i.",
     "messageId": "better-regex",
     "nodeType": "Literal",
     "ruleId": "unicorn/better-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 49,
     "endColumn": 50,
     "endLine": 9,
     "line": 9,
-    "message": "Unnecessary escape character: \\-.",
+    "message": "Unnecessary escape character: \\\\-.",
     "messageId": "unnecessaryEscape",
     "nodeType": "Literal",
     "ruleId": "no-useless-escape",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Remove the \`\\\`. This maintains the current functionality.",
-        "fix": {
-          "range": [
+    "suggestions": Array [
+      Object {
+        "desc": "Remove the \`\\\\\`. This maintains the current functionality.",
+        "fix": Object {
+          "range": Array [
             342,
             343,
           ],
@@ -2177,14 +2163,14 @@ exports[`unicorn rules unicorn/better-regex fails on an invalid fixture 1`] = `
         },
         "messageId": "removeEscape",
       },
-      {
-        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
-        "fix": {
-          "range": [
+      Object {
+        "desc": "Replace the \`\\\\\` with \`\\\\\\\\\` to include the actual backslash character.",
+        "fix": Object {
+          "range": Array [
             342,
             342,
           ],
-          "text": "\\",
+          "text": "\\\\",
         },
         "messageId": "escapeBackslash",
       },
@@ -2194,13 +2180,13 @@ exports[`unicorn rules unicorn/better-regex fails on an invalid fixture 1`] = `
 `;
 
 exports[`unicorn rules unicorn/catch-error-name fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 10,
     "endColumn": 25,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         148,
         154,
       ],
@@ -2217,8 +2203,8 @@ exports[`unicorn rules unicorn/catch-error-name fails on an invalid fixture 1`] 
 `;
 
 exports[`unicorn rules unicorn/consistent-destructuring fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 16,
     "endColumn": 47,
     "endLine": 6,
@@ -2228,15 +2214,15 @@ exports[`unicorn rules unicorn/consistent-destructuring fails on an invalid fixt
     "nodeType": "MemberExpression",
     "ruleId": "unicorn/consistent-destructuring",
     "severity": 2,
-    "suggestions": [
-      {
-        "data": {
+    "suggestions": Array [
+      Object {
+        "data": Object {
           "expression": "consistentDestructructingFail.b",
           "property": "b",
         },
         "desc": "Replace \`consistentDestructructingFail.b\` with destructured property \`b\`.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             165,
             247,
           ],
@@ -2251,8 +2237,8 @@ console.log(a, b",
 `;
 
 exports[`unicorn rules unicorn/consistent-function-scoping fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 3,
     "endColumn": 17,
     "endLine": 9,
@@ -2263,7 +2249,7 @@ exports[`unicorn rules unicorn/consistent-function-scoping fails on an invalid f
     "ruleId": "unicorn/consistent-function-scoping",
     "severity": 2,
   },
-  {
+  Object {
     "column": 23,
     "endColumn": 25,
     "endLine": 17,
@@ -2278,8 +2264,8 @@ exports[`unicorn rules unicorn/consistent-function-scoping fails on an invalid f
 `;
 
 exports[`unicorn rules unicorn/custom-error-definition fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 17,
     "endColumn": 30,
     "endLine": 7,
@@ -2293,8 +2279,8 @@ exports[`unicorn rules unicorn/custom-error-definition fails on an invalid fixtu
 `;
 
 exports[`unicorn rules unicorn/error-message fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 14,
     "endLine": 4,
@@ -2309,17 +2295,17 @@ exports[`unicorn rules unicorn/error-message fails on an invalid fixture 1`] = `
 `;
 
 exports[`unicorn rules unicorn/escape-case fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 25,
     "endColumn": 31,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         68,
         74,
       ],
-      "text": "'\\xA9'",
+      "text": "'\\\\xA9'",
     },
     "line": 3,
     "message": "Use uppercase characters for the value of the escape sequence.",
@@ -2328,16 +2314,16 @@ exports[`unicorn rules unicorn/escape-case fails on an invalid fixture 1`] = `
     "ruleId": "unicorn/escape-case",
     "severity": 2,
   },
-  {
+  Object {
     "column": 25,
     "endColumn": 33,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         100,
         108,
       ],
-      "text": "'\\uD834'",
+      "text": "'\\\\uD834'",
     },
     "line": 4,
     "message": "Use uppercase characters for the value of the escape sequence.",
@@ -2346,16 +2332,16 @@ exports[`unicorn rules unicorn/escape-case fails on an invalid fixture 1`] = `
     "ruleId": "unicorn/escape-case",
     "severity": 2,
   },
-  {
+  Object {
     "column": 25,
     "endColumn": 36,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         134,
         145,
       ],
-      "text": "'\\u{1D306}'",
+      "text": "'\\\\u{1D306}'",
     },
     "line": 5,
     "message": "Use uppercase characters for the value of the escape sequence.",
@@ -2368,8 +2354,8 @@ exports[`unicorn rules unicorn/escape-case fails on an invalid fixture 1`] = `
 `;
 
 exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 47,
     "endLine": 1,
@@ -2380,12 +2366,12 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 61,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         0,
         107,
       ],
@@ -2401,7 +2387,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "multiline-comment-style",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 61,
     "endLine": 2,
@@ -2412,7 +2398,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 51,
     "endLine": 4,
@@ -2423,12 +2409,12 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 56,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         109,
         268,
       ],
@@ -2445,7 +2431,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "multiline-comment-style",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 53,
     "endLine": 5,
@@ -2456,7 +2442,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 56,
     "endLine": 6,
@@ -2467,12 +2453,12 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 77,
     "endLine": 9,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         270,
         415,
       ],
@@ -2488,7 +2474,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "multiline-comment-style",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 77,
     "endLine": 9,
@@ -2499,7 +2485,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 23,
     "endLine": 11,
@@ -2510,7 +2496,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 4,
     "endLine": 17,
@@ -2521,7 +2507,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 4,
     "endLine": 17,
@@ -2532,7 +2518,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
     "ruleId": "unicorn/expiring-todo-comments",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 4,
     "endLine": 17,
@@ -2547,13 +2533,13 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
 `;
 
 exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 5,
     "endColumn": 20,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         102,
         117,
       ],
@@ -2566,12 +2552,12 @@ exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
-  {
+  Object {
     "column": 5,
     "endColumn": 14,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         128,
         137,
       ],
@@ -2584,12 +2570,12 @@ exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
-  {
+  Object {
     "column": 5,
     "endColumn": 15,
     "endLine": 10,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         148,
         158,
       ],
@@ -2602,12 +2588,12 @@ exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
-  {
+  Object {
     "column": 5,
     "endColumn": 27,
     "endLine": 13,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         169,
         191,
       ],
@@ -2620,7 +2606,7 @@ exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture
     "ruleId": "unicorn/explicit-length-check",
     "severity": 2,
   },
-  {
+  Object {
     "column": 9,
     "endColumn": 10,
     "endLine": 13,
@@ -2631,7 +2617,7 @@ exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  {
+  Object {
     "column": 12,
     "endColumn": 13,
     "endLine": 13,
@@ -2646,8 +2632,8 @@ exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture
 `;
 
 exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 18,
     "endColumn": 39,
     "endLine": 1,
@@ -2660,9 +2646,32 @@ exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
 ]
 `;
 
+exports[`unicorn rules unicorn/import-index fails on an invalid fixture 1`] = `
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 37,
+    "endLine": 1,
+    "fix": Object {
+      "range": Array [
+        26,
+        35,
+      ],
+      "text": "'.'",
+    },
+    "line": 1,
+    "message": "Do not reference the index file directly..",
+    "messageId": "import-index",
+    "nodeType": "ImportDeclaration",
+    "ruleId": "unicorn/import-index",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`unicorn rules unicorn/new-for-builtins fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 28,
     "endColumn": 31,
     "endLine": 1,
@@ -2673,12 +2682,12 @@ exports[`unicorn rules unicorn/new-for-builtins fails on an invalid fixture 1`] 
     "ruleId": "new-cap",
     "severity": 2,
   },
-  {
+  Object {
     "column": 28,
     "endColumn": 33,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         27,
         27,
       ],
@@ -2695,13 +2704,13 @@ exports[`unicorn rules unicorn/new-for-builtins fails on an invalid fixture 1`] 
 `;
 
 exports[`unicorn rules unicorn/no-array-for-each fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 4,
     "endColumn": 11,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         103,
         156,
       ],
@@ -2710,8 +2719,8 @@ exports[`unicorn rules unicorn/no-array-for-each fails on an invalid fixture 1`]
 }",
     },
     "line": 4,
-    "message": "Use \`for…of\` instead of \`.forEach(…)\`.",
-    "messageId": "no-array-for-each/error",
+    "message": "Use \`for…of\` instead of \`Array#forEach(…)\`.",
+    "messageId": "no-array-for-each",
     "nodeType": "Identifier",
     "ruleId": "unicorn/no-array-for-each",
     "severity": 2,
@@ -2720,13 +2729,13 @@ exports[`unicorn rules unicorn/no-array-for-each fails on an invalid fixture 1`]
 `;
 
 exports[`unicorn rules unicorn/no-array-push-push fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 21,
     "endColumn": 25,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         117,
         148,
       ],
@@ -2743,13 +2752,13 @@ exports[`unicorn rules unicorn/no-array-push-push fails on an invalid fixture 1`
 `;
 
 exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 17,
     "endColumn": 18,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         49,
         50,
       ],
@@ -2762,12 +2771,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 21,
     "endColumn": 22,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         81,
         82,
       ],
@@ -2780,12 +2789,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 17,
     "endColumn": 18,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         106,
         107,
       ],
@@ -2798,12 +2807,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 22,
     "endColumn": 23,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         111,
         112,
       ],
@@ -2816,12 +2825,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 17,
     "endColumn": 18,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         135,
         136,
       ],
@@ -2834,12 +2843,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 22,
     "endColumn": 23,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         140,
         141,
       ],
@@ -2852,12 +2861,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 19,
     "endColumn": 20,
     "endLine": 9,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         167,
         168,
       ],
@@ -2870,12 +2879,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 18,
     "endColumn": 19,
     "endLine": 10,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         196,
         197,
       ],
@@ -2888,12 +2897,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 18,
     "endColumn": 19,
     "endLine": 11,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         225,
         226,
       ],
@@ -2906,12 +2915,12 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-console-spaces",
     "severity": 2,
   },
-  {
+  Object {
     "column": 19,
     "endColumn": 20,
     "endLine": 12,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         255,
         256,
       ],
@@ -2928,13 +2937,13 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
 `;
 
 exports[`unicorn rules unicorn/no-for-loop fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 51,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         77,
         157,
       ],
@@ -2952,17 +2961,17 @@ exports[`unicorn rules unicorn/no-for-loop fails on an invalid fixture 1`] = `
 `;
 
 exports[`unicorn rules unicorn/no-hex-escape fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 26,
     "endColumn": 32,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         25,
         31,
       ],
-      "text": "'\\u001B'",
+      "text": "'\\\\u001B'",
     },
     "line": 1,
     "message": "Use Unicode escapes instead of hexadecimal escapes.",
@@ -2971,16 +2980,16 @@ exports[`unicorn rules unicorn/no-hex-escape fails on an invalid fixture 1`] = `
     "ruleId": "unicorn/no-hex-escape",
     "severity": 2,
   },
-  {
+  Object {
     "column": 26,
     "endColumn": 33,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         59,
         63,
       ],
-      "text": "\\u001B",
+      "text": "\\\\u001B",
     },
     "line": 2,
     "message": "Use Unicode escapes instead of hexadecimal escapes.",
@@ -2989,12 +2998,12 @@ exports[`unicorn rules unicorn/no-hex-escape fails on an invalid fixture 1`] = `
     "ruleId": "unicorn/no-hex-escape",
     "severity": 2,
   },
-  {
+  Object {
     "column": 33,
     "endColumn": 36,
     "endLine": 2,
     "line": 2,
-    "message": "Invalid type "() => void" of template literal expression.",
+    "message": "Invalid type \\"() => void\\" of template literal expression.",
     "messageId": "invalidType",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/restrict-template-expressions",
@@ -3004,13 +3013,13 @@ exports[`unicorn rules unicorn/no-hex-escape fails on an invalid fixture 1`] = `
 `;
 
 exports[`unicorn rules unicorn/no-instanceof-array fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 4,
     "endColumn": 14,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         120,
         139,
       ],
@@ -3023,12 +3032,12 @@ exports[`unicorn rules unicorn/no-instanceof-array fails on an invalid fixture 1
     "ruleId": "unicorn/no-instanceof-array",
     "severity": 2,
   },
-  {
+  Object {
     "column": 11,
     "endColumn": 21,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         141,
         167,
       ],
@@ -3045,13 +3054,13 @@ exports[`unicorn rules unicorn/no-instanceof-array fails on an invalid fixture 1
 `;
 
 exports[`unicorn rules unicorn/no-lonely-if fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 3,
     "endColumn": 4,
     "endLine": 8,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         144,
         197,
       ],
@@ -3070,13 +3079,13 @@ exports[`unicorn rules unicorn/no-lonely-if fails on an invalid fixture 1`] = `
 `;
 
 exports[`unicorn rules unicorn/no-new-array fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 24,
     "endColumn": 36,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         23,
         35,
       ],
@@ -3093,13 +3102,13 @@ exports[`unicorn rules unicorn/no-new-array fails on an invalid fixture 1`] = `
 `;
 
 exports[`unicorn rules unicorn/no-new-buffer fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 20,
     "endColumn": 34,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         77,
         87,
       ],
@@ -3116,8 +3125,8 @@ exports[`unicorn rules unicorn/no-new-buffer fails on an invalid fixture 1`] = `
 `;
 
 exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 20,
     "endColumn": 39,
     "endLine": 1,
@@ -3127,32 +3136,8 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            22,
-            22,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            22,
-            22,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 39,
     "endLine": 1,
@@ -3162,32 +3147,8 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            30,
-            30,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            30,
-            30,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 39,
     "endLine": 1,
@@ -3198,7 +3159,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 39,
     "endLine": 1,
@@ -3209,7 +3170,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 70,
     "endLine": 2,
@@ -3220,12 +3181,12 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 70,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         59,
         59,
       ],
@@ -3238,12 +3199,12 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
   },
-  {
+  Object {
     "column": 27,
     "endColumn": 36,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         66,
         66,
       ],
@@ -3256,7 +3217,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
   },
-  {
+  Object {
     "column": 33,
     "endColumn": 35,
     "endLine": 2,
@@ -3267,12 +3228,12 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  {
+  Object {
     "column": 50,
     "endColumn": 59,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         89,
         89,
       ],
@@ -3285,7 +3246,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/new-for-builtins",
     "severity": 2,
   },
-  {
+  Object {
     "column": 56,
     "endColumn": 58,
     "endLine": 2,
@@ -3296,7 +3257,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 30,
     "endLine": 3,
@@ -3306,32 +3267,8 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            132,
-            132,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            132,
-            132,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 30,
     "endLine": 3,
@@ -3342,7 +3279,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 30,
     "endLine": 3,
@@ -3353,7 +3290,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 34,
     "endLine": 4,
@@ -3363,32 +3300,8 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            167,
-            167,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            167,
-            167,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 34,
     "endLine": 4,
@@ -3399,7 +3312,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 34,
     "endLine": 4,
@@ -3410,7 +3323,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 31,
     "endLine": 5,
@@ -3420,32 +3333,8 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            198,
-            198,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            198,
-            198,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 31,
     "endLine": 5,
@@ -3456,7 +3345,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 31,
     "endLine": 5,
@@ -3467,7 +3356,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 30,
     "endLine": 6,
@@ -3477,32 +3366,8 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            230,
-            230,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            230,
-            230,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 30,
     "endLine": 6,
@@ -3513,7 +3378,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 30,
     "endLine": 6,
@@ -3524,7 +3389,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "require-unicode-regexp",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 39,
     "endLine": 7,
@@ -3534,32 +3399,8 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "prefer-named-capture-group",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            261,
-            261,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            261,
-            261,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 39,
     "endLine": 7,
@@ -3570,7 +3411,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "ruleId": "unicorn/no-unsafe-regex",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 39,
     "endLine": 7,
@@ -3585,13 +3426,13 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
 `;
 
 exports[`unicorn rules unicorn/no-useless-length-check fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 28,
     "endColumn": 40,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         52,
         95,
       ],
@@ -3608,13 +3449,13 @@ exports[`unicorn rules unicorn/no-useless-length-check fails on an invalid fixtu
 `;
 
 exports[`unicorn rules unicorn/no-useless-spread fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 33,
     "endColumn": 36,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         32,
         38,
       ],
@@ -3631,13 +3472,13 @@ exports[`unicorn rules unicorn/no-useless-spread fails on an invalid fixture 1`]
 `;
 
 exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 22,
     "endColumn": 24,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         20,
         23,
       ],
@@ -3650,12 +3491,12 @@ exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
-  {
+  Object {
     "column": 23,
     "endColumn": 25,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         46,
         49,
       ],
@@ -3668,12 +3509,12 @@ exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
-  {
+  Object {
     "column": 32,
     "endColumn": 34,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         71,
         84,
       ],
@@ -3686,12 +3527,12 @@ exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`]
     "ruleId": "unicorn/no-zero-fractions",
     "severity": 2,
   },
-  {
+  Object {
     "column": 24,
     "endColumn": 26,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         158,
         166,
       ],
@@ -3708,13 +3549,13 @@ exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`]
 `;
 
 exports[`unicorn rules unicorn/numeric-separators-style fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 36,
     "endColumn": 45,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         35,
         44,
       ],
@@ -3731,13 +3572,13 @@ exports[`unicorn rules unicorn/numeric-separators-style fails on an invalid fixt
 `;
 
 exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 10,
     "endColumn": 17,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         48,
         75,
       ],
@@ -3750,7 +3591,7 @@ exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fix
     "ruleId": "unicorn/prefer-add-event-listener",
     "severity": 2,
   },
-  {
+  Object {
     "column": 20,
     "endColumn": 25,
     "endLine": 3,
@@ -3765,13 +3606,13 @@ exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fix
 `;
 
 exports[`unicorn rules unicorn/prefer-array-find fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 13,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         170,
         198,
       ],
@@ -3788,13 +3629,13 @@ exports[`unicorn rules unicorn/prefer-array-find fails on an invalid fixture 1`]
 `;
 
 exports[`unicorn rules unicorn/prefer-array-flat-map fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 16,
     "endColumn": 38,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         165,
         187,
       ],
@@ -3811,13 +3652,13 @@ exports[`unicorn rules unicorn/prefer-array-flat-map fails on an invalid fixture
 `;
 
 exports[`unicorn rules unicorn/prefer-array-index-of fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 16,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         108,
         135,
       ],
@@ -3825,7 +3666,7 @@ exports[`unicorn rules unicorn/prefer-array-index-of fails on an invalid fixture
     },
     "line": 4,
     "message": "Use \`.indexOf()\` instead of \`.findIndex()\` when looking for the index of an item.",
-    "messageId": "prefer-indexOf-over-findIndex/error",
+    "messageId": "prefer-indexOf-over-findIndex//error",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-array-index-of",
     "severity": 2,
@@ -3834,8 +3675,8 @@ exports[`unicorn rules unicorn/prefer-array-index-of fails on an invalid fixture
 `;
 
 exports[`unicorn rules unicorn/prefer-array-some fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 11,
     "endColumn": 15,
     "endLine": 4,
@@ -3845,14 +3686,11 @@ exports[`unicorn rules unicorn/prefer-array-some fails on an invalid fixture 1`]
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-array-some",
     "severity": 2,
-    "suggestions": [
-      {
-        "data": {
-          "method": "find",
-        },
+    "suggestions": Array [
+      Object {
         "desc": "Replace \`.find(…)\` with \`.some(…)\`.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             148,
             152,
           ],
@@ -3866,13 +3704,13 @@ exports[`unicorn rules unicorn/prefer-array-some fails on an invalid fixture 1`]
 `;
 
 exports[`unicorn rules unicorn/prefer-date-now fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 12,
     "endColumn": 19,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         0,
         20,
       ],
@@ -3889,8 +3727,8 @@ exports[`unicorn rules unicorn/prefer-date-now fails on an invalid fixture 1`] =
 `;
 
 exports[`unicorn rules unicorn/prefer-default-parameters fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 3,
     "endColumn": 28,
     "endLine": 2,
@@ -3900,12 +3738,11 @@ exports[`unicorn rules unicorn/prefer-default-parameters fails on an invalid fix
     "nodeType": "VariableDeclaration",
     "ruleId": "unicorn/prefer-default-parameters",
     "severity": 2,
-    "suggestions": [
-      {
-        "data": {},
+    "suggestions": Array [
+      Object {
         "desc": "Replace reassignment with default parameter.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             37,
             103,
           ],
@@ -3920,13 +3757,13 @@ exports[`unicorn rules unicorn/prefer-default-parameters fails on an invalid fix
 `;
 
 exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 4,
     "endColumn": 11,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         119,
         143,
       ],
@@ -3939,12 +3776,12 @@ exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] =
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
-  {
+  Object {
     "column": 3,
     "endColumn": 10,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         145,
         167,
       ],
@@ -3957,7 +3794,7 @@ exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] =
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
-  {
+  Object {
     "column": 18,
     "endColumn": 20,
     "endLine": 5,
@@ -3968,12 +3805,12 @@ exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] =
     "ruleId": "eqeqeq",
     "severity": 2,
   },
-  {
+  Object {
     "column": 5,
     "endColumn": 12,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         169,
         192,
       ],
@@ -3986,12 +3823,12 @@ exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] =
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
-  {
+  Object {
     "column": 10,
     "endColumn": 17,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         194,
         222,
       ],
@@ -4004,12 +3841,12 @@ exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] =
     "ruleId": "unicorn/prefer-includes",
     "severity": 2,
   },
-  {
+  Object {
     "column": 3,
     "endColumn": 10,
     "endLine": 8,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         224,
         247,
       ],
@@ -4026,8 +3863,8 @@ exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] =
 `;
 
 exports[`unicorn rules unicorn/prefer-keyboard-event-key fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 21,
     "endColumn": 28,
     "endLine": 5,
@@ -4042,8 +3879,8 @@ exports[`unicorn rules unicorn/prefer-keyboard-event-key fails on an invalid fix
 `;
 
 exports[`unicorn rules unicorn/prefer-math-trunc fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 13,
     "endColumn": 21,
     "endLine": 5,
@@ -4053,15 +3890,15 @@ exports[`unicorn rules unicorn/prefer-math-trunc fails on an invalid fixture 1`]
     "nodeType": "BinaryExpression",
     "ruleId": "unicorn/prefer-math-trunc",
     "severity": 2,
-    "suggestions": [
-      {
-        "data": {
+    "suggestions": Array [
+      Object {
+        "data": Object {
           "operator": "|",
           "value": "0",
         },
         "desc": "Replace \`| 0\` with \`Math.trunc\`.",
-        "fix": {
-          "range": [
+        "fix": Object {
+          "range": Array [
             134,
             142,
           ],
@@ -4075,13 +3912,13 @@ exports[`unicorn rules unicorn/prefer-math-trunc fails on an invalid fixture 1`]
 `;
 
 exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 2,
     "endLine": 8,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         162,
         219,
       ],
@@ -4095,12 +3932,12 @@ exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture
     "ruleId": "unicorn/prefer-negative-index",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 58,
     "endLine": 9,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         252,
         277,
       ],
@@ -4113,12 +3950,12 @@ exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture
     "ruleId": "unicorn/prefer-negative-index",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 2,
     "endLine": 14,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         337,
         394,
       ],
@@ -4132,12 +3969,12 @@ exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture
     "ruleId": "unicorn/prefer-negative-index",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 3,
     "endLine": 18,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         453,
         510,
       ],
@@ -4155,21 +3992,21 @@ exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture
 `;
 
 exports[`unicorn rules unicorn/prefer-number-properties fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 9,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         46,
         54,
       ],
       "text": "Number.parseInt",
     },
     "line": 3,
-    "message": "Prefer \`Number.parseInt\` over \`parseInt\`.",
-    "messageId": "error",
+    "message": "Prefer \`Number.parseInt()\` over \`parseInt()\`.",
+    "messageId": "method-error",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-number-properties",
     "severity": 2,
@@ -4178,13 +4015,13 @@ exports[`unicorn rules unicorn/prefer-number-properties fails on an invalid fixt
 `;
 
 exports[`unicorn rules unicorn/prefer-object-from-entries fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 70,
     "endColumn": 76,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         134,
         369,
       ],
@@ -4208,13 +4045,13 @@ exports[`unicorn rules unicorn/prefer-object-from-entries fails on an invalid fi
 `;
 
 exports[`unicorn rules unicorn/prefer-prototype-methods fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 9,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         0,
         2,
       ],
@@ -4231,13 +4068,13 @@ exports[`unicorn rules unicorn/prefer-prototype-methods fails on an invalid fixt
 `;
 
 exports[`unicorn rules unicorn/prefer-query-selector fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 10,
     "endColumn": 24,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         9,
         29,
       ],
@@ -4254,13 +4091,13 @@ exports[`unicorn rules unicorn/prefer-query-selector fails on an invalid fixture
 `;
 
 exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 41,
     "endLine": 7,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         178,
         218,
       ],
@@ -4273,7 +4110,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "unicorn/prefer-reflect-apply",
     "severity": 2,
   },
-  {
+  Object {
     "column": 37,
     "endColumn": 39,
     "endLine": 7,
@@ -4284,12 +4121,12 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 66,
     "endLine": 8,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         220,
         285,
       ],
@@ -4302,7 +4139,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "unicorn/prefer-reflect-apply",
     "severity": 2,
   },
-  {
+  Object {
     "column": 62,
     "endColumn": 64,
     "endLine": 8,
@@ -4313,12 +4150,12 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 41,
     "endLine": 9,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         287,
         327,
       ],
@@ -4331,7 +4168,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "unicorn/prefer-reflect-apply",
     "severity": 2,
   },
-  {
+  Object {
     "column": 30,
     "endColumn": 34,
     "endLine": 9,
@@ -4342,7 +4179,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
-  {
+  Object {
     "column": 30,
     "endColumn": 34,
     "endLine": 9,
@@ -4353,7 +4190,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
   },
-  {
+  Object {
     "column": 37,
     "endColumn": 39,
     "endLine": 9,
@@ -4364,12 +4201,12 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "@typescript-eslint/no-magic-numbers",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 66,
     "endLine": 10,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         329,
         394,
       ],
@@ -4382,7 +4219,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "unicorn/prefer-reflect-apply",
     "severity": 2,
   },
-  {
+  Object {
     "column": 55,
     "endColumn": 59,
     "endLine": 10,
@@ -4393,7 +4230,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "functional/no-this-expression",
     "severity": 2,
   },
-  {
+  Object {
     "column": 55,
     "endColumn": 59,
     "endLine": 10,
@@ -4404,7 +4241,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "ruleId": "@typescript-eslint/no-invalid-this",
     "severity": 2,
   },
-  {
+  Object {
     "column": 62,
     "endColumn": 64,
     "endLine": 10,
@@ -4419,13 +4256,13 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
 `;
 
 exports[`unicorn rules unicorn/prefer-set-has fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 23,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         25,
         118,
       ],
@@ -4444,13 +4281,13 @@ const preferSetHasFailFunction = (value: number): boolean =>
 `;
 
 exports[`unicorn rules unicorn/prefer-string-replace-all fails on an invalid fixture 1`] = `
-[
-  {
-    "column": 5,
-    "endColumn": 12,
+Array [
+  Object {
+    "column": 1,
+    "endColumn": 55,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         11,
         49,
       ],
@@ -4458,8 +4295,8 @@ exports[`unicorn rules unicorn/prefer-string-replace-all fails on an invalid fix
     },
     "line": 1,
     "message": "Prefer \`String#replaceAll()\` over \`String#replace()\`.",
-    "messageId": "method",
-    "nodeType": "Identifier",
+    "messageId": "prefer-string-replace-all",
+    "nodeType": "CallExpression",
     "ruleId": "unicorn/prefer-string-replace-all",
     "severity": 2,
   },
@@ -4467,13 +4304,13 @@ exports[`unicorn rules unicorn/prefer-string-replace-all fails on an invalid fix
 `;
 
 exports[`unicorn rules unicorn/prefer-string-slice fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 19,
     "endLine": 3,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         64,
         75,
       ],
@@ -4486,12 +4323,12 @@ exports[`unicorn rules unicorn/prefer-string-slice fails on an invalid fixture 1
     "ruleId": "unicorn/prefer-string-slice",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 22,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         84,
         93,
       ],
@@ -4508,13 +4345,13 @@ exports[`unicorn rules unicorn/prefer-string-slice fails on an invalid fixture 1
 `;
 
 exports[`unicorn rules unicorn/prefer-string-starts-ends-with fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 1,
     "endColumn": 19,
     "endLine": 4,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         116,
         133,
       ],
@@ -4527,12 +4364,12 @@ exports[`unicorn rules unicorn/prefer-string-starts-ends-with fails on an invali
     "ruleId": "unicorn/prefer-string-starts-ends-with",
     "severity": 2,
   },
-  {
+  Object {
     "column": 1,
     "endColumn": 19,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         136,
         153,
       ],
@@ -4549,13 +4386,13 @@ exports[`unicorn rules unicorn/prefer-string-starts-ends-with fails on an invali
 `;
 
 exports[`unicorn rules unicorn/prefer-string-trim-start-end fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 15,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         6,
         14,
       ],
@@ -4568,12 +4405,12 @@ exports[`unicorn rules unicorn/prefer-string-trim-start-end fails on an invalid 
     "ruleId": "unicorn/prefer-string-trim-start-end",
     "severity": 2,
   },
-  {
+  Object {
     "column": 7,
     "endColumn": 16,
     "endLine": 2,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         24,
         33,
       ],
@@ -4590,13 +4427,13 @@ exports[`unicorn rules unicorn/prefer-string-trim-start-end fails on an invalid 
 `;
 
 exports[`unicorn rules unicorn/prefer-ternary fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 3,
     "endColumn": 4,
     "endLine": 11,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         289,
         344,
       ],
@@ -4613,8 +4450,8 @@ exports[`unicorn rules unicorn/prefer-ternary fails on an invalid fixture 1`] = 
 `;
 
 exports[`unicorn rules unicorn/prefer-top-level-await fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 26,
     "endColumn": 28,
     "endLine": 3,
@@ -4629,8 +4466,8 @@ exports[`unicorn rules unicorn/prefer-top-level-await fails on an invalid fixtur
 `;
 
 exports[`unicorn rules unicorn/prevent-abbreviations fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 10,
     "endColumn": 17,
     "endLine": 3,
@@ -4641,7 +4478,7 @@ exports[`unicorn rules unicorn/prevent-abbreviations fails on an invalid fixture
     "ruleId": "unicorn/prevent-abbreviations",
     "severity": 2,
   },
-  {
+  Object {
     "column": 7,
     "endColumn": 8,
     "endLine": 5,
@@ -4656,13 +4493,13 @@ exports[`unicorn rules unicorn/prevent-abbreviations fails on an invalid fixture
 `;
 
 exports[`unicorn rules unicorn/require-array-join-separator fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 8,
     "endColumn": 10,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         8,
         8,
       ],
@@ -4679,13 +4516,13 @@ exports[`unicorn rules unicorn/require-array-join-separator fails on an invalid 
 `;
 
 exports[`unicorn rules unicorn/require-number-to-fixed-digits-argument fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 12,
     "endColumn": 14,
     "endLine": 1,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         12,
         12,
       ],
@@ -4702,13 +4539,13 @@ exports[`unicorn rules unicorn/require-number-to-fixed-digits-argument fails on 
 `;
 
 exports[`unicorn rules unicorn/throw-new-error fails on an invalid fixture 1`] = `
-[
-  {
+Array [
+  Object {
     "column": 7,
     "endColumn": 23,
     "endLine": 5,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         135,
         135,
       ],
@@ -4721,12 +4558,12 @@ exports[`unicorn rules unicorn/throw-new-error fails on an invalid fixture 1`] =
     "ruleId": "unicorn/throw-new-error",
     "severity": 2,
   },
-  {
+  Object {
     "column": 7,
     "endColumn": 27,
     "endLine": 6,
-    "fix": {
-      "range": [
+    "fix": Object {
+      "range": Array [
         159,
         159,
       ],
