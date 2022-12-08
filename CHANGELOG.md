@@ -1,3 +1,10 @@
+# [2.22.0](https://github.com/ridedott/eslint-config/compare/v2.21.1...v2.22.0) (2022-12-08)
+
+### Features
+
+- modernize dependencies and base node version
+  ([6793dfd](https://github.com/ridedott/eslint-config/commit/6793dfd3953a36624a377780fb9061d4fee93425))
+
 ## [2.21.1](https://github.com/ridedott/eslint-config/compare/v2.21.0...v2.21.1) (2022-12-08)
 
 ### Chores
