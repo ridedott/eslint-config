@@ -1,3 +1,14 @@
+## [2.22.4](https://github.com/ridedott/eslint-config/compare/v2.22.3...v2.22.4) (2022-12-08)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 12.20.55 to 16.18.6
+  ([e1d4cbb](https://github.com/ridedott/eslint-config/commit/e1d4cbbae2a335b901a535940d9b7ee21697b02a))
+- **deps-dev:** bump prettier from 2.8.0 to 2.8.1
+  ([6627625](https://github.com/ridedott/eslint-config/commit/662762516bbe214ce9abba396dcaed566d0c8fb6))
+- **deps:** bump @typescript-eslint/parser from 5.45.1 to 5.46.0
+  ([094942b](https://github.com/ridedott/eslint-config/commit/094942b3019fc74f7a75493450dff68797889b57))
+
 ## [2.22.3](https://github.com/ridedott/eslint-config/compare/v2.22.2...v2.22.3) (2022-12-08)
 
 ### Chores
