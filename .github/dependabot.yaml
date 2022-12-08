@@ -22,11 +22,11 @@ updates:
     ignore:
       - dependency-name: '@types/node'
         versions:
-          - '> 16'
+          - '>= 17'
         # babel-jest needs to be updated together with Jest
       - dependency-name: 'babel-jest'
         versions:
-          - '>29'
+          - '> 29'
     open-pull-requests-limit: 99
     package-ecosystem: npm
     reviewers:
