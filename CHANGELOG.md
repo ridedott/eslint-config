@@ -1,3 +1,29 @@
+## [2.21.1](https://github.com/ridedott/eslint-config/compare/v2.21.0...v2.21.1) (2022-12-08)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/parser from 5.45.1 to 5.46.0
+  ([c660406](https://github.com/ridedott/eslint-config/commit/c6604063156bb06d0d507b8c6b5f57d5d14214df))
+- **deps:** bump @typescript-eslint/parser from 5.45.1 to 5.46.0
+  ([62c13c0](https://github.com/ridedott/eslint-config/commit/62c13c00a0b8e79f4a50fa0decb46f5dc45eeb15))
+- disable dependabot temporarily
+  ([e9d55b7](https://github.com/ridedott/eslint-config/commit/e9d55b7a295c0a4865ad45a74fa839cd35cbe270))
+
+### Reverts
+
+- chore(deps-dev): bump @types/node from 12.20.55 to 16.0.0
+  ([7cd367b](https://github.com/ridedott/eslint-config/commit/7cd367b1a4e0f2ee2eb74d836b9be89333691a3e))
+- chore(deps-dev): bump @types/node from 12.20.55 to 16.0.0
+  ([bc3f3cb](https://github.com/ridedott/eslint-config/commit/bc3f3cbf854255c3397b0bd285b552e86732ab7b))
+- chore(deps-dev): bump prettier from 2.8.0 to 2.8.1
+  ([37ca85c](https://github.com/ridedott/eslint-config/commit/37ca85c306674731144b906ddb7e36d10439ae91))
+- chore(deps): bump ridedott/release-me-action from 3.6.67 to 3.7.0
+  ([036b01b](https://github.com/ridedott/eslint-config/commit/036b01bfafe9942e8e0ad634c01273794ae5f1a0))
+- chore(deps): bump typescript from 4.9.3 to 4.9.4
+  ([e99b4c2](https://github.com/ridedott/eslint-config/commit/e99b4c202e94f0d6a10e6e8b3d3d993e3a2fd681))
+- feat: modernize dependencies and base node version
+  ([d781375](https://github.com/ridedott/eslint-config/commit/d781375523350fd21844197268f7911297c89044))
+
 # [2.21.0](https://github.com/ridedott/eslint-config/compare/v2.20.66...v2.21.0) (2022-12-07)
 
 ### Chores
