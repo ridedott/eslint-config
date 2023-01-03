@@ -1,3 +1,12 @@
+## [2.22.16](https://github.com/ridedott/eslint-config/compare/v2.22.15...v2.22.16) (2023-01-03)
+
+### Chores
+
+- **deps:** bump @typescript-eslint/eslint-plugin from 5.47.1 to 5.48.0
+  ([ac96e6a](https://github.com/ridedott/eslint-config/commit/ac96e6acdb03836a501ab24d7ea68eaf92ab8f63))
+- **deps:** bump eslint-config-prettier from 8.5.0 to 8.6.0
+  ([2b14d43](https://github.com/ridedott/eslint-config/commit/2b14d43b88a299774f62acb20ea16d2cdc41e016))
+
 ## [2.22.15](https://github.com/ridedott/eslint-config/compare/v2.22.14...v2.22.15) (2023-01-02)
 
 ### Chores
