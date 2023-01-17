@@ -1,3 +1,10 @@
+## [2.22.24](https://github.com/ridedott/eslint-config/compare/v2.22.23...v2.22.24) (2023-01-17)
+
+### Chores
+
+- **deps:** bump eslint-plugin-simple-import-sort from 8.0.0 to 9.0.0
+  ([40bb9e8](https://github.com/ridedott/eslint-config/commit/40bb9e80ced2afbdf0f4bf1037787ff187919553))
+
 ## [2.22.23](https://github.com/ridedott/eslint-config/compare/v2.22.22...v2.22.23) (2023-01-17)
 
 ### Chores
