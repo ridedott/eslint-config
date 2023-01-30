@@ -1,3 +1,14 @@
+## [2.22.28](https://github.com/ridedott/eslint-config/compare/v2.22.27...v2.22.28) (2023-01-30)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 29.2.6 to 29.4.0
+  ([bfa95b3](https://github.com/ridedott/eslint-config/commit/bfa95b3d47f1ec3e2b6dd63e72d334fbf6b5cd14))
+- **deps-dev:** bump jest from 29.4.0 to 29.4.1
+  ([d56a60b](https://github.com/ridedott/eslint-config/commit/d56a60bfe0060a55d4fa37cbabef48fe1a731bdc))
+- **deps:** bump eslint-plugin-simple-import-sort from 9.0.0 to 10.0.0
+  ([58a86a7](https://github.com/ridedott/eslint-config/commit/58a86a7b5cd6201ed2523009f69d3395184a44ad))
+
 ## [2.22.27](https://github.com/ridedott/eslint-config/compare/v2.22.26...v2.22.27) (2023-01-24)
 
 ### Chores
