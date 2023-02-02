@@ -1,3 +1,11 @@
+# [2.23.0](https://github.com/ridedott/eslint-config/compare/v2.22.31...v2.23.0) (2023-02-02)
+
+### Features
+
+- configure @typescript-eslint/key-spacing rule (#1708)
+  ([7a3f492](https://github.com/ridedott/eslint-config/commit/7a3f4924d483be7d02f70f6c83b1aeefd78d022e)),
+  closes [#1708](https://github.com/ridedott/eslint-config/issues/1708)
+
 ## [2.22.31](https://github.com/ridedott/eslint-config/compare/v2.22.30...v2.22.31) (2023-02-02)
 
 ### Chores
