@@ -56,6 +56,8 @@ module.exports = {
     ],
     // Code should be formatted using Prettier.
     '@typescript-eslint/func-call-spacing': 'off',
+    // Code should be formatted using Prettier.
+    '@typescript-eslint/key-spacing': 'off',
     '@typescript-eslint/member-ordering': [
       'error',
       {
