@@ -1,3 +1,11 @@
+## [2.22.31](https://github.com/ridedott/eslint-config/compare/v2.22.30...v2.22.31) (2023-02-02)
+
+### Chores
+
+- **deps:** bump eslint-plugin-array-func from 3.1.7 to 3.1.8 (#1678)
+  ([33b56fe](https://github.com/ridedott/eslint-config/commit/33b56fe0d3e774b915defbd906a8faf6ef7c840e)),
+  closes [#1678](https://github.com/ridedott/eslint-config/issues/1678)
+
 ## [2.22.30](https://github.com/ridedott/eslint-config/compare/v2.22.29...v2.22.30) (2023-01-31)
 
 ### Chores
