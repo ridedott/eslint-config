@@ -27,7 +27,7 @@
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@types/eslint": "^8.21.2",
-    "@types/jest": "^29.4.0",
+    "@types/jest": "^29.4.1",
     "@types/node": "^16.18.16",
     "babel-jest": "^29.3.1",
     "commitizen": "^4.3.0",
