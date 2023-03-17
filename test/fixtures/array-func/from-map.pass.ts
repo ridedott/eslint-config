@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable @typescript-eslint/no-invalid-this */
-/* eslint-disable functional/no-this-expression */
+/* eslint-disable functional/no-this-expressions */
 /* eslint-disable id-length */
 /* eslint-disable unicorn/prevent-abbreviations */
 

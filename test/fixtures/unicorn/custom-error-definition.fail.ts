@@ -1,4 +1,4 @@
-/* eslint-disable functional/no-this-expression */
+/* eslint-disable functional/no-this-expressions */
 
 class CustomFailError extends Error {
   public constructor(message: string) {

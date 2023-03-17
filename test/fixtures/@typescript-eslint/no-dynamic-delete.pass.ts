@@ -3,6 +3,7 @@
 /* eslint-disable functional/immutable-data */
 
 const containerPass: { [i: string]: number } = {
+
   /* ... */
 };
 
