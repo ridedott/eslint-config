@@ -23,7 +23,7 @@ module.exports = {
     // Unnecessary with TypeScript.
     'unicorn/no-array-callback-reference': 'off',
     'unicorn/no-array-for-each': 'error',
-    // Covered by functional/no-this-expression.
+    // Covered by functional/no-this-expressions.
     'unicorn/no-array-method-this-argument': 'off',
     'unicorn/no-array-push-push': 'error',
     'unicorn/no-array-reduce': 'off',

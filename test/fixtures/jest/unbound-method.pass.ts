@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
-/* eslint-disable functional/no-this-expression */
+/* eslint-disable functional/no-this-expressions */
 /* eslint-disable no-console */
 
 class MyClass2 {

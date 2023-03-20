@@ -632,7 +632,7 @@ exports[`functional rules functional/no-let fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`functional rules functional/no-this-expression fails on an invalid fixture 1`] = `
+exports[`functional rules functional/no-this-expressions fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -653,7 +653,7 @@ exports[`functional rules functional/no-this-expression fails on an invalid fixt
     "message": "Unexpected this, use functions not classes.",
     "messageId": "generic",
     "nodeType": "ThisExpression",
-    "ruleId": "functional/no-this-expression",
+    "ruleId": "functional/no-this-expressions",
     "severity": 2,
   },
   {
@@ -4345,7 +4345,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "message": "Unexpected this, use functions not classes.",
     "messageId": "generic",
     "nodeType": "ThisExpression",
-    "ruleId": "functional/no-this-expression",
+    "ruleId": "functional/no-this-expressions",
     "severity": 2,
   },
   {
@@ -4396,7 +4396,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
     "message": "Unexpected this, use functions not classes.",
     "messageId": "generic",
     "nodeType": "ThisExpression",
-    "ruleId": "functional/no-this-expression",
+    "ruleId": "functional/no-this-expressions",
     "severity": 2,
   },
   {
