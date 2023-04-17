@@ -1,3 +1,20 @@
+## [2.23.27](https://github.com/ridedott/eslint-config/compare/v2.23.26...v2.23.27) (2023-04-17)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 17.5.1 to 17.6.0
+  ([2f0867f](https://github.com/ridedott/eslint-config/commit/2f0867fb10d7ecd9e93685b6fb5e6c60cf6bf50f))
+- **deps-dev:** bump @commitlint/cli from 17.6.0 to 17.6.1
+  ([cc93dc3](https://github.com/ridedott/eslint-config/commit/cc93dc3577e7822d1fb5b0932e6877015c84fe7d))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([9bd6065](https://github.com/ridedott/eslint-config/commit/9bd606581bbc5b5b077b757f078042c32d955bd7))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([159a801](https://github.com/ridedott/eslint-config/commit/159a80120b54140b1eef1bdc48f749fa705ca756))
+- **deps:** bump @typescript-eslint/eslint-plugin from 5.58.0 to 5.59.0
+  ([e9f3951](https://github.com/ridedott/eslint-config/commit/e9f395120e1df9b06fe5e525bb9af61fab647d98))
+- **deps:** bump eslint-plugin-functional from 5.0.7 to 5.0.8
+  ([ff5a8d8](https://github.com/ridedott/eslint-config/commit/ff5a8d80bcaeecef1d5bcc6d942591e7de0550bb))
+
 ## [2.23.26](https://github.com/ridedott/eslint-config/compare/v2.23.25...v2.23.26) (2023-04-10)
 
 ### Chores
