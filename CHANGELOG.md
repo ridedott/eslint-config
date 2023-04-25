@@ -1,3 +1,10 @@
+## [2.23.31](https://github.com/ridedott/eslint-config/compare/v2.23.30...v2.23.31) (2023-04-25)
+
+### Chores
+
+- **deps:** bump yaml from 2.2.1 to 2.2.2
+  ([047728a](https://github.com/ridedott/eslint-config/commit/047728a126bda56a43448433f618e2268632c8a8))
+
 ## [2.23.30](https://github.com/ridedott/eslint-config/compare/v2.23.29...v2.23.30) (2023-04-24)
 
 ### Chores
