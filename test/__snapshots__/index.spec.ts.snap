@@ -3214,6 +3214,19 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "require-unicode-regexp",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add the 'u' flag.",
+        "fix": {
+          "range": [
+            38,
+            38,
+          ],
+          "text": "u",
+        },
+        "messageId": "addUFlag",
+      },
+    ],
   },
   {
     "column": 20,
@@ -3358,6 +3371,19 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "require-unicode-regexp",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add the 'u' flag.",
+        "fix": {
+          "range": [
+            140,
+            140,
+          ],
+          "text": "u",
+        },
+        "messageId": "addUFlag",
+      },
+    ],
   },
   {
     "column": 20,
@@ -3415,6 +3441,19 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "require-unicode-regexp",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add the 'u' flag.",
+        "fix": {
+          "range": [
+            175,
+            175,
+          ],
+          "text": "u",
+        },
+        "messageId": "addUFlag",
+      },
+    ],
   },
   {
     "column": 20,
@@ -3472,6 +3511,19 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "require-unicode-regexp",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add the 'u' flag.",
+        "fix": {
+          "range": [
+            207,
+            207,
+          ],
+          "text": "u",
+        },
+        "messageId": "addUFlag",
+      },
+    ],
   },
   {
     "column": 20,
@@ -3529,6 +3581,19 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "require-unicode-regexp",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add the 'u' flag.",
+        "fix": {
+          "range": [
+            238,
+            238,
+          ],
+          "text": "u",
+        },
+        "messageId": "addUFlag",
+      },
+    ],
   },
   {
     "column": 20,
@@ -3586,6 +3651,19 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "nodeType": "Literal",
     "ruleId": "require-unicode-regexp",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add the 'u' flag.",
+        "fix": {
+          "range": [
+            278,
+            278,
+          ],
+          "text": "u",
+        },
+        "messageId": "addUFlag",
+      },
+    ],
   },
 ]
 `;
