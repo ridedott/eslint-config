@@ -1,3 +1,19 @@
+## [2.23.35](https://github.com/ridedott/eslint-config/compare/v2.23.34...v2.23.35) (2023-05-09)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.21.5 to 7.21.8
+  ([bf4ad98](https://github.com/ridedott/eslint-config/commit/bf4ad983a124368d6066d3a95751e56561b7b7f3))
+- **deps-dev:** bump @commitlint/cli from 17.6.1 to 17.6.3
+  ([5097477](https://github.com/ridedott/eslint-config/commit/5097477b045316a8976e99a8e7a79dddc6206da1))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([7709511](https://github.com/ridedott/eslint-config/commit/7709511c5e178a58d9dfce92df2f4e2ac764c550))
+- **deps-dev:** bump @types/node from 16.18.25 to 16.18.26
+  ([80adb21](https://github.com/ridedott/eslint-config/commit/80adb214328e049816c5b399526fdefda0868ae8))
+- **deps:** bump eslint-plugin-unicorn from 46.0.0 to 47.0.0 (#1805)
+  ([52e5ba9](https://github.com/ridedott/eslint-config/commit/52e5ba9592a6a2ff10d8b76129eba039ea9507cc)),
+  closes [#1805](https://github.com/ridedott/eslint-config/issues/1805)
+
 ## [2.23.34](https://github.com/ridedott/eslint-config/compare/v2.23.33...v2.23.34) (2023-05-01)
 
 ### Chores
