@@ -21,7 +21,7 @@
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
   "devDependencies": {
-    "@babel/core": "^7.21.8",
+    "@babel/core": "^7.22.1",
     "@babel/plugin-transform-typescript": "^7.21.3",
     "@babel/preset-env": "^7.21.5",
     "@commitlint/cli": "^17.6.3",
