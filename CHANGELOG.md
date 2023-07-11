@@ -1,3 +1,10 @@
+## [2.23.59](https://github.com/ridedott/eslint-config/compare/v2.23.58...v2.23.59) (2023-07-11)
+
+### Chores
+
+- **deps:** bump semver from 5.7.1 to 5.7.2
+  ([cc6b735](https://github.com/ridedott/eslint-config/commit/cc6b735ce65d0f19e4b3052acbad4067fda6d185))
+
 ## [2.23.58](https://github.com/ridedott/eslint-config/compare/v2.23.57...v2.23.58) (2023-07-10)
 
 ### Chores
