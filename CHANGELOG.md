@@ -1,3 +1,16 @@
+## [2.23.60](https://github.com/ridedott/eslint-config/compare/v2.23.59...v2.23.60) (2023-07-13)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.22.8 to 7.22.9
+  ([b264f28](https://github.com/ridedott/eslint-config/commit/b264f284f2c75f14e65c901770a59529dd882629))
+- **deps-dev:** bump @babel/plugin-transform-typescript
+  ([8de6b49](https://github.com/ridedott/eslint-config/commit/8de6b49cf7328f882898b2186c6473d2f335c1cb))
+- **deps-dev:** bump @babel/preset-env from 7.22.7 to 7.22.9
+  ([f58d07d](https://github.com/ridedott/eslint-config/commit/f58d07da28412c4973649d076502a36c4c7468f9))
+- **deps:** bump eslint-plugin-jest from 27.2.2 to 27.2.3
+  ([b784be7](https://github.com/ridedott/eslint-config/commit/b784be742c8c8a8d1826977e1fbdb7d6c9c12db2))
+
 ## [2.23.59](https://github.com/ridedott/eslint-config/compare/v2.23.58...v2.23.59) (2023-07-11)
 
 ### Chores
