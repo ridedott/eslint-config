@@ -1,3 +1,10 @@
+## [2.23.61](https://github.com/ridedott/eslint-config/compare/v2.23.60...v2.23.61) (2023-07-18)
+
+### Chores
+
+- **deps:** bump word-wrap from 1.2.3 to 1.2.4
+  ([6e518f5](https://github.com/ridedott/eslint-config/commit/6e518f5ba5da5ca466418995ab4d71bc2630808d))
+
 ## [2.23.60](https://github.com/ridedott/eslint-config/compare/v2.23.59...v2.23.60) (2023-07-13)
 
 ### Chores
