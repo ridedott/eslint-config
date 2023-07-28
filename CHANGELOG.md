@@ -1,3 +1,10 @@
+## [2.23.63](https://github.com/ridedott/eslint-config/compare/v2.23.62...v2.23.63) (2023-07-28)
+
+### Chores
+
+- **deps:** bump eslint-plugin-import from 2.27.5 to 2.28.0
+  ([b4b7922](https://github.com/ridedott/eslint-config/commit/b4b79228f03079336ef105c2c9f7f7b3210c1481))
+
 ## [2.23.62](https://github.com/ridedott/eslint-config/compare/v2.23.61...v2.23.62) (2023-07-27)
 
 ### Chores
