@@ -1,3 +1,14 @@
+## [2.23.66](https://github.com/ridedott/eslint-config/compare/v2.23.65...v2.23.66) (2023-08-07)
+
+### Chores
+
+- **deps-dev:** bump @types/eslint from 8.44.1 to 8.44.2
+  ([9406f89](https://github.com/ridedott/eslint-config/commit/9406f895d1240e71bab9e959201640303319bdbd))
+- **deps-dev:** bump prettier from 3.0.0 to 3.0.1
+  ([61d3e69](https://github.com/ridedott/eslint-config/commit/61d3e69c1e685ce6d88fa6dd98bbd9a038070cec))
+- **deps:** bump eslint-config-prettier from 8.10.0 to 9.0.0
+  ([01ef4dc](https://github.com/ridedott/eslint-config/commit/01ef4dc52fb25d5b8f31bc273a8048d41ac32556))
+
 ## [2.23.65](https://github.com/ridedott/eslint-config/compare/v2.23.64...v2.23.65) (2023-08-03)
 
 ### Chores
