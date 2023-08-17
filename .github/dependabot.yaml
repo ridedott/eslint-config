@@ -1,5 +1,4 @@
 version: 2
-
 updates:
   - allow:
       - dependency-type: direct
@@ -9,8 +8,7 @@ updates:
     directory: /
     open-pull-requests-limit: 99
     package-ecosystem: github-actions
-    reviewers:
-      - 'ridedott/platform'
+    reviewers: []
     schedule:
       interval: daily
   - allow:
@@ -23,14 +21,13 @@ updates:
       - dependency-name: '@types/node'
         versions:
           - '>= 17'
-        # babel-jest needs to be updated together with Jest
+          # babel-jest needs to be updated together with Jest
       - dependency-name: 'babel-jest'
         versions:
           - '> 29'
     open-pull-requests-limit: 99
     package-ecosystem: npm
-    reviewers:
-      - 'ridedott/platform'
+    reviewers: []
     schedule:
       interval: daily
     versioning-strategy: increase
