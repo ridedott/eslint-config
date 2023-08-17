@@ -1,3 +1,11 @@
+## [2.23.69](https://github.com/ridedott/eslint-config/compare/v2.23.68...v2.23.69) (2023-08-17)
+
+### Chores
+
+- fix dependabot config (#1913)
+  ([9f31a63](https://github.com/ridedott/eslint-config/commit/9f31a633c6371bb2aa3b6d978fe84e62801011b6)),
+  closes [#1913](https://github.com/ridedott/eslint-config/issues/1913)
+
 ## [2.23.68](https://github.com/ridedott/eslint-config/compare/v2.23.67...v2.23.68) (2023-08-17)
 
 ### Chores
