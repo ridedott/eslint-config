@@ -1,3 +1,10 @@
+## [2.23.70](https://github.com/ridedott/eslint-config/compare/v2.23.69...v2.23.70) (2023-08-17)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 3.8.0 to 3.8.1
+  ([098210a](https://github.com/ridedott/eslint-config/commit/098210a645e1c9a84fdedbab1dfd4a3cfe38bb8e))
+
 ## [2.23.69](https://github.com/ridedott/eslint-config/compare/v2.23.68...v2.23.69) (2023-08-17)
 
 ### Chores
