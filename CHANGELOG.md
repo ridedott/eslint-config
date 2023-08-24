@@ -1,3 +1,18 @@
+## [2.23.72](https://github.com/ridedott/eslint-config/compare/v2.23.71...v2.23.72) (2023-08-24)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 29.5.3 to 29.5.4
+  ([c1e10d4](https://github.com/ridedott/eslint-config/commit/c1e10d419cd50fd2d261ef7c980c8e25db3ef70a))
+- **deps-dev:** bump @types/node from 16.18.41 to 16.18.42
+  ([d3ccd27](https://github.com/ridedott/eslint-config/commit/d3ccd278b48e80ede27b15bb8901f1d382060177))
+
+### Code Refactoring
+
+- Github teams codeowners (#1921)
+  ([b357f4a](https://github.com/ridedott/eslint-config/commit/b357f4adbad433775886cd65135bd5203562d9b1)),
+  closes [#1921](https://github.com/ridedott/eslint-config/issues/1921)
+
 ## [2.23.71](https://github.com/ridedott/eslint-config/compare/v2.23.70...v2.23.71) (2023-08-21)
 
 ### Chores
