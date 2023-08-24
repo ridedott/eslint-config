@@ -1,3 +1,12 @@
+## [2.23.74](https://github.com/ridedott/eslint-config/compare/v2.23.73...v2.23.74) (2023-08-24)
+
+### Chores
+
+- **deps-dev:** bump @babel/plugin-transform-typescript
+  ([930f385](https://github.com/ridedott/eslint-config/commit/930f38583ed04efc9cabb4adb08b4d33450006a3))
+- **deps:** bump ridedott/release-me-action from 3.8.2 to 3.8.3
+  ([583e6f4](https://github.com/ridedott/eslint-config/commit/583e6f4f0367ca8baf1916da5c9bb2f6213f1f5c))
+
 ## [2.23.73](https://github.com/ridedott/eslint-config/compare/v2.23.72...v2.23.73) (2023-08-24)
 
 ### Chores
