@@ -1,3 +1,44 @@
+## [2.23.75](https://github.com/ridedott/eslint-config/compare/v2.23.74...v2.23.75) (2023-09-19)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.22.11 to 7.22.15
+  ([2d6781b](https://github.com/ridedott/eslint-config/commit/2d6781bf7811c0110ca40893f6f53d4e4f42276d))
+- **deps-dev:** bump @babel/core from 7.22.15 to 7.22.17
+  ([ef8a2d7](https://github.com/ridedott/eslint-config/commit/ef8a2d7fda9a2c3605d9078c4c8ff68f8402b957))
+- **deps-dev:** bump @babel/core from 7.22.17 to 7.22.19
+  ([d8f4cf0](https://github.com/ridedott/eslint-config/commit/d8f4cf04eacadf53157d1e2bff5fb6e2276b7c8c))
+- **deps-dev:** bump @babel/core from 7.22.19 to 7.22.20
+  ([49e1f50](https://github.com/ridedott/eslint-config/commit/49e1f503599a109b989b5671eb8ef40ba50268b2))
+- **deps-dev:** bump @babel/preset-env from 7.22.10 to 7.22.14
+  ([d7cd2c9](https://github.com/ridedott/eslint-config/commit/d7cd2c9e54d72801f5590dd590d5b27cdc738393))
+- **deps-dev:** bump @babel/preset-env from 7.22.14 to 7.22.15
+  ([25a2fb5](https://github.com/ridedott/eslint-config/commit/25a2fb5ca80a8f2e2d558a5f4f097c34c492d356))
+- **deps-dev:** bump @babel/preset-env from 7.22.15 to 7.22.20
+  ([2517b31](https://github.com/ridedott/eslint-config/commit/2517b31754b9a31eb5b539c9013c7fb444414364))
+- **deps-dev:** bump @types/jest from 29.5.4 to 29.5.5
+  ([c535f4d](https://github.com/ridedott/eslint-config/commit/c535f4de91c69b4a45b3233b2a3a26763e40bed4))
+- **deps-dev:** bump @types/node from 16.18.44 to 16.18.46
+  ([e2279b0](https://github.com/ridedott/eslint-config/commit/e2279b0e7e144f9dcfc05a3528b931c16b6835a8))
+- **deps-dev:** bump @types/node from 16.18.46 to 16.18.48
+  ([36646f3](https://github.com/ridedott/eslint-config/commit/36646f3c2ab1704a61ed869c95da5d3ee4eeb6e9))
+- **deps-dev:** bump @types/node from 16.18.48 to 16.18.50
+  ([8976a5d](https://github.com/ridedott/eslint-config/commit/8976a5d17d3f8b5eba5e55c214647b8ecaf67020))
+- **deps-dev:** bump @types/node from 16.18.50 to 16.18.51
+  ([d055400](https://github.com/ridedott/eslint-config/commit/d055400865f38fd20fc11c6363cdf596584d3b6e))
+- **deps-dev:** bump jest from 29.6.4 to 29.7.0
+  ([17fa12c](https://github.com/ridedott/eslint-config/commit/17fa12c8b981b431f8a2be0ccef0052d96afb413))
+- **deps-dev:** bump prettier from 3.0.2 to 3.0.3
+  ([2e904f5](https://github.com/ridedott/eslint-config/commit/2e904f550c7d5499722dc34e22ee1152ccb43dbc))
+- **deps:** bump actions/checkout from 3 to 4
+  ([84986fd](https://github.com/ridedott/eslint-config/commit/84986fdb5f5469756e1840ba56452b50f13fb82a))
+- **deps:** bump eslint-plugin-array-func from 3.1.8 to 4.0.0
+  ([df0f4cc](https://github.com/ridedott/eslint-config/commit/df0f4ccb4ea78ea132c237f08a9966a8066b384f))
+- **deps:** bump eslint-plugin-jest from 27.2.3 to 27.4.0
+  ([1e14a07](https://github.com/ridedott/eslint-config/commit/1e14a071040664050b706924b315b0a068a82d2c))
+- update package engines
+  ([b51ec16](https://github.com/ridedott/eslint-config/commit/b51ec169f93d331f58ffad04e24f39bb4be1129f))
+
 ## [2.23.74](https://github.com/ridedott/eslint-config/compare/v2.23.73...v2.23.74) (2023-08-24)
 
 ### Chores
