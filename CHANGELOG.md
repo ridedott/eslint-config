@@ -1,3 +1,10 @@
+# [2.27.0](https://github.com/ridedott/eslint-config/compare/v2.26.0...v2.27.0) (2023-10-18)
+
+### Features
+
+- update peer dep version for eslint
+  ([728a301](https://github.com/ridedott/eslint-config/commit/728a30191df8598db7b5c860a5226a2a953ba8c3))
+
 # [2.26.0](https://github.com/ridedott/eslint-config/compare/v2.25.0...v2.26.0) (2023-10-18)
 
 ### Features
