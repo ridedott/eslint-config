@@ -1,3 +1,10 @@
+# [2.25.0](https://github.com/ridedott/eslint-config/compare/v2.24.0...v2.25.0) (2023-10-18)
+
+### Features
+
+- trigger release
+  ([41f063f](https://github.com/ridedott/eslint-config/commit/41f063f0bf267a1bf90e551792403d247afd876c))
+
 # [2.24.0](https://github.com/ridedott/eslint-config/compare/v2.23.76...v2.24.0) (2023-10-18)
 
 ### Features
