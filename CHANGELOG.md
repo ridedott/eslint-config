@@ -1,3 +1,10 @@
+# [2.24.0](https://github.com/ridedott/eslint-config/compare/v2.23.76...v2.24.0) (2023-10-18)
+
+### Features
+
+- deploy updated deps
+  ([f23fcec](https://github.com/ridedott/eslint-config/commit/f23fcec0021755e6cc1cd65118ff3ee84bfde4f9))
+
 ## [2.23.76](https://github.com/ridedott/eslint-config/compare/v2.23.75...v2.23.76) (2023-10-18)
 
 ### Chores

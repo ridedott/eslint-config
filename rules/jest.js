@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-=======
 // Jest rules.
->>>>>>> Stashed changes
 module.exports = {
   rules: {
     'jest/consistent-test-it': ['error', { fn: 'it', withinDescribe: 'it' }],
