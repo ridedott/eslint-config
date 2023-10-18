@@ -1,4 +1,4 @@
-// Jest rules.
+// Jest rules..
 module.exports = {
   rules: {
     'jest/consistent-test-it': ['error', { fn: 'it', withinDescribe: 'it' }],
