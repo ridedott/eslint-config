@@ -21,13 +21,13 @@ exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`
     "severity": 2,
   },
   {
-    "column": 54,
+    "column": 58,
     "endColumn": 59,
     "endLine": 4,
     "line": 4,
-    "message": "Operands of '+' operation must either be both strings or both numbers.",
-    "messageId": "notNumbers",
-    "nodeType": "BinaryExpression",
+    "message": "Invalid operand for a '+' operation. Operands must each be a number or string, allowing a string + any of: \`any\`, \`boolean\`, \`null\`, \`RegExp\`, \`undefined\`. Got \`never\`.",
+    "messageId": "invalid",
+    "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/restrict-plus-operands",
     "severity": 2,
   },
@@ -50,13 +50,13 @@ exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`
     "severity": 2,
   },
   {
-    "column": 59,
+    "column": 63,
     "endColumn": 64,
     "endLine": 6,
     "line": 6,
-    "message": "Operands of '+' operation must either be both strings or both numbers.",
-    "messageId": "notNumbers",
-    "nodeType": "BinaryExpression",
+    "message": "Invalid operand for a '+' operation. Operands must each be a number or string, allowing a string + any of: \`any\`, \`boolean\`, \`null\`, \`RegExp\`, \`undefined\`. Got \`never\`.",
+    "messageId": "invalid",
+    "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/restrict-plus-operands",
     "severity": 2,
   },
@@ -576,6 +576,7 @@ exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture
     "fatal": true,
     "line": 1,
     "message": "Failed to parse JSON from ' "no-undef": off / / eslint-env browser / / eslint-disable foo / / eslint-enable bar / // eslint-disable-line // eslint-disable-next-line / exported foo / / global $ / / globals a, b, c': Unexpected token o in JSON at position 14",
+    "nodeType": null,
     "ruleId": null,
     "severity": 2,
   },
@@ -844,7 +845,7 @@ exports[`jest rules jest/valid-title fails on an invalid fixture 1`] = `
     "endColumn": 21,
     "endLine": 1,
     "line": 1,
-    "message": ""should" is not allowed in test titles.",
+    "message": ""should" is not allowed in test titles",
     "messageId": "disallowedWord",
     "nodeType": "Literal",
     "ruleId": "jest/valid-title",
@@ -1002,7 +1003,7 @@ import * as path from 'path';",
 exports[`typescriptEslint rules @typescript-eslint/array-type fails on an invalid fixture 1`] = `
 [
   {
-    "column": 44,
+    "column": 47,
     "endColumn": 49,
     "endLine": 5,
     "line": 5,
@@ -1064,7 +1065,7 @@ exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions f
 exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type fails on an invalid fixture 1`] = `
 [
   {
-    "column": 23,
+    "column": 26,
     "endColumn": 28,
     "endLine": 3,
     "line": 3,
@@ -1076,7 +1077,7 @@ exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type
   },
   {
     "column": 28,
-    "endColumn": 39,
+    "endColumn": 37,
     "endLine": 5,
     "line": 5,
     "message": "Missing return type on function.",
@@ -1086,8 +1087,8 @@ exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type
     "severity": 2,
   },
   {
-    "column": 8,
-    "endColumn": 13,
+    "column": 3,
+    "endColumn": 8,
     "endLine": 10,
     "line": 10,
     "message": "Missing return type on function.",
@@ -1716,97 +1717,73 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
     "column": 1,
     "endColumn": 37,
     "endLine": 4,
+    "fix": {
+      "range": [
+        130,
+        166,
+      ],
+      "text": "foo?.a?.b?.c",
+    },
     "line": 4,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
-    "nodeType": "LogicalExpression",
+    "nodeType": null,
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Change to an optional chain.",
-        "fix": {
-          "range": [
-            130,
-            166,
-          ],
-          "text": "foo?.a?.b?.c",
-        },
-        "messageId": "optionalChainSuggest",
-      },
-    ],
   },
   {
     "column": 1,
     "endColumn": 37,
     "endLine": 5,
+    "fix": {
+      "range": [
+        168,
+        204,
+      ],
+      "text": "foo?.a?.b?.c",
+    },
     "line": 5,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
-    "nodeType": "LogicalExpression",
+    "nodeType": null,
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Change to an optional chain.",
-        "fix": {
-          "range": [
-            168,
-            204,
-          ],
-          "text": "foo?.a?.b?.c",
-        },
-        "messageId": "optionalChainSuggest",
-      },
-    ],
   },
   {
     "column": 1,
     "endColumn": 62,
     "endLine": 6,
+    "fix": {
+      "range": [
+        206,
+        267,
+      ],
+      "text": "foo?.a?.b?.method?.()",
+    },
     "line": 6,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
-    "nodeType": "LogicalExpression",
+    "nodeType": null,
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Change to an optional chain.",
-        "fix": {
-          "range": [
-            206,
-            267,
-          ],
-          "text": "foo?.a?.b?.method?.()",
-        },
-        "messageId": "optionalChainSuggest",
-      },
-    ],
   },
   {
     "column": 1,
     "endColumn": 16,
-    "endLine": 13,
+    "endLine": 9,
+    "fix": {
+      "range": [
+        270,
+        292,
+      ],
+      "text": "foo?.a != null",
+    },
     "line": 8,
     "message": "Prefer using an optional chain expression instead, as it's more concise and easier to read.",
     "messageId": "preferOptionalChain",
-    "nodeType": "LogicalExpression",
+    "nodeType": null,
     "ruleId": "@typescript-eslint/prefer-optional-chain",
     "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Change to an optional chain.",
-        "fix": {
-          "range": [
-            270,
-            392,
-          ],
-          "text": "foo?.a?.b?.c?.d?.e",
-        },
-        "messageId": "optionalChainSuggest",
-      },
-    ],
   },
   {
     "column": 3,
@@ -1847,7 +1824,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
 exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails on an invalid fixture 1`] = `
 [
   {
-    "column": 37,
+    "column": 40,
     "endColumn": 42,
     "endLine": 4,
     "fix": {
@@ -1866,7 +1843,7 @@ exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails 
   },
   {
     "column": 1,
-    "endColumn": 34,
+    "endColumn": 32,
     "endLine": 6,
     "fix": {
       "range": [
@@ -3198,17 +3175,6 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "endColumn": 39,
     "endLine": 1,
     "line": 1,
-    "message": "Unsafe regular expression.",
-    "messageId": "no-unsafe-regex",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/no-unsafe-regex",
-    "severity": 2,
-  },
-  {
-    "column": 20,
-    "endColumn": 39,
-    "endLine": 1,
-    "line": 1,
     "message": "Use the 'u' flag.",
     "messageId": "requireUFlag",
     "nodeType": "Literal",
@@ -3355,17 +3321,6 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "endColumn": 30,
     "endLine": 3,
     "line": 3,
-    "message": "Unsafe regular expression.",
-    "messageId": "no-unsafe-regex",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/no-unsafe-regex",
-    "severity": 2,
-  },
-  {
-    "column": 20,
-    "endColumn": 30,
-    "endLine": 3,
-    "line": 3,
     "message": "Use the 'u' flag.",
     "messageId": "requireUFlag",
     "nodeType": "Literal",
@@ -3425,17 +3380,6 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "endColumn": 34,
     "endLine": 4,
     "line": 4,
-    "message": "Unsafe regular expression.",
-    "messageId": "no-unsafe-regex",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/no-unsafe-regex",
-    "severity": 2,
-  },
-  {
-    "column": 20,
-    "endColumn": 34,
-    "endLine": 4,
-    "line": 4,
     "message": "Use the 'u' flag.",
     "messageId": "requireUFlag",
     "nodeType": "Literal",
@@ -3495,17 +3439,6 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
     "endColumn": 31,
     "endLine": 5,
     "line": 5,
-    "message": "Unsafe regular expression.",
-    "messageId": "no-unsafe-regex",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/no-unsafe-regex",
-    "severity": 2,
-  },
-  {
-    "column": 20,
-    "endColumn": 31,
-    "endLine": 5,
-    "line": 5,
     "message": "Use the 'u' flag.",
     "messageId": "requireUFlag",
     "nodeType": "Literal",
@@ -3559,17 +3492,6 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
         "messageId": "addNonCapture",
       },
     ],
-  },
-  {
-    "column": 20,
-    "endColumn": 30,
-    "endLine": 6,
-    "line": 6,
-    "message": "Unsafe regular expression.",
-    "messageId": "no-unsafe-regex",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/no-unsafe-regex",
-    "severity": 2,
   },
   {
     "column": 20,
@@ -3629,17 +3551,6 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
         "messageId": "addNonCapture",
       },
     ],
-  },
-  {
-    "column": 20,
-    "endColumn": 39,
-    "endLine": 7,
-    "line": 7,
-    "message": "Unsafe regular expression.",
-    "messageId": "no-unsafe-regex",
-    "nodeType": "Literal",
-    "ruleId": "unicorn/no-unsafe-regex",
-    "severity": 2,
   },
   {
     "column": 20,
@@ -3835,7 +3746,7 @@ exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fix
     "severity": 2,
   },
   {
-    "column": 20,
+    "column": 23,
     "endColumn": 25,
     "endLine": 3,
     "line": 3,

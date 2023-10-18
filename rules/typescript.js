@@ -285,7 +285,7 @@ module.exports = {
     '@typescript-eslint/require-await': 'off',
     '@typescript-eslint/restrict-template-expressions': [
       'error',
-      { allowBoolean: false, allowNullable: false, allowNumber: false },
+      { allowBoolean: false, allowNullish: false, allowNumber: false },
     ],
     // Code should be formatted using Prettier.
     '@typescript-eslint/semi': 'off',
