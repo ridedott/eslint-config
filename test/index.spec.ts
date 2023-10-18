@@ -152,9 +152,7 @@ describe.each(Object.keys(configuredRules))(
         it(`exists in the current version of ${ruleSet}`, (): void => {
           expect.assertions(1);
 
-          expect(
-            configuredRulesToOriginalMap[ruleSet][ruleName],
-          ).not.toBeUndefined();
+          expect(configuredRulesToOriginalMap[ruleSet][ruleName]).toBeDefined();
         });
 
         it('passes on a valid fixture', async (): Promise<void> => {
@@ -167,9 +165,9 @@ describe.each(Object.keys(configuredRules))(
             type: 'pass',
           });
 
-          expect(result.warningCount).toStrictEqual(0);
+          expect(result.warningCount).toBe(0);
           expect(result.messages).toStrictEqual([]);
-          expect(result.errorCount).toStrictEqual(0);
+          expect(result.errorCount).toBe(0);
         });
 
         it('fails on an invalid fixture', async (): Promise<void> => {
@@ -182,7 +180,7 @@ describe.each(Object.keys(configuredRules))(
             type: 'fail',
           });
 
-          expect(result.warningCount).toStrictEqual(0);
+          expect(result.warningCount).toBe(0);
           expect(result.errorCount).toBeGreaterThan(0);
           expect(result.messages).toMatchSnapshot();
         });
