@@ -1,3 +1,12 @@
+## [2.27.7](https://github.com/ridedott/eslint-config/compare/v2.27.6...v2.27.7) (2023-10-25)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([834c382](https://github.com/ridedott/eslint-config/commit/834c382d44d22bf753751b7baa9d32d61933c74e))
+- **deps:** bump ridedott/release-me-action from 3.8.3 to 3.8.5
+  ([17dc632](https://github.com/ridedott/eslint-config/commit/17dc6325f48bff9c1e54ee6ec0068e4cd14aa67a))
+
 ## [2.27.6](https://github.com/ridedott/eslint-config/compare/v2.27.5...v2.27.6) (2023-10-25)
 
 ### Chores
