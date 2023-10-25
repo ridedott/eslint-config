@@ -1,3 +1,10 @@
+## [2.27.5](https://github.com/ridedott/eslint-config/compare/v2.27.4...v2.27.5) (2023-10-25)
+
+### Chores
+
+- **deps:** bump @ridedott/eslint-plugin from 1.7.131 to 1.7.134
+  ([e78fe8d](https://github.com/ridedott/eslint-config/commit/e78fe8d12431b1b8c60bb4db5e8e60bfb1eef102))
+
 ## [2.27.4](https://github.com/ridedott/eslint-config/compare/v2.27.3...v2.27.4) (2023-10-23)
 
 ### Chores
