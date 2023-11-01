@@ -2634,6 +2634,35 @@ exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
     "column": 18,
     "endColumn": 39,
     "endLine": 1,
+    "fix": {
+      "range": [
+        0,
+        41,
+      ],
+      "text": " ",
+    },
+    "line": 1,
+    "message": "'unicorn/filename-case' rule is disabled but never reported.",
+    "nodeType": null,
+    "ruleId": "eslint-comments/no-unused-disable",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove \`eslint-disable\` comment.",
+        "fix": {
+          "range": [
+            0,
+            41,
+          ],
+          "text": "",
+        },
+      },
+    ],
+  },
+  {
+    "column": 18,
+    "endColumn": 39,
+    "endLine": 1,
     "line": 1,
     "message": "'unicorn/filename-case' rule is re-enabled but it has not been disabled.",
     "nodeType": null,
