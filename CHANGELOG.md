@@ -1,3 +1,10 @@
+## [2.27.9](https://github.com/ridedott/eslint-config/compare/v2.27.8...v2.27.9) (2023-11-01)
+
+### Chores
+
+- update eslint peer dependency
+  ([ffd42cb](https://github.com/ridedott/eslint-config/commit/ffd42cb8c6f8814fff8fa0b372880b8bb684da8c))
+
 ## [2.27.8](https://github.com/ridedott/eslint-config/compare/v2.27.7...v2.27.8) (2023-10-27)
 
 ### Chores
