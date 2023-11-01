@@ -1,3 +1,12 @@
+## [2.27.11](https://github.com/ridedott/eslint-config/compare/v2.27.10...v2.27.11) (2023-11-01)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 16.18.59 to 16.18.60
+  ([835f339](https://github.com/ridedott/eslint-config/commit/835f3395490f13e9809e095d79332c41f61013d4))
+- **deps:** bump @ridedott/eslint-plugin from 1.7.134 to 1.7.137
+  ([515941e](https://github.com/ridedott/eslint-config/commit/515941e34d50cad5f2f3c3abd10648d9fa2bfe33))
+
 ## [2.27.10](https://github.com/ridedott/eslint-config/compare/v2.27.9...v2.27.10) (2023-11-01)
 
 ### Chores
