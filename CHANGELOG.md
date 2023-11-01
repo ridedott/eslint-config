@@ -1,3 +1,12 @@
+## [2.27.12](https://github.com/ridedott/eslint-config/compare/v2.27.11...v2.27.12) (2023-11-01)
+
+### Chores
+
+- **deps-dev:** bump @types/jest from 29.5.6 to 29.5.7
+  ([a522a5b](https://github.com/ridedott/eslint-config/commit/a522a5b3c6d28927079564d941ed6903a9ddd7ee))
+- **deps:** bump eslint-plugin-unicorn from 48.0.1 to 49.0.0
+  ([f8173d1](https://github.com/ridedott/eslint-config/commit/f8173d1079d557f679dec93f59252ded88bab29d))
+
 ## [2.27.11](https://github.com/ridedott/eslint-config/compare/v2.27.10...v2.27.11) (2023-11-01)
 
 ### Chores
