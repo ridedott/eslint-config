@@ -1,3 +1,14 @@
+## [2.27.16](https://github.com/ridedott/eslint-config/compare/v2.27.15...v2.27.16) (2023-11-15)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([a1389c8](https://github.com/ridedott/eslint-config/commit/a1389c807fb77a6033dc05ddaec1fc6221ac9c08))
+- **deps-dev:** bump @types/node from 16.18.60 to 16.18.61
+  ([f473232](https://github.com/ridedott/eslint-config/commit/f4732323b8c87f0af7393ccf858c4eac47aaacb4))
+- **deps:** bump ridedott/release-me-action from 3.8.6 to 3.9.0
+  ([1401cbc](https://github.com/ridedott/eslint-config/commit/1401cbca1f277eccb36f759d6db4dc821cf15b49))
+
 ## [2.27.15](https://github.com/ridedott/eslint-config/compare/v2.27.14...v2.27.15) (2023-11-10)
 
 ### Chores
