@@ -1,3 +1,12 @@
+## [2.27.19](https://github.com/ridedott/eslint-config/compare/v2.27.18...v2.27.19) (2023-11-30)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.23.3 to 7.23.5
+  ([91c718c](https://github.com/ridedott/eslint-config/commit/91c718ca250e83b14bf855f2289e9f1179b6a77f))
+- **deps:** bump typescript from 5.2.2 to 5.3.2
+  ([777158b](https://github.com/ridedott/eslint-config/commit/777158b56d06a5605972c9aad852c75646e81880))
+
 ## [2.27.18](https://github.com/ridedott/eslint-config/compare/v2.27.17...v2.27.18) (2023-11-30)
 
 ### Chores
