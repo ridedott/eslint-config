@@ -1,3 +1,10 @@
+## [2.27.25](https://github.com/ridedott/eslint-config/compare/v2.27.24...v2.27.25) (2023-12-18)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 4.0.0 to 4.0.1
+  ([80b49ba](https://github.com/ridedott/eslint-config/commit/80b49baff6e5257879f1f90d256e7dac825f18ea))
+
 ## [2.27.24](https://github.com/ridedott/eslint-config/compare/v2.27.23...v2.27.24) (2023-12-11)
 
 ### Chores
