@@ -28,7 +28,7 @@
     "@commitlint/config-conventional": "^18.4.3",
     "@types/eslint": "^8.56.0",
     "@types/jest": "^29.5.11",
-    "@types/node": "^16.18.68",
+    "@types/node": "^16.18.69",
     "babel-jest": "^29.7.0",
     "commitizen": "^4.3.0",
     "husky": "^8.0.3",
