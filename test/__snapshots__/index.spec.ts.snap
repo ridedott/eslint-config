@@ -770,8 +770,8 @@ exports[`jest rules jest/no-interpolation-in-snapshots fails on an invalid fixtu
   {
     "column": 37,
     "endColumn": 47,
-    "endLine": 4,
-    "line": 4,
+    "endLine": 5,
+    "line": 5,
     "message": "Do not use string interpolation inside of snapshots",
     "messageId": "noInterpolation",
     "nodeType": "TemplateLiteral",
