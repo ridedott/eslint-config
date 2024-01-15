@@ -1,3 +1,12 @@
+## [2.27.42](https://github.com/ridedott/eslint-config/compare/v2.27.41...v2.27.42) (2024-01-15)
+
+### Chores
+
+- **deps-dev:** bump prettier from 3.2.0 to 3.2.2
+  ([9ab1cea](https://github.com/ridedott/eslint-config/commit/9ab1ceab9953d054a07fddad0700ca495ba5a35c))
+- **deps:** bump eslint-plugin-jest from 27.6.2 to 27.6.3
+  ([0d9254c](https://github.com/ridedott/eslint-config/commit/0d9254ca102509944700e7fff739fda8dfa8ceb0))
+
 ## [2.27.41](https://github.com/ridedott/eslint-config/compare/v2.27.40...v2.27.41) (2024-01-15)
 
 ### Chores
