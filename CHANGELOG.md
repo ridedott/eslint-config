@@ -1,3 +1,26 @@
+## [2.27.48](https://github.com/ridedott/eslint-config/compare/v2.27.47...v2.27.48) (2024-01-29)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.23.7 to 7.23.9
+  ([08930ae](https://github.com/ridedott/eslint-config/commit/08930ae0da14a9766529fd4e773922da6871902d))
+- **deps-dev:** bump @babel/preset-env from 7.23.8 to 7.23.9
+  ([062c036](https://github.com/ridedott/eslint-config/commit/062c036f2da92f7b31d76f4e2744bff16210c003))
+- **deps-dev:** bump @commitlint/cli from 18.5.0 to 18.6.0
+  ([bf7b3d8](https://github.com/ridedott/eslint-config/commit/bf7b3d8627980545afb205732458bab3636e37a1))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([89a4e96](https://github.com/ridedott/eslint-config/commit/89a4e960b7219017eafd723d257d3c95ab0b684f))
+- **deps-dev:** bump @types/node from 16.18.74 to 16.18.75
+  ([c566829](https://github.com/ridedott/eslint-config/commit/c5668291b1067239ab94da4340e1afd3ff6d58e7))
+- **deps-dev:** bump @types/node from 16.18.75 to 16.18.76
+  ([dbbc6e4](https://github.com/ridedott/eslint-config/commit/dbbc6e4f78ec460310dd6ff5cb00031c1294c2e5))
+- **deps-dev:** bump husky from 8.0.3 to 9.0.5
+  ([50f156b](https://github.com/ridedott/eslint-config/commit/50f156b335a9d6b147a34d3e8208f68fb1facb63))
+- **deps-dev:** bump husky from 9.0.5 to 9.0.6
+  ([9423df2](https://github.com/ridedott/eslint-config/commit/9423df227c5c4638092dc654d9b93b0e42900204))
+- **deps:** bump @typescript-eslint/parser from 6.19.1 to 6.20.0
+  ([9fd48a3](https://github.com/ridedott/eslint-config/commit/9fd48a3b5fb44abc2030138595d33e4222376ccb))
+
 ## [2.27.47](https://github.com/ridedott/eslint-config/compare/v2.27.46...v2.27.47) (2024-01-23)
 
 ### Chores
