@@ -1,3 +1,12 @@
+## [2.27.49](https://github.com/ridedott/eslint-config/compare/v2.27.48...v2.27.49) (2024-01-30)
+
+### Chores
+
+- **deps-dev:** bump husky from 9.0.6 to 9.0.7
+  ([da9f95e](https://github.com/ridedott/eslint-config/commit/da9f95e5b1d4445eef056ab4279fa734e4ecbc7f))
+- **deps:** bump ridedott/release-me-action from 3.10.7 to 3.10.8
+  ([f45377a](https://github.com/ridedott/eslint-config/commit/f45377a835d6720d431fc93f1f21e6852ce03253))
+
 ## [2.27.48](https://github.com/ridedott/eslint-config/compare/v2.27.47...v2.27.48) (2024-01-29)
 
 ### Chores
