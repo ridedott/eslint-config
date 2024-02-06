@@ -1,3 +1,14 @@
+## [2.27.52](https://github.com/ridedott/eslint-config/compare/v2.27.51...v2.27.52) (2024-02-06)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 15.2.1 to 15.2.2
+  ([4de687b](https://github.com/ridedott/eslint-config/commit/4de687bc65bf488d16d31eddec4d051e79b868c7))
+- **deps:** bump @ridedott/eslint-plugin from 1.7.171 to 1.7.173
+  ([ca3ece7](https://github.com/ridedott/eslint-config/commit/ca3ece79f54de7a2771348e3ef48c9fc36b70cf6))
+- **deps:** bump eslint-plugin-unicorn from 50.0.1 to 51.0.0
+  ([0534ed1](https://github.com/ridedott/eslint-config/commit/0534ed1ac08f86e7da39656df4beaa2f186e337d))
+
 ## [2.27.51](https://github.com/ridedott/eslint-config/compare/v2.27.50...v2.27.51) (2024-02-05)
 
 ### Chores
