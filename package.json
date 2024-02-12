@@ -14,7 +14,7 @@
     "eslint-plugin-functional": "^6.0.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jest": "^27.6.3",
-    "eslint-plugin-simple-import-sort": "^11.0.0",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-unicorn": "^51.0.1",
     "typescript": "^5.3.3"
