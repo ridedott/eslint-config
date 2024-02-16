@@ -1,3 +1,14 @@
+## [2.27.59](https://github.com/ridedott/eslint-config/compare/v2.27.58...v2.27.59) (2024-02-16)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 16.18.80 to 16.18.82
+  ([7ac79c0](https://github.com/ridedott/eslint-config/commit/7ac79c0dc56236fe9d5b8968a6bd2d4e58443a95))
+- **deps-dev:** bump husky from 9.0.10 to 9.0.11
+  ([c0d978e](https://github.com/ridedott/eslint-config/commit/c0d978e3510c96575e30b73f68ad0a3bacc38c3c))
+- **deps:** bump eslint-plugin-jest from 27.8.0 to 27.9.0
+  ([b7d52b6](https://github.com/ridedott/eslint-config/commit/b7d52b6f34cdaed21af34ebc4aca971447619af7))
+
 ## [2.27.58](https://github.com/ridedott/eslint-config/compare/v2.27.57...v2.27.58) (2024-02-14)
 
 ### Chores
