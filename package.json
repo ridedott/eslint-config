@@ -71,5 +71,5 @@
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
-  "version": "2.27.94"
+  "version": "2.27.95"
 }
