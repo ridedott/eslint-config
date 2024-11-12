@@ -1,3 +1,10 @@
+## [2.27.113](https://github.com/ridedott/eslint-config/compare/v2.27.112...v2.27.113) (2024-11-12)
+
+### Chores
+
+- **deps:** bump micromatch and lint-staged
+  ([fb475a5](https://github.com/ridedott/eslint-config/commit/fb475a553c0bbb4269454c6d7f200d1be8401434))
+
 ## [2.27.112](https://github.com/ridedott/eslint-config/compare/v2.27.111...v2.27.112) (2024-11-12)
 
 ### Chores
