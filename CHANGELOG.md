@@ -1,3 +1,11 @@
+## [2.27.111](https://github.com/ridedott/eslint-config/compare/v2.27.110...v2.27.111) (2024-11-12)
+
+### Chores
+
+- Update team names to refect team structure (#2386)
+  ([7f86195](https://github.com/ridedott/eslint-config/commit/7f86195345e67cce10c44ae270707cb9693a5460)),
+  closes [#2386](https://github.com/ridedott/eslint-config/issues/2386)
+
 ## [2.27.110](https://github.com/ridedott/eslint-config/compare/v2.27.109...v2.27.110) (2024-05-23)
 
 ### Chores
