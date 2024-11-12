@@ -24,7 +24,7 @@
     "@babel/core": "^7.26.0",
     "@babel/plugin-transform-typescript": "^7.24.5",
     "@babel/preset-env": "^7.26.0",
-    "@commitlint/cli": "^19.3.0",
+    "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@types/eslint": "^8.56.10",
     "@types/jest": "^29.5.14",
