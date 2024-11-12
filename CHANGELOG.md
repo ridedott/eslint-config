@@ -1,3 +1,10 @@
+## [2.27.112](https://github.com/ridedott/eslint-config/compare/v2.27.111...v2.27.112) (2024-11-12)
+
+### Chores
+
+- **deps:** bump ridedott/release-me-action from 3.10.28 to 3.10.53
+  ([c8a62c5](https://github.com/ridedott/eslint-config/commit/c8a62c5bd6a59522c84d6a9840f95da5bb249bfd))
+
 ## [2.27.111](https://github.com/ridedott/eslint-config/compare/v2.27.110...v2.27.111) (2024-11-12)
 
 ### Chores
