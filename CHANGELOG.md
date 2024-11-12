@@ -7,10 +7,13 @@
 
 ### Other
 
-- ---
-  ([d3694ab](https://github.com/ridedott/eslint-config/commit/d3694ab9afe3027783ffc4550fa04ebb7ed2ca52))
-- ---
-  ([4aaacda](https://github.com/ridedott/eslint-config/commit/4aaacda00a0ecda86204938ae33d91571c17f57a))
+---
+
+([d3694ab](https://github.com/ridedott/eslint-config/commit/d3694ab9afe3027783ffc4550fa04ebb7ed2ca52))
+
+---
+
+([4aaacda](https://github.com/ridedott/eslint-config/commit/4aaacda00a0ecda86204938ae33d91571c17f57a))
 
 ## [2.27.109](https://github.com/ridedott/eslint-config/compare/v2.27.108...v2.27.109) (2024-05-16)
 
