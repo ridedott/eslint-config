@@ -1,3 +1,10 @@
+## [2.27.118](https://github.com/ridedott/eslint-config/compare/v2.27.117...v2.27.118) (2024-11-18)
+
+### Chores
+
+- **deps:** bump cross-spawn
+  ([2cfa390](https://github.com/ridedott/eslint-config/commit/2cfa390ca2c62958704d39fad0c3e9d01a2b6fbb))
+
 ## [2.27.117](https://github.com/ridedott/eslint-config/compare/v2.27.116...v2.27.117) (2024-11-18)
 
 ### Chores
