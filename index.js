@@ -1,10 +1,12 @@
 module.exports = {
   extends: [
-    'eslint:all',
-    'plugin:@typescript-eslint/all',
+    'eslint:recommended',
+    'plugin:@typescript-eslint/strict-type-checked',
+    'plugin:@typescript-eslint/stylistic-type-checked',
     'plugin:@ridedott/all',
     'plugin:import/typescript',
-    'plugin:jest/all',
+    'plugin:jest/recommended',
+    'plugin:jest/style',
     './rules/array-func.js',
     './rules/eslint-comments.js',
     './rules/eslint.js',
