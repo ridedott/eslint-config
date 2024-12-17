@@ -1,3 +1,26 @@
+## [2.27.121](https://github.com/ridedott/eslint-config/compare/v2.27.120...v2.27.121) (2024-12-17)
+
+### Chores
+
+- **deps-dev:** bump @babel/plugin-transform-typescript
+  ([529419c](https://github.com/ridedott/eslint-config/commit/529419c07620f63599aa7e822ceaa1c78e89d144))
+- **deps-dev:** bump @commitlint/cli from 19.6.0 to 19.6.1
+  ([fbbfd4c](https://github.com/ridedott/eslint-config/commit/fbbfd4ceface1520888b8eff7baa3c3287ce4055))
+- **deps-dev:** bump @types/node from 16.18.119 to 16.18.120
+  ([05bb2dd](https://github.com/ridedott/eslint-config/commit/05bb2ddd3311bb9672f4cc6279535a6bef350092))
+- **deps-dev:** bump @types/node from 16.18.120 to 16.18.121
+  ([d73acfd](https://github.com/ridedott/eslint-config/commit/d73acfd6f13570484c7e1f2ef9e19598196a85ee))
+- **deps-dev:** bump @types/node from 16.18.121 to 16.18.122
+  ([8a8a066](https://github.com/ridedott/eslint-config/commit/8a8a066110730fd25351960d613275e5ee2b96d6))
+- **deps-dev:** bump lint-staged from 15.2.10 to 15.2.11
+  ([20cf659](https://github.com/ridedott/eslint-config/commit/20cf659259fdbe8715f6899d3c2521c1098ef341))
+- **deps-dev:** bump prettier from 3.2.5 to 3.4.1
+  ([c90c0f1](https://github.com/ridedott/eslint-config/commit/c90c0f15f9426e0bcbbb94532272f42ecbb16a50))
+- **deps-dev:** bump prettier from 3.4.1 to 3.4.2
+  ([4d33233](https://github.com/ridedott/eslint-config/commit/4d33233ee35600baf45c6114f83788811bca04d5))
+- **deps:** bump ridedott/release-me-action from 3.10.55 to 3.10.56
+  ([6044138](https://github.com/ridedott/eslint-config/commit/60441385969d65cac082bd976809221a5d8e32b6))
+
 ## [2.27.120](https://github.com/ridedott/eslint-config/compare/v2.27.119...v2.27.120) (2024-11-22)
 
 ### Chores
