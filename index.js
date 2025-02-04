@@ -2,7 +2,6 @@ module.exports = {
   extends: [
     'eslint:all',
     'plugin:@typescript-eslint/all',
-    'plugin:@ridedott/all',
     'plugin:import/typescript',
     'plugin:jest/all',
     './rules/array-func.js',
@@ -11,7 +10,6 @@ module.exports = {
     './rules/functional.js',
     './rules/import.js',
     './rules/jest.js',
-    './rules/ridedott.js',
     './rules/simple-import-sort.js',
     './rules/sort-keys-fix.js',
     './rules/typescript.js',
@@ -20,7 +18,6 @@ module.exports = {
     './rules/overrides.js',
   ],
   plugins: [
-    '@ridedott',
     '@typescript-eslint',
     'array-func',
     'eslint-comments',
