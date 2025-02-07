@@ -106,8 +106,8 @@ consume this package in your project.
 
 Minimal requirements to set up the project:
 
-- [Node.js](https://nodejs.org/en) v10, installation instructions can be found
-  on the official website, a recommended installation option is to use
+- [Node.js](https://nodejs.org/en), installation instructions can be found on
+  the official website, a recommended installation option is to use
   [Node Version Manager](https://github.com/creationix/nvm#readme). It can be
   installed in a
   [few commands](https://nodejs.org/en/download/package-manager/#nvm).
@@ -128,7 +128,7 @@ In case you don't have a git client, you can get the latest version directly by
 using [this link](https://github.com/ridedott/eslint-config/archive/master.zip)
 and extracting the downloaded archive.
 
-Go the the right directory and install dependencies:
+Go to the right directory and install dependencies:
 
 ```bash
 cd eslint-config
@@ -147,7 +147,7 @@ tests are present.
 
 This project uses [Prettier](https://prettier.io) to automate formatting. All
 supported files are being reformatted in a precommit hook. You can also use one
-of the two scripts to validate and optionally fix all of the files:
+of the two scripts to validate and optionally fix all the files:
 
 ```bash
 npm run format
