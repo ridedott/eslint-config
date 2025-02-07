@@ -1,3 +1,10 @@
+## [2.28.3](https://github.com/ridedott/eslint-config/compare/v2.28.2...v2.28.3) (2025-02-07)
+
+### Continuous Integration
+
+- run tests against supported Node versions
+  ([3a72bde](https://github.com/ridedott/eslint-config/commit/3a72bdec20c644a76495980f371bf56431c510d2))
+
 ## [2.28.2](https://github.com/ridedott/eslint-config/compare/v2.28.1...v2.28.2) (2025-02-07)
 
 ### Chores
