@@ -1,4 +1,3 @@
-export * from './@ridedott';
 export * from './@typescript-eslint';
 export * from './array-func';
 export * from './eslint';

@@ -1,4 +1,3 @@
-import { rules as ridedottEslintRules } from '@ridedott/eslint-plugin';
 import { rules as typescriptEslintRules } from '@typescript-eslint/eslint-plugin';
 import { ESLint, Linter } from 'eslint';
 import { rules as arrayFunctionRules } from 'eslint-plugin-array-func';
@@ -18,7 +17,6 @@ import * as functional from '../rules/functional';
 import * as importConfiguredRules from '../rules/import';
 import * as jestConfiguredRules from '../rules/jest';
 import * as overrides from '../rules/overrides';
-import * as ridedottPlugin from '../rules/ridedott';
 import * as simpleImportSort from '../rules/simple-import-sort';
 import * as typescriptEslint from '../rules/typescript';
 import * as unicorn from '../rules/unicorn';
@@ -41,7 +39,6 @@ const configuredRules = {
   import: importConfiguredRules,
   jest: jestConfiguredRules,
   overrides,
-  ridedott: ridedottPlugin,
   simpleImportSort,
   typescriptEslint,
   unicorn,
@@ -55,7 +52,6 @@ const configuredRulesToOriginalMap = {
   import: importRules,
   jest: jestRules,
   overrides: eslintRules,
-  ridedott: ridedottEslintRules,
   simpleImportSort: simpleImportSortRules,
   typescriptEslint: typescriptEslintRules,
   unicorn: unicornRules,

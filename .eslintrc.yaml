@@ -15,10 +15,6 @@ overrides:
     rules:
       jest/require-hook: off
       unicorn/filename-case: off
-  - files:
-      - test/**.spec.ts
-    rules:
-      '@ridedott/no-single-line-comment-block': off
 parserOptions:
   ecmaVersion: 2020
   project: tsconfig.json
