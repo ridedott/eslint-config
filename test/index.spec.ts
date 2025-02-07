@@ -1,4 +1,4 @@
-import { rules as typescriptEslintRules } from '@typescript-eslint/eslint-plugin';
+import { plugin as typescriptEslintPlugin } from 'typescript-eslint';
 import { ESLint, Linter } from 'eslint';
 import { rules as arrayFunctionRules } from 'eslint-plugin-array-func';
 import { rules as eslintCommentsRules } from 'eslint-plugin-eslint-comments';
@@ -53,7 +53,7 @@ const configuredRulesToOriginalMap = {
   jest: jestRules,
   overrides: eslintRules,
   simpleImportSort: simpleImportSortRules,
-  typescriptEslint: typescriptEslintRules,
+  typescriptEslint: typescriptEslintPlugin.rules,
   unicorn: unicornRules,
 };
 
