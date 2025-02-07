@@ -1,3 +1,10 @@
+# [2.29.0](https://github.com/ridedott/eslint-config/compare/v2.28.4...v2.29.0) (2025-02-07)
+
+### Features
+
+- update to typescript-eslint@7
+  ([9db1ad3](https://github.com/ridedott/eslint-config/commit/9db1ad3deeff180bec84b3a1e5a28bff4992a102))
+
 ## [2.28.4](https://github.com/ridedott/eslint-config/compare/v2.28.3...v2.28.4) (2025-02-07)
 
 ### Chores
