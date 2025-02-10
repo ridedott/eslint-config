@@ -68,7 +68,7 @@
     "cz:retry": "git-cz --retry",
     "format": "prettier --check '**/*.{js,json,md,ts,yml,yaml}'",
     "format:fix": "prettier --write '**/*.{js,json,md,ts,yml,yaml}'",
-    "test": "export NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\"; jest --no-cache",
+    "test": "export NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\"; jest",
     "test:watch": "jest --watchAll"
   },
   "version": "2.29.0"
