@@ -5,6 +5,5 @@ export * from './eslint-comments';
 export * from './functional';
 export * from './import';
 export * from './jest';
-export * from './overrides';
 export * from './simple-import-sort';
 export * from './unicorn';

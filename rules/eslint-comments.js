@@ -4,8 +4,10 @@ module.exports = {
     'eslint-comments/no-aggregating-enable': 'off',
     'eslint-comments/no-duplicate-disable': 'error',
     'eslint-comments/no-unlimited-disable': 'error',
-    'eslint-comments/no-unused-disable': 'error',
-    'eslint-comments/no-unused-enable': 'error',
+    // This is covered by ESLint configuration: linterOptions.reportUnusedDisableDirectives
+    'eslint-comments/no-unused-disable': 'off',
+    // This is covered by ESLint configuration: linterOptions.reportUnusedDisableDirectives
+    'eslint-comments/no-unused-enable': 'off',
     'eslint-comments/no-use': [
       'error',
       {

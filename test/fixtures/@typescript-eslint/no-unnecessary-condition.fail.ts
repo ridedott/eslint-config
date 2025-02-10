@@ -9,6 +9,8 @@ function noUnnecessaryConditionFail1<Type>(items: Type[]) {
   if (items) {
     return items[0];
   }
+
+  return undefined;
 }
 
 function noUnnecessaryConditionFail2(arg: 'bar' | 'baz') {

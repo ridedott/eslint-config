@@ -191,6 +191,8 @@ module.exports = {
     // Code should be formatted using Prettier.
     '@typescript-eslint/no-extra-semi': 'off',
     '@typescript-eslint/no-inferrable-types': 'off',
+    // This is already covered by functional/no-this-expressions
+    '@typescript-eslint/no-invalid-this': 'off',
     '@typescript-eslint/no-magic-numbers': [
       'error',
       {
@@ -256,6 +258,8 @@ module.exports = {
      */
     '@typescript-eslint/no-unused-vars-experimental': 'off',
     '@typescript-eslint/object-curly-spacing': 'off',
+    // This is covered by unicorn/prefer-array-find
+    '@typescript-eslint/prefer-find': 'off',
     '@typescript-eslint/prefer-nullish-coalescing': [
       'error',
       {

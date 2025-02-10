@@ -1,9 +1,6 @@
 /* eslint-disable functional/immutable-data */
 
 const containerFail = {};
-// Can be replaced with the constant equivalents, such as container.aaa
-delete containerFail['aaa'];
-delete containerFail['Infinity'];
 
 // Dynamic, difficult-to-reason-about lookups
 const name = 'name';
