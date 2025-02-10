@@ -8,7 +8,10 @@ import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort
 import { rules as unicornRules } from 'eslint-plugin-unicorn';
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import { builtinRules as eslintRules, FlatESLint } from 'eslint/use-at-your-own-risk';
+import {
+  builtinRules as eslintRules,
+  FlatESLint,
+} from 'eslint/use-at-your-own-risk';
 
 import * as arrayFunction from '../rules/array-func';
 import * as eslint from '../rules/eslint';
@@ -143,7 +146,8 @@ describe.each(Object.keys(configuredRules))(
           expect.assertions(1);
 
           const rules = configuredRulesToOriginalMap[ruleSet];
-          const rule = rules instanceof Map ? rules.get(ruleName) : rules[ruleName];
+          const rule =
+            rules instanceof Map ? rules.get(ruleName) : rules[ruleName];
           expect(rule).toBeDefined();
         });
 
