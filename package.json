@@ -49,7 +49,7 @@
   ],
   "license": "UNLICENSED",
   "lint-staged": {
-    "*.{js,json,md,yml,yaml}": [
+    "*.{js,json,md,ts,yml,yaml}": [
       "prettier --write"
     ]
   },
