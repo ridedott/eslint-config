@@ -763,15 +763,15 @@ exports[`jest rules jest/consistent-test-it fails on an invalid fixture 1`] = `
   {
     "column": 1,
     "endColumn": 5,
-    "endLine": 1,
+    "endLine": 2,
     "fix": {
       "range": [
-        0,
-        4,
+        62,
+        66,
       ],
       "text": "it",
     },
-    "line": 1,
+    "line": 2,
     "message": "Prefer using 'it' instead of 'test'",
     "messageId": "consistentMethod",
     "nodeType": "Identifier",
@@ -2484,7 +2484,7 @@ exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
-    "endColumn": 5,
+    "endColumn": 10,
     "endLine": 6,
     "fix": {
       "range": [
@@ -2496,7 +2496,7 @@ exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
     "line": 6,
     "message": "Prefer using 'it' instead of 'test'",
     "messageId": "consistentMethod",
-    "nodeType": "Identifier",
+    "nodeType": "MemberExpression",
     "ruleId": "jest/consistent-test-it",
     "severity": 2,
   },

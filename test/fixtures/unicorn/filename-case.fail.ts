@@ -3,4 +3,4 @@
  * unicorn/filename-case rule is disabled for test files as they match
  * rule names.
  */
-test('Some lint error to have an error thrown');
+test.todo('some lint error to have an error thrown');

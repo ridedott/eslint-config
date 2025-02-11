@@ -6,7 +6,6 @@ module.exports = [
   ...shareableConfig,
   {
     files: ['test/*.ts'],
-    ...jestPlugin.configs.all,
     rules: {
       '@typescript-eslint/no-magic-numbers': 'off',
       'unicorn/no-unsafe-regex': 'off',
