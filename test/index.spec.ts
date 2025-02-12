@@ -1,5 +1,4 @@
 import { plugin as typescriptEslintPlugin } from 'typescript-eslint';
-import { ESLint, Linter } from 'eslint';
 import { rules as arrayFunctionRules } from 'eslint-plugin-array-func';
 import { rules as eslintCommentsRules } from 'eslint-plugin-eslint-comments';
 import { rules as functionalRules } from 'eslint-plugin-functional';
@@ -9,6 +8,10 @@ import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort
 import { rules as unicornRules } from 'eslint-plugin-unicorn';
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
+import {
+  builtinRules as eslintRules,
+  FlatESLint,
+} from 'eslint/use-at-your-own-risk';
 
 import * as arrayFunction from '../rules/array-func';
 import * as eslint from '../rules/eslint';
@@ -16,7 +19,6 @@ import * as eslintComments from '../rules/eslint-comments';
 import * as functional from '../rules/functional';
 import * as importConfiguredRules from '../rules/import';
 import * as jestConfiguredRules from '../rules/jest';
-import * as overrides from '../rules/overrides';
 import * as simpleImportSort from '../rules/simple-import-sort';
 import * as typescriptEslint from '../rules/typescript';
 import * as unicorn from '../rules/unicorn';
@@ -26,10 +28,7 @@ import * as fixturesPromises from './fixtures';
  * Test utilities
  */
 
-const cli = new ESLint();
-const linter = new Linter();
-
-const eslintRules = Object.fromEntries(linter.getRules());
+const cli = new FlatESLint();
 
 const configuredRules = {
   arrayFunc: arrayFunction,
@@ -38,7 +37,6 @@ const configuredRules = {
   functional,
   import: importConfiguredRules,
   jest: jestConfiguredRules,
-  overrides,
   simpleImportSort,
   typescriptEslint,
   unicorn,
@@ -51,7 +49,6 @@ const configuredRulesToOriginalMap = {
   functional: functionalRules,
   import: importRules,
   jest: jestRules,
-  overrides: eslintRules,
   simpleImportSort: simpleImportSortRules,
   typescriptEslint: typescriptEslintPlugin.rules,
   unicorn: unicornRules,
@@ -81,7 +78,7 @@ const lintFixture = async ({
   ruleName: string;
   ruleSet: string;
   type: 'fail' | 'pass';
-}): Promise<ESLint.LintResult> => {
+}): Promise<FlatESLint.LintResult> => {
   const ruleSetFixtures = await fixturesPromises[`${ruleSet}Fixtures`];
   const ruleFixtures = ruleSetFixtures[ruleName];
 
@@ -148,7 +145,10 @@ describe.each(Object.keys(configuredRules))(
         it(`exists in the current version of ${ruleSet}`, (): void => {
           expect.assertions(1);
 
-          expect(configuredRulesToOriginalMap[ruleSet][ruleName]).toBeDefined();
+          const rules = configuredRulesToOriginalMap[ruleSet];
+          const rule =
+            rules instanceof Map ? rules.get(ruleName) : rules[ruleName];
+          expect(rule).toBeDefined();
         });
 
         it('passes on a valid fixture', async (): Promise<void> => {

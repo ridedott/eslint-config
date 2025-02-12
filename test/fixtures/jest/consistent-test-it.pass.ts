@@ -1,4 +1,2 @@
-/* eslint-disable jest/no-disabled-tests */
-/* eslint-disable jest/prefer-todo */
-
+/* eslint-disable jest/prefer-todo, jest/no-disabled-tests */
 it('foo');
