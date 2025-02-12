@@ -20,38 +20,29 @@ npm install --save-dev @ridedott/eslint-config eslint
 ```
 
 Once it is finished, add an ESLint configuration to your project in a top-level
-`.eslintrc.yaml` file. An example configuration:
+`eslint.config.js` file.
 
-```yaml
-env:
-  es6: true
-  node: true
-extends: '@ridedott/eslint-config'
-overrides:
-  - env:
-      jest: true
-    files:
-      - __mocks__/**/*.ts
-      - src/**/*.spec.ts
-      - test/**/*.ts
-    rules:
-      '@typescript-eslint/no-magic-numbers': off
-      max-lines-per-function: off
-      max-statements: off
-      no-magic-numbers: off
-      unicorn/no-unsafe-regex: off
-  - files:
-      - scripts/**/*.ts
-    rules:
-      no-console: off
-  - files:
-      - __mocks__/**/*.ts
-    rules:
-      unicorn/filename-case: off
-parserOptions:
-  ecmaVersion: 2020
-  project: tsconfig.json
-  sourceType: module
+**IMPORTANT**: Starting from `@ridedott/eslint-config@3`, the exported
+configuration is a flat config (see
+[ESLint docs](https://eslint.org/docs/latest/use/migrate-to-9.0.0#-new-default-config-format-eslintconfigjs)
+for more details). To use it, please
+[migrate](https://eslint.org/docs/latest/use/configure/migration-guide) your
+project's configuration to flat config as well.
+
+An example configuration:
+
+```js
+const sharedConfig = require('@ridedott/eslint-config');
+
+module.exports = [
+  ...sharedConfig,
+  {
+    rules: {
+      // An example override for a rule configured in @ridedott/eslint-config
+      'sort-keys': 'off',
+    },
+  },
+];
 ```
 
 and a script in your `package.json` which will help you run ESLint with correct
