@@ -1,3 +1,27 @@
+# [3.0.0](https://github.com/ridedott/eslint-config/compare/v2.29.0...v3.0.0) (2025-02-12)
+
+### Chores
+
+- **deps-dev:** bump @babel/core from 7.26.7 to 7.26.8
+  ([e62d683](https://github.com/ridedott/eslint-config/commit/e62d683134b88c1c5c0aed55c7d555e7885b3dc8))
+- **deps-dev:** bump @babel/plugin-transform-typescript
+  ([0d0abae](https://github.com/ridedott/eslint-config/commit/0d0abaeb05f71ca96341741a0ccad669e4f67595))
+- **deps-dev:** bump @babel/preset-env from 7.26.7 to 7.26.8
+  ([8a63bc9](https://github.com/ridedott/eslint-config/commit/8a63bc95ef34d5a45bc846f623e1e3b61e83dc3d))
+- **deps-dev:** bump prettier from 3.4.2 to 3.5.0
+  ([d551934](https://github.com/ridedott/eslint-config/commit/d551934c56dd415cd2c949065f4dc2df511d1bd6))
+
+### Features
+
+- rewrite to use flat ESLint config
+  ([af6ce10](https://github.com/ridedott/eslint-config/commit/af6ce1055699c30beeab8e638a35ad4c35712ce3))
+
+### BREAKING CHANGE
+
+- The configuration is now exported as a flat configuration, so can only be
+  extended from in a flat configuration as well. Please migrate to using the new
+  flat ESLint configuration file format.
+
 # [2.29.0](https://github.com/ridedott/eslint-config/compare/v2.28.4...v2.29.0) (2025-02-07)
 
 ### Features
