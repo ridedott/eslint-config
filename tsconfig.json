@@ -26,5 +26,5 @@
     "target": "ES2019",
     "typeRoots": ["./@types", "./node_modules/@types"]
   },
-  "include": ["./test/**/*"]
+  "include": ["./test/**/*", "./node_modules/vitest/globals.d.ts"]
 }

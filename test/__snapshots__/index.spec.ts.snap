@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`] = `
+exports[`arrayFunc rules > array-func/avoid-reverse > fails on an invalid fixture 1`] = `
 [
   {
     "column": 27,
@@ -63,7 +63,7 @@ exports[`arrayFunc rules array-func/avoid-reverse fails on an invalid fixture 1`
 ]
 `;
 
-exports[`arrayFunc rules array-func/from-map fails on an invalid fixture 1`] = `
+exports[`arrayFunc rules > array-func/from-map > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -104,7 +104,7 @@ exports[`arrayFunc rules array-func/from-map fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`arrayFunc rules array-func/prefer-array-from fails on an invalid fixture 1`] = `
+exports[`arrayFunc rules > array-func/prefer-array-from > fails on an invalid fixture 1`] = `
 [
   {
     "column": 25,
@@ -145,7 +145,7 @@ exports[`arrayFunc rules array-func/prefer-array-from fails on an invalid fixtur
 ]
 `;
 
-exports[`eslint rules capitalized-comments fails on an invalid fixture 1`] = `
+exports[`eslint rules > capitalized-comments > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -204,7 +204,7 @@ exports[`eslint rules capitalized-comments fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`eslint rules func-names fails on an invalid fixture 1`] = `
+exports[`eslint rules > func-names > fails on an invalid fixture 1`] = `
 [
   {
     "column": 23,
@@ -220,7 +220,7 @@ exports[`eslint rules func-names fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`eslint rules id-length fails on an invalid fixture 1`] = `
+exports[`eslint rules > id-length > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -313,7 +313,7 @@ exports[`eslint rules id-length fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`eslint rules max-statements fails on an invalid fixture 1`] = `
+exports[`eslint rules > max-statements > fails on an invalid fixture 1`] = `
 [
   {
     "column": 32,
@@ -329,7 +329,7 @@ exports[`eslint rules max-statements fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`eslint rules one-var fails on an invalid fixture 1`] = `
+exports[`eslint rules > one-var > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -353,7 +353,7 @@ exports[`eslint rules one-var fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`eslint rules padding-line-between-statements fails on an invalid fixture 1`] = `
+exports[`eslint rules > padding-line-between-statements > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -415,7 +415,7 @@ exports[`eslint rules padding-line-between-statements fails on an invalid fixtur
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/disable-enable-pair fails on an invalid fixture 1`] = `
+exports[`eslintComments rules > eslint-comments/disable-enable-pair > fails on an invalid fixture 1`] = `
 [
   {
     "column": 19,
@@ -430,7 +430,7 @@ exports[`eslintComments rules eslint-comments/disable-enable-pair fails on an in
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/no-duplicate-disable fails on an invalid fixture 1`] = `
+exports[`eslintComments rules > eslint-comments/no-duplicate-disable > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -460,7 +460,7 @@ exports[`eslintComments rules eslint-comments/no-duplicate-disable fails on an i
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/no-unlimited-disable fails on an invalid fixture 1`] = `
+exports[`eslintComments rules > eslint-comments/no-unlimited-disable > fails on an invalid fixture 1`] = `
 [
   {
     "column": 0,
@@ -475,7 +475,7 @@ exports[`eslintComments rules eslint-comments/no-unlimited-disable fails on an i
 ]
 `;
 
-exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture 1`] = `
+exports[`eslintComments rules > eslint-comments/no-use > fails on an invalid fixture 1`] = `
 [
   {
     "column": 0,
@@ -610,7 +610,7 @@ exports[`eslintComments rules eslint-comments/no-use fails on an invalid fixture
 ]
 `;
 
-exports[`functional rules functional/immutable-data fails on an invalid fixture 1`] = `
+exports[`functional rules > functional/immutable-data > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -626,7 +626,7 @@ exports[`functional rules functional/immutable-data fails on an invalid fixture 
 ]
 `;
 
-exports[`functional rules functional/no-let fails on an invalid fixture 1`] = `
+exports[`functional rules > functional/no-let > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -660,7 +660,7 @@ exports[`functional rules functional/no-let fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`functional rules functional/no-this-expressions fails on an invalid fixture 1`] = `
+exports[`functional rules > functional/no-this-expressions > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -698,7 +698,7 @@ exports[`functional rules functional/no-this-expressions fails on an invalid fix
 ]
 `;
 
-exports[`import rules import/no-cycle fails on an invalid fixture 1`] = `
+exports[`import rules > import/no-cycle > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -713,7 +713,7 @@ exports[`import rules import/no-cycle fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`import rules import/no-default-export fails on an invalid fixture 1`] = `
+exports[`import rules > import/no-default-export > fails on an invalid fixture 1`] = `
 [
   {
     "column": 8,
@@ -728,7 +728,7 @@ exports[`import rules import/no-default-export fails on an invalid fixture 1`] =
 ]
 `;
 
-exports[`import rules import/no-extraneous-dependencies fails on an invalid fixture 1`] = `
+exports[`import rules > import/no-extraneous-dependencies > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -743,7 +743,7 @@ exports[`import rules import/no-extraneous-dependencies fails on an invalid fixt
 ]
 `;
 
-exports[`import rules import/no-self-import fails on an invalid fixture 1`] = `
+exports[`import rules > import/no-self-import > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -758,7 +758,7 @@ exports[`import rules import/no-self-import fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`jest rules jest/consistent-test-it fails on an invalid fixture 1`] = `
+exports[`jest rules > jest/consistent-test-it > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -781,7 +781,7 @@ exports[`jest rules jest/consistent-test-it fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`jest rules jest/no-interpolation-in-snapshots fails on an invalid fixture 1`] = `
+exports[`jest rules > jest/no-interpolation-in-snapshots > fails on an invalid fixture 1`] = `
 [
   {
     "column": 37,
@@ -797,7 +797,7 @@ exports[`jest rules jest/no-interpolation-in-snapshots fails on an invalid fixtu
 ]
 `;
 
-exports[`jest rules jest/prefer-expect-assertions fails on an invalid fixture 1`] = `
+exports[`jest rules > jest/prefer-expect-assertions > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -837,7 +837,7 @@ exports[`jest rules jest/prefer-expect-assertions fails on an invalid fixture 1`
 ]
 `;
 
-exports[`jest rules jest/unbound-method fails on an invalid fixture 1`] = `
+exports[`jest rules > jest/unbound-method > fails on an invalid fixture 1`] = `
 [
   {
     "column": 15,
@@ -854,7 +854,7 @@ If your function does not access \`this\`, you can annotate it with \`this: void
 ]
 `;
 
-exports[`jest rules jest/valid-title fails on an invalid fixture 1`] = `
+exports[`jest rules > jest/valid-title > fails on an invalid fixture 1`] = `
 [
   {
     "column": 4,
@@ -870,7 +870,7 @@ exports[`jest rules jest/valid-title fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`simpleImportSort rules simple-import-sort/exports fails on an invalid fixture 1`] = `
+exports[`simpleImportSort rules > simple-import-sort/exports > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -894,7 +894,7 @@ export * as a from 'url';",
 ]
 `;
 
-exports[`simpleImportSort rules simple-import-sort/imports fails on an invalid fixture 1`] = `
+exports[`simpleImportSort rules > simple-import-sort/imports > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -918,7 +918,7 @@ import * as path from 'path';",
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/array-type fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/array-type > fails on an invalid fixture 1`] = `
 [
   {
     "column": 47,
@@ -934,7 +934,7 @@ exports[`typescriptEslint rules @typescript-eslint/array-type fails on an invali
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/ban-types fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/ban-types > fails on an invalid fixture 1`] = `
 [
   {
     "column": 15,
@@ -957,7 +957,7 @@ exports[`typescriptEslint rules @typescript-eslint/ban-types fails on an invalid
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/consistent-type-definitions > fails on an invalid fixture 1`] = `
 [
   {
     "column": 6,
@@ -980,7 +980,7 @@ exports[`typescriptEslint rules @typescript-eslint/consistent-type-definitions f
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/explicit-function-return-type > fails on an invalid fixture 1`] = `
 [
   {
     "column": 26,
@@ -1018,7 +1018,7 @@ exports[`typescriptEslint rules @typescript-eslint/explicit-function-return-type
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/member-ordering fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/member-ordering > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -1034,7 +1034,7 @@ exports[`typescriptEslint rules @typescript-eslint/member-ordering fails on an i
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/naming-convention > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -1127,7 +1127,7 @@ exports[`typescriptEslint rules @typescript-eslint/naming-convention fails on an
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/no-dynamic-delete > fails on an invalid fixture 1`] = `
 [
   {
     "column": 22,
@@ -1154,7 +1154,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-dynamic-delete fails on an
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/no-explicit-any > fails on an invalid fixture 1`] = `
 [
   {
     "column": 24,
@@ -1363,7 +1363,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-explicit-any fails on an i
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/no-extra-non-null-assertion > fails on an invalid fixture 1`] = `
 [
   {
     "column": 38,
@@ -1450,7 +1450,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-extra-non-null-assertion f
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/no-magic-numbers > fails on an invalid fixture 1`] = `
 [
   {
     "column": 28,
@@ -1477,7 +1477,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-magic-numbers fails on an 
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/no-unnecessary-condition > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -1504,7 +1504,7 @@ exports[`typescriptEslint rules @typescript-eslint/no-unnecessary-condition fail
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/prefer-nullish-coalescing > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -1557,7 +1557,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-nullish-coalescing fai
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/prefer-optional-chain > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -1667,7 +1667,7 @@ exports[`typescriptEslint rules @typescript-eslint/prefer-optional-chain fails o
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/promise-function-async > fails on an invalid fixture 1`] = `
 [
   {
     "column": 40,
@@ -1708,7 +1708,7 @@ exports[`typescriptEslint rules @typescript-eslint/promise-function-async fails 
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/restrict-template-expressions > fails on an invalid fixture 1`] = `
 [
   {
     "column": 18,
@@ -1746,7 +1746,7 @@ exports[`typescriptEslint rules @typescript-eslint/restrict-template-expressions
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/return-await fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/return-await > fails on an invalid fixture 1`] = `
 [
   {
     "column": 12,
@@ -1811,7 +1811,7 @@ exports[`typescriptEslint rules @typescript-eslint/return-await fails on an inva
 ]
 `;
 
-exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions fails on an invalid fixture 1`] = `
+exports[`typescriptEslint rules > @typescript-eslint/strict-boolean-expressions > fails on an invalid fixture 1`] = `
 [
   {
     "column": 5,
@@ -1862,7 +1862,7 @@ exports[`typescriptEslint rules @typescript-eslint/strict-boolean-expressions fa
 ]
 `;
 
-exports[`unicorn rules unicorn/better-regex fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/better-regex > fails on an invalid fixture 1`] = `
 [
   {
     "column": 29,
@@ -2028,7 +2028,7 @@ exports[`unicorn rules unicorn/better-regex fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/catch-error-name fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/catch-error-name > fails on an invalid fixture 1`] = `
 [
   {
     "column": 10,
@@ -2051,7 +2051,7 @@ exports[`unicorn rules unicorn/catch-error-name fails on an invalid fixture 1`] 
 ]
 `;
 
-exports[`unicorn rules unicorn/consistent-destructuring fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/consistent-destructuring > fails on an invalid fixture 1`] = `
 [
   {
     "column": 16,
@@ -2085,7 +2085,7 @@ console.log(a, b",
 ]
 `;
 
-exports[`unicorn rules unicorn/consistent-function-scoping fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/consistent-function-scoping > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -2112,7 +2112,7 @@ exports[`unicorn rules unicorn/consistent-function-scoping fails on an invalid f
 ]
 `;
 
-exports[`unicorn rules unicorn/custom-error-definition fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/custom-error-definition > fails on an invalid fixture 1`] = `
 [
   {
     "column": 17,
@@ -2127,7 +2127,7 @@ exports[`unicorn rules unicorn/custom-error-definition fails on an invalid fixtu
 ]
 `;
 
-exports[`unicorn rules unicorn/error-message fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/error-message > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -2143,7 +2143,7 @@ exports[`unicorn rules unicorn/error-message fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/escape-case fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/escape-case > fails on an invalid fixture 1`] = `
 [
   {
     "column": 25,
@@ -2202,7 +2202,7 @@ exports[`unicorn rules unicorn/escape-case fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -2381,7 +2381,7 @@ exports[`unicorn rules unicorn/expiring-todo-comments fails on an invalid fixtur
 ]
 `;
 
-exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/explicit-length-check > fails on an invalid fixture 1`] = `
 [
   {
     "column": 5,
@@ -2480,7 +2480,7 @@ exports[`unicorn rules unicorn/explicit-length-check fails on an invalid fixture
 ]
 `;
 
-exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/filename-case > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -2503,7 +2503,7 @@ exports[`unicorn rules unicorn/filename-case fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/new-for-builtins fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/new-for-builtins > fails on an invalid fixture 1`] = `
 [
   {
     "column": 28,
@@ -2537,7 +2537,7 @@ exports[`unicorn rules unicorn/new-for-builtins fails on an invalid fixture 1`] 
 ]
 `;
 
-exports[`unicorn rules unicorn/no-array-for-each fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-array-for-each > fails on an invalid fixture 1`] = `
 [
   {
     "column": 4,
@@ -2562,7 +2562,7 @@ exports[`unicorn rules unicorn/no-array-for-each fails on an invalid fixture 1`]
 ]
 `;
 
-exports[`unicorn rules unicorn/no-array-push-push fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-array-push-push > fails on an invalid fixture 1`] = `
 [
   {
     "column": 21,
@@ -2585,7 +2585,7 @@ exports[`unicorn rules unicorn/no-array-push-push fails on an invalid fixture 1`
 ]
 `;
 
-exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-console-spaces > fails on an invalid fixture 1`] = `
 [
   {
     "column": 17,
@@ -2770,7 +2770,7 @@ exports[`unicorn rules unicorn/no-console-spaces fails on an invalid fixture 1`]
 ]
 `;
 
-exports[`unicorn rules unicorn/no-for-loop fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-for-loop > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -2794,7 +2794,7 @@ exports[`unicorn rules unicorn/no-for-loop fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/no-hex-escape fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-hex-escape > fails on an invalid fixture 1`] = `
 [
   {
     "column": 26,
@@ -2846,7 +2846,7 @@ exports[`unicorn rules unicorn/no-hex-escape fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/no-instanceof-array fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-instanceof-array > fails on an invalid fixture 1`] = `
 [
   {
     "column": 4,
@@ -2887,7 +2887,7 @@ exports[`unicorn rules unicorn/no-instanceof-array fails on an invalid fixture 1
 ]
 `;
 
-exports[`unicorn rules unicorn/no-lonely-if fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-lonely-if > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -2912,7 +2912,7 @@ exports[`unicorn rules unicorn/no-lonely-if fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/no-new-array fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-new-array > fails on an invalid fixture 1`] = `
 [
   {
     "column": 24,
@@ -2935,7 +2935,7 @@ exports[`unicorn rules unicorn/no-new-array fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/no-new-buffer fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-new-buffer > fails on an invalid fixture 1`] = `
 [
   {
     "column": 20,
@@ -2958,7 +2958,7 @@ exports[`unicorn rules unicorn/no-new-buffer fails on an invalid fixture 1`] = `
 ]
 `;
 
-exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-unsafe-regex > fails on an invalid fixture 1`] = `
 [
   {
     "column": 20,
@@ -3439,7 +3439,7 @@ exports[`unicorn rules unicorn/no-unsafe-regex fails on an invalid fixture 1`] =
 ]
 `;
 
-exports[`unicorn rules unicorn/no-useless-length-check fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-useless-length-check > fails on an invalid fixture 1`] = `
 [
   {
     "column": 28,
@@ -3462,7 +3462,7 @@ exports[`unicorn rules unicorn/no-useless-length-check fails on an invalid fixtu
 ]
 `;
 
-exports[`unicorn rules unicorn/no-useless-spread fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-useless-spread > fails on an invalid fixture 1`] = `
 [
   {
     "column": 33,
@@ -3485,7 +3485,7 @@ exports[`unicorn rules unicorn/no-useless-spread fails on an invalid fixture 1`]
 ]
 `;
 
-exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-zero-fractions > fails on an invalid fixture 1`] = `
 [
   {
     "column": 22,
@@ -3562,7 +3562,7 @@ exports[`unicorn rules unicorn/no-zero-fractions fails on an invalid fixture 1`]
 ]
 `;
 
-exports[`unicorn rules unicorn/numeric-separators-style fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/numeric-separators-style > fails on an invalid fixture 1`] = `
 [
   {
     "column": 36,
@@ -3585,7 +3585,7 @@ exports[`unicorn rules unicorn/numeric-separators-style fails on an invalid fixt
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-add-event-listener > fails on an invalid fixture 1`] = `
 [
   {
     "column": 10,
@@ -3619,7 +3619,7 @@ exports[`unicorn rules unicorn/prefer-add-event-listener fails on an invalid fix
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-array-find fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-array-find > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -3642,7 +3642,7 @@ exports[`unicorn rules unicorn/prefer-array-find fails on an invalid fixture 1`]
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-array-flat-map fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-array-flat-map > fails on an invalid fixture 1`] = `
 [
   {
     "column": 16,
@@ -3665,7 +3665,7 @@ exports[`unicorn rules unicorn/prefer-array-flat-map fails on an invalid fixture
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-array-index-of fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-array-index-of > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -3688,7 +3688,7 @@ exports[`unicorn rules unicorn/prefer-array-index-of fails on an invalid fixture
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-array-some fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-array-some > fails on an invalid fixture 1`] = `
 [
   {
     "column": 11,
@@ -3720,7 +3720,7 @@ exports[`unicorn rules unicorn/prefer-array-some fails on an invalid fixture 1`]
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-date-now fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-date-now > fails on an invalid fixture 1`] = `
 [
   {
     "column": 12,
@@ -3743,7 +3743,7 @@ exports[`unicorn rules unicorn/prefer-date-now fails on an invalid fixture 1`] =
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-default-parameters fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-default-parameters > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -3774,7 +3774,7 @@ exports[`unicorn rules unicorn/prefer-default-parameters fails on an invalid fix
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-includes > fails on an invalid fixture 1`] = `
 [
   {
     "column": 4,
@@ -3880,7 +3880,7 @@ exports[`unicorn rules unicorn/prefer-includes fails on an invalid fixture 1`] =
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-keyboard-event-key fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-keyboard-event-key > fails on an invalid fixture 1`] = `
 [
   {
     "column": 21,
@@ -3896,7 +3896,7 @@ exports[`unicorn rules unicorn/prefer-keyboard-event-key fails on an invalid fix
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-math-trunc fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-math-trunc > fails on an invalid fixture 1`] = `
 [
   {
     "column": 13,
@@ -3929,7 +3929,7 @@ exports[`unicorn rules unicorn/prefer-math-trunc fails on an invalid fixture 1`]
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-negative-index > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -4009,7 +4009,7 @@ exports[`unicorn rules unicorn/prefer-negative-index fails on an invalid fixture
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-number-properties fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-number-properties > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -4032,7 +4032,7 @@ exports[`unicorn rules unicorn/prefer-number-properties fails on an invalid fixt
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-object-from-entries fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-object-from-entries > fails on an invalid fixture 1`] = `
 [
   {
     "column": 70,
@@ -4062,7 +4062,7 @@ exports[`unicorn rules unicorn/prefer-object-from-entries fails on an invalid fi
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-prototype-methods fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-prototype-methods > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -4085,7 +4085,7 @@ exports[`unicorn rules unicorn/prefer-prototype-methods fails on an invalid fixt
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-query-selector fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-query-selector > fails on an invalid fixture 1`] = `
 [
   {
     "column": 10,
@@ -4108,7 +4108,7 @@ exports[`unicorn rules unicorn/prefer-query-selector fails on an invalid fixture
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-reflect-apply > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -4251,7 +4251,7 @@ exports[`unicorn rules unicorn/prefer-reflect-apply fails on an invalid fixture 
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-set-has fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-set-has > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -4276,7 +4276,7 @@ const preferSetHasFailFunction = (value: number): boolean =>
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-string-replace-all fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-string-replace-all > fails on an invalid fixture 1`] = `
 [
   {
     "column": 5,
@@ -4299,7 +4299,7 @@ exports[`unicorn rules unicorn/prefer-string-replace-all fails on an invalid fix
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-string-slice fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-string-slice > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -4340,7 +4340,7 @@ exports[`unicorn rules unicorn/prefer-string-slice fails on an invalid fixture 1
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-string-starts-ends-with fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-string-starts-ends-with > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -4381,7 +4381,7 @@ exports[`unicorn rules unicorn/prefer-string-starts-ends-with fails on an invali
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-string-trim-start-end fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-string-trim-start-end > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
@@ -4422,7 +4422,7 @@ exports[`unicorn rules unicorn/prefer-string-trim-start-end fails on an invalid 
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-ternary fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-ternary > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -4445,7 +4445,7 @@ exports[`unicorn rules unicorn/prefer-ternary fails on an invalid fixture 1`] = 
 ]
 `;
 
-exports[`unicorn rules unicorn/prefer-top-level-await fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prefer-top-level-await > fails on an invalid fixture 1`] = `
 [
   {
     "column": 26,
@@ -4461,7 +4461,7 @@ exports[`unicorn rules unicorn/prefer-top-level-await fails on an invalid fixtur
 ]
 `;
 
-exports[`unicorn rules unicorn/prevent-abbreviations fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/prevent-abbreviations > fails on an invalid fixture 1`] = `
 [
   {
     "column": 10,
@@ -4488,7 +4488,7 @@ exports[`unicorn rules unicorn/prevent-abbreviations fails on an invalid fixture
 ]
 `;
 
-exports[`unicorn rules unicorn/require-array-join-separator fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/require-array-join-separator > fails on an invalid fixture 1`] = `
 [
   {
     "column": 8,
@@ -4511,7 +4511,7 @@ exports[`unicorn rules unicorn/require-array-join-separator fails on an invalid 
 ]
 `;
 
-exports[`unicorn rules unicorn/require-number-to-fixed-digits-argument fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/require-number-to-fixed-digits-argument > fails on an invalid fixture 1`] = `
 [
   {
     "column": 12,
@@ -4534,7 +4534,7 @@ exports[`unicorn rules unicorn/require-number-to-fixed-digits-argument fails on 
 ]
 `;
 
-exports[`unicorn rules unicorn/throw-new-error fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/throw-new-error > fails on an invalid fixture 1`] = `
 [
   {
     "column": 7,
