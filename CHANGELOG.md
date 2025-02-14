@@ -1,3 +1,14 @@
+## [3.0.2](https://github.com/ridedott/eslint-config/compare/v3.0.1...v3.0.2) (2025-02-14)
+
+### Chores
+
+- **deps-dev:** bump globals from 15.14.0 to 15.15.0
+  ([af45f78](https://github.com/ridedott/eslint-config/commit/af45f7874bb787b73723a0a4e5b1fe60bd3d40a4))
+- **deps-dev:** bump prettier from 3.5.0 to 3.5.1
+  ([3c6213e](https://github.com/ridedott/eslint-config/commit/3c6213e7329e231c24a4b8129d76d88f94e8c813))
+- relax Node.js engine requirements to allow version 22
+  ([d331ee7](https://github.com/ridedott/eslint-config/commit/d331ee76c7cd684e240cf5a18198d5f54c477609))
+
 ## [3.0.1](https://github.com/ridedott/eslint-config/compare/v3.0.0...v3.0.1) (2025-02-12)
 
 ### Chores
