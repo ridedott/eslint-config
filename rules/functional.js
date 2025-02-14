@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     'functional/immutable-data': 'error',
     'functional/no-let': ['error', { allowInFunctions: true }],

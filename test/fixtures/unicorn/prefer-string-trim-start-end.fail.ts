@@ -1,2 +1,0 @@
-'bar'.trimLeft();
-'bar'.trimRight();

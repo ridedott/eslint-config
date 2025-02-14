@@ -1,46 +1,6 @@
-module.exports = {
+export default {
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
-    '@typescript-eslint/ban-types': [
-      'error',
-      {
-        extendDefaults: false,
-        types: {
-          '{}': {
-            fixWith: 'object',
-            message: '`{}` actually means "any non-nullish value".',
-          },
-          Boolean: {
-            fixWith: 'boolean',
-            message: 'Use boolean instead.',
-          },
-          Function: {
-            message: [
-              'The `Function` type accepts any function-like value.',
-              'It provides no type safety when calling the function, which can be a common source of bugs.',
-              'It also accepts things like class declarations, which will throw at runtime as they will not be called with `new`.',
-              'If the function is expected to accept certain arguments, define the function shape explicitly.',
-            ].join(' '),
-          },
-          Number: {
-            fixWith: 'number',
-            message: 'Use number instead.',
-          },
-          Object: {
-            fixWith: 'object',
-            message: 'Use object instead.',
-          },
-          String: {
-            fixWith: 'string',
-            message: 'Use string instead.',
-          },
-          Symbol: {
-            fixWith: 'symbol',
-            message: 'Use symbol instead.',
-          },
-        },
-      },
-    ],
     // Code should be formatted using Prettier.
     '@typescript-eslint/comma-dangle': 'off',
     // Does not make it possible to define recursive types.
@@ -186,6 +146,7 @@ module.exports = {
     '@typescript-eslint/no-dynamic-delete': 'error',
     // Empty functions are often used as no operation.
     '@typescript-eslint/no-empty-function': 'off',
+    '@typescript-eslint/no-empty-object-type': 'error',
     '@typescript-eslint/no-explicit-any': ['error', { fixToUnknown: true }],
     '@typescript-eslint/no-extra-non-null-assertion': ['error'],
     // Code should be formatted using Prettier.
@@ -231,6 +192,7 @@ module.exports = {
      * manually.
      */
     '@typescript-eslint/no-unsafe-call': 'off',
+    '@typescript-eslint/no-unsafe-function-type': 'error',
     /**
      * `any` type can only come from libraries. Until correct types are added
      * to those libraries, it is too much of an overhead to define all types
@@ -257,6 +219,7 @@ module.exports = {
      * Superseded by @typescript-eslint/no-unused-vars.
      */
     '@typescript-eslint/no-unused-vars-experimental': 'off',
+    '@typescript-eslint/no-wrapper-object-types': 'error',
     '@typescript-eslint/object-curly-spacing': 'off',
     // This is covered by unicorn/prefer-array-find
     '@typescript-eslint/prefer-find': 'off',

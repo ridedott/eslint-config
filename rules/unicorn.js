@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     'unicorn/better-regex': 'error',
     'unicorn/catch-error-name': 'error',
@@ -36,7 +36,8 @@ module.exports = {
     // Ternary operators help write immutable code.
     'unicorn/no-nested-ternary': 'off',
     'unicorn/no-new-array': 'error',
-    'unicorn/no-new-buffer': 'error',
+    // This is covered by @typescript-eslint/no-deprecated
+    'unicorn/no-new-buffer': 'off',
     'unicorn/no-null': 'off',
     // Unnecessary with TypeScript.
     'unicorn/no-object-as-default-parameter': 'off',
@@ -72,7 +73,8 @@ module.exports = {
     // Manual DOM manipulation is discouraged.
     'unicorn/prefer-dom-node-text-content': 'off',
     'unicorn/prefer-includes': 'error',
-    'unicorn/prefer-keyboard-event-key': 'error',
+    // This is covered by @typescript-eslint/no-deprecated
+    'unicorn/prefer-keyboard-event-key': 'off',
     'unicorn/prefer-math-trunc': 'error',
     'unicorn/prefer-negative-index': 'error',
     'unicorn/prefer-number-properties': 'error',
@@ -92,7 +94,8 @@ module.exports = {
     'unicorn/prefer-string-replace-all': 'error',
     'unicorn/prefer-string-slice': 'error',
     'unicorn/prefer-string-starts-ends-with': 'error',
-    'unicorn/prefer-string-trim-start-end': 'error',
+    // This is covered by @typescript-eslint/no-deprecated
+    'unicorn/prefer-string-trim-start-end': 'off',
     'unicorn/prefer-ternary': 'error',
     'unicorn/prefer-top-level-await': 'error',
     // Type checks are performed by TypeScript compiler.

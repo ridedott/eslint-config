@@ -1,48 +1,52 @@
-const typescriptEslint = require('typescript-eslint');
-const arrayFunc = require('eslint-plugin-array-func');
-const eslintComments = require('eslint-plugin-eslint-comments');
-const functional = require('eslint-plugin-functional');
-const _import = require('eslint-plugin-import');
-const jestPlugin = require('eslint-plugin-jest');
-const simpleImportSort = require('eslint-plugin-simple-import-sort');
-const unicorn = require('eslint-plugin-unicorn');
-const globals = require('globals');
-const js = require('@eslint/js');
-const eslintConfigPrettier = require('eslint-config-prettier');
+import eslint from '@eslint/js';
+import stylistic from '@stylistic/eslint-plugin';
+import typescriptEslintPlugin from 'typescript-eslint';
+import eslintPluginImport from 'eslint-plugin-import';
+import arrayFuncPlugin from 'eslint-plugin-array-func';
+import eslintCommentsPlugin from 'eslint-plugin-eslint-comments';
+import eslintPluginFunctional from 'eslint-plugin-functional';
+import jestPlugin from 'eslint-plugin-jest';
+import simpleImportSortPlugin from 'eslint-plugin-simple-import-sort';
+import unicornPlugin from 'eslint-plugin-unicorn';
+import globals from 'globals';
+import eslintConfigPrettier from 'eslint-config-prettier';
 
-const arrayFuncConfig = require('./rules/array-func');
-const eslintConfig = require('./rules/eslint');
-const eslintCommentsConfig = require('./rules/eslint-comments');
-const functionalConfig = require('./rules/functional');
-const importConfig = require('./rules/import');
-const jestConfig = require('./rules/jest');
-const simpleImportSortConfig = require('./rules/simple-import-sort');
-const unicornConfig = require('./rules/unicorn');
-const typescriptConfig = require('./rules/typescript');
+import arrayFuncConfig from './rules/array-func.js';
+import eslintConfig from './rules/eslint.js';
+import eslintCommentsConfig from './rules/eslint-comments.js';
+import functionalConfig from './rules/functional.js';
+import importConfig from './rules/import.js';
+import jestConfig from './rules/jest.js';
+import simpleImportSortConfig from './rules/simple-import-sort.js';
+import stylisticConfig from './rules/stylistic.js';
+import unicornConfig from './rules/unicorn.js';
+import typescriptConfig from './rules/typescript.js';
 
-module.exports = [
-  js.configs.all,
-  ...typescriptEslint.configs.all,
-  _import.configs.typescript,
+export default [
+  eslint.configs.all,
+  ...typescriptEslintPlugin.configs.all,
+  eslintPluginImport.configs.typescript,
+  jestPlugin.configs['flat/all'],
+
   arrayFuncConfig,
   eslintCommentsConfig,
   eslintConfig,
   functionalConfig,
   importConfig,
-  jestPlugin.configs['flat/all'],
   jestConfig,
   simpleImportSortConfig,
+  stylisticConfig,
   typescriptConfig,
   unicornConfig,
   {
     plugins: {
-      '@typescript-eslint': typescriptEslint.plugin,
-      'array-func': arrayFunc,
-      'eslint-comments': eslintComments,
-      functional,
-      import: _import,
-      'simple-import-sort': simpleImportSort,
-      unicorn,
+      '@stylistic': stylistic,
+      'array-func': arrayFuncPlugin,
+      'eslint-comments': eslintCommentsPlugin,
+      functional: eslintPluginFunctional,
+      import: eslintPluginImport,
+      'simple-import-sort': simpleImportSortPlugin,
+      unicorn: unicornPlugin,
     },
 
     languageOptions: {
@@ -50,11 +54,11 @@ module.exports = [
         ...globals.jest,
         ...globals.node,
       },
-      parser: typescriptEslint.parser,
+      parser: typescriptEslintPlugin.parser,
       ecmaVersion: 2020,
       sourceType: 'module',
       parserOptions: {
-        project: 'tsconfig.json',
+        projectService: true,
       },
     },
 

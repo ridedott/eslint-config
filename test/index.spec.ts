@@ -8,43 +8,41 @@ import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort
 import { rules as unicornRules } from 'eslint-plugin-unicorn';
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import {
-  builtinRules as eslintRules,
-  FlatESLint,
-} from 'eslint/use-at-your-own-risk';
+import { ESLint } from 'eslint';
+import eslint from '@eslint/js';
 
-import * as arrayFunction from '../rules/array-func';
-import * as eslint from '../rules/eslint';
-import * as eslintComments from '../rules/eslint-comments';
-import * as functional from '../rules/functional';
-import * as importConfiguredRules from '../rules/import';
-import * as jestConfiguredRules from '../rules/jest';
-import * as simpleImportSort from '../rules/simple-import-sort';
-import * as typescriptEslint from '../rules/typescript';
-import * as unicorn from '../rules/unicorn';
-import * as fixturesPromises from './fixtures';
+import arrayFunc from '../rules/array-func.js';
+import eslintConfigured from '../rules/eslint.js';
+import eslintComments from '../rules/eslint-comments.js';
+import functional from '../rules/functional.js';
+import importConfigured from '../rules/import.js';
+import jestConfigured from '../rules/jest.js';
+import simpleImportSort from '../rules/simple-import-sort.js';
+import typescriptEslint from '../rules/typescript.js';
+import unicorn from '../rules/unicorn.js';
+import * as fixturesPromises from './fixtures/index.js';
 
 /*
  * Test utilities
  */
 
-const cli = new FlatESLint();
+const cli = new ESLint();
 
 const configuredRules = {
-  arrayFunc: arrayFunction,
-  eslint,
-  eslintComments,
-  functional,
-  import: importConfiguredRules,
-  jest: jestConfiguredRules,
-  simpleImportSort,
-  typescriptEslint,
-  unicorn,
+  arrayFunc: arrayFunc.rules,
+  eslint: eslintConfigured.rules,
+  eslintComments: eslintComments.rules,
+  functional: functional.rules,
+  import: importConfigured.rules,
+  jest: jestConfigured.rules,
+  simpleImportSort: simpleImportSort.rules,
+  typescriptEslint: typescriptEslint.rules,
+  unicorn: unicorn.rules,
 } as const;
 
 const configuredRulesToOriginalMap = {
   arrayFunc: arrayFunctionRules,
-  eslint: eslintRules,
+  eslint: eslint.configs.all.rules,
   eslintComments: eslintCommentsRules,
   functional: eslintPluginFunctional.rules,
   import: importRules,
@@ -74,7 +72,7 @@ const lintFixture = async ({
   ruleName: string;
   ruleSet: string;
   type: 'fail' | 'pass';
-}): Promise<FlatESLint.LintResult> => {
+}): Promise<ESLint.LintResult> => {
   const ruleSetFixtures = await fixturesPromises[`${ruleSet}Fixtures`];
   const ruleFixtures = ruleSetFixtures[ruleName];
 
@@ -135,17 +133,17 @@ describe.each(Object.keys(configuredRules))(
      * vitest fails if there aren't any tests in a suite,
      * so filter out rules that don't have fixtures or are turned off
      */
-    const rulesWithFixtures = Object.keys(
-      configuredRules[ruleSet].rules,
-    ).filter((configuredRule) => {
-      const ruleName = getRuleName(configuredRule);
-      const ruleFixtures = ruleSetFixtures[ruleName];
+    const rulesWithFixtures = Object.keys(configuredRules[ruleSet]).filter(
+      (configuredRule) => {
+        const ruleName = getRuleName(configuredRule);
+        const ruleFixtures = ruleSetFixtures[ruleName];
 
-      return (
-        ruleFixtures !== undefined &&
-        configuredRules[ruleSet].rules[configuredRule] !== 'off'
-      );
-    });
+        return (
+          ruleFixtures !== undefined &&
+          configuredRules[ruleSet][configuredRule] !== 'off'
+        );
+      },
+    );
 
     describe.each(rulesWithFixtures)(
       '%s',

@@ -1,2 +1,2 @@
-/* eslint-disable jest/prefer-todo, jest/no-disabled-tests */
+/* eslint-disable unicorn/expiring-todo-comments, jest/prefer-todo, jest/no-disabled-tests */
 it('foo');

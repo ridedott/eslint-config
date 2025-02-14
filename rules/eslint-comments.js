@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
     'eslint-comments/no-aggregating-enable': 'off',

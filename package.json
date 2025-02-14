@@ -5,25 +5,27 @@
     }
   },
   "dependencies": {
+    "@stylistic/eslint-plugin": "^3.1.0",
     "eslint-config-prettier": "^10.0.1",
-    "eslint-plugin-array-func": "^4.0.0",
+    "eslint-plugin-array-func": "^5.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
-    "eslint-plugin-functional": "^6.5.1",
+    "eslint-plugin-functional": "^8.0.0",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.11.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unicorn": "^56.0.1",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^7.18.0"
+    "typescript-eslint": "^8.24.0"
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
   "devDependencies": {
     "@commitlint/cli": "^19.7.1",
     "@commitlint/config-conventional": "^19.7.1",
-    "@eslint/js": "^8.57.1",
+    "@eslint/js": "^9.20.0",
     "@types/eslint": "^9.6.1",
     "@types/node": "^18.19.76",
     "commitizen": "^4.3.1",
+    "eslint": "^9.20.1",
     "globals": "^15.15.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3",
@@ -48,7 +50,7 @@
   "main": "./index.js",
   "name": "@ridedott/eslint-config",
   "peerDependencies": {
-    "eslint": "^8.57.1"
+    "eslint": "^9.20.1"
   },
   "repository": {
     "type": "git",
@@ -63,5 +65,6 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
+  "type": "module",
   "version": "3.0.3"
 }

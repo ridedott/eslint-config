@@ -1,3 +1,3 @@
-export const iterable = [...'string'];
+const iterable = ['a', 'b', 'c'];
 
 const arrayCopy = [...iterable];
