@@ -20,10 +20,6 @@ updates:
       - dependency-name: '@types/node'
         versions:
           - '>= 19'
-          # babel-jest needs to be updated together with Jest
-      - dependency-name: 'babel-jest'
-        versions:
-          - '> 29'
     open-pull-requests-limit: 99
     package-ecosystem: npm
     schedule:

@@ -1,7 +1,7 @@
 import { plugin as typescriptEslintPlugin } from 'typescript-eslint';
 import { rules as arrayFunctionRules } from 'eslint-plugin-array-func';
 import { rules as eslintCommentsRules } from 'eslint-plugin-eslint-comments';
-import { rules as functionalRules } from 'eslint-plugin-functional';
+import eslintPluginFunctional from 'eslint-plugin-functional';
 import { rules as importRules } from 'eslint-plugin-import';
 import { rules as jestRules } from 'eslint-plugin-jest';
 import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort';
@@ -46,7 +46,7 @@ const configuredRulesToOriginalMap = {
   arrayFunc: arrayFunctionRules,
   eslint: eslintRules,
   eslintComments: eslintCommentsRules,
-  functional: functionalRules,
+  functional: eslintPluginFunctional.rules,
   import: importRules,
   jest: jestRules,
   simpleImportSort: simpleImportSortRules,
@@ -59,10 +59,6 @@ const fixtureFilePath = (ruleSet: string): string => {
 
   if (ruleSet === 'eslint') {
     return `${BASE_PATH}/eslint/`;
-  }
-
-  if (ruleSet === 'overrides') {
-    return `${BASE_PATH}/overrides/`;
   }
 
   return `${BASE_PATH}`;
@@ -132,15 +128,29 @@ const getRuleName = (configuredRule: string): string => {
  */
 describe.each(Object.keys(configuredRules))(
   '%s rules',
-  (ruleSet: string): void => {
-    describe.each(Object.keys(configuredRules[ruleSet].rules))(
-      '%s',
-      (configuredRule: string): void => {
-        const ruleName = getRuleName(configuredRule);
+  async (ruleSet: string): Promise<void> => {
+    const ruleSetFixtures = await fixturesPromises[`${ruleSet}Fixtures`];
 
-        if (configuredRules[ruleSet].rules[configuredRule] === 'off') {
-          return;
-        }
+    /**
+     * vitest fails if there aren't any tests in a suite,
+     * so filter out rules that don't have fixtures or are turned off
+     */
+    const rulesWithFixtures = Object.keys(
+      configuredRules[ruleSet].rules,
+    ).filter((configuredRule) => {
+      const ruleName = getRuleName(configuredRule);
+      const ruleFixtures = ruleSetFixtures[ruleName];
+
+      return (
+        ruleFixtures !== undefined &&
+        configuredRules[ruleSet].rules[configuredRule] !== 'off'
+      );
+    });
+
+    describe.each(rulesWithFixtures)(
+      '%s',
+      async (configuredRule: string): Promise<void> => {
+        const ruleName = getRuleName(configuredRule);
 
         it(`exists in the current version of ${ruleSet}`, (): void => {
           expect.assertions(1);
