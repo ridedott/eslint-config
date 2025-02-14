@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/ridedott/eslint-config/compare/v3.0.2...v3.0.3) (2025-02-14)
+
+### Chores
+
+- use vitest instead of jest
+  ([42bda7d](https://github.com/ridedott/eslint-config/commit/42bda7ddcf34aafb495eadc3be5e7641eaf23512))
+
 ## [3.0.2](https://github.com/ridedott/eslint-config/compare/v3.0.1...v3.0.2) (2025-02-14)
 
 ### Chores
