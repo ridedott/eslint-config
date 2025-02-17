@@ -1,3 +1,15 @@
+## [3.0.4](https://github.com/ridedott/eslint-config/compare/v3.0.3...v3.0.4) (2025-02-17)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 18.19.75 to 18.19.76
+  ([b9881d1c](https://github.com/ridedott/eslint-config/commit/b9881d1cef06f99fe6f4a866b563a3d5d10be6d4))
+
+### Continuous Integration
+
+- add Node v22 to the test step
+  ([9ed439b](https://github.com/ridedott/eslint-config/commit/9ed439b92153186c05bcd371d8647bcc910c29af))
+
 ## [3.0.3](https://github.com/ridedott/eslint-config/compare/v3.0.2...v3.0.3) (2025-02-14)
 
 ### Chores
