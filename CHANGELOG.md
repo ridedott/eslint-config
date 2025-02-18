@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/ridedott/eslint-config/compare/v4.0.1...v4.0.2) (2025-02-18)
+
+### Chores
+
+- removed no longer used vscode setting
+  ([0a24f6e](https://github.com/ridedott/eslint-config/commit/0a24f6e3e2038b53212a0357d5cab4917d62b1ce))
+
 ## [4.0.1](https://github.com/ridedott/eslint-config/compare/v4.0.0...v4.0.1) (2025-02-18)
 
 ### Chores
