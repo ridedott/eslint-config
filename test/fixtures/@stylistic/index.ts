@@ -1,3 +1,3 @@
 import { generatePluginFixture } from '../../common/generatePluginFixture.js';
 
-export const simpleImportSortFixtures = generatePluginFixture(__dirname);
+export const stylisticFixtures = generatePluginFixture(__dirname);

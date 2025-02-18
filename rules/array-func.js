@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     'array-func/from-map': 'error',
     // Use of `this` is disallowed altogether.

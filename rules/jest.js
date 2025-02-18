@@ -1,5 +1,4 @@
-// Jest rules
-module.exports = {
+export default {
   rules: {
     'jest/consistent-test-it': ['error', { fn: 'it', withinDescribe: 'it' }],
     'jest/expect-expect': 'off',

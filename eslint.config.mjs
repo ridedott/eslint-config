@@ -1,8 +1,6 @@
-const jestPlugin = require('eslint-plugin-jest');
+import shareableConfig from './index.js';
 
-const shareableConfig = require('./index');
-
-module.exports = [
+export default [
   ...shareableConfig,
   {
     files: ['test/*.ts'],

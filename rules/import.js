@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     // This rule conflicts with features provided by TypeScript.
     'import/namespace': 'off',
