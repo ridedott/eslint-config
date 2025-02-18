@@ -1,3 +1,16 @@
+# [4.0.0](https://github.com/ridedott/eslint-config/compare/v3.0.5...v4.0.0) (2025-02-18)
+
+### Features
+
+- update to ESLint v9
+  ([ba3483b](https://github.com/ridedott/eslint-config/commit/ba3483bda85a38237a19b8b6eb1b7db32a59bbca))
+
+### BREAKING CHANGE
+
+- ESLint v9 is now required. For an easier update, consider updating to
+  `@ridedott/eslint-config@3` that supports new flat ESLint configuration first,
+  and then updating to `@ridedott/eslint-config@4`
+
 ## [3.0.5](https://github.com/ridedott/eslint-config/compare/v3.0.4...v3.0.5) (2025-02-17)
 
 ### Chores
