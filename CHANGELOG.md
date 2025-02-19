@@ -1,3 +1,10 @@
+## [4.0.5](https://github.com/ridedott/eslint-config/compare/v4.0.4...v4.0.5) (2025-02-19)
+
+### Chores
+
+- **deps:** bump @stylistic/eslint-plugin from 4.0.0 to 4.0.1
+  ([11dad1b](https://github.com/ridedott/eslint-config/commit/11dad1bdde5dff19556281638ba8c11e627dfc99))
+
 ## [4.0.4](https://github.com/ridedott/eslint-config/compare/v4.0.3...v4.0.4) (2025-02-19)
 
 ### Chores
