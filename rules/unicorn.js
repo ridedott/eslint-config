@@ -30,7 +30,7 @@ export default {
     'unicorn/no-console-spaces': 'error',
     'unicorn/no-for-loop': 'error',
     'unicorn/no-hex-escape': 'error',
-    'unicorn/no-instanceof-array': 'error',
+    'unicorn/no-instanceof-builtins': 'error',
     'unicorn/no-keyword-prefix': 'off',
     'unicorn/no-lonely-if': 'error',
     // Ternary operators help write immutable code.
@@ -47,7 +47,6 @@ export default {
     // Covered by consistent-this.
     'unicorn/no-this-assignment': 'off',
     'unicorn/no-unreadable-array-destructuring': 'off',
-    'unicorn/no-unsafe-regex': 'error',
     'unicorn/no-unused-properties': 'off',
     'unicorn/no-useless-length-check': 'error',
     'unicorn/no-useless-spread': 'error',
