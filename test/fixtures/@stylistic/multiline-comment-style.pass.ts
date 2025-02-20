@@ -3,4 +3,5 @@
  * calls foo()
  */
 const foo = (): void => {};
+
 foo();
