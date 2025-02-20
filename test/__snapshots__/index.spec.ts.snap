@@ -335,6 +335,29 @@ exports[`eslint rules > one-var > fails on an invalid fixture 1`] = `
 ]
 `;
 
+exports[`eslint rules > prefer-exponentiation-operator > fails on an invalid fixture 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 15,
+    "endLine": 3,
+    "fix": {
+      "range": [
+        58,
+        72,
+      ],
+      "text": "2**4",
+    },
+    "line": 3,
+    "message": "Use the '**' operator instead of 'Math.pow'.",
+    "messageId": "useExponentiation",
+    "nodeType": "CallExpression",
+    "ruleId": "prefer-exponentiation-operator",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`eslintComments rules > eslint-comments/disable-enable-pair > fails on an invalid fixture 1`] = `
 [
   {
@@ -828,6 +851,129 @@ import * as path from 'path';",
 ]
 `;
 
+exports[`stylistic rules > multiline-comment-style > fails on an invalid fixture 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 3,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        2,
+        2,
+      ],
+      "text": "
+ *",
+    },
+    "line": 1,
+    "message": "Expected a linebreak after '/*'.",
+    "messageId": "startNewline",
+    "nodeType": null,
+    "ruleId": "multiline-comment-style",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 15,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        13,
+        13,
+      ],
+      "text": " * ",
+    },
+    "line": 2,
+    "message": "Expected a '*' at the start of this line.",
+    "messageId": "missingStar",
+    "nodeType": null,
+    "ruleId": "multiline-comment-style",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 15,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        25,
+        27,
+      ],
+      "text": "
+ */",
+    },
+    "line": 2,
+    "message": "Expected a linebreak before '*/'.",
+    "messageId": "endNewline",
+    "nodeType": null,
+    "ruleId": "multiline-comment-style",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`stylistic rules > padding-line-between-statements > fails on an invalid fixture 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 13,
+    "fix": {
+      "range": [
+        311,
+        311,
+      ],
+      "text": "
+",
+    },
+    "line": 12,
+    "message": "Expected blank line before this statement.",
+    "messageId": "expectedBlankLine",
+    "nodeType": "IfStatement",
+    "ruleId": "padding-line-between-statements",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 9,
+    "endLine": 14,
+    "fix": {
+      "range": [
+        350,
+        350,
+      ],
+      "text": "
+",
+    },
+    "line": 14,
+    "message": "Expected blank line before this statement.",
+    "messageId": "expectedBlankLine",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "padding-line-between-statements",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 10,
+    "endLine": 16,
+    "fix": {
+      "range": [
+        359,
+        359,
+      ],
+      "text": "
+",
+    },
+    "line": 16,
+    "message": "Expected blank line before this statement.",
+    "messageId": "expectedBlankLine",
+    "nodeType": "ReturnStatement",
+    "ruleId": "padding-line-between-statements",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`typescriptEslint rules > @typescript-eslint/array-type > fails on an invalid fixture 1`] = `
 [
   {
@@ -1009,6 +1155,60 @@ exports[`typescriptEslint rules > @typescript-eslint/naming-convention > fails o
     "messageId": "unexpectedUnderscore",
     "nodeType": "Identifier",
     "ruleId": "@typescript-eslint/naming-convention",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules > @typescript-eslint/no-base-to-string > fails on an invalid fixture 1`] = `
+[
+  {
+    "column": 35,
+    "endColumn": 44,
+    "endLine": 3,
+    "line": 3,
+    "message": "'argument1' will use Object's default stringification format ('[object Object]') when stringified.",
+    "messageId": "baseToString",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-base-to-string",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescriptEslint rules > @typescript-eslint/no-deprecated > fails on an invalid fixture 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 15,
+    "endLine": 1,
+    "line": 1,
+    "message": "\`trimLeft\` is deprecated. A legacy feature for browser compatibility. Use \`trimStart\` instead",
+    "messageId": "deprecatedWithReason",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 16,
+    "endLine": 2,
+    "line": 2,
+    "message": "\`trimRight\` is deprecated. A legacy feature for browser compatibility. Use \`trimEnd\` instead",
+    "messageId": "deprecatedWithReason",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 24,
+    "endColumn": 30,
+    "endLine": 5,
+    "line": 5,
+    "message": "\`Buffer\` is deprecated. since v10.0.0 - Use \`Buffer.alloc()\` instead (also see \`Buffer.allocUnsafe()\`).",
+    "messageId": "deprecatedWithReason",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-deprecated",
     "severity": 2,
   },
 ]

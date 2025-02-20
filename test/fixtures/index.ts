@@ -6,4 +6,5 @@ export * from './functional/index.js';
 export * from './import/index.js';
 export * from './jest/index.js';
 export * from './simple-import-sort/index.js';
+export * from './@stylistic/index.js';
 export * from './unicorn/index.js';

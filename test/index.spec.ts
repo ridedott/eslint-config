@@ -6,6 +6,7 @@ import { rules as importRules } from 'eslint-plugin-import';
 import { rules as jestRules } from 'eslint-plugin-jest';
 import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort';
 import { rules as unicornRules } from 'eslint-plugin-unicorn';
+import eslintPluginStylistic from '@stylistic/eslint-plugin';
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
 import { ESLint } from 'eslint';
@@ -18,6 +19,7 @@ import functional from '../rules/functional.js';
 import importConfigured from '../rules/import.js';
 import jestConfigured from '../rules/jest.js';
 import simpleImportSort from '../rules/simple-import-sort.js';
+import stylisticConfigured from '../rules/stylistic.js';
 import typescriptEslint from '../rules/typescript.js';
 import unicorn from '../rules/unicorn.js';
 import * as fixturesPromises from './fixtures/index.js';
@@ -36,6 +38,7 @@ const configuredRules = {
   import: importConfigured.rules,
   jest: jestConfigured.rules,
   simpleImportSort: simpleImportSort.rules,
+  stylistic: stylisticConfigured.rules,
   typescriptEslint: typescriptEslint.rules,
   unicorn: unicorn.rules,
 } as const;
@@ -48,8 +51,22 @@ const configuredRulesToOriginalMap = {
   import: importRules,
   jest: jestRules,
   simpleImportSort: simpleImportSortRules,
+  stylistic: eslintPluginStylistic.rules,
   typescriptEslint: typescriptEslintPlugin.rules,
   unicorn: unicornRules,
+};
+
+const ruleSetPrefix: Record<keyof typeof configuredRules, string | null> = {
+  arrayFunc: 'array-func',
+  eslint: null,
+  eslintComments: 'eslint-comments',
+  functional: 'functional',
+  import: 'import',
+  jest: 'jest',
+  simpleImportSort: 'simple-import-sort',
+  stylistic: null,
+  typescriptEslint: '@typescript-eslint',
+  unicorn: 'unicorn',
 };
 
 const fixtureFilePath = (ruleSet: string): string => {
@@ -57,6 +74,10 @@ const fixtureFilePath = (ruleSet: string): string => {
 
   if (ruleSet === 'eslint') {
     return `${BASE_PATH}/eslint/`;
+  }
+
+  if (ruleSet === 'stylistic') {
+    return `${BASE_PATH}/@stylistic/`;
   }
 
   return `${BASE_PATH}`;
@@ -145,7 +166,22 @@ describe.each(Object.keys(configuredRules))(
       },
     );
 
-    describe.each(rulesWithFixtures)(
+    const prefix = ruleSetPrefix[ruleSet];
+
+    /**
+     * If there are fixtures for rules that are not explicitly configured by us,
+     * but are included in the shared config (for example, as part of recommended configs),
+     * run tests for them as well.
+     */
+    const rulesWithFixturesButNoConfig = Object.keys(ruleSetFixtures).map(
+      (ruleName) => `${prefix ? `${prefix}/${ruleName}` : ruleName}`,
+    );
+
+    const allRules = Array.from(
+      new Set([...rulesWithFixtures, ...rulesWithFixturesButNoConfig]).values(),
+    ).sort();
+
+    describe.each(allRules)(
       '%s',
       async (configuredRule: string): Promise<void> => {
         const ruleName = getRuleName(configuredRule);
