@@ -335,6 +335,29 @@ exports[`eslint rules > one-var > fails on an invalid fixture 1`] = `
 ]
 `;
 
+exports[`eslint rules > prefer-exponentiation-operator > fails on an invalid fixture 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 15,
+    "endLine": 3,
+    "fix": {
+      "range": [
+        58,
+        72,
+      ],
+      "text": "2**4",
+    },
+    "line": 3,
+    "message": "Use the '**' operator instead of 'Math.pow'.",
+    "messageId": "useExponentiation",
+    "nodeType": "CallExpression",
+    "ruleId": "prefer-exponentiation-operator",
+    "severity": 2,
+  },
+]
+`;
+
 exports[`eslintComments rules > eslint-comments/disable-enable-pair > fails on an invalid fixture 1`] = `
 [
   {
@@ -3460,29 +3483,6 @@ exports[`unicorn rules > unicorn/prefer-default-parameters > fails on an invalid
         "messageId": "preferDefaultParametersSuggest",
       },
     ],
-  },
-]
-`;
-
-exports[`unicorn rules > unicorn/prefer-exponentiation-operator > fails on an invalid fixture 1`] = `
-[
-  {
-    "column": 1,
-    "endColumn": 15,
-    "endLine": 3,
-    "fix": {
-      "range": [
-        58,
-        72,
-      ],
-      "text": "2**4",
-    },
-    "line": 3,
-    "message": "Use the '**' operator instead of 'Math.pow'.",
-    "messageId": "useExponentiation",
-    "nodeType": "CallExpression",
-    "ruleId": "prefer-exponentiation-operator",
-    "severity": 2,
   },
 ]
 `;

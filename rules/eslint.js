@@ -74,6 +74,7 @@ export default {
     // Conflicts with unicorn/expiring-todo-comments.
     'no-warning-comments': 'off',
     'one-var': ['error', 'never'],
+    'prefer-exponentiation-operator': 'error',
     // Prefer `Array.from` for performance benefits.
     'prefer-spread': 'off',
     // Although it might catch some unintentional leftovers of refactoring, the
