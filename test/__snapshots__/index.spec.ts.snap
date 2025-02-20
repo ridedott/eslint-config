@@ -2728,42 +2728,177 @@ exports[`unicorn rules > unicorn/no-hex-escape > fails on an invalid fixture 1`]
 ]
 `;
 
-exports[`unicorn rules > unicorn/no-instanceof-array > fails on an invalid fixture 1`] = `
+exports[`unicorn rules > unicorn/no-instanceof-builtins > fails on an invalid fixture 1`] = `
 [
   {
-    "column": 4,
-    "endColumn": 14,
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 2,
+    "line": 2,
+    "message": "Avoid using \`instanceof\` for type checking as it can lead to unreliable results.",
+    "messageId": "no-instanceof-builtins",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "string",
+        },
+        "desc": "Switch to \`typeof … === 'string'\`.",
+        "fix": {
+          "range": [
+            62,
+            83,
+          ],
+          "text": "typeof foo === 'string'",
+        },
+        "messageId": "switch-to-type-of",
+      },
+    ],
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Avoid using \`instanceof\` for type checking as it can lead to unreliable results.",
+    "messageId": "no-instanceof-builtins",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "number",
+        },
+        "desc": "Switch to \`typeof … === 'number'\`.",
+        "fix": {
+          "range": [
+            85,
+            106,
+          ],
+          "text": "typeof foo === 'number'",
+        },
+        "messageId": "switch-to-type-of",
+      },
+    ],
+  },
+  {
+    "column": 1,
+    "endColumn": 23,
     "endLine": 4,
+    "line": 4,
+    "message": "Avoid using \`instanceof\` for type checking as it can lead to unreliable results.",
+    "messageId": "no-instanceof-builtins",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "boolean",
+        },
+        "desc": "Switch to \`typeof … === 'boolean'\`.",
+        "fix": {
+          "range": [
+            108,
+            130,
+          ],
+          "text": "typeof foo === 'boolean'",
+        },
+        "messageId": "switch-to-type-of",
+      },
+    ],
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 5,
+    "line": 5,
+    "message": "Avoid using \`instanceof\` for type checking as it can lead to unreliable results.",
+    "messageId": "no-instanceof-builtins",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "bigint",
+        },
+        "desc": "Switch to \`typeof … === 'bigint'\`.",
+        "fix": {
+          "range": [
+            132,
+            153,
+          ],
+          "text": "typeof foo === 'bigint'",
+        },
+        "messageId": "switch-to-type-of",
+      },
+    ],
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 6,
+    "line": 6,
+    "message": "Avoid using \`instanceof\` for type checking as it can lead to unreliable results.",
+    "messageId": "no-instanceof-builtins",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "symbol",
+        },
+        "desc": "Switch to \`typeof … === 'symbol'\`.",
+        "fix": {
+          "range": [
+            155,
+            176,
+          ],
+          "text": "typeof foo === 'symbol'",
+        },
+        "messageId": "switch-to-type-of",
+      },
+    ],
+  },
+  {
+    "column": 1,
+    "endColumn": 21,
+    "endLine": 7,
     "fix": {
       "range": [
-        120,
-        139,
+        178,
+        198,
       ],
-      "text": "Array.isArray([])",
+      "text": "Array.isArray(foo)",
     },
-    "line": 4,
-    "message": "Use \`Array.isArray()\` instead of \`instanceof Array\`.",
-    "messageId": "no-instanceof-array",
-    "nodeType": "Keyword",
-    "ruleId": "unicorn/no-instanceof-array",
+    "line": 7,
+    "message": "Avoid using \`instanceof\` for type checking as it can lead to unreliable results.",
+    "messageId": "no-instanceof-builtins",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-builtins",
     "severity": 2,
   },
   {
-    "column": 11,
-    "endColumn": 21,
-    "endLine": 5,
+    "column": 1,
+    "endColumn": 24,
+    "endLine": 8,
     "fix": {
       "range": [
-        141,
-        167,
+        200,
+        223,
       ],
-      "text": "Array.isArray([1, 2, 3])",
+      "text": "typeof foo === 'function'",
     },
-    "line": 5,
-    "message": "Use \`Array.isArray()\` instead of \`instanceof Array\`.",
-    "messageId": "no-instanceof-array",
-    "nodeType": "Keyword",
-    "ruleId": "unicorn/no-instanceof-array",
+    "line": 8,
+    "message": "Avoid using \`instanceof\` for type checking as it can lead to unreliable results.",
+    "messageId": "no-instanceof-builtins",
+    "nodeType": "BinaryExpression",
+    "ruleId": "unicorn/no-instanceof-builtins",
     "severity": 2,
   },
 ]
@@ -2813,487 +2948,6 @@ exports[`unicorn rules > unicorn/no-new-array > fails on an invalid fixture 1`] 
     "nodeType": "NewExpression",
     "ruleId": "unicorn/no-new-array",
     "severity": 2,
-  },
-]
-`;
-
-exports[`unicorn rules > unicorn/no-unsafe-regex > fails on an invalid fixture 1`] = `
-[
-  {
-    "column": 20,
-    "endColumn": 39,
-    "endLine": 1,
-    "line": 1,
-    "message": "Capture group '(a?)' should be converted to a named or non-capturing group.",
-    "messageId": "required",
-    "nodeType": "Literal",
-    "ruleId": "prefer-named-capture-group",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            22,
-            22,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            22,
-            22,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 39,
-    "endLine": 1,
-    "line": 1,
-    "message": "Capture group '(a)' should be converted to a named or non-capturing group.",
-    "messageId": "required",
-    "nodeType": "Literal",
-    "ruleId": "prefer-named-capture-group",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            30,
-            30,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            30,
-            30,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 39,
-    "endLine": 1,
-    "line": 1,
-    "message": "Use the 'u' flag.",
-    "messageId": "requireUFlag",
-    "nodeType": "Literal",
-    "ruleId": "require-unicode-regexp",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add the 'u' flag.",
-        "fix": {
-          "range": [
-            38,
-            38,
-          ],
-          "text": "u",
-        },
-        "messageId": "addUFlag",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 70,
-    "endLine": 2,
-    "line": 2,
-    "message": "Use the 'u' flag.",
-    "messageId": "requireUFlag",
-    "nodeType": "CallExpression",
-    "ruleId": "require-unicode-regexp",
-    "severity": 2,
-  },
-  {
-    "column": 20,
-    "endColumn": 70,
-    "endLine": 2,
-    "fix": {
-      "range": [
-        59,
-        59,
-      ],
-      "text": "new ",
-    },
-    "line": 2,
-    "message": "Use \`new RegExp()\` instead of \`RegExp()\`.",
-    "messageId": "enforce",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/new-for-builtins",
-    "severity": 2,
-  },
-  {
-    "column": 27,
-    "endColumn": 36,
-    "endLine": 2,
-    "fix": {
-      "range": [
-        66,
-        66,
-      ],
-      "text": "new ",
-    },
-    "line": 2,
-    "message": "Use \`new Array()\` instead of \`Array()\`.",
-    "messageId": "enforce",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/new-for-builtins",
-    "severity": 2,
-  },
-  {
-    "column": 33,
-    "endColumn": 35,
-    "endLine": 2,
-    "line": 2,
-    "message": "No magic number: 27.",
-    "messageId": "noMagic",
-    "nodeType": "Literal",
-    "ruleId": "@typescript-eslint/no-magic-numbers",
-    "severity": 2,
-  },
-  {
-    "column": 50,
-    "endColumn": 59,
-    "endLine": 2,
-    "fix": {
-      "range": [
-        89,
-        89,
-      ],
-      "text": "new ",
-    },
-    "line": 2,
-    "message": "Use \`new Array()\` instead of \`Array()\`.",
-    "messageId": "enforce",
-    "nodeType": "CallExpression",
-    "ruleId": "unicorn/new-for-builtins",
-    "severity": 2,
-  },
-  {
-    "column": 56,
-    "endColumn": 58,
-    "endLine": 2,
-    "line": 2,
-    "message": "No magic number: 27.",
-    "messageId": "noMagic",
-    "nodeType": "Literal",
-    "ruleId": "@typescript-eslint/no-magic-numbers",
-    "severity": 2,
-  },
-  {
-    "column": 20,
-    "endColumn": 30,
-    "endLine": 3,
-    "line": 3,
-    "message": "Capture group '(x+x+)' should be converted to a named or non-capturing group.",
-    "messageId": "required",
-    "nodeType": "Literal",
-    "ruleId": "prefer-named-capture-group",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            132,
-            132,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            132,
-            132,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 30,
-    "endLine": 3,
-    "line": 3,
-    "message": "Use the 'u' flag.",
-    "messageId": "requireUFlag",
-    "nodeType": "Literal",
-    "ruleId": "require-unicode-regexp",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add the 'u' flag.",
-        "fix": {
-          "range": [
-            140,
-            140,
-          ],
-          "text": "u",
-        },
-        "messageId": "addUFlag",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 34,
-    "endLine": 4,
-    "line": 4,
-    "message": "Capture group '(x+x+)' should be converted to a named or non-capturing group.",
-    "messageId": "required",
-    "nodeType": "Literal",
-    "ruleId": "prefer-named-capture-group",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            167,
-            167,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            167,
-            167,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 34,
-    "endLine": 4,
-    "line": 4,
-    "message": "Use the 'u' flag.",
-    "messageId": "requireUFlag",
-    "nodeType": "Literal",
-    "ruleId": "require-unicode-regexp",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add the 'u' flag.",
-        "fix": {
-          "range": [
-            175,
-            175,
-          ],
-          "text": "u",
-        },
-        "messageId": "addUFlag",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 31,
-    "endLine": 5,
-    "line": 5,
-    "message": "Capture group '(a+)' should be converted to a named or non-capturing group.",
-    "messageId": "required",
-    "nodeType": "Literal",
-    "ruleId": "prefer-named-capture-group",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            198,
-            198,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            198,
-            198,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 31,
-    "endLine": 5,
-    "line": 5,
-    "message": "Use the 'u' flag.",
-    "messageId": "requireUFlag",
-    "nodeType": "Literal",
-    "ruleId": "require-unicode-regexp",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add the 'u' flag.",
-        "fix": {
-          "range": [
-            207,
-            207,
-          ],
-          "text": "u",
-        },
-        "messageId": "addUFlag",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 30,
-    "endLine": 6,
-    "line": 6,
-    "message": "Capture group '(a+)' should be converted to a named or non-capturing group.",
-    "messageId": "required",
-    "nodeType": "Literal",
-    "ruleId": "prefer-named-capture-group",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            230,
-            230,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            230,
-            230,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 30,
-    "endLine": 6,
-    "line": 6,
-    "message": "Use the 'u' flag.",
-    "messageId": "requireUFlag",
-    "nodeType": "Literal",
-    "ruleId": "require-unicode-regexp",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add the 'u' flag.",
-        "fix": {
-          "range": [
-            238,
-            238,
-          ],
-          "text": "u",
-        },
-        "messageId": "addUFlag",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 39,
-    "endLine": 7,
-    "line": 7,
-    "message": "Capture group '(.*)' should be converted to a named or non-capturing group.",
-    "messageId": "required",
-    "nodeType": "Literal",
-    "ruleId": "prefer-named-capture-group",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add name to capture group.",
-        "fix": {
-          "range": [
-            261,
-            261,
-          ],
-          "text": "?<temp1>",
-        },
-        "messageId": "addGroupName",
-      },
-      {
-        "desc": "Convert group to non-capturing.",
-        "fix": {
-          "range": [
-            261,
-            261,
-          ],
-          "text": "?:",
-        },
-        "messageId": "addNonCapture",
-      },
-    ],
-  },
-  {
-    "column": 20,
-    "endColumn": 39,
-    "endLine": 7,
-    "line": 7,
-    "message": "Use the 'u' flag.",
-    "messageId": "requireUFlag",
-    "nodeType": "Literal",
-    "ruleId": "require-unicode-regexp",
-    "severity": 2,
-    "suggestions": [
-      {
-        "desc": "Add the 'u' flag.",
-        "fix": {
-          "range": [
-            278,
-            278,
-          ],
-          "text": "u",
-        },
-        "messageId": "addUFlag",
-      },
-    ],
   },
 ]
 `;
