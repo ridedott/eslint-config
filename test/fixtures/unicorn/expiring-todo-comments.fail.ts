@@ -15,3 +15,4 @@
  * TODO [2002-12-25]: Another
  * TODO [2002-12-25]: Way
  */
+const preventUnicornNoEmptyFileError = true;

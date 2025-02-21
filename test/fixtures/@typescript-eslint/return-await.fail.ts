@@ -14,9 +14,5 @@ async function invalidInTryCatch1() {
 }
 
 async function invalidInTryCatch2() {
-  return await Promise.resolve('try');
-}
-
-async function invalidInTryCatch3() {
-  return await 'value';
+  return await 'try';
 }

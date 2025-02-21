@@ -639,7 +639,7 @@ exports[`import rules > import/no-cycle > fails on an invalid fixture 1`] = `
     "endLine": 1,
     "line": 1,
     "message": "Dependency cycle detected.",
-    "nodeType": "ImportDeclaration",
+    "nodeType": "ExportNamedDeclaration",
     "ruleId": "import/no-cycle",
     "severity": 2,
   },
@@ -831,15 +831,15 @@ exports[`simpleImportSort rules > simple-import-sort/imports > fails on an inval
 [
   {
     "column": 1,
-    "endColumn": 34,
+    "endColumn": 39,
     "endLine": 2,
     "fix": {
       "range": [
         0,
-        63,
+        73,
       ],
-      "text": "import * as assert from 'assert';
-import * as path from 'path';",
+      "text": "import * as assert from 'node:assert';
+import * as path from 'node:path';",
     },
     "line": 1,
     "message": "Run autofix to sort these imports!",
@@ -1866,8 +1866,26 @@ exports[`typescriptEslint rules > @typescript-eslint/return-await > fails on an 
     ],
   },
   {
+    "column": 12,
+    "endColumn": 27,
+    "endLine": 10,
+    "fix": {
+      "range": [
+        336,
+        366,
+      ],
+      "text": "return 'try';",
+    },
+    "line": 10,
+    "message": "Prefer \`return value\` over \`return Promise.resolve(value)\`.",
+    "messageId": "resolve",
+    "nodeType": "MemberExpression",
+    "ruleId": "unicorn/no-useless-promise-resolve-reject",
+    "severity": 2,
+  },
+  {
     "column": 10,
-    "endColumn": 38,
+    "endColumn": 21,
     "endLine": 17,
     "fix": {
       "range": [
@@ -1877,24 +1895,6 @@ exports[`typescriptEslint rules > @typescript-eslint/return-await > fails on an 
       "text": "",
     },
     "line": 17,
-    "message": "Returning an awaited promise is not allowed in this context.",
-    "messageId": "disallowedPromiseAwait",
-    "nodeType": "AwaitExpression",
-    "ruleId": "@typescript-eslint/return-await",
-    "severity": 2,
-  },
-  {
-    "column": 10,
-    "endColumn": 23,
-    "endLine": 21,
-    "fix": {
-      "range": [
-        550,
-        556,
-      ],
-      "text": "",
-    },
-    "line": 21,
     "message": "Returning an awaited value that is not a promise is not allowed.",
     "messageId": "nonPromiseAwait",
     "nodeType": "AwaitExpression",

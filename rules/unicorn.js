@@ -1,102 +1,49 @@
 export default {
   rules: {
     'unicorn/better-regex': 'error',
-    'unicorn/catch-error-name': 'error',
     'unicorn/consistent-destructuring': 'error',
-    'unicorn/consistent-function-scoping': 'error',
     'unicorn/custom-error-definition': 'error',
     // Code should be formatted using Prettier.
     'unicorn/empty-brace-spaces': 'off',
-    'unicorn/error-message': 'error',
-    'unicorn/escape-case': 'error',
     'unicorn/expiring-todo-comments': [
       'error',
       { allowWarningComments: false, ignoreDatesOnPullRequests: false },
     ],
-    'unicorn/explicit-length-check': ['error', { 'non-zero': 'greater-than' }],
     'unicorn/filename-case': ['error', { case: 'camelCase' }],
     // No good use cases yet.
     'unicorn/import-style': 'off',
-    'unicorn/new-for-builtins': 'error',
     // Covered by eslint-comments/no-unlimited-disable.
     'unicorn/no-abusive-eslint-disable': 'off',
     // Unnecessary with TypeScript.
     'unicorn/no-array-callback-reference': 'off',
-    'unicorn/no-array-for-each': 'error',
     // Covered by functional/no-this-expressions.
     'unicorn/no-array-method-this-argument': 'off',
-    'unicorn/no-array-push-push': 'error',
     'unicorn/no-array-reduce': 'off',
-    'unicorn/no-console-spaces': 'error',
-    'unicorn/no-for-loop': 'error',
-    'unicorn/no-hex-escape': 'error',
-    'unicorn/no-instanceof-builtins': 'error',
-    'unicorn/no-keyword-prefix': 'off',
-    'unicorn/no-lonely-if': 'error',
     // Ternary operators help write immutable code.
     'unicorn/no-nested-ternary': 'off',
-    'unicorn/no-new-array': 'error',
     // This is covered by @typescript-eslint/no-deprecated
     'unicorn/no-new-buffer': 'off',
     'unicorn/no-null': 'off',
     // Unnecessary with TypeScript.
     'unicorn/no-object-as-default-parameter': 'off',
-    'unicorn/no-process-exit': 'off',
-    // Do not use classes in the first place.
-    'unicorn/no-static-only-class': 'off',
     // Covered by consistent-this.
     'unicorn/no-this-assignment': 'off',
+    // Covered by @typescript-eslint/return-await
+    'unicorn/no-unnecessary-await': 'off',
     'unicorn/no-unreadable-array-destructuring': 'off',
-    'unicorn/no-unused-properties': 'off',
-    'unicorn/no-useless-length-check': 'error',
-    'unicorn/no-useless-spread': 'error',
     'unicorn/no-useless-undefined': 'off',
-    'unicorn/no-zero-fractions': 'error',
     // Code should be formatted using Prettier.
     'unicorn/number-literal-case': 'off',
-    'unicorn/numeric-separators-style': 'error',
-    'unicorn/prefer-add-event-listener': 'error',
-    'unicorn/prefer-array-find': 'error',
-    'unicorn/prefer-array-flat-map': 'error',
-    'unicorn/prefer-array-index-of': 'error',
-    'unicorn/prefer-array-some': 'error',
-    // Not available in Node.js nor TypeScript yet.
-    'unicorn/prefer-at': 'off',
-    'unicorn/prefer-date-now': 'error',
-    'unicorn/prefer-default-parameters': 'error',
-    // Manual DOM manipulation is discouraged.
-    'unicorn/prefer-dom-node-append': 'off',
-    'unicorn/prefer-dom-node-dataset': 'off',
-    // Manual DOM manipulation is discouraged.
-    'unicorn/prefer-dom-node-remove': 'off',
-    // Manual DOM manipulation is discouraged.
-    'unicorn/prefer-dom-node-text-content': 'off',
-    'unicorn/prefer-includes': 'error',
     // This is covered by @typescript-eslint/no-deprecated
     'unicorn/prefer-keyboard-event-key': 'off',
-    'unicorn/prefer-math-trunc': 'error',
-    'unicorn/prefer-negative-index': 'error',
-    'unicorn/prefer-number-properties': 'error',
-    'unicorn/prefer-object-from-entries': 'error',
-    // Not supported yet.
-    'unicorn/prefer-object-has-own': 'off',
     // TypeScript `noUnusedLocals` covers this.
     'unicorn/prefer-optional-catch-binding': 'off',
-    'unicorn/prefer-prototype-methods': 'error',
-    'unicorn/prefer-query-selector': 'error',
-    'unicorn/prefer-reflect-apply': 'error',
     // Does not work with strict type checking.
     'unicorn/prefer-regexp-test': 'off',
-    'unicorn/prefer-set-has': 'error',
     // Prefer `Array.from` for performance benefits.
     'unicorn/prefer-spread': 'off',
-    'unicorn/prefer-string-replace-all': 'error',
-    'unicorn/prefer-string-slice': 'error',
-    'unicorn/prefer-string-starts-ends-with': 'error',
     // This is covered by @typescript-eslint/no-deprecated
     'unicorn/prefer-string-trim-start-end': 'off',
-    'unicorn/prefer-ternary': 'error',
-    'unicorn/prefer-top-level-await': 'error',
     // Type checks are performed by TypeScript compiler.
     'unicorn/prefer-type-error': 'off',
     'unicorn/prevent-abbreviations': [
@@ -113,10 +60,6 @@ export default {
         },
       },
     ],
-    'unicorn/require-array-join-separator': 'error',
-    'unicorn/require-number-to-fixed-digits-argument': 'error',
-    // No good use cases yet.
-    'unicorn/string-content': 'off',
-    'unicorn/throw-new-error': 'error',
+    'unicorn/switch-case-braces': ['error', 'avoid'],
   },
 };

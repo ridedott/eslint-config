@@ -3,3 +3,4 @@
  * unicorn/filename-case rule is disabled for test files as they match
  * rule names.
  */
+const preventUnicornNoEmptyFileError = true;

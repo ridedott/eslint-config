@@ -7,3 +7,4 @@
 /* exported foo */
 /* global $ */
 /* globals a, b, c */
+const preventUnicornNoEmptyFileError = true;
