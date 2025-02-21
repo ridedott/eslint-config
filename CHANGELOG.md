@@ -1,3 +1,20 @@
+# [4.1.0](https://github.com/ridedott/eslint-config/compare/v4.0.6...v4.1.0) (2025-02-21)
+
+### Chores
+
+- **deps-dev:** bump globals from 15.15.0 to 16.0.0
+  ([f55906c](https://github.com/ridedott/eslint-config/commit/f55906cc92b19b1559593849301346b8ea278410))
+
+### Features
+
+- use recommended unicorn config
+  ([b1dc200](https://github.com/ridedott/eslint-config/commit/b1dc200dd7e605a329fbad760ae743112e6d1274))
+
+### Tests
+
+- run tests for implicitly configured rules as well
+  ([8eb6149](https://github.com/ridedott/eslint-config/commit/8eb614901d2c3dbf51c7ed489f2e09dbc17c8cdb))
+
 ## [4.0.6](https://github.com/ridedott/eslint-config/compare/v4.0.5...v4.0.6) (2025-02-20)
 
 ### Chores
