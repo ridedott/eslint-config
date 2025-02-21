@@ -1,3 +1,10 @@
+## [4.1.1](https://github.com/ridedott/eslint-config/compare/v4.1.0...v4.1.1) (2025-02-21)
+
+### Bug Fixes
+
+- disable unicorn/no-useless-switch-case
+  ([885ed7c](https://github.com/ridedott/eslint-config/commit/885ed7c75bac80a0cf664017b3e491049db301f4))
+
 # [4.1.0](https://github.com/ridedott/eslint-config/compare/v4.0.6...v4.1.0) (2025-02-21)
 
 ### Chores
