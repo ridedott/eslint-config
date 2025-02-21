@@ -27,6 +27,7 @@ export default [
   ...typescriptEslintPlugin.configs.all,
   eslintPluginImport.configs.typescript,
   jestPlugin.configs['flat/all'],
+  unicornPlugin.configs['flat/recommended'],
 
   arrayFuncConfig,
   eslintCommentsConfig,
@@ -46,7 +47,6 @@ export default [
       functional: eslintPluginFunctional,
       import: eslintPluginImport,
       'simple-import-sort': simpleImportSortPlugin,
-      unicorn: unicornPlugin,
     },
 
     languageOptions: {

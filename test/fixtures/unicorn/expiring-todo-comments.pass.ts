@@ -12,3 +12,4 @@
  * TODO [2200-12-25]: Another
  * TODO [2200-12-25]: Way
  */
+const preventUnicornNoEmptyFileError = true;

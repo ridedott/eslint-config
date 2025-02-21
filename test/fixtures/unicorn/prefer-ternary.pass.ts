@@ -3,5 +3,5 @@
 /* eslint-disable no-constant-condition */
 
 const preferTernaryPass = function* (): Iterable<string> {
-  yield 'a' ? 'a' : 'b';
+  yield 'test' ? 'a' : 'b';
 };

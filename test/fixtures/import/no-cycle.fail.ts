@@ -1,3 +1,1 @@
-import { value } from './no-cycle/a';
-
-export { value };
+export { value } from './no-cycle/a';
