@@ -31,6 +31,8 @@ export default {
     // Covered by @typescript-eslint/return-await
     'unicorn/no-unnecessary-await': 'off',
     'unicorn/no-unreadable-array-destructuring': 'off',
+    // Conflicts with @typescript-eslint/switch-exhaustiveness-check
+    'unicorn/no-useless-switch-case': 'off',
     'unicorn/no-useless-undefined': 'off',
     // Code should be formatted using Prettier.
     'unicorn/number-literal-case': 'off',
