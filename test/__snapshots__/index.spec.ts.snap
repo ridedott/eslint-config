@@ -3744,7 +3744,7 @@ exports[`unicorn rules > unicorn/prefer-object-from-entries > fails on an invali
   Record<string, number>
 >(
   (
-
+    
     [key, value]: [string, number],
   ): Record<string, number> => [key, value],
 ))",
