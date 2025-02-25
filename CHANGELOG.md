@@ -1,3 +1,16 @@
+## [4.1.2](https://github.com/ridedott/eslint-config/compare/v4.1.1...v4.1.2) (2025-02-25)
+
+### Chores
+
+- **deps-dev:** bump @eslint/js from 9.20.0 to 9.21.0
+  ([1f3a4a8](https://github.com/ridedott/eslint-config/commit/1f3a4a87cb93b6555f9c42e3a33e21892567664f))
+- **deps-dev:** bump prettier from 3.5.1 to 3.5.2
+  ([c699ce1](https://github.com/ridedott/eslint-config/commit/c699ce1d9ea442a6609af2d134bf77ccc4693c19))
+- **deps:** bump eslint-plugin-functional from 8.0.0 to 9.0.1
+  ([e1724f6](https://github.com/ridedott/eslint-config/commit/e1724f65cb7cb745b332490e7f1f4a7add671fb7))
+- **deps:** bump typescript-eslint from 8.24.1 to 8.25.0
+  ([fc48163](https://github.com/ridedott/eslint-config/commit/fc48163f4b35cd55581e3f5de213ae7856797c87))
+
 ## [4.1.1](https://github.com/ridedott/eslint-config/compare/v4.1.0...v4.1.1) (2025-02-21)
 
 ### Bug Fixes
