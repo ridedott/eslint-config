@@ -1,3 +1,10 @@
+## [4.1.6](https://github.com/ridedott/eslint-config/compare/v4.1.5...v4.1.6) (2025-03-03)
+
+### Chores
+
+- **deps:** bump typescript from 5.7.3 to 5.8.2
+  ([2ba53cc](https://github.com/ridedott/eslint-config/commit/2ba53cc2546903c60570671c46cbff74b377aca0))
+
 ## [4.1.5](https://github.com/ridedott/eslint-config/compare/v4.1.4...v4.1.5) (2025-03-03)
 
 ### Chores
