@@ -1,3 +1,16 @@
+## [4.1.5](https://github.com/ridedott/eslint-config/compare/v4.1.4...v4.1.5) (2025-03-03)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 18.19.76 to 18.19.78
+  ([91966b3](https://github.com/ridedott/eslint-config/commit/91966b33e13717d785d06fba6b95c0d091a432af))
+- **deps-dev:** bump prettier from 3.5.2 to 3.5.3
+  ([ab7aa04](https://github.com/ridedott/eslint-config/commit/ab7aa04c0e0fa9eaabeef9cdfa4a6578bd4235b7))
+- **deps:** bump @stylistic/eslint-plugin from 4.1.0 to 4.2.0
+  ([dd72dda](https://github.com/ridedott/eslint-config/commit/dd72ddadc6c30473567588ff759ba0934ecd5412))
+- **deps:** bump typescript-eslint from 8.25.0 to 8.26.0
+  ([a5465dd](https://github.com/ridedott/eslint-config/commit/a5465ddc52b0d9e66b97f3bc0aef2c3d133838cf))
+
 ## [4.1.4](https://github.com/ridedott/eslint-config/compare/v4.1.3...v4.1.4) (2025-02-26)
 
 ### Chores
