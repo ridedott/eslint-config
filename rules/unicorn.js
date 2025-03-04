@@ -36,6 +36,7 @@ export default {
     'unicorn/no-useless-undefined': 'off',
     // Code should be formatted using Prettier.
     'unicorn/number-literal-case': 'off',
+    'unicorn/prefer-event-target': 'off',
     // This is covered by @typescript-eslint/no-deprecated
     'unicorn/prefer-keyboard-event-key': 'off',
     // TypeScript `noUnusedLocals` covers this.
