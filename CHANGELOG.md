@@ -1,3 +1,10 @@
+# [4.2.0](https://github.com/ridedott/eslint-config/compare/v4.1.6...v4.2.0) (2025-03-04)
+
+### Features
+
+- disable unicorn/prefer-event-target
+  ([2ebf2fd](https://github.com/ridedott/eslint-config/commit/2ebf2fdd2009d3ecbec510bd64aeb26c04831646))
+
 ## [4.1.6](https://github.com/ridedott/eslint-config/compare/v4.1.5...v4.1.6) (2025-03-03)
 
 ### Chores
