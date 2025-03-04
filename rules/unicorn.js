@@ -1,7 +1,6 @@
 export default {
   rules: {
     'unicorn/better-regex': 'error',
-    'unicorn/consistent-assert': 'off',
     'unicorn/consistent-destructuring': 'error',
     'unicorn/custom-error-definition': 'error',
     // Code should be formatted using Prettier.
