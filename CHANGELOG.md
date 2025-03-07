@@ -1,3 +1,16 @@
+## [4.2.1](https://github.com/ridedott/eslint-config/compare/v4.2.0...v4.2.1) (2025-03-07)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([fa76614](https://github.com/ridedott/eslint-config/commit/fa76614c427ee1f0962878c51677006c3b2f7505))
+- **deps-dev:** bump @types/node from 18.19.78 to 18.19.79
+  ([0ebe8c5](https://github.com/ridedott/eslint-config/commit/0ebe8c59e0c6991af65a58b3480fb8d729d7436d))
+- **deps-dev:** bump vitest from 3.0.7 to 3.0.8
+  ([7940154](https://github.com/ridedott/eslint-config/commit/7940154b5155a97bd65cd175fb0040f83f80a8ed))
+- **deps:** bump eslint-config-prettier from 10.0.2 to 10.1.1
+  ([f10e057](https://github.com/ridedott/eslint-config/commit/f10e0578d6f7976863c27bcedc4e0ffdbe6936d2))
+
 # [4.2.0](https://github.com/ridedott/eslint-config/compare/v4.1.6...v4.2.0) (2025-03-04)
 
 ### Features
