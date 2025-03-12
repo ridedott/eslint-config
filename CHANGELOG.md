@@ -1,3 +1,14 @@
+## [4.2.3](https://github.com/ridedott/eslint-config/compare/v4.2.2...v4.2.3) (2025-03-12)
+
+### Chores
+
+- **deps-dev:** bump eslint from 9.21.0 to 9.22.0
+  ([8a7ee3d](https://github.com/ridedott/eslint-config/commit/8a7ee3d9d2faca0ec8b21f4520f5c65c2f24b924))
+- **deps-dev:** bump lint-staged from 15.4.3 to 15.5.0
+  ([808eb71](https://github.com/ridedott/eslint-config/commit/808eb71239ee59977c2c0993d4af5fca76a20757))
+- **deps:** bump @babel/helpers from 7.26.7 to 7.26.10
+  ([427f609](https://github.com/ridedott/eslint-config/commit/427f60962b5000b806047c9d53eb94678c48ba4b))
+
 ## [4.2.2](https://github.com/ridedott/eslint-config/compare/v4.2.1...v4.2.2) (2025-03-10)
 
 ### Chores
