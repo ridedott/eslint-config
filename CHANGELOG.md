@@ -1,3 +1,12 @@
+## [4.2.4](https://github.com/ridedott/eslint-config/compare/v4.2.3...v4.2.4) (2025-03-17)
+
+### Chores
+
+- **deps-dev:** bump vitest from 3.0.8 to 3.0.9
+  ([a16b264](https://github.com/ridedott/eslint-config/commit/a16b26464fe622f64296d0f79b68d5c5873e26ff))
+- **deps:** bump actions/setup-node from 4.2.0 to 4.3.0
+  ([cfea4f3](https://github.com/ridedott/eslint-config/commit/cfea4f3387fc3d5cc8b008432204e05a2c31a3ad))
+
 ## [4.2.3](https://github.com/ridedott/eslint-config/compare/v4.2.2...v4.2.3) (2025-03-12)
 
 ### Chores
