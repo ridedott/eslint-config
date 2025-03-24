@@ -1,3 +1,16 @@
+## [4.2.7](https://github.com/ridedott/eslint-config/compare/v4.2.6...v4.2.7) (2025-03-24)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 18.19.80 to 18.19.81
+  ([19d5ce9](https://github.com/ridedott/eslint-config/commit/19d5ce95442422fc9b2702b3540f25179ff89454))
+- **deps-dev:** bump @types/node from 18.19.81 to 18.19.83
+  ([bdca159](https://github.com/ridedott/eslint-config/commit/bdca159f71134c1c79881fadc9979bca8c1afe62))
+- **deps-dev:** bump eslint from 9.22.0 to 9.23.0
+  ([147cc87](https://github.com/ridedott/eslint-config/commit/147cc879cf59584f3a89b3374302d6569cf8dae0))
+- **deps:** bump typescript-eslint from 8.27.0 to 8.28.0
+  ([820677a](https://github.com/ridedott/eslint-config/commit/820677ae1dffe140afb253aeddfa2c362344997a))
+
 ## [4.2.6](https://github.com/ridedott/eslint-config/compare/v4.2.5...v4.2.6) (2025-03-20)
 
 ### Chores
