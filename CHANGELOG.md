@@ -1,3 +1,10 @@
+# [4.4.0](https://github.com/ridedott/eslint-config/compare/v4.3.0...v4.4.0) (2025-03-28)
+
+### Features
+
+- disable unicorn/no-thenable
+  ([7316b42](https://github.com/ridedott/eslint-config/commit/7316b4282b1d93287e9e54c866cc2eeb93118950))
+
 # [4.3.0](https://github.com/ridedott/eslint-config/compare/v4.2.8...v4.3.0) (2025-03-28)
 
 ### Chores
