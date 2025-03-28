@@ -19,6 +19,8 @@ export default {
     // Covered by functional/no-this-expressions.
     'unicorn/no-array-method-this-argument': 'off',
     'unicorn/no-array-reduce': 'off',
+    // Allows awaiting a promise and immediately accessing a property.
+    'unicorn/no-await-expression-member': 'off',
     // Ternary operators help write immutable code.
     'unicorn/no-nested-ternary': 'off',
     // This is covered by @typescript-eslint/no-deprecated
