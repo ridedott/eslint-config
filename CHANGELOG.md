@@ -1,3 +1,15 @@
+# [4.3.0](https://github.com/ridedott/eslint-config/compare/v4.2.8...v4.3.0) (2025-03-28)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 18.19.83 to 18.19.84
+  ([a94b833](https://github.com/ridedott/eslint-config/commit/a94b833336c46803b3d5c2e5696b217720cf7707))
+
+### Features
+
+- disable no-await-expression-member
+  ([20f7871](https://github.com/ridedott/eslint-config/commit/20f7871dcf9711e046e26c6b667b8c420d0e2cfd))
+
 ## [4.2.8](https://github.com/ridedott/eslint-config/compare/v4.2.7...v4.2.8) (2025-03-27)
 
 ### Chores
