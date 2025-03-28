@@ -28,6 +28,8 @@ export default {
     'unicorn/no-null': 'off',
     // Unnecessary with TypeScript.
     'unicorn/no-object-as-default-parameter': 'off',
+    // Joi validation may use then in objects.
+    'unicorn/no-thenable': 'off',
     // Covered by consistent-this.
     'unicorn/no-this-assignment': 'off',
     // Covered by @typescript-eslint/return-await
