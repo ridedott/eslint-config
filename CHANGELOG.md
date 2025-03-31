@@ -1,3 +1,12 @@
+## [4.4.1](https://github.com/ridedott/eslint-config/compare/v4.4.0...v4.4.1) (2025-03-31)
+
+### Chores
+
+- **deps-dev:** bump vitest from 3.0.9 to 3.1.1
+  ([d4c97e6](https://github.com/ridedott/eslint-config/commit/d4c97e667286a85c8359ed7ae0b67b2f56d18e2e))
+- **deps:** bump typescript-eslint from 8.28.0 to 8.29.0
+  ([c28f8c1](https://github.com/ridedott/eslint-config/commit/c28f8c1b0977186aa99e0a367d0ea713e4ced24f))
+
 # [4.4.0](https://github.com/ridedott/eslint-config/compare/v4.3.0...v4.4.0) (2025-03-28)
 
 ### Features
