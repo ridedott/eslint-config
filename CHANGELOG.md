@@ -1,3 +1,10 @@
+## [4.4.5](https://github.com/ridedott/eslint-config/compare/v4.4.4...v4.4.5) (2025-04-10)
+
+### Chores
+
+- **deps:** bump eslint-config-prettier from 10.1.1 to 10.1.2
+  ([bce32f4](https://github.com/ridedott/eslint-config/commit/bce32f448968d9ced61c85c3277e83114027220a))
+
 ## [4.4.4](https://github.com/ridedott/eslint-config/compare/v4.4.3...v4.4.4) (2025-04-08)
 
 ### Chores
