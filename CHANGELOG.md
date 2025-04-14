@@ -1,3 +1,14 @@
+## [4.4.6](https://github.com/ridedott/eslint-config/compare/v4.4.5...v4.4.6) (2025-04-14)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 15.5.0 to 15.5.1
+  ([6c5a910](https://github.com/ridedott/eslint-config/commit/6c5a910a62a0e38cb7f42487fc0c4a6c2f825f2d))
+- **deps-dev:** bump vite from 6.2.5 to 6.2.6
+  ([859a205](https://github.com/ridedott/eslint-config/commit/859a2056a33c65d006badcc447e3d4ed13b4ae56))
+- **deps:** bump actions/setup-node from 4.3.0 to 4.4.0
+  ([4d7d03c](https://github.com/ridedott/eslint-config/commit/4d7d03cc6c54cefb531a5f501f0acd8ff51d216c))
+
 ## [4.4.5](https://github.com/ridedott/eslint-config/compare/v4.4.4...v4.4.5) (2025-04-10)
 
 ### Chores
