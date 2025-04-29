@@ -1,8 +1,14 @@
 export default {
   rules: {
-    'max-len': ['error', {
-      code: 1024, comments: 80, ignorePattern: "eslint-disable-next-line|eslint-(enable|disable)", ignoreUrls: true,
-    }],
+    'max-len': [
+      'error',
+      {
+        code: 1024,
+        comments: 80,
+        ignorePattern: 'eslint-disable-next-line|eslint-(enable|disable)',
+        ignoreUrls: true,
+      },
+    ],
     'multiline-comment-style': 'error',
     'padding-line-between-statements': [
       'error',
