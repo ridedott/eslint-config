@@ -1,3 +1,19 @@
+# [4.5.0](https://github.com/ridedott/eslint-config/compare/v4.4.9...v4.5.0) (2025-04-29)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 18.19.86 to 18.19.87
+  ([bb527c6](https://github.com/ridedott/eslint-config/commit/bb527c6a5daedbc3fc0b0302083376d74e276f26))
+- **deps-dev:** bump eslint from 9.24.0 to 9.25.1
+  ([817acb7](https://github.com/ridedott/eslint-config/commit/817acb7dd7db0e88ba7c87908ef81e56b222c168))
+- **deps:** bump typescript-eslint from 8.31.0 to 8.31.1
+  ([8ea6b73](https://github.com/ridedott/eslint-config/commit/8ea6b73330482ecef8b02a6e11259f39f09d1b01))
+
+### Features
+
+- add comment length rule back
+  ([3782872](https://github.com/ridedott/eslint-config/commit/378287267260e79981725cd5b236dac33be75a54))
+
 ## [4.4.9](https://github.com/ridedott/eslint-config/compare/v4.4.8...v4.4.9) (2025-04-22)
 
 ### Chores
