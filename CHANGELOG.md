@@ -1,3 +1,12 @@
+## [4.5.1](https://github.com/ridedott/eslint-config/compare/v4.5.0...v4.5.1) (2025-05-01)
+
+### Chores
+
+- **deps-dev:** bump vite from 6.3.2 to 6.3.4
+  ([b1a665f](https://github.com/ridedott/eslint-config/commit/b1a665fb67f29acef60a0ebd4c3660b3652bc2f3))
+- **deps:** bump eslint-plugin-unicorn from 58.0.0 to 59.0.0
+  ([4928f5c](https://github.com/ridedott/eslint-config/commit/4928f5cae96db37ac96e38596465d0b86f56c568))
+
 # [4.5.0](https://github.com/ridedott/eslint-config/compare/v4.4.9...v4.5.0) (2025-04-29)
 
 ### Chores
