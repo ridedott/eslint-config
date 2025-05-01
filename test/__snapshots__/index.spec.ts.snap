@@ -2670,9 +2670,9 @@ exports[`unicorn rules > unicorn/no-array-push-push > fails on an invalid fixtur
     },
     "line": 6,
     "message": "Do not call \`Array#push()\` multiple times.",
-    "messageId": "error",
+    "messageId": "error/array-push",
     "nodeType": "Identifier",
-    "ruleId": "unicorn/no-array-push-push",
+    "ruleId": "unicorn/prefer-single-call",
     "severity": 2,
   },
 ]
