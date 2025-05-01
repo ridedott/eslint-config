@@ -8,6 +8,7 @@ export default [
     },
     rules: {
       ...vitestPlugin.configs.all.rules,
+      'vitest/consistent-test-filename': 'off',
       'vitest/consistent-test-it': [
         'error',
         { fn: 'it', withinDescribe: 'it' },
