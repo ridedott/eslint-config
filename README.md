@@ -31,17 +31,18 @@ project's configuration to flat config as well.
 
 Multiple versions of the configuration are exported:
 
-- jest: the default export, for projects using Jest
-- vitest: the configuration for projects using Vitest
-- jest-esm: the configuration for projects using Jest with ESM
-- vitest-esm: the configuration for projects using Vitest with ESM
+- `jest`: the default export, for projects using Jest
+- `vitest`: the configuration for projects using Vitest
+- `jest-esm`: the configuration for projects using Jest with ESM
+- `vitest-esm`: the configuration for projects using Vitest with ESM
 
 An example configuration (using the default export) would look like this:
 
 ```js
 import sharedConfig from '@ridedott/eslint-config';
-// equivalent to:
+// equivalent to each of the following:
 // import { jest as sharedConfig } from '@ridedott/eslint-config';
+// import sharedConfig from '@ridedott/eslint-config/jest';
 
 export default [
   ...sharedConfig,
