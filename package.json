@@ -7,14 +7,15 @@
   "dependencies": {
     "@stylistic/eslint-plugin": "^4.2.0",
     "eslint-config-prettier": "^10.1.2",
+    "eslint-import-resolver-typescript": "^4.3.4",
     "eslint-plugin-array-func": "^5.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-functional": "^9.0.1",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-jest": "^28.11.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-unicorn": "^58.0.0",
-    "typescript": "^5.8.3",
+    "eslint-plugin-unicorn": "^59.0.0",
+    "eslint-plugin-vitest": "^0.5.4",
     "typescript-eslint": "^8.31.1"
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
@@ -23,7 +24,7 @@
     "@commitlint/config-conventional": "^19.8.0",
     "@eslint/js": "^9.25.1",
     "@types/eslint": "^9.6.1",
-    "@types/node": "^18.19.87",
+    "@types/node": "^22.15.3",
     "commitizen": "^4.3.1",
     "eslint": "^9.25.1",
     "globals": "^16.0.0",
@@ -31,6 +32,7 @@
     "lint-staged": "^15.5.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
     "vitest": "^3.1.2"
   },
   "engines": {
@@ -46,6 +48,13 @@
     "*.{js,json,md,ts,yml,yaml}": [
       "prettier --write"
     ]
+  },
+  "exports": {
+    ".": "./index.js",
+    "./jest": "./jest.js",
+    "./jest-esm": "./jest-esm.js",
+    "./vitest": "./vitest.js",
+    "./vitest-esm": "./vitest-esm.js"
   },
   "main": "./index.js",
   "name": "@ridedott/eslint-config",

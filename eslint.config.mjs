@@ -1,7 +1,7 @@
-import shareableConfig from './index.js';
+import { jestESM } from './index.js';
 
 export default [
-  ...shareableConfig,
+  ...jestESM,
   {
     files: ['test/*.ts'],
     rules: {
@@ -12,6 +12,8 @@ export default [
     files: ['test/fixtures/**'],
     rules: {
       'jest/require-hook': 'off',
+      'jest/require-top-level-describe': 'off',
+      'jest/prefer-importing-jest-globals': 'off',
       'unicorn/filename-case': 'off',
     },
   },

@@ -29,12 +29,21 @@ for more details). To use it, please
 [migrate](https://eslint.org/docs/latest/use/configure/migration-guide) your
 project's configuration to flat config as well.
 
-An example configuration:
+Multiple versions of the configuration are exported:
+
+- jest: the default export, for projects using Jest
+- vitest: the configuration for projects using Vitest
+- jest-esm: the configuration for projects using Jest with ESM
+- vitest-esm: the configuration for projects using Vitest with ESM
+
+An example configuration (using the default export) would look like this:
 
 ```js
-const sharedConfig = require('@ridedott/eslint-config');
+import sharedConfig from '@ridedott/eslint-config';
+// equivalent to:
+// import { jest as sharedConfig } from '@ridedott/eslint-config';
 
-module.exports = [
+export default [
   ...sharedConfig,
   {
     rules: {

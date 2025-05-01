@@ -1,3 +1,5 @@
+/* eslint-disable import/no-unresolved */
+
 // `getDocs` is a function from an external module, so the rule should pass
 import { getDocs } from 'firebase/firestore';
 
