@@ -7,12 +7,10 @@ import eslintConfig from './configs/eslint.js';
 import eslintCommentsConfig from './configs/eslint-comments.js';
 import functionalConfig from './configs/functional.js';
 import importConfig from './configs/import.js';
-import jestConfig from './configs/jest.js';
 import simpleImportSortConfig from './configs/simple-import-sort.js';
 import stylisticConfig from './configs/stylistic.js';
 import unicornConfig from './configs/unicorn.js';
 import typescriptConfig from './configs/typescript.js';
-import vitestConfig from './configs/vitest.js';
 
 const configs = [
   arrayFuncConfig,
@@ -26,9 +24,9 @@ const configs = [
   unicornConfig,
 ];
 
-const makeOptionsConfig = (additionalGlobals = {}) => ({
+const makeOptionsConfig = () => ({
   languageOptions: {
-    globals: { ...additionalGlobals, ...globals.node },
+    globals: { ...globals.node },
     parser: typescriptEslintPlugin.parser,
     ecmaVersion: 2020,
     sourceType: 'module',
@@ -41,22 +39,19 @@ const makeOptionsConfig = (additionalGlobals = {}) => ({
   linterOptions: { reportUnusedDisableDirectives: 'error' },
 });
 
-export const makeConfig = (additionalConfigs = [], additionalGlobals = {}) => [
+export const makeConfig = (additionalConfigs = []) => [
   ...configs.flat(),
   ...additionalConfigs.flat(),
-  makeOptionsConfig(additionalGlobals),
+  makeOptionsConfig(),
   // eslint-config-prettier should have the opportunity to override other configs, so is last
   eslintConfigPrettier,
 ];
 
-export const makeConfigESM = (
-  additionalConfigs = [],
-  additionalGlobals = {},
-) => [
+export const makeConfigESM = (additionalConfigs = []) => [
   ...configs.flat(),
   ...additionalConfigs.flat(),
   {
-    ...makeOptionsConfig(additionalGlobals),
+    ...makeOptionsConfig(),
     settings: {
       'import/resolver': {
         typescript: {
