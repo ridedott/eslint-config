@@ -26,7 +26,7 @@
     "@types/node": "^18.19.96",
     "commitizen": "^4.3.1",
     "eslint": "^9.25.1",
-    "globals": "^16.0.0",
+    "globals": "^16.1.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
     "npm-run-all": "^4.1.5",
