@@ -1,1 +1,1 @@
-export { value } from '../no-cycle.fail';
+export { value } from '../no-cycle.fail.js';

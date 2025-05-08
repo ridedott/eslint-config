@@ -1,1 +1,1 @@
-import './no-self-import.fail';
+import './no-self-import.fail.js';

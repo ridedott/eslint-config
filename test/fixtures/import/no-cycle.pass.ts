@@ -1,1 +1,1 @@
-import './no-cycle.fail';
+import './no-cycle.fail.js';

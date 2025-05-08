@@ -1,15 +1,10 @@
 {
   "compilerOptions": {
-    "allowSyntheticDefaultImports": false,
-    "alwaysStrict": true,
-    "charset": "utf-8",
+    "allowSyntheticDefaultImports": true,
     "declaration": false,
     "downlevelIteration": false,
     "forceConsistentCasingInFileNames": true,
-    "importsNotUsedAsValues": "error",
-    "lib": ["DOM", "ES2019", "ESNext"],
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
     "noImplicitAny": false,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -20,12 +15,8 @@
     "rootDir": ".",
     "sourceMap": true,
     "strict": true,
-    "strictBindCallApply": true,
-    "strictFunctionTypes": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
-    "target": "ES2019",
-    "typeRoots": ["./@types", "./node_modules/@types"]
+    "target": "ES2022",
+    "verbatimModuleSyntax": true
   },
   "include": ["./test/**/*", "./node_modules/vitest/globals.d.ts"]
 }

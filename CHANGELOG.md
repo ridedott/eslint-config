@@ -1,3 +1,21 @@
+# [5.0.0](https://github.com/ridedott/eslint-config/compare/v4.5.3...v5.0.0) (2025-05-08)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 18.19.96 to 18.19.98
+  ([afc9e93d](https://github.com/ridedott/eslint-config/commit/afc9e93dcf4874d45e76ef921df9037b0900ff15))
+- **deps-dev:** bump globals from 16.0.0 to 16.1.0
+  ([047466ee](https://github.com/ridedott/eslint-config/commit/047466eeb8e3b3eeb6302b92cb4f469f1e5697ce))
+
+### Features
+
+- create ESM package and exports variants
+  ([996469d6](https://github.com/ridedott/eslint-config/commit/996469d6e6630032bfa3933ce6a8cb253c3b9859))
+
+### BREAKING CHANGE
+
+- True ESM package
+
 ## [4.5.3](https://github.com/ridedott/eslint-config/compare/v4.5.2...v4.5.3) (2025-05-06)
 
 ### Chores
