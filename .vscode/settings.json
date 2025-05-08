@@ -12,5 +12,6 @@
     "resolvePluginsRelativeTo": "./node_modules/@ridedott/eslint-config"
   },
   "eslint.run": "onType",
+  "eslint.useFlatConfig": true,
   "typescript.tsdk": "node_modules/typescript/lib"
 }
