@@ -1,3 +1,10 @@
+## [5.0.2](https://github.com/ridedott/eslint-config/compare/v5.0.1...v5.0.2) (2025-05-08)
+
+### Bug Fixes
+
+- include all needed files in package
+  ([b85d64b5](https://github.com/ridedott/eslint-config/commit/b85d64b5cbb27a9468e180c46fad2e367725ec7c))
+
 ## [5.0.1](https://github.com/ridedott/eslint-config/compare/v5.0.0...v5.0.1) (2025-05-08)
 
 ### Chores
