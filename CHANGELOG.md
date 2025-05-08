@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/ridedott/eslint-config/compare/v5.0.2...v5.1.0) (2025-05-08)
+
+### Features
+
+- disable jest/vitest no-hooks rule
+  ([1e1523a6](https://github.com/ridedott/eslint-config/commit/1e1523a6dd82add2e6c6b1e6d4cc26d8d6d96f3b))
+
 ## [5.0.2](https://github.com/ridedott/eslint-config/compare/v5.0.1...v5.0.2) (2025-05-08)
 
 ### Bug Fixes
