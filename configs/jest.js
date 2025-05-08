@@ -17,6 +17,7 @@ export default [
       'jest/expect-expect': 'off',
       // Can be safely turned off thanks to vitest/prefer-expect-assertions.
       'jest/no-conditional-expect': 'off',
+      'jest/no-hooks': 'off',
       'jest/prefer-expect-assertions': 'error',
       'jest/unbound-method': ['error', { ignoreStatic: true }],
       'jest/valid-title': ['error', { disallowedWords: ['should'] }],

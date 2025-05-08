@@ -21,6 +21,7 @@ export default [
       'vitest/expect-expect': 'off',
       // Can be safely turned off thanks to vitest/prefer-expect-assertions.
       'vitest/no-conditional-expect': 'off',
+      'vitest/no-hooks': 'off',
       'vitest/prefer-expect-assertions': 'error',
       'vitest/valid-title': ['error', { disallowedWords: ['should'] }],
     },
