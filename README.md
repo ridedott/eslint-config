@@ -83,7 +83,8 @@ Add ESLint settings to the workspace settings in `.vscode/settings.json`:
   },
   "eslint.enable": true,
   "eslint.lintTask.enable": true,
-  "eslint.run": "onType"
+  "eslint.run": "onType",
+  "eslint.useFlatConfig": true
 }
 ```
 
