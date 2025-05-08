@@ -1,3 +1,10 @@
+## [5.0.1](https://github.com/ridedott/eslint-config/compare/v5.0.0...v5.0.1) (2025-05-08)
+
+### Chores
+
+- use eslint flat config in VS Code
+  ([eaebdbfa](https://github.com/ridedott/eslint-config/commit/eaebdbfaea4b3b44d82b5db9b76fd6837aa4ea62))
+
 # [5.0.0](https://github.com/ridedott/eslint-config/compare/v4.5.3...v5.0.0) (2025-05-08)
 
 ### Chores
