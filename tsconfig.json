@@ -4,7 +4,7 @@
     "declaration": false,
     "downlevelIteration": false,
     "forceConsistentCasingInFileNames": true,
-    "module": "Node18",
+    "module": "NodeNext",
     "noImplicitAny": false,
     "noImplicitReturns": true,
     "noImplicitThis": true,

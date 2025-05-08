@@ -1,3 +1,16 @@
+## [4.5.3](https://github.com/ridedott/eslint-config/compare/v4.5.2...v4.5.3) (2025-05-06)
+
+### Chores
+
+- **deps-dev:** bump @eslint/js from 9.25.1 to 9.26.0
+  ([9b10c149](https://github.com/ridedott/eslint-config/commit/9b10c149645874cc9c502771c715057fad91e45a))
+- **deps-dev:** bump @types/node from 18.19.87 to 18.19.96
+  ([97cca48a](https://github.com/ridedott/eslint-config/commit/97cca48acf9bb97e4c07ec18d5f19d64fddd1c28))
+- **deps-dev:** bump lint-staged from 15.5.1 to 15.5.2
+  ([b2de20d2](https://github.com/ridedott/eslint-config/commit/b2de20d28f658a4eccc799d91a4e24bea9db006e))
+- **deps:** bump eslint-plugin-unicorn from 59.0.0 to 59.0.1
+  ([e470e0a9](https://github.com/ridedott/eslint-config/commit/e470e0a966030d7668f07163442820578d48cad9))
+
 ## [4.5.2](https://github.com/ridedott/eslint-config/compare/v4.5.1...v4.5.2) (2025-05-05)
 
 ### Chores

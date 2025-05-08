@@ -1745,6 +1745,23 @@ exports[`typescriptEslint rules > @typescript-eslint/prefer-optional-chain > fai
     "nodeType": "BinaryExpression",
     "ruleId": "eqeqeq",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "actualOperator": "!=",
+          "expectedOperator": "!==",
+        },
+        "desc": "Use '!==' instead of '!='.",
+        "fix": {
+          "range": [
+            285,
+            287,
+          ],
+          "text": "!==",
+        },
+        "messageId": "replaceOperator",
+      },
+    ],
   },
   {
     "column": 13,
@@ -1756,6 +1773,23 @@ exports[`typescriptEslint rules > @typescript-eslint/prefer-optional-chain > fai
     "nodeType": "BinaryExpression",
     "ruleId": "eqeqeq",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "actualOperator": "!=",
+          "expectedOperator": "!==",
+        },
+        "desc": "Use '!==' instead of '!='.",
+        "fix": {
+          "range": [
+            330,
+            332,
+          ],
+          "text": "!==",
+        },
+        "messageId": "replaceOperator",
+      },
+    ],
   },
 ]
 `;
@@ -3535,6 +3569,23 @@ exports[`unicorn rules > unicorn/prefer-includes > fails on an invalid fixture 1
     "nodeType": "BinaryExpression",
     "ruleId": "eqeqeq",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "actualOperator": "!=",
+          "expectedOperator": "!==",
+        },
+        "desc": "Use '!==' instead of '!='.",
+        "fix": {
+          "range": [
+            162,
+            164,
+          ],
+          "text": "!==",
+        },
+        "messageId": "replaceOperator",
+      },
+    ],
   },
   {
     "column": 5,
