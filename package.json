@@ -40,7 +40,12 @@
   },
   "files": [
     "index.js",
-    "rules",
+    "jest.js",
+    "jest-esm.js",
+    "makeConfig.js",
+    "vitest.js",
+    "vitest-esm.js",
+    "configs",
     "README.md"
   ],
   "license": "UNLICENSED",
