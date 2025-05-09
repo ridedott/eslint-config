@@ -1,5 +1,7 @@
 import typescriptEslintPlugin from 'typescript-eslint';
 
+import { TEST_FILES } from '../constants';
+
 export default [
   ...typescriptEslintPlugin.configs.all,
   {
@@ -370,6 +372,13 @@ export default [
       ],
       // Extended by jest/unbound-method.
       '@typescript-eslint/unbound-method': 'off',
+    },
+  },
+  {
+    files: TEST_FILES,
+    rules: {
+      '@typescript-eslint/no-magic-numbers': 'off',
+      '@typescript-eslint/no-unsafe-type-assertion': 'off',
     },
   },
 ];

@@ -1,13 +1,10 @@
 import vitestPlugin from 'eslint-plugin-vitest';
 
+import { TEST_FILES } from '../constants';
+
 export default [
   {
-    files: [
-      'test/**',
-      '__mocks__/**',
-      '**/*.spec.{ts,tsx}',
-      '**/*.test.{ts,tsx}',
-    ],
+    files: TEST_FILES,
     plugins: {
       vitest: vitestPlugin,
     },

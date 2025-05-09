@@ -1,13 +1,10 @@
 import jestPlugin from 'eslint-plugin-jest';
 
+import { TEST_FILES } from '../constants';
+
 export default [
   {
-    files: [
-      'test/**',
-      '__mocks__/**',
-      '**/*.spec.{ts,tsx}',
-      '**/*.test.{ts,tsx}',
-    ],
+    files: TEST_FILES,
     plugins: {
       jest: jestPlugin,
     },
