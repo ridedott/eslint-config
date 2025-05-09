@@ -1,3 +1,17 @@
+# [5.2.0](https://github.com/ridedott/eslint-config/compare/v5.1.0...v5.2.0) (2025-05-09)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 19.8.0 to 19.8.1
+  ([6700746a](https://github.com/ridedott/eslint-config/commit/6700746a5a525a906856c6b90cf65f8a4e141e13))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([e85c9028](https://github.com/ridedott/eslint-config/commit/e85c9028c1b64d2c02fc438ac0229042b5669f24))
+
+### Features
+
+- improve rules for tests
+  ([6d390167](https://github.com/ridedott/eslint-config/commit/6d390167ae95dfbed46ae98c00be539a4f6a9f91))
+
 # [5.1.0](https://github.com/ridedott/eslint-config/compare/v5.0.2...v5.1.0) (2025-05-08)
 
 ### Features
