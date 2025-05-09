@@ -1,6 +1,6 @@
 import typescriptEslintPlugin from 'typescript-eslint';
 
-import { TEST_FILES } from '../constants';
+import { TEST_FILES } from '../constants.js';
 
 export default [
   ...typescriptEslintPlugin.configs.all,

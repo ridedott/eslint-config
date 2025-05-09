@@ -1,6 +1,6 @@
 import vitestPlugin from 'eslint-plugin-vitest';
 
-import { TEST_FILES } from '../constants';
+import { TEST_FILES } from '../constants.js';
 
 export default [
   {

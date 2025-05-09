@@ -39,6 +39,7 @@
     "node": ">=18"
   },
   "files": [
+    "constants.js",
     "index.js",
     "jest.js",
     "jest-esm.js",

@@ -1,6 +1,6 @@
 import jestPlugin from 'eslint-plugin-jest';
 
-import { TEST_FILES } from '../constants';
+import { TEST_FILES } from '../constants.js';
 
 export default [
   {
