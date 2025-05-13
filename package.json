@@ -16,7 +16,7 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unicorn": "^59.0.1",
     "eslint-plugin-vitest": "^0.5.4",
-    "typescript-eslint": "^8.32.0"
+    "typescript-eslint": "^8.32.1"
   },
   "description": "Safety-oriented, fp-first configuration of ESLint.",
   "devDependencies": {
