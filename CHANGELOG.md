@@ -1,3 +1,12 @@
+## [5.2.4](https://github.com/ridedott/eslint-config/compare/v5.2.3...v5.2.4) (2025-05-19)
+
+### Chores
+
+- **deps-dev:** bump vitest from 3.1.3 to 3.1.4
+  ([cb22eb31](https://github.com/ridedott/eslint-config/commit/cb22eb31d57cd7a4a78a5edf425da1acb56db28c))
+- **deps:** bump ridedott/release-me-action from 3.10.64 to 3.10.65
+  ([13fe7ff0](https://github.com/ridedott/eslint-config/commit/13fe7ff0e2a749cad08a184703c3fe7ac9b143d3))
+
 ## [5.2.3](https://github.com/ridedott/eslint-config/compare/v5.2.2...v5.2.3) (2025-05-19)
 
 ### Chores
