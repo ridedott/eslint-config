@@ -1,3 +1,10 @@
+## [5.2.3](https://github.com/ridedott/eslint-config/compare/v5.2.2...v5.2.3) (2025-05-19)
+
+### Chores
+
+- **deps:** bump eslint-import-resolver-typescript from 4.3.4 to 4.3.5
+  ([38284651](https://github.com/ridedott/eslint-config/commit/382846511da4da3fb6098af2a3f2b46f2e15d314))
+
 ## [5.2.2](https://github.com/ridedott/eslint-config/compare/v5.2.1...v5.2.2) (2025-05-13)
 
 ### Chores
