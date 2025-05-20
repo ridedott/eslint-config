@@ -1,3 +1,10 @@
+## [5.2.5](https://github.com/ridedott/eslint-config/compare/v5.2.4...v5.2.5) (2025-05-20)
+
+### Chores
+
+- use latest @vitest/eslint-plugin
+  ([1e0edf8a](https://github.com/ridedott/eslint-config/commit/1e0edf8adbf0c91fc3f060eba9ffe04827c29c3e))
+
 ## [5.2.4](https://github.com/ridedott/eslint-config/compare/v5.2.3...v5.2.4) (2025-05-19)
 
 ### Chores
