@@ -1,3 +1,14 @@
+## [5.2.7](https://github.com/ridedott/eslint-config/compare/v5.2.6...v5.2.7) (2025-05-26)
+
+### Chores
+
+- **deps-dev:** bump globals from 16.1.0 to 16.2.0
+  ([c83fbe73](https://github.com/ridedott/eslint-config/commit/c83fbe737b53a1417a34eb4f28c3dbe303b530d1))
+- **deps:** bump @stylistic/eslint-plugin from 4.2.0 to 4.4.0
+  ([e430128f](https://github.com/ridedott/eslint-config/commit/e430128fafbbe925f7bb1982b2ab96c9db573e89))
+- **deps:** bump eslint-import-resolver-typescript from 4.3.5 to 4.4.1
+  ([3687d938](https://github.com/ridedott/eslint-config/commit/3687d93837fdb6b5e1c0adf81ac860b6de72151f))
+
 ## [5.2.6](https://github.com/ridedott/eslint-config/compare/v5.2.5...v5.2.6) (2025-05-23)
 
 ### Chores
