@@ -1,3 +1,10 @@
+## [5.2.19](https://github.com/ridedott/eslint-config/compare/v5.2.18...v5.2.19) (2025-06-12)
+
+### Bug Fixes
+
+- **vitest:** fix test title rule conflicts
+  ([b218aabc](https://github.com/ridedott/eslint-config/commit/b218aabc7c08b813982a03b5fcab6d0d4af94c84))
+
 ## [5.2.18](https://github.com/ridedott/eslint-config/compare/v5.2.17...v5.2.18) (2025-06-11)
 
 ### Chores
