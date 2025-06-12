@@ -22,5 +22,10 @@ export default [
       'vitest/prefer-expect-assertions': 'error',
       'vitest/valid-title': ['error', { disallowedWords: ['should'] }],
     },
+    settings: {
+      vitest: {
+        typecheck: true,
+      },
+    },
   },
 ];
