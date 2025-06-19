@@ -1,3 +1,10 @@
+## [5.2.26](https://github.com/ridedott/eslint-config/compare/v5.2.25...v5.2.26) (2025-06-19)
+
+### Chores
+
+- **deps:** bump eslint-plugin-jest from 29.0.0 to 29.0.1
+  ([710df0f5](https://github.com/ridedott/eslint-config/commit/710df0f508a155a15591d6e5c1e8094203aeb05e))
+
 ## [5.2.25](https://github.com/ridedott/eslint-config/compare/v5.2.24...v5.2.25) (2025-06-18)
 
 ### Chores
