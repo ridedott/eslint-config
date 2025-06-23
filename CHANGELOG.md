@@ -1,3 +1,12 @@
+## [5.2.28](https://github.com/ridedott/eslint-config/compare/v5.2.27...v5.2.28) (2025-06-23)
+
+### Chores
+
+- **deps-dev:** bump prettier from 3.5.3 to 3.6.0
+  ([0bc9fb9f](https://github.com/ridedott/eslint-config/commit/0bc9fb9f2113bdc40cd1fd1c22489dad7e03b562))
+- **deps:** bump @stylistic/eslint-plugin from 4.4.1 to 5.0.0
+  ([336de6df](https://github.com/ridedott/eslint-config/commit/336de6df4162c9001fbd9b76be50c5b4b3b931de))
+
 ## [5.2.27](https://github.com/ridedott/eslint-config/compare/v5.2.26...v5.2.27) (2025-06-23)
 
 ### Chores
