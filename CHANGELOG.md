@@ -1,3 +1,10 @@
+## [5.2.27](https://github.com/ridedott/eslint-config/compare/v5.2.26...v5.2.27) (2025-06-23)
+
+### Chores
+
+- **deps:** bump eslint-plugin-import from 2.31.0 to 2.32.0
+  ([585f2113](https://github.com/ridedott/eslint-config/commit/585f21138cfb9dadacac93ae9d451ded51255db1))
+
 ## [5.2.26](https://github.com/ridedott/eslint-config/compare/v5.2.25...v5.2.26) (2025-06-19)
 
 ### Chores
