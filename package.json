@@ -8,7 +8,7 @@
     "@stylistic/eslint-plugin": "^5.0.0",
     "@vitest/eslint-plugin": "^1.2.7",
     "eslint-config-prettier": "^10.1.5",
-    "eslint-import-resolver-typescript": "^4.4.3",
+    "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-array-func": "^5.0.2",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-functional": "^9.0.2",
