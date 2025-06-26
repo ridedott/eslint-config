@@ -1,3 +1,12 @@
+## [5.2.30](https://github.com/ridedott/eslint-config/compare/v5.2.29...v5.2.30) (2025-06-26)
+
+### Chores
+
+- **deps-dev:** bump prettier from 3.6.0 to 3.6.1
+  ([91f9cc8c](https://github.com/ridedott/eslint-config/commit/91f9cc8cea3218859020f66fdb0d8a63c1bc3771))
+- **deps:** bump eslint-import-resolver-typescript from 4.4.3 to 4.4.4
+  ([1291a882](https://github.com/ridedott/eslint-config/commit/1291a882f699909cb9f8708d0d110ade173e5ef2))
+
 ## [5.2.29](https://github.com/ridedott/eslint-config/compare/v5.2.28...v5.2.29) (2025-06-24)
 
 ### Chores
