@@ -1,3 +1,10 @@
+## [5.2.34](https://github.com/ridedott/eslint-config/compare/v5.2.33...v5.2.34) (2025-06-30)
+
+### Chores
+
+- **deps:** bump @stylistic/eslint-plugin from 5.0.0 to 5.1.0
+  ([04ffffdf](https://github.com/ridedott/eslint-config/commit/04ffffdfc753605d5069334a33c9295100e0bf77))
+
 ## [5.2.33](https://github.com/ridedott/eslint-config/compare/v5.2.32...v5.2.33) (2025-06-30)
 
 ### Chores
