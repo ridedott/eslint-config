@@ -1,3 +1,12 @@
+## [5.2.35](https://github.com/ridedott/eslint-config/compare/v5.2.34...v5.2.35) (2025-07-02)
+
+### Chores
+
+- **deps-dev:** bump globals from 16.2.0 to 16.3.0
+  ([7d50fbe4](https://github.com/ridedott/eslint-config/commit/7d50fbe4d9be499a0c5d23ca229dc5a7359137e4))
+- **deps:** bump @vitest/eslint-plugin from 1.3.3 to 1.3.4
+  ([f454c0af](https://github.com/ridedott/eslint-config/commit/f454c0afd30652f0c7e7628e674225f27d332798))
+
 ## [5.2.34](https://github.com/ridedott/eslint-config/compare/v5.2.33...v5.2.34) (2025-06-30)
 
 ### Chores
