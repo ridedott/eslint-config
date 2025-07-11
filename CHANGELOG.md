@@ -1,3 +1,10 @@
+# [5.3.0](https://github.com/ridedott/eslint-config/compare/v5.2.36...v5.3.0) (2025-07-11)
+
+### Features
+
+- correctly set stylistic rules
+  ([c7f68ac5](https://github.com/ridedott/eslint-config/commit/c7f68ac576a5a8dde4f6819beeb79c7984928be5))
+
 ## [5.2.36](https://github.com/ridedott/eslint-config/compare/v5.2.35...v5.2.36) (2025-07-07)
 
 ### Chores
