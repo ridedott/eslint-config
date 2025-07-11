@@ -19,7 +19,6 @@ const configs = [
   functionalConfig,
   importConfig,
   simpleImportSortConfig,
-  stylisticConfig,
   typescriptConfig,
   unicornConfig,
 ];
@@ -45,6 +44,9 @@ export const makeConfig = (additionalConfigs = []) => [
   makeOptionsConfig(),
   // eslint-config-prettier should have the opportunity to override other configs, so is last
   eslintConfigPrettier,
+  // eslint-config-prettier overrides some @stylistic rules. Set them back.
+  ...stylisticConfig,
+  // ...alsoConfigs.flat(),
 ];
 
 export const makeConfigESM = (additionalConfigs = []) => [
@@ -62,4 +64,6 @@ export const makeConfigESM = (additionalConfigs = []) => [
   },
   // eslint-config-prettier should have the opportunity to override other configs, so is last
   eslintConfigPrettier,
+  // eslint-config-prettier overrides some @stylistic rules. Set them back.
+  ...stylisticConfig,
 ];

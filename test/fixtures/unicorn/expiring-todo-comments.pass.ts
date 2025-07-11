@@ -1,4 +1,5 @@
-/* eslint-disable multiline-comment-style */
+/* eslint-disable @stylistic/multiline-comment-style */
+
 // TODO [2200-12-25]: Too long... Can you feel it?
 
 // TODO (SomeUser) [2200-12-12]: You can add something before the arguments.

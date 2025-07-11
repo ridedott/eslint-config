@@ -666,8 +666,8 @@ exports[`import rules > import/no-extraneous-dependencies > fails on an invalid 
   {
     "column": 1,
     "endColumn": 39,
-    "endLine": 3,
-    "line": 3,
+    "endLine": 4,
+    "line": 4,
     "message": "'npm-run-all' should be listed in the project's dependencies, not devDependencies.",
     "nodeType": "ExportAllDeclaration",
     "ruleId": "import/no-extraneous-dependencies",
@@ -851,7 +851,23 @@ import * as path from 'node:path';",
 ]
 `;
 
-exports[`stylistic rules > multiline-comment-style > fails on an invalid fixture 1`] = `
+exports[`stylistic rules > @stylistic/max-len > fails on an invalid fixture 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 157,
+    "endLine": 3,
+    "line": 3,
+    "message": "This line has a comment length of 156. Maximum allowed is 80.",
+    "messageId": "maxComment",
+    "nodeType": "Program",
+    "ruleId": "@stylistic/max-len",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`stylistic rules > @stylistic/multiline-comment-style > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
@@ -869,7 +885,7 @@ exports[`stylistic rules > multiline-comment-style > fails on an invalid fixture
     "message": "Expected a linebreak after '/*'.",
     "messageId": "startNewline",
     "nodeType": null,
-    "ruleId": "multiline-comment-style",
+    "ruleId": "@stylistic/multiline-comment-style",
     "severity": 2,
   },
   {
@@ -887,7 +903,7 @@ exports[`stylistic rules > multiline-comment-style > fails on an invalid fixture
     "message": "Expected a '*' at the start of this line.",
     "messageId": "missingStar",
     "nodeType": null,
-    "ruleId": "multiline-comment-style",
+    "ruleId": "@stylistic/multiline-comment-style",
     "severity": 2,
   },
   {
@@ -906,13 +922,13 @@ exports[`stylistic rules > multiline-comment-style > fails on an invalid fixture
     "message": "Expected a linebreak before '*/'.",
     "messageId": "endNewline",
     "nodeType": null,
-    "ruleId": "multiline-comment-style",
+    "ruleId": "@stylistic/multiline-comment-style",
     "severity": 2,
   },
 ]
 `;
 
-exports[`stylistic rules > padding-line-between-statements > fails on an invalid fixture 1`] = `
+exports[`stylistic rules > @stylistic/padding-line-between-statements > fails on an invalid fixture 1`] = `
 [
   {
     "column": 3,
@@ -930,7 +946,7 @@ exports[`stylistic rules > padding-line-between-statements > fails on an invalid
     "message": "Expected blank line before this statement.",
     "messageId": "expectedBlankLine",
     "nodeType": "IfStatement",
-    "ruleId": "padding-line-between-statements",
+    "ruleId": "@stylistic/padding-line-between-statements",
     "severity": 2,
   },
   {
@@ -949,7 +965,7 @@ exports[`stylistic rules > padding-line-between-statements > fails on an invalid
     "message": "Expected blank line before this statement.",
     "messageId": "expectedBlankLine",
     "nodeType": "ExpressionStatement",
-    "ruleId": "padding-line-between-statements",
+    "ruleId": "@stylistic/padding-line-between-statements",
     "severity": 2,
   },
   {
@@ -968,7 +984,7 @@ exports[`stylistic rules > padding-line-between-statements > fails on an invalid
     "message": "Expected blank line before this statement.",
     "messageId": "expectedBlankLine",
     "nodeType": "ReturnStatement",
-    "ruleId": "padding-line-between-statements",
+    "ruleId": "@stylistic/padding-line-between-statements",
     "severity": 2,
   },
 ]
@@ -1542,8 +1558,8 @@ exports[`typescriptEslint rules > @typescript-eslint/no-magic-numbers > fails on
   {
     "column": 28,
     "endColumn": 29,
-    "endLine": 3,
-    "line": 3,
+    "endLine": 4,
+    "line": 4,
     "message": "No magic number: 7.",
     "messageId": "noMagic",
     "nodeType": "Literal",
@@ -1553,8 +1569,8 @@ exports[`typescriptEslint rules > @typescript-eslint/no-magic-numbers > fails on
   {
     "column": 32,
     "endColumn": 33,
-    "endLine": 3,
-    "line": 3,
+    "endLine": 4,
+    "line": 4,
     "message": "No magic number: 5.",
     "messageId": "noMagic",
     "nodeType": "Literal",
@@ -2323,8 +2339,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 47,
-    "endLine": 1,
-    "line": 1,
+    "endLine": 3,
+    "line": 3,
     "message": "There is a TODO that is past due date: 2000-01-01. I'll fix this next week.",
     "messageId": "unicorn/expiredTodo",
     "nodeType": null,
@@ -2334,29 +2350,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 61,
-    "endLine": 2,
-    "fix": {
-      "range": [
-        0,
-        107,
-      ],
-      "text": "/*
- * TODO [2000-01-01]: I'll fix this next week.
- * TODO [2000-01-01, 2001-01-01]: Multiple dates won't work.
- */",
-    },
-    "line": 1,
-    "message": "Expected a block comment instead of consecutive line comments.",
-    "messageId": "expectedBlock",
-    "nodeType": null,
-    "ruleId": "multiline-comment-style",
-    "severity": 2,
-  },
-  {
-    "column": 1,
-    "endColumn": 61,
-    "endLine": 2,
-    "line": 2,
+    "endLine": 4,
+    "line": 4,
     "message": "Avoid using multiple expiration dates in TODO: 2000-01-01, 2001-01-01. Multiple dates won't work.",
     "messageId": "unicorn/avoidMultipleDates",
     "nodeType": null,
@@ -2366,8 +2361,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 51,
-    "endLine": 4,
-    "line": 4,
+    "endLine": 6,
+    "line": 6,
     "message": "There is a TODO that is past due package version: >1. If your package.json version is > 1.",
     "messageId": "unicorn/reachedPackageVersion",
     "nodeType": null,
@@ -2376,31 +2371,9 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   },
   {
     "column": 1,
-    "endColumn": 56,
-    "endLine": 6,
-    "fix": {
-      "range": [
-        109,
-        268,
-      ],
-      "text": "/*
- * TODO [>1]: If your package.json version is > 1.
- * TODO [>=1]: If your package.json version is >= 1.
- * TODO [>1, >2]: Multiple package versions won't work.
- */",
-    },
-    "line": 4,
-    "message": "Expected a block comment instead of consecutive line comments.",
-    "messageId": "expectedBlock",
-    "nodeType": null,
-    "ruleId": "multiline-comment-style",
-    "severity": 2,
-  },
-  {
-    "column": 1,
     "endColumn": 53,
-    "endLine": 5,
-    "line": 5,
+    "endLine": 7,
+    "line": 7,
     "message": "There is a TODO that is past due package version: >=1. If your package.json version is >= 1.",
     "messageId": "unicorn/reachedPackageVersion",
     "nodeType": null,
@@ -2410,8 +2383,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 56,
-    "endLine": 6,
-    "line": 6,
+    "endLine": 8,
+    "line": 8,
     "message": "Avoid using multiple package versions in TODO: >1, >2. Multiple package versions won't work.",
     "messageId": "unicorn/avoidMultiplePackageVersions",
     "nodeType": null,
@@ -2421,29 +2394,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 77,
-    "endLine": 9,
-    "fix": {
-      "range": [
-        270,
-        415,
-      ],
-      "text": "/*
- * TODO [+already-have-pkg]: Since we already have it, this reports.
- * TODO [-we-dont-have-this-package]: Since we don't have, trigger a report.
- */",
-    },
-    "line": 8,
-    "message": "Expected a block comment instead of consecutive line comments.",
-    "messageId": "expectedBlock",
-    "nodeType": null,
-    "ruleId": "multiline-comment-style",
-    "severity": 2,
-  },
-  {
-    "column": 1,
-    "endColumn": 77,
-    "endLine": 9,
-    "line": 9,
+    "endLine": 11,
+    "line": 11,
     "message": "There is a TODO that is deprecated since you uninstalled: we-dont-have-this-package. Since we don't have, trigger a report.",
     "messageId": "unicorn/dontHavePackage",
     "nodeType": null,
@@ -2453,8 +2405,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 23,
-    "endLine": 11,
-    "line": 11,
+    "endLine": 13,
+    "line": 13,
     "message": "Unexpected 'todo' comment without any conditions: 'TODO: Add unicorns.'.",
     "messageId": "unexpectedComment",
     "nodeType": "Line",
@@ -2464,8 +2416,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 4,
-    "endLine": 17,
-    "line": 13,
+    "endLine": 19,
+    "line": 15,
     "message": "There is a TODO that is past due date: 2002-12-25. Yet",
     "messageId": "unicorn/expiredTodo",
     "nodeType": null,
@@ -2475,8 +2427,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 4,
-    "endLine": 17,
-    "line": 13,
+    "endLine": 19,
+    "line": 15,
     "message": "There is a TODO that is past due date: 2002-12-25. Another",
     "messageId": "unicorn/expiredTodo",
     "nodeType": null,
@@ -2486,8 +2438,8 @@ exports[`unicorn rules > unicorn/expiring-todo-comments > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 4,
-    "endLine": 17,
-    "line": 13,
+    "endLine": 19,
+    "line": 15,
     "message": "There is a TODO that is past due date: 2002-12-25. Way",
     "messageId": "unicorn/expiredTodo",
     "nodeType": null,
@@ -4154,8 +4106,8 @@ exports[`unicorn rules > unicorn/throw-new-error > fails on an invalid fixture 1
     "endLine": 5,
     "fix": {
       "range": [
-        135,
-        135,
+        146,
+        146,
       ],
       "text": "new ",
     },
@@ -4172,8 +4124,8 @@ exports[`unicorn rules > unicorn/throw-new-error > fails on an invalid fixture 1
     "endLine": 6,
     "fix": {
       "range": [
-        159,
-        159,
+        170,
+        170,
       ],
       "text": "new ",
     },
