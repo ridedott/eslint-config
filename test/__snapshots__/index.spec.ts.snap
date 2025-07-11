@@ -666,8 +666,8 @@ exports[`import rules > import/no-extraneous-dependencies > fails on an invalid 
   {
     "column": 1,
     "endColumn": 39,
-    "endLine": 3,
-    "line": 3,
+    "endLine": 4,
+    "line": 4,
     "message": "'npm-run-all' should be listed in the project's dependencies, not devDependencies.",
     "nodeType": "ExportAllDeclaration",
     "ruleId": "import/no-extraneous-dependencies",
@@ -856,8 +856,8 @@ exports[`stylistic rules > @stylistic/max-len > fails on an invalid fixture 1`] 
   {
     "column": 1,
     "endColumn": 157,
-    "endLine": 4,
-    "line": 4,
+    "endLine": 3,
+    "line": 3,
     "message": "This line has a comment length of 156. Maximum allowed is 80.",
     "messageId": "maxComment",
     "nodeType": "Program",
@@ -1558,8 +1558,8 @@ exports[`typescriptEslint rules > @typescript-eslint/no-magic-numbers > fails on
   {
     "column": 28,
     "endColumn": 29,
-    "endLine": 3,
-    "line": 3,
+    "endLine": 4,
+    "line": 4,
     "message": "No magic number: 7.",
     "messageId": "noMagic",
     "nodeType": "Literal",
@@ -1569,8 +1569,8 @@ exports[`typescriptEslint rules > @typescript-eslint/no-magic-numbers > fails on
   {
     "column": 32,
     "endColumn": 33,
-    "endLine": 3,
-    "line": 3,
+    "endLine": 4,
+    "line": 4,
     "message": "No magic number: 5.",
     "messageId": "noMagic",
     "nodeType": "Literal",
