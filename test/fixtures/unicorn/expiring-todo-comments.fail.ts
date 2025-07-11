@@ -1,3 +1,5 @@
+/* eslint-disable @stylistic/multiline-comment-style */
+
 // TODO [2000-01-01]: I'll fix this next week.
 // TODO [2000-01-01, 2001-01-01]: Multiple dates won't work.
 

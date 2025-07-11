@@ -6,7 +6,7 @@ export default [
       '@stylistic': stylistic,
     },
     rules: {
-      'max-len': [
+      '@stylistic/max-len': [
         'error',
         {
           code: 1024,
@@ -15,8 +15,8 @@ export default [
           ignoreUrls: true,
         },
       ],
-      'multiline-comment-style': 'error',
-      'padding-line-between-statements': [
+      '@stylistic/multiline-comment-style': 'error',
+      '@stylistic/padding-line-between-statements': [
         'error',
         { blankLine: 'always', prev: '*', next: 'block-like' },
         { blankLine: 'always', prev: '*', next: 'block' },

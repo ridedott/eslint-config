@@ -64,7 +64,7 @@ const ruleSetPrefix: Record<keyof typeof configuredRules, string | null> = {
   import: 'import',
   jest: 'jest',
   simpleImportSort: 'simple-import-sort',
-  stylistic: null,
+  stylistic: '@stylistic',
   typescriptEslint: '@typescript-eslint',
   unicorn: 'unicorn',
 };
@@ -74,10 +74,6 @@ const fixtureFilePath = (ruleSet: string): string => {
 
   if (ruleSet === 'eslint') {
     return `${BASE_PATH}/eslint/`;
-  }
-
-  if (ruleSet === 'stylistic') {
-    return `${BASE_PATH}/@stylistic/`;
   }
 
   return `${BASE_PATH}`;
@@ -221,8 +217,8 @@ describe.each(Object.keys(configuredRules))(
           });
 
           expect(result.warningCount).toBe(0);
-          expect(result.errorCount).toBeGreaterThan(0);
           expect(result.messages).toMatchSnapshot();
+          expect(result.errorCount).toBeGreaterThan(0);
         });
       },
     );
