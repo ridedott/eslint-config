@@ -4101,28 +4101,13 @@ exports[`unicorn rules > unicorn/require-number-to-fixed-digits-argument > fails
 exports[`unicorn rules > unicorn/throw-new-error > fails on an invalid fixture 1`] = `
 [
   {
-    "column": 1,
-    "fix": {
-      "range": [
-        29,
-        81,
-      ],
-      "text": " ",
-    },
-    "line": 2,
-    "message": "Unused eslint-disable directive (no problems were reported from 'padding-line-between-statements').",
-    "nodeType": null,
-    "ruleId": null,
-    "severity": 2,
-  },
-  {
     "column": 7,
     "endColumn": 23,
     "endLine": 5,
     "fix": {
       "range": [
-        135,
-        135,
+        146,
+        146,
       ],
       "text": "new ",
     },
@@ -4134,32 +4119,13 @@ exports[`unicorn rules > unicorn/throw-new-error > fails on an invalid fixture 1
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 28,
-    "endLine": 6,
-    "fix": {
-      "range": [
-        152,
-        152,
-      ],
-      "text": "
-",
-    },
-    "line": 6,
-    "message": "Expected blank line before this statement.",
-    "messageId": "expectedBlankLine",
-    "nodeType": "ThrowStatement",
-    "ruleId": "@stylistic/padding-line-between-statements",
-    "severity": 2,
-  },
-  {
     "column": 7,
     "endColumn": 27,
     "endLine": 6,
     "fix": {
       "range": [
-        159,
-        159,
+        170,
+        170,
       ],
       "text": "new ",
     },
