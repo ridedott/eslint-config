@@ -1,3 +1,10 @@
+## [5.3.4](https://github.com/ridedott/eslint-config/compare/v5.3.3...v5.3.4) (2025-07-21)
+
+### Chores
+
+- **deps:** bump eslint-config-prettier from 10.1.7 to 10.1.8
+  ([ed405596](https://github.com/ridedott/eslint-config/commit/ed4055967e0072088d98f075eab367c209c40309))
+
 ## [5.3.3](https://github.com/ridedott/eslint-config/compare/v5.3.2...v5.3.3) (2025-07-18)
 
 ### Chores
