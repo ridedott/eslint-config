@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 /* eslint-disable @typescript-eslint/restrict-plus-operands */
 /* eslint-disable id-length */
+/* eslint-disable unicorn/no-array-reverse */
 
 const sumReversePAss = [].reduce((p, c) => p + c, 0);
 
