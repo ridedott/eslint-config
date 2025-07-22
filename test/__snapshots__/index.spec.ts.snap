@@ -5,15 +5,15 @@ exports[`arrayFunc rules > array-func/avoid-reverse > fails on an invalid fixtur
   {
     "column": 27,
     "endColumn": 43,
-    "endLine": 4,
+    "endLine": 5,
     "fix": {
       "range": [
-        128,
-        144,
+        174,
+        190,
       ],
       "text": "reduceRight",
     },
-    "line": 4,
+    "line": 5,
     "message": "Prefer using reduceRight over reversing the array and reduce",
     "messageId": "avoidReverse",
     "nodeType": "Identifier",
@@ -23,8 +23,8 @@ exports[`arrayFunc rules > array-func/avoid-reverse > fails on an invalid fixtur
   {
     "column": 58,
     "endColumn": 59,
-    "endLine": 4,
-    "line": 4,
+    "endLine": 5,
+    "line": 5,
     "message": "Invalid operand for a '+' operation. Operands must each be a number or string, allowing a string + any of: \`any\`, \`boolean\`, \`null\`, \`RegExp\`, \`undefined\`. Got \`never\`.",
     "messageId": "invalid",
     "nodeType": "Identifier",
@@ -34,15 +34,15 @@ exports[`arrayFunc rules > array-func/avoid-reverse > fails on an invalid fixtur
   {
     "column": 27,
     "endColumn": 48,
-    "endLine": 6,
+    "endLine": 7,
     "fix": {
       "range": [
-        193,
-        214,
+        239,
+        260,
       ],
       "text": "reduce",
     },
-    "line": 6,
+    "line": 7,
     "message": "Prefer using reduce over reversing the array and reduceRight",
     "messageId": "avoidReverse",
     "nodeType": "Identifier",
@@ -52,8 +52,8 @@ exports[`arrayFunc rules > array-func/avoid-reverse > fails on an invalid fixtur
   {
     "column": 63,
     "endColumn": 64,
-    "endLine": 6,
-    "line": 6,
+    "endLine": 7,
+    "line": 7,
     "message": "Invalid operand for a '+' operation. Operands must each be a number or string, allowing a string + any of: \`any\`, \`boolean\`, \`null\`, \`RegExp\`, \`undefined\`. Got \`never\`.",
     "messageId": "invalid",
     "nodeType": "Identifier",
@@ -1612,8 +1612,8 @@ exports[`typescriptEslint rules > @typescript-eslint/prefer-nullish-coalescing >
   {
     "column": 7,
     "endColumn": 9,
-    "endLine": 6,
-    "line": 6,
+    "endLine": 7,
+    "line": 7,
     "message": "Prefer using nullish coalescing operator (\`??\`) instead of a logical or (\`||\`), as it is a safer operator.",
     "messageId": "preferNullishOverOr",
     "nodeType": "Punctuator",
@@ -1627,8 +1627,8 @@ exports[`typescriptEslint rules > @typescript-eslint/prefer-nullish-coalescing >
         "desc": "Fix to nullish coalescing operator (\`??\`).",
         "fix": {
           "range": [
-            263,
-            265,
+            303,
+            305,
           ],
           "text": "??",
         },
@@ -1639,8 +1639,8 @@ exports[`typescriptEslint rules > @typescript-eslint/prefer-nullish-coalescing >
   {
     "column": 1,
     "endColumn": 37,
-    "endLine": 9,
-    "line": 9,
+    "endLine": 10,
+    "line": 10,
     "message": "Prefer using nullish coalescing operator (\`??\`) instead of a ternary expression, as it is simpler to read.",
     "messageId": "preferNullishOverTernary",
     "nodeType": "ConditionalExpression",
@@ -1654,8 +1654,8 @@ exports[`typescriptEslint rules > @typescript-eslint/prefer-nullish-coalescing >
         "desc": "Fix to nullish coalescing operator (\`??\`).",
         "fix": {
           "range": [
-            308,
-            344,
+            348,
+            384,
           ],
           "text": "foo ?? 'a string'",
         },

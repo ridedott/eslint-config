@@ -1,4 +1,5 @@
 /* eslint-disable functional/no-let */
+/* eslint-disable no-unassigned-vars */
 /* eslint-disable @typescript-eslint/init-declarations */
 /* eslint-disable @typescript-eslint/no-unused-expressions */
 /* eslint-disable @typescript-eslint/strict-boolean-expressions */
