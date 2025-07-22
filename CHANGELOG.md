@@ -1,3 +1,14 @@
+## [5.3.7](https://github.com/ridedott/eslint-config/compare/v5.3.6...v5.3.7) (2025-07-22)
+
+### Chores
+
+- **deps:** bump eslint-plugin-unicorn from 59.0.1 to 60.0.0
+  ([e37c64b3](https://github.com/ridedott/eslint-config/commit/e37c64b38765e3fcecbdb963a02d601036a12b8d))
+
+### BREAKING CHANGE
+
+- **deps:** Dropped support for Node.js < 20.
+
 ## [5.3.6](https://github.com/ridedott/eslint-config/compare/v5.3.5...v5.3.6) (2025-07-21)
 
 ### Chores
