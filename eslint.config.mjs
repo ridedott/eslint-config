@@ -2,6 +2,7 @@ import { jestESM } from './index.js';
 
 export default [
   ...jestESM,
+  { settings: { jest: { version: 30 } } },
   {
     files: ['test/*.ts'],
     rules: {
