@@ -1,3 +1,10 @@
+## [5.3.10](https://github.com/ridedott/eslint-config/compare/v5.3.9...v5.3.10) (2025-08-06)
+
+### Bug Fixes
+
+- install jest as a dev dependency
+  ([b9c97cf6](https://github.com/ridedott/eslint-config/commit/b9c97cf6429039145463f888fe354aaa05bae655))
+
 ## [5.3.9](https://github.com/ridedott/eslint-config/compare/v5.3.8...v5.3.9) (2025-08-01)
 
 ### Chores
