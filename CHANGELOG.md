@@ -1,3 +1,12 @@
+## [5.3.15](https://github.com/ridedott/eslint-config/compare/v5.3.14...v5.3.15) (2025-08-12)
+
+### Chores
+
+- **deps-dev:** bump eslint from 9.32.0 to 9.33.0
+  ([1ffe7a8c](https://github.com/ridedott/eslint-config/commit/1ffe7a8cc873918b2bb6c43c920edc4837ba5de1))
+- **deps:** bump actions/checkout from 4 to 5
+  ([30854baf](https://github.com/ridedott/eslint-config/commit/30854baf0b8bec0843a2244a006d85f58fe7d54b))
+
 ## [5.3.14](https://github.com/ridedott/eslint-config/compare/v5.3.13...v5.3.14) (2025-08-12)
 
 ### Chores
