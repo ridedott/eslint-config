@@ -1,3 +1,12 @@
+## [5.3.14](https://github.com/ridedott/eslint-config/compare/v5.3.13...v5.3.14) (2025-08-12)
+
+### Chores
+
+- **deps-dev:** bump @eslint/js from 9.32.0 to 9.33.0
+  ([ba692cdc](https://github.com/ridedott/eslint-config/commit/ba692cdce45571d64ce057e31bdf4556b04cb86f))
+- **deps:** bump typescript-eslint from 8.39.0 to 8.39.1
+  ([600da16a](https://github.com/ridedott/eslint-config/commit/600da16a447658405a7ce6945adf2d30d627e3d0))
+
 ## [5.3.13](https://github.com/ridedott/eslint-config/compare/v5.3.12...v5.3.13) (2025-08-08)
 
 ### Chores
