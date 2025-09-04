@@ -1,3 +1,16 @@
+## [5.3.23](https://github.com/ridedott/eslint-config/compare/v5.3.22...v5.3.23) (2025-09-04)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 22.18.0 to 22.18.1
+  ([1b8569a7](https://github.com/ridedott/eslint-config/commit/1b8569a72a1924a542dce46a3a1210f2261e7a11))
+- **deps-dev:** bump jest from 30.1.2 to 30.1.3
+  ([f0e92e8e](https://github.com/ridedott/eslint-config/commit/f0e92e8e34123f99aa1274cb769f07057912ca28))
+- **deps:** bump actions/setup-node from 4.4.0 to 5.0.0
+  ([414f42de](https://github.com/ridedott/eslint-config/commit/414f42deee815dd2b068107e11094787663f709a))
+- **deps:** bump ridedott/release-me-action from 3.10.70 to 3.10.71
+  ([a6c6e542](https://github.com/ridedott/eslint-config/commit/a6c6e54285f06b7aab36680789c5f77743431475))
+
 ## [5.3.22](https://github.com/ridedott/eslint-config/compare/v5.3.21...v5.3.22) (2025-09-04)
 
 ### Chores
