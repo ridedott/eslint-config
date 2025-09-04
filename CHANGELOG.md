@@ -1,3 +1,12 @@
+## [5.3.22](https://github.com/ridedott/eslint-config/compare/v5.3.21...v5.3.22) (2025-09-04)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 16.1.5 to 16.1.6
+  ([daa43fa4](https://github.com/ridedott/eslint-config/commit/daa43fa485a1909a1f96cabb1d422cebb7035440))
+- **deps:** bump @vitest/eslint-plugin from 1.3.4 to 1.3.8
+  ([8f4ac4ed](https://github.com/ridedott/eslint-config/commit/8f4ac4ed7941e8e894b335c37d1e3f5302698aac))
+
 ## [5.3.21](https://github.com/ridedott/eslint-config/compare/v5.3.20...v5.3.21) (2025-09-03)
 
 ### Chores
