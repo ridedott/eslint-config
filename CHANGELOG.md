@@ -1,3 +1,10 @@
+## [5.3.26](https://github.com/ridedott/eslint-config/compare/v5.3.25...v5.3.26) (2025-09-09)
+
+### Chores
+
+- **deps:** bump eslint-plugin-unicorn from 60.0.0 to 61.0.2
+  ([912725a7](https://github.com/ridedott/eslint-config/commit/912725a78725a973a9361326839251a127f04433))
+
 ## [5.3.25](https://github.com/ridedott/eslint-config/compare/v5.3.24...v5.3.25) (2025-09-09)
 
 ### Chores
