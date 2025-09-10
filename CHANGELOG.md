@@ -1,3 +1,10 @@
+## [5.3.28](https://github.com/ridedott/eslint-config/compare/v5.3.27...v5.3.28) (2025-09-10)
+
+### Continuous Integration
+
+- set timeout-minutes for test step
+  ([2a97ef38](https://github.com/ridedott/eslint-config/commit/2a97ef38a1b173d6a90738d127b7dccc92b975c9))
+
 ## [5.3.27](https://github.com/ridedott/eslint-config/compare/v5.3.26...v5.3.27) (2025-09-10)
 
 ### Chores
