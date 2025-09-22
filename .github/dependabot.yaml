@@ -10,6 +10,8 @@ updates:
     package-ecosystem: github-actions
     schedule:
       interval: daily
+    cooldown:
+      default-days: 30
   - allow:
       - dependency-type: direct
     commit-message:
@@ -24,4 +26,6 @@ updates:
     package-ecosystem: npm
     schedule:
       interval: daily
+    cooldown:
+      default-days: 30
     versioning-strategy: increase
