@@ -1,3 +1,14 @@
+## [5.3.32](https://github.com/ridedott/eslint-config/compare/v5.3.31...v5.3.32) (2025-09-24)
+
+### Chores
+
+- configure dependabot cooldown option
+  ([336657ca](https://github.com/ridedott/eslint-config/commit/336657ca9e5b59a7a71d83686328c1fe35ffab71))
+- **deps-dev:** bump eslint from 9.35.0 to 9.36.0
+  ([53bcaee7](https://github.com/ridedott/eslint-config/commit/53bcaee7b5d2fabfd5dab96a1ed312b2e878d611))
+- **deps-dev:** bump lint-staged from 16.1.6 to 16.2.0
+  ([fbfc990b](https://github.com/ridedott/eslint-config/commit/fbfc990bbbd3737c894563866e2c831e471b5f48))
+
 ## [5.3.31](https://github.com/ridedott/eslint-config/compare/v5.3.30...v5.3.31) (2025-09-19)
 
 ### Chores
