@@ -1,3 +1,10 @@
+## [5.3.33](https://github.com/ridedott/eslint-config/compare/v5.3.32...v5.3.33) (2025-10-20)
+
+### Chores
+
+- **deps:** bump vite from 7.1.5 to 7.1.11
+  ([1d319e68](https://github.com/ridedott/eslint-config/commit/1d319e684c0594c04e648495160315dbfca756d9))
+
 ## [5.3.32](https://github.com/ridedott/eslint-config/compare/v5.3.31...v5.3.32) (2025-09-24)
 
 ### Chores
