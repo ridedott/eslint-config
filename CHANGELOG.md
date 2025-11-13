@@ -1,3 +1,12 @@
+## [5.3.39](https://github.com/ridedott/eslint-config/compare/v5.3.38...v5.3.39) (2025-11-13)
+
+### Chores
+
+- **deps:** bump @vitest/eslint-plugin from 1.3.17 to 1.3.20
+  ([692ed068](https://github.com/ridedott/eslint-config/commit/692ed068fc3fb21159feee59ca149999d1bd3196))
+- **deps:** bump actions/setup-node from 5.0.0 to 6.0.0
+  ([597b83e0](https://github.com/ridedott/eslint-config/commit/597b83e001d4c507ab24c4cff564b14249baf821))
+
 ## [5.3.38](https://github.com/ridedott/eslint-config/compare/v5.3.37...v5.3.38) (2025-11-11)
 
 ### Chores
