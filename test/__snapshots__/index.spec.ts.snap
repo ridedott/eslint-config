@@ -932,8 +932,8 @@ exports[`stylistic rules > @stylistic/padding-line-between-statements > fails on
 [
   {
     "column": 3,
-    "endColumn": 4,
-    "endLine": 13,
+    "endColumn": 15,
+    "endLine": 12,
     "fix": {
       "range": [
         311,
