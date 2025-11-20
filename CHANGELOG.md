@@ -1,3 +1,12 @@
+## [5.3.42](https://github.com/ridedott/eslint-config/compare/v5.3.41...v5.3.42) (2025-11-20)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 16.2.4 to 16.2.5
+  ([aa34061a](https://github.com/ridedott/eslint-config/commit/aa34061a0daff80195d1e6add7767634da015769))
+- **deps:** bump @stylistic/eslint-plugin from 5.4.0 to 5.5.0
+  ([831ad0c6](https://github.com/ridedott/eslint-config/commit/831ad0c6a4f9745142149909b0b135281aa3c85d))
+
 ## [5.3.41](https://github.com/ridedott/eslint-config/compare/v5.3.40...v5.3.41) (2025-11-18)
 
 ### Chores
