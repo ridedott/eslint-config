@@ -1,3 +1,18 @@
+## [5.3.43](https://github.com/ridedott/eslint-config/compare/v5.3.42...v5.3.43) (2025-11-24)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 22.18.11 to 22.18.12
+  ([49cad7f4](https://github.com/ridedott/eslint-config/commit/49cad7f4206571fd173291621b5ea337f5ebd07f))
+- **deps-dev:** bump lint-staged from 16.2.5 to 16.2.6
+  ([21b8c5ec](https://github.com/ridedott/eslint-config/commit/21b8c5ec4335ab218df868ace199e94657c5165c))
+- **deps-dev:** bump vitest from 3.2.4 to 4.0.1
+  ([495ac249](https://github.com/ridedott/eslint-config/commit/495ac249de7426e456f7ede4860cb8c33091f7e1))
+- **deps-dev:** bump vitest from 4.0.1 to 4.0.3
+  ([6d937906](https://github.com/ridedott/eslint-config/commit/6d937906261ed16469e3d1a282239506b83e3a05))
+- **deps:** bump @vitest/eslint-plugin from 1.3.23 to 1.3.24
+  ([b569838b](https://github.com/ridedott/eslint-config/commit/b569838bad053398e81ceebac5cf458853b150dc))
+
 ## [5.3.42](https://github.com/ridedott/eslint-config/compare/v5.3.41...v5.3.42) (2025-11-20)
 
 ### Chores
