@@ -1,3 +1,12 @@
+## [5.3.44](https://github.com/ridedott/eslint-config/compare/v5.3.43...v5.3.44) (2025-11-26)
+
+### Chores
+
+- **deps-dev:** bump vitest from 4.0.3 to 4.0.4
+  ([50f9d47b](https://github.com/ridedott/eslint-config/commit/50f9d47b3e32b8e0ee4a83ea1a6a5067f0bfb96d))
+- **deps:** bump @vitest/eslint-plugin from 1.3.24 to 1.3.25
+  ([7d0a456d](https://github.com/ridedott/eslint-config/commit/7d0a456d1507bdf44c038db3ee0624a1423550ba))
+
 ## [5.3.43](https://github.com/ridedott/eslint-config/compare/v5.3.42...v5.3.43) (2025-11-24)
 
 ### Chores
