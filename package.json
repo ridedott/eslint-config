@@ -22,7 +22,7 @@
   "devDependencies": {
     "@commitlint/cli": "^20.1.0",
     "@commitlint/config-conventional": "^20.0.0",
-    "@eslint/js": "^9.38.0",
+    "@eslint/js": "^9.39.0",
     "@types/eslint": "^9.6.1",
     "@types/node": "^22.18.13",
     "commitizen": "^4.3.1",
