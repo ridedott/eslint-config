@@ -635,7 +635,7 @@ exports[`import rules > import/no-cycle > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
-    "endColumn": 52,
+    "endColumn": 51,
     "endLine": 1,
     "line": 1,
     "message": "Dependency cycle detected.",
