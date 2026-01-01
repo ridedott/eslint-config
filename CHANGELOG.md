@@ -1,3 +1,12 @@
+## [5.3.57](https://github.com/ridedott/eslint-config/compare/v5.3.56...v5.3.57) (2026-01-01)
+
+### Chores
+
+- **deps-dev:** bump vitest from 4.0.14 to 4.0.15
+  ([9a205c90](https://github.com/ridedott/eslint-config/commit/9a205c90b38fbc49e142e6ca766c19b10f2a19ad))
+- **deps:** bump actions/checkout from 5 to 6
+  ([c56e419a](https://github.com/ridedott/eslint-config/commit/c56e419a8feca7dfdebf8b512ad7afe881f7f048))
+
 ## [5.3.56](https://github.com/ridedott/eslint-config/compare/v5.3.55...v5.3.56) (2025-12-30)
 
 ### Chores
