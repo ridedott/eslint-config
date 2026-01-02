@@ -8,6 +8,6 @@ foo && foo.a && foo.a.b && foo.a.b.method && foo.a.b.method();
 foo &&
   foo.a != null &&
   foo.a.b !== null &&
-  foo.a.b.c != undefined &&
+  foo.a.b.c !== undefined &&
   foo.a.b.c.d !== undefined &&
   foo.a.b.c.d.e;
