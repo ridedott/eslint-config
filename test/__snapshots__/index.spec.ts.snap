@@ -635,11 +635,11 @@ exports[`import rules > import/no-cycle > fails on an invalid fixture 1`] = `
 [
   {
     "column": 1,
-    "endColumn": 41,
+    "endColumn": 51,
     "endLine": 1,
     "line": 1,
     "message": "Dependency cycle detected.",
-    "nodeType": "ExportNamedDeclaration",
+    "nodeType": "ImportDeclaration",
     "ruleId": "import/no-cycle",
     "severity": 2,
   },
@@ -777,8 +777,9 @@ exports[`jest rules > jest/unbound-method > fails on an invalid fixture 1`] = `
     "endColumn": 27,
     "endLine": 12,
     "line": 12,
-    "message": "Avoid referencing unbound methods which may cause unintentional scoping of \`this\`.
-If your function does not access \`this\`, you can annotate it with \`this: void\`, or consider using an arrow function instead.",
+    "message": "A method that is not declared with \`this: void\` may cause unintentional scoping of \`this\` when separated from its object.
+Consider using an arrow function or explicitly \`.bind()\`ing the method to avoid calling the method with an unintended \`this\` value. 
+If a function does not access \`this\`, it can be annotated with \`this: void\`.",
     "messageId": "unboundWithoutThisAnnotation",
     "nodeType": "MemberExpression",
     "ruleId": "jest/unbound-method",
@@ -1772,34 +1773,6 @@ exports[`typescriptEslint rules > @typescript-eslint/prefer-optional-chain > fai
           "range": [
             285,
             287,
-          ],
-          "text": "!==",
-        },
-        "messageId": "replaceOperator",
-      },
-    ],
-  },
-  {
-    "column": 13,
-    "endColumn": 15,
-    "endLine": 11,
-    "line": 11,
-    "message": "Expected '!==' and instead saw '!='.",
-    "messageId": "unexpected",
-    "nodeType": "BinaryExpression",
-    "ruleId": "eqeqeq",
-    "severity": 2,
-    "suggestions": [
-      {
-        "data": {
-          "actualOperator": "!=",
-          "expectedOperator": "!==",
-        },
-        "desc": "Use '!==' instead of '!='.",
-        "fix": {
-          "range": [
-            330,
-            332,
           ],
           "text": "!==",
         },
