@@ -1,3 +1,14 @@
+## [5.3.62](https://github.com/ridedott/eslint-config/compare/v5.3.61...v5.3.62) (2026-01-12)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 22.19.1 to 22.19.2
+  ([4beefbff](https://github.com/ridedott/eslint-config/commit/4beefbffe79fa339093cbc17e700c80625ad4cb8))
+- **deps-dev:** bump eslint from 9.39.1 to 9.39.2
+  ([665fad51](https://github.com/ridedott/eslint-config/commit/665fad51e60a89fd1bc08504cf693a0fa59fc245))
+- **deps:** bump eslint-plugin-jest from 29.2.1 to 29.4.0
+  ([b13acc47](https://github.com/ridedott/eslint-config/commit/b13acc473bf86e5739a4e0c801f1fbb7ad8459b0))
+
 ## [5.3.61](https://github.com/ridedott/eslint-config/compare/v5.3.60...v5.3.61) (2026-01-07)
 
 ### Chores
