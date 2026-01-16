@@ -1,3 +1,12 @@
+## [5.3.64](https://github.com/ridedott/eslint-config/compare/v5.3.63...v5.3.64) (2026-01-16)
+
+### Chores
+
+- **deps-dev:** bump vitest from 4.0.15 to 4.0.16
+  ([f385b119](https://github.com/ridedott/eslint-config/commit/f385b119b70b3df466a4ed6c1cb05aeb70c64a26))
+- **deps:** bump eslint-plugin-unicorn from 61.0.2 to 62.0.0
+  ([a63e0d99](https://github.com/ridedott/eslint-config/commit/a63e0d9917fb179afded5d7d64a357f294523c21))
+
 ## [5.3.63](https://github.com/ridedott/eslint-config/compare/v5.3.62...v5.3.63) (2026-01-14)
 
 ### Chores
