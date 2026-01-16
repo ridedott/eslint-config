@@ -548,8 +548,8 @@ exports[`functional rules > functional/immutable-data > fails on an invalid fixt
   {
     "column": 1,
     "endColumn": 24,
-    "endLine": 3,
-    "line": 3,
+    "endLine": 4,
+    "line": 4,
     "message": "Modifying an existing object/array is not allowed.",
     "messageId": "generic",
     "nodeType": "AssignmentExpression",
@@ -2581,29 +2581,6 @@ exports[`unicorn rules > unicorn/no-array-for-each > fails on an invalid fixture
 ]
 `;
 
-exports[`unicorn rules > unicorn/no-array-push-push > fails on an invalid fixture 1`] = `
-[
-  {
-    "column": 21,
-    "endColumn": 25,
-    "endLine": 6,
-    "fix": {
-      "range": [
-        117,
-        148,
-      ],
-      "text": ", 0);",
-    },
-    "line": 6,
-    "message": "Do not call \`Array#push()\` multiple times.",
-    "messageId": "error/array-push",
-    "nodeType": "Identifier",
-    "ruleId": "unicorn/prefer-single-call",
-    "severity": 2,
-  },
-]
-`;
-
 exports[`unicorn rules > unicorn/no-console-spaces > fails on an invalid fixture 1`] = `
 [
   {
@@ -3867,6 +3844,47 @@ const preferSetHasFailFunction = (value: number): boolean =>
     "messageId": "error",
     "nodeType": "Identifier",
     "ruleId": "unicorn/prefer-set-has",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`unicorn rules > unicorn/prefer-single-call > fails on an invalid fixture 1`] = `
+[
+  {
+    "column": 19,
+    "endColumn": 22,
+    "endLine": 7,
+    "fix": {
+      "range": [
+        154,
+        193,
+      ],
+      "text": ", 'bar', 'baz');",
+    },
+    "line": 7,
+    "message": "Do not call \`Element#classList.add()\` multiple times.",
+    "messageId": "error/array-push",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-single-call",
+    "severity": 2,
+  },
+  {
+    "column": 22,
+    "endColumn": 26,
+    "endLine": 10,
+    "fix": {
+      "range": [
+        222,
+        254,
+      ],
+      "text": ", 0);",
+    },
+    "line": 10,
+    "message": "Do not call \`Array#push()\` multiple times.",
+    "messageId": "error/array-push",
+    "nodeType": "Identifier",
+    "ruleId": "unicorn/prefer-single-call",
     "severity": 2,
   },
 ]
