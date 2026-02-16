@@ -1,3 +1,14 @@
+## [5.3.77](https://github.com/ridedott/eslint-config/compare/v5.3.76...v5.3.77) (2026-02-16)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 22.19.5 to 22.19.6
+  ([b80694b9](https://github.com/ridedott/eslint-config/commit/b80694b91e92a4b53e7c5483e07f5c41ffca9ba3))
+- **deps-dev:** bump @types/node from 22.19.6 to 22.19.7
+  ([ff701b66](https://github.com/ridedott/eslint-config/commit/ff701b667267b0afa0adc46b6b182bcf8de90c6e))
+- **deps:** bump actions/setup-node from 6.1.0 to 6.2.0
+  ([60436569](https://github.com/ridedott/eslint-config/commit/60436569ba99dacd0d275bb33c646ccda774462e))
+
 ## [5.3.76](https://github.com/ridedott/eslint-config/compare/v5.3.75...v5.3.76) (2026-02-11)
 
 ### Chores
