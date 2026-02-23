@@ -1,3 +1,14 @@
+## [5.3.80](https://github.com/ridedott/eslint-config/compare/v5.3.79...v5.3.80) (2026-02-23)
+
+### Chores
+
+- **deps-dev:** bump globals from 17.0.0 to 17.1.0
+  ([1f381125](https://github.com/ridedott/eslint-config/commit/1f381125e86dae7df5ea902f7696711de686115d))
+- **deps-dev:** bump vitest from 4.0.17 to 4.0.18
+  ([329f352d](https://github.com/ridedott/eslint-config/commit/329f352d1ff4ee010559b847ec9a7bf9f8fd0b1d))
+- **deps:** bump @stylistic/eslint-plugin from 5.7.0 to 5.7.1
+  ([25490a66](https://github.com/ridedott/eslint-config/commit/25490a667f0387607c7506023b4b2ffcb0f68e40))
+
 ## [5.3.79](https://github.com/ridedott/eslint-config/compare/v5.3.78...v5.3.79) (2026-02-21)
 
 ### Chores
