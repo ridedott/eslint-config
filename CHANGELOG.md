@@ -1,3 +1,10 @@
+## [5.3.81](https://github.com/ridedott/eslint-config/compare/v5.3.80...v5.3.81) (2026-02-25)
+
+### Chores
+
+- **deps:** bump minimatch
+  ([545a88f4](https://github.com/ridedott/eslint-config/commit/545a88f4560e991a5c08dab5fb9c24d40360caa1))
+
 ## [5.3.80](https://github.com/ridedott/eslint-config/compare/v5.3.79...v5.3.80) (2026-02-23)
 
 ### Chores
