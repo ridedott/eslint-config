@@ -12,7 +12,7 @@ export default [
       'capitalized-comments': [
         'error',
         'always',
-        { block: { ignorePattern: 'cspell|c8' } },
+        { block: { ignorePattern: 'cspell|c8|v8' } },
       ],
       // TypeScript will always make sure return values are correct.
       'consistent-return': 'off',
