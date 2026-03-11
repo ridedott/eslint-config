@@ -1,3 +1,20 @@
+## [5.4.2](https://github.com/ridedott/eslint-config/compare/v5.4.1...v5.4.2) (2026-03-11)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 22.19.7 to 22.19.8
+  ([d4960c47](https://github.com/ridedott/eslint-config/commit/d4960c4721a1d3a99204b4e0842bf88690104f84))
+- **deps-dev:** bump @types/node from 22.19.8 to 22.19.9
+  ([aacb9db7](https://github.com/ridedott/eslint-config/commit/aacb9db727d919c32ba5a84958d9b0f643e05b40))
+- **deps-dev:** bump @types/node from 22.19.9 to 22.19.10
+  ([898e3766](https://github.com/ridedott/eslint-config/commit/898e37666d8d123248b0bb1abbde50d1eca3797c))
+- **deps:** bump @stylistic/eslint-plugin from 5.7.1 to 5.8.0
+  ([634c951f](https://github.com/ridedott/eslint-config/commit/634c951f8ad6b1df4d03f7d2ab7a27fb4523b859))
+- **deps:** bump eslint-plugin-jest from 29.12.2 to 29.13.0
+  ([700af062](https://github.com/ridedott/eslint-config/commit/700af0628018dd7329b89e774e52bdedd715d085))
+- **deps:** bump typescript-eslint from 8.54.0 to 8.55.0
+  ([1aaf7873](https://github.com/ridedott/eslint-config/commit/1aaf7873efde6b59e1ec04ddb2a3de82d7fd7694))
+
 ## [5.4.1](https://github.com/ridedott/eslint-config/compare/v5.4.0...v5.4.1) (2026-03-05)
 
 ### Chores
