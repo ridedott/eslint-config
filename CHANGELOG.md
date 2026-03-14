@@ -1,3 +1,10 @@
+## [5.4.4](https://github.com/ridedott/eslint-config/compare/v5.4.3...v5.4.4) (2026-03-14)
+
+### Chores
+
+- **deps:** bump flatted from 3.3.2 to 3.4.1
+  ([9e59cabd](https://github.com/ridedott/eslint-config/commit/9e59cabded02a6e7326f167bf26eec5f4685d7fd))
+
 ## [5.4.3](https://github.com/ridedott/eslint-config/compare/v5.4.2...v5.4.3) (2026-03-12)
 
 ### Chores
