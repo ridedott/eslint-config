@@ -699,8 +699,8 @@ exports[`jest rules > jest/consistent-test-it > fails on an invalid fixture 1`] 
     "endLine": 2,
     "fix": {
       "range": [
-        94,
-        98,
+        62,
+        66,
       ],
       "text": "it",
     },
