@@ -1,3 +1,12 @@
+## [5.4.9](https://github.com/ridedott/eslint-config/compare/v5.4.8...v5.4.9) (2026-03-23)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 20.4.1 to 20.4.2
+  ([c52d51ba](https://github.com/ridedott/eslint-config/commit/c52d51ba42bd677a6e6677d9cee7a27a619b8f79))
+- **deps:** bump @stylistic/eslint-plugin from 5.8.0 to 5.9.0
+  ([f40c640a](https://github.com/ridedott/eslint-config/commit/f40c640a3b92e5c8dfc216ab6590f732beb87692))
+
 ## [5.4.8](https://github.com/ridedott/eslint-config/compare/v5.4.7...v5.4.8) (2026-03-21)
 
 ### Chores
