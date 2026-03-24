@@ -1,3 +1,12 @@
+## [5.4.10](https://github.com/ridedott/eslint-config/compare/v5.4.9...v5.4.10) (2026-03-24)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([7e8f37ca](https://github.com/ridedott/eslint-config/commit/7e8f37ca4989e0df671cff8a75b218c772596e2a))
+- **deps:** bump eslint-plugin-functional from 9.0.2 to 9.0.3
+  ([0036f1d8](https://github.com/ridedott/eslint-config/commit/0036f1d844b52b56658575d6b196fe043c126c48))
+
 ## [5.4.9](https://github.com/ridedott/eslint-config/compare/v5.4.8...v5.4.9) (2026-03-23)
 
 ### Chores
