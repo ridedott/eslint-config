@@ -1,3 +1,10 @@
+## [5.4.12](https://github.com/ridedott/eslint-config/compare/v5.4.11...v5.4.12) (2026-03-25)
+
+### Chores
+
+- **deps:** bump picomatch
+  ([de8aa922](https://github.com/ridedott/eslint-config/commit/de8aa922936dadeca7dcc2e700433ad1e87ebee9))
+
 ## [5.4.11](https://github.com/ridedott/eslint-config/compare/v5.4.10...v5.4.11) (2026-03-25)
 
 ### Chores
