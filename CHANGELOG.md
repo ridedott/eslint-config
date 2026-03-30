@@ -1,3 +1,14 @@
+## [5.4.13](https://github.com/ridedott/eslint-config/compare/v5.4.12...v5.4.13) (2026-03-30)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 22.19.11 to 22.19.13
+  ([a4a53415](https://github.com/ridedott/eslint-config/commit/a4a53415cced55f7a63d63ae96dd4acf962dc768))
+- **deps-dev:** bump lint-staged from 16.2.7 to 16.3.0
+  ([6917f9c4](https://github.com/ridedott/eslint-config/commit/6917f9c4d80ad39b4f867aa5a195cbcdb6eb02de))
+- **deps:** bump brace-expansion
+  ([182c9f4c](https://github.com/ridedott/eslint-config/commit/182c9f4ccdb60cdc1c0676483d052aca519d91ed))
+
 ## [5.4.12](https://github.com/ridedott/eslint-config/compare/v5.4.11...v5.4.12) (2026-03-25)
 
 ### Chores
