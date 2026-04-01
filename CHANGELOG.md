@@ -1,3 +1,14 @@
+## [5.4.14](https://github.com/ridedott/eslint-config/compare/v5.4.13...v5.4.14) (2026-04-01)
+
+### Chores
+
+- **deps-dev:** bump globals from 17.3.0 to 17.4.0
+  ([1d6fdad3](https://github.com/ridedott/eslint-config/commit/1d6fdad39aed3902508c57e493122ba604f9b071))
+- **deps-dev:** bump lint-staged from 16.3.0 to 16.3.1
+  ([19d940f5](https://github.com/ridedott/eslint-config/commit/19d940f5f95c93e92da1283273133b904b02ac0a))
+- **deps:** bump actions/setup-node from 6.2.0 to 6.3.0
+  ([fd0c05b1](https://github.com/ridedott/eslint-config/commit/fd0c05b12a0376523661f5f65f058084f4b2f71c))
+
 ## [5.4.13](https://github.com/ridedott/eslint-config/compare/v5.4.12...v5.4.13) (2026-03-30)
 
 ### Chores
