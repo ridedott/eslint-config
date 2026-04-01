@@ -668,7 +668,7 @@ exports[`import rules > import/no-extraneous-dependencies > fails on an invalid 
     "endColumn": 39,
     "endLine": 4,
     "line": 4,
-    "message": "'npm-run-all' should be listed in the project's dependencies, not devDependencies.",
+    "message": "'lint-staged' should be listed in the project's dependencies, not devDependencies.",
     "nodeType": "ExportAllDeclaration",
     "ruleId": "import/no-extraneous-dependencies",
     "severity": 2,
