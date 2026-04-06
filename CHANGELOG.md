@@ -1,3 +1,10 @@
+## [5.4.16](https://github.com/ridedott/eslint-config/compare/v5.4.15...v5.4.16) (2026-04-06)
+
+### Chores
+
+- **deps:** bump vite from 7.3.1 to 7.3.2
+  ([c5921a2f](https://github.com/ridedott/eslint-config/commit/c5921a2f6925dfee92753b2aaf9076bac190d2ec))
+
 ## [5.4.15](https://github.com/ridedott/eslint-config/compare/v5.4.14...v5.4.15) (2026-04-06)
 
 ### Chores
