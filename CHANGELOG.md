@@ -1,3 +1,10 @@
+## [5.4.17](https://github.com/ridedott/eslint-config/compare/v5.4.16...v5.4.17) (2026-04-07)
+
+### Chores
+
+- **deps:** bump eslint-plugin-array-func from 5.1.0 to 5.1.1
+  ([f284a477](https://github.com/ridedott/eslint-config/commit/f284a477e9a17b6c7f20d58f36825f5529bd5940))
+
 ## [5.4.16](https://github.com/ridedott/eslint-config/compare/v5.4.15...v5.4.16) (2026-04-06)
 
 ### Chores
