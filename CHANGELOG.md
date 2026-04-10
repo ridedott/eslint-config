@@ -1,3 +1,61 @@
+## [5.4.19](https://github.com/ridedott/eslint-config/compare/v5.4.18...v5.4.19) (2026-04-09)
+
+### Chores
+
+- **deps-dev:** bump jest from 30.2.0 to 30.3.0
+  ([b4db6363](https://github.com/ridedott/eslint-config/commit/b4db636386067f306b401e831ef1a56ecfe15718))
+- **deps:** bump ridedott/release-me-action from 3.10.73 to 3.10.94
+  ([6b7f9eae](https://github.com/ridedott/eslint-config/commit/6b7f9eaed7f1b009ec338305b65fe29e0cfabe0e))
+
+## [5.4.18](https://github.com/ridedott/eslint-config/compare/v5.4.17...v5.4.18) (2026-04-08)
+
+### Chores
+
+- **deps:** bump @vitest/eslint-plugin from 1.6.9 to 1.6.10
+  ([a81fe2ab](https://github.com/ridedott/eslint-config/commit/a81fe2aba36869462c99cb4488763c613d8e8463))
+- **deps:** bump typescript-eslint from 8.56.1 to 8.57.0
+  ([238a7e0e](https://github.com/ridedott/eslint-config/commit/238a7e0e194f2b0a5a2c4c88036a4cf1cd52f648))
+
+## [5.4.17](https://github.com/ridedott/eslint-config/compare/v5.4.16...v5.4.17) (2026-04-07)
+
+### Chores
+
+- **deps:** bump eslint-plugin-array-func from 5.1.0 to 5.1.1
+  ([f284a477](https://github.com/ridedott/eslint-config/commit/f284a477e9a17b6c7f20d58f36825f5529bd5940))
+
+## [5.4.16](https://github.com/ridedott/eslint-config/compare/v5.4.15...v5.4.16) (2026-04-06)
+
+### Chores
+
+- **deps:** bump vite from 7.3.1 to 7.3.2
+  ([c5921a2f](https://github.com/ridedott/eslint-config/commit/c5921a2f6925dfee92753b2aaf9076bac190d2ec))
+
+## [5.4.15](https://github.com/ridedott/eslint-config/compare/v5.4.14...v5.4.15) (2026-04-06)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 20.4.2 to 20.4.3
+  ([79d4f2f4](https://github.com/ridedott/eslint-config/commit/79d4f2f4373cf4eff5827f575e77fb279470b649))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([421f284f](https://github.com/ridedott/eslint-config/commit/421f284f31d86cf694d71bc49bab7b70072aa641))
+- **deps-dev:** bump @types/node from 22.19.13 to 22.19.15
+  ([0890ad39](https://github.com/ridedott/eslint-config/commit/0890ad39b7ff889c0c77f05ea9579ab33fb584c7))
+- **deps-dev:** bump lint-staged from 16.3.1 to 16.3.2
+  ([28872454](https://github.com/ridedott/eslint-config/commit/288724541f6805b50af36caa5bfd17e56f3735fc))
+- **deps:** bump @stylistic/eslint-plugin from 5.9.0 to 5.10.0
+  ([331cf4af](https://github.com/ridedott/eslint-config/commit/331cf4afd117efa07332a39c40163cd717f62549))
+
+## [5.4.14](https://github.com/ridedott/eslint-config/compare/v5.4.13...v5.4.14) (2026-04-01)
+
+### Chores
+
+- **deps-dev:** bump globals from 17.3.0 to 17.4.0
+  ([1d6fdad3](https://github.com/ridedott/eslint-config/commit/1d6fdad39aed3902508c57e493122ba604f9b071))
+- **deps-dev:** bump lint-staged from 16.3.0 to 16.3.1
+  ([19d940f5](https://github.com/ridedott/eslint-config/commit/19d940f5f95c93e92da1283273133b904b02ac0a))
+- **deps:** bump actions/setup-node from 6.2.0 to 6.3.0
+  ([fd0c05b1](https://github.com/ridedott/eslint-config/commit/fd0c05b12a0376523661f5f65f058084f4b2f71c))
+
 ## [5.4.13](https://github.com/ridedott/eslint-config/compare/v5.4.12...v5.4.13) (2026-03-30)
 
 ### Chores
