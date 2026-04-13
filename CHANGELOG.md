@@ -1,3 +1,20 @@
+## [5.4.20](https://github.com/ridedott/eslint-config/compare/v5.4.19...v5.4.20) (2026-04-13)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 20.4.3 to 20.4.4
+  ([e4d90d14](https://github.com/ridedott/eslint-config/commit/e4d90d14b8ab60632bf25f7be1983516ce1f0b61))
+- **deps-dev:** bump lint-staged from 16.3.2 to 16.3.3
+  ([edf0f8ed](https://github.com/ridedott/eslint-config/commit/edf0f8ed70bdf88e31042fa228b1b1299267f195))
+- **deps-dev:** bump lint-staged from 16.3.3 to 16.4.0
+  ([ac2d39fd](https://github.com/ridedott/eslint-config/commit/ac2d39fd75f524be55a1cd69699863d9b185aed5))
+- **deps-dev:** bump vitest from 4.0.18 to 4.1.0
+  ([cfba523c](https://github.com/ridedott/eslint-config/commit/cfba523c6f4713bfb00b3324666936c618ad786b))
+- **deps-dev:** uninstall npm-run-all
+  ([243f0ad8](https://github.com/ridedott/eslint-config/commit/243f0ad82144fcbb85ab5861a250cf56bc4b7a9e))
+- **deps:** bump @vitest/eslint-plugin from 1.6.10 to 1.6.12
+  ([10634586](https://github.com/ridedott/eslint-config/commit/10634586df822f847c4c9c961928a4f7ded2964e))
+
 ## [5.4.19](https://github.com/ridedott/eslint-config/compare/v5.4.18...v5.4.19) (2026-04-09)
 
 ### Chores
