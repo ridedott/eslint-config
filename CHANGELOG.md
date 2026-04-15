@@ -1,3 +1,16 @@
+## [5.4.21](https://github.com/ridedott/eslint-config/compare/v5.4.20...v5.4.21) (2026-04-15)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 20.4.4 to 20.5.0
+  ([307c0789](https://github.com/ridedott/eslint-config/commit/307c07898828dac5c85ea23ce248173c217f0161))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([36d02ba5](https://github.com/ridedott/eslint-config/commit/36d02ba513b752c944c714a37a5824d5eb7b8351))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([ed8ae65c](https://github.com/ridedott/eslint-config/commit/ed8ae65c8925acd30e91b5680b17af6bee3e2cbe))
+- **deps:** bump typescript-eslint from 8.57.0 to 8.57.1
+  ([da801707](https://github.com/ridedott/eslint-config/commit/da80170764f1500a35d0b9c3e56cb1b045721217))
+
 ## [5.4.20](https://github.com/ridedott/eslint-config/compare/v5.4.19...v5.4.20) (2026-04-13)
 
 ### Chores
