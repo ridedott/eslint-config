@@ -10,8 +10,7 @@ export default [
       // Does not make it possible to define recursive types.
       '@typescript-eslint/consistent-indexed-object-style': 'off',
       '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
-      // Conflicts with simple-import-sort/sort.
-      '@typescript-eslint/consistent-type-imports': 'off',
+      '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/explicit-function-return-type': [
         'error',
         { allowTypedFunctionExpressions: false },
