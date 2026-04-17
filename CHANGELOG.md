@@ -1,3 +1,15 @@
+# [5.5.0](https://github.com/ridedott/eslint-config/compare/v5.4.21...v5.5.0) (2026-04-17)
+
+### Features
+
+- release the library
+  ([e69789b3](https://github.com/ridedott/eslint-config/commit/e69789b34c243954f7b8818f4c4af59bc0bca2ca))
+
+### Other
+
+- feat enable consistent-type-imports rule again
+  ([41471687](https://github.com/ridedott/eslint-config/commit/41471687d5cf3b97dcec7bdb4a2bf4d81987378f))
+
 ## [5.4.21](https://github.com/ridedott/eslint-config/compare/v5.4.20...v5.4.21) (2026-04-15)
 
 ### Chores
