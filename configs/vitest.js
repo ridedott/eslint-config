@@ -1,6 +1,6 @@
 import vitestPlugin from '@vitest/eslint-plugin';
 
-import { TEST_FILES } from '../constants.js';
+import { TEST_FILES, SETUP_FILES } from '../constants.js';
 
 export default [
   {
@@ -50,6 +50,13 @@ export default [
       vitest: {
         typecheck: true,
       },
+    },
+  },
+  {
+    // Setup files contain hooks and globals but no test cases.
+    files: SETUP_FILES,
+    rules: {
+      'vitest/require-top-level-describe': 'off',
     },
   },
 ];

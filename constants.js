@@ -4,3 +4,5 @@ export const TEST_FILES = [
   '**/*.spec.{ts,tsx,mts,cts}',
   '**/*.test.{ts,tsx,mts,cts}',
 ];
+
+export const SETUP_FILES = ['**/test/setup.{ts,tsx,mts,cts}'];
