@@ -12,7 +12,10 @@ export default [
       ...vitestPlugin.configs.all.rules,
       'vitest/consistent-each-for': 'off',
       'vitest/consistent-test-filename': 'off',
-      'vitest/consistent-test-it': ['error', { fn: 'it', withinDescribe: 'it' }],
+      'vitest/consistent-test-it': [
+        'error',
+        { fn: 'it', withinDescribe: 'it' },
+      ],
       // Redundant with vitest/prefer-expect-assertions.
       'vitest/expect-expect': 'off',
       // Redundant with vitest/prefer-expect-assertions.
