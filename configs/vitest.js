@@ -24,6 +24,7 @@ export default [
       'vitest/no-identical-title': 'error',
       'vitest/max-expects': 'off',
       'vitest/no-large-snapshots': 'off',
+      'vitest/prefer-snapshot-hint': 'off',
 
       // padding-around-all is a meta-rule that duplicates the individual rules below; disable it to avoid double-reporting.
       'vitest/padding-around-all': 'off',
