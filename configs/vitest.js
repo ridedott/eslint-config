@@ -25,15 +25,17 @@ export default [
       'vitest/no-identical-title': 'error',
       'vitest/max-expects': 'off',
       'vitest/no-large-snapshots': 'off',
-      // Redundant with @stylistic/padding-line-between-statements, which already enforces blank lines around block-like statements.
-      'vitest/padding-around-after-all-blocks': 'off',
-      'vitest/padding-around-after-each-blocks': 'off',
+
+      // padding-around-all is a meta-rule that duplicates the individual rules below; disable it to avoid double-reporting.
+      'vitest/padding-around-after-all-blocks': 'error',
+      'vitest/padding-around-after-each-blocks': 'error',
       'vitest/padding-around-all': 'off',
-      'vitest/padding-around-before-all-blocks': 'off',
-      'vitest/padding-around-before-each-blocks': 'off',
-      'vitest/padding-around-describe-blocks': 'off',
-      'vitest/padding-around-expect-groups': 'off',
-      'vitest/padding-around-test-blocks': 'off',
+      'vitest/padding-around-before-all-blocks': 'error',
+      'vitest/padding-around-before-each-blocks': 'error',
+      'vitest/padding-around-expect-groups': 'error',
+      'vitest/padding-around-describe-blocks': 'error',
+      'vitest/padding-around-test-blocks': 'error',
+
       'vitest/prefer-describe-function-title': 'off',
       'vitest/prefer-each': 'off',
       ///// 'vitest/prefer-expect-assertions': 'error',
