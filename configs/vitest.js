@@ -27,22 +27,20 @@ export default [
       'vitest/no-large-snapshots': 'off',
 
       // padding-around-all is a meta-rule that duplicates the individual rules below; disable it to avoid double-reporting.
+      'vitest/padding-around-all': 'off',
       'vitest/padding-around-after-all-blocks': 'error',
       'vitest/padding-around-after-each-blocks': 'error',
-      'vitest/padding-around-all': 'off',
       'vitest/padding-around-before-all-blocks': 'error',
       'vitest/padding-around-before-each-blocks': 'error',
       'vitest/padding-around-expect-groups': 'error',
       'vitest/padding-around-describe-blocks': 'error',
       'vitest/padding-around-test-blocks': 'error',
 
-      'vitest/prefer-describe-function-title': 'off',
-      'vitest/prefer-each': 'off',
+      'vitest/prefer-describe-function-title': 'error',
+      'vitest/prefer-each': 'error',
       ///// 'vitest/prefer-expect-assertions': 'error',
-      // Too restrictive for simple flat test files.
-      'vitest/require-hook': 'off',
-      // Too restrictive for simple flat test files.
-      'vitest/require-top-level-describe': 'off',
+      'vitest/require-hook': 'error',
+      'vitest/require-top-level-describe': 'error',
       'vitest/valid-describe-callback': 'error',
       'vitest/valid-expect': 'error',
       'vitest/valid-expect-in-promise': 'error',
