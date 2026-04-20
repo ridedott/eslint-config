@@ -376,6 +376,10 @@ export default [
   {
     files: TEST_FILES,
     rules: {
+      '@typescript-eslint/consistent-type-imports': [
+        'error',
+        { disallowTypeAnnotations: false },
+      ],
       '@typescript-eslint/no-magic-numbers': 'off',
       '@typescript-eslint/no-unsafe-type-assertion': 'off',
     },
