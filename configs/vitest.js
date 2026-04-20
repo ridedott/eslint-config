@@ -12,15 +12,14 @@ export default [
       ...vitestPlugin.configs.all.rules,
       'vitest/consistent-each-for': 'off',
       'vitest/consistent-test-filename': 'off',
-      'vitest/consistent-test-it': [
-        'error',
-        { fn: 'it', withinDescribe: 'it' },
-      ],
+      'vitest/consistent-test-it': ['error', { fn: 'it', withinDescribe: 'it' }],
+      // Redundant with vitest/prefer-expect-assertions.
       'vitest/expect-expect': 'off',
-      // Can be safely turned off thanks to vitest/prefer-expect-assertions.
+      // Redundant with vitest/prefer-expect-assertions.
       'vitest/no-conditional-expect': 'off',
       'vitest/no-disabled-tests': 'error',
       'vitest/no-focused-tests': 'error',
+      // Conflicts with vitest/require-hook.
       'vitest/no-hooks': 'off',
       'vitest/no-identical-title': 'error',
       'vitest/max-expects': 'off',
