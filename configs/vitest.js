@@ -11,17 +11,17 @@ export default [
     rules: {
       ...vitestPlugin.configs.all.rules,
       'vitest/consistent-each-for': 'off',
-      ///// 'vitest/consistent-test-filename': 'off',
-      ///// 'vitest/consistent-test-it': [
-      /////   'error',
-      /////   { fn: 'it', withinDescribe: 'it' },
-      ///// ],
-      ///// 'vitest/expect-expect': 'off',
-      ///// // Can be safely turned off thanks to vitest/prefer-expect-assertions.
-      ///// 'vitest/no-conditional-expect': 'off',
+      'vitest/consistent-test-filename': 'off',
+      'vitest/consistent-test-it': [
+        'error',
+        { fn: 'it', withinDescribe: 'it' },
+      ],
+      'vitest/expect-expect': 'off',
+      // Can be safely turned off thanks to vitest/prefer-expect-assertions.
+      'vitest/no-conditional-expect': 'off',
       'vitest/no-disabled-tests': 'error',
       'vitest/no-focused-tests': 'error',
-      ///// 'vitest/no-hooks': 'off',
+      'vitest/no-hooks': 'off',
       'vitest/no-identical-title': 'error',
       'vitest/max-expects': 'off',
       'vitest/no-large-snapshots': 'off',
@@ -38,13 +38,13 @@ export default [
 
       'vitest/prefer-describe-function-title': 'error',
       'vitest/prefer-each': 'error',
-      ///// 'vitest/prefer-expect-assertions': 'error',
+      'vitest/prefer-expect-assertions': 'error',
       'vitest/require-hook': 'error',
       'vitest/require-top-level-describe': 'error',
       'vitest/valid-describe-callback': 'error',
       'vitest/valid-expect': 'error',
       'vitest/valid-expect-in-promise': 'error',
-      ///// 'vitest/valid-title': ['error', { disallowedWords: ['should'] }],
+      'vitest/valid-title': ['error', { disallowedWords: ['should'] }],
     },
     settings: {
       vitest: {
