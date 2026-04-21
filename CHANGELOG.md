@@ -1,3 +1,10 @@
+# [5.6.0](https://github.com/ridedott/eslint-config/compare/v5.5.0...v5.6.0) (2026-04-21)
+
+### Features
+
+- update vitest lint rules
+  ([6d42e1ad](https://github.com/ridedott/eslint-config/commit/6d42e1adc424089027ee008d48a1c61b79783ef8))
+
 # [5.5.0](https://github.com/ridedott/eslint-config/compare/v5.4.21...v5.5.0) (2026-04-17)
 
 ### Features
