@@ -1,3 +1,12 @@
+## [5.6.4](https://github.com/ridedott/eslint-config/compare/v5.6.3...v5.6.4) (2026-04-29)
+
+### Chores
+
+- **deps-dev:** bump vitest from 4.1.1 to 4.1.2
+  ([94db223e](https://github.com/ridedott/eslint-config/commit/94db223ed00ef629c11948e7a726cde05eec9f79))
+- **deps:** bump typescript-eslint from 8.57.2 to 8.58.0
+  ([74d3171d](https://github.com/ridedott/eslint-config/commit/74d3171d08f965c24bbf89e0db9427e05794bc56))
+
 ## [5.6.3](https://github.com/ridedott/eslint-config/compare/v5.6.2...v5.6.3) (2026-04-23)
 
 ### Chores
