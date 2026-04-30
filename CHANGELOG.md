@@ -1,3 +1,10 @@
+## [5.6.5](https://github.com/ridedott/eslint-config/compare/v5.6.4...v5.6.5) (2026-04-30)
+
+### Chores
+
+- **deps:** bump @vitest/eslint-plugin from 1.6.13 to 1.6.14
+  ([7b226d30](https://github.com/ridedott/eslint-config/commit/7b226d30827105033b4abd6d8d47a10645505602))
+
 ## [5.6.4](https://github.com/ridedott/eslint-config/compare/v5.6.3...v5.6.4) (2026-04-29)
 
 ### Chores
