@@ -1,3 +1,14 @@
+## [5.6.6](https://github.com/ridedott/eslint-config/compare/v5.6.5...v5.6.6) (2026-05-07)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 22.19.15 to 22.19.17
+  ([56d714bd](https://github.com/ridedott/eslint-config/commit/56d714bd8af761014ee6ee98b8a364169baf9ea4))
+- **deps-dev:** bump vitest from 4.1.2 to 4.1.3
+  ([b99f82f0](https://github.com/ridedott/eslint-config/commit/b99f82f08c2b29ae1fadfc595056622329736510))
+- **deps:** bump eslint-plugin-simple-import-sort from 12.1.1 to 13.0.0
+  ([da8ac283](https://github.com/ridedott/eslint-config/commit/da8ac283c02113aea27c52fe9d9cc4c28b3193dc))
+
 ## [5.6.5](https://github.com/ridedott/eslint-config/compare/v5.6.4...v5.6.5) (2026-04-30)
 
 ### Chores
