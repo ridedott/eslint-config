@@ -1,3 +1,18 @@
+## [5.6.8](https://github.com/ridedott/eslint-config/compare/v5.6.7...v5.6.8) (2026-05-12)
+
+### Chores
+
+- **deps-dev:** bump fast-uri from 3.1.0 to 3.1.2
+  ([040a5e3e](https://github.com/ridedott/eslint-config/commit/040a5e3e0ce03f35e5c6f3bea12f87afab6a07a9))
+- **deps-dev:** bump prettier from 3.8.1 to 3.8.2
+  ([d7a9d5c9](https://github.com/ridedott/eslint-config/commit/d7a9d5c9c0aee31ee8b370a5430be6530b80e8b9))
+- **deps-dev:** bump vitest from 4.1.3 to 4.1.4
+  ([8441b471](https://github.com/ridedott/eslint-config/commit/8441b471f75af0b796e97d9c035cd5ebfe06dae7))
+- **deps:** bump @vitest/eslint-plugin from 1.6.14 to 1.6.15
+  ([d022ab72](https://github.com/ridedott/eslint-config/commit/d022ab726406064df878b6e1abb9fb0ecbb24824))
+- **deps:** bump eslint-plugin-jest from 29.15.1 to 29.15.2
+  ([48318c84](https://github.com/ridedott/eslint-config/commit/48318c84817a3a7fb1822328a7f962b59a05be54))
+
 ## [5.6.7](https://github.com/ridedott/eslint-config/compare/v5.6.6...v5.6.7) (2026-05-08)
 
 ### Chores
