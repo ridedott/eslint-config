@@ -1,3 +1,12 @@
+## [5.6.9](https://github.com/ridedott/eslint-config/compare/v5.6.8...v5.6.9) (2026-05-13)
+
+### Chores
+
+- **deps-dev:** bump globals from 17.4.0 to 17.5.0
+  ([af0658b2](https://github.com/ridedott/eslint-config/commit/af0658b2c95132bd1bcb1a98c1c0bb8a738a00f0))
+- use latest nodejs 24
+  ([c4297f50](https://github.com/ridedott/eslint-config/commit/c4297f50afd8fc354359ab1537b3370da0f63ac8))
+
 ## [5.6.8](https://github.com/ridedott/eslint-config/compare/v5.6.7...v5.6.8) (2026-05-12)
 
 ### Chores
