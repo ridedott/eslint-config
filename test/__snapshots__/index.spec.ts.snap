@@ -1217,17 +1217,6 @@ exports[`typescriptEslint rules > @typescript-eslint/no-deprecated > fails on an
     "ruleId": "@typescript-eslint/no-deprecated",
     "severity": 2,
   },
-  {
-    "column": 24,
-    "endColumn": 30,
-    "endLine": 5,
-    "line": 5,
-    "message": "\`Buffer\` is deprecated. since v10.0.0 - Use \`Buffer.alloc()\` instead (also see \`Buffer.allocUnsafe()\`).",
-    "messageId": "deprecatedWithReason",
-    "nodeType": "Identifier",
-    "ruleId": "@typescript-eslint/no-deprecated",
-    "severity": 2,
-  },
 ]
 `;
 
