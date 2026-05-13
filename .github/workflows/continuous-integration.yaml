@@ -55,4 +55,5 @@ jobs:
           - 20
           - 22
           - 24
+          - 26
     timeout-minutes: 2
