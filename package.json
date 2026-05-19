@@ -65,7 +65,7 @@
   "main": "./index.js",
   "name": "@ridedott/eslint-config",
   "peerDependencies": {
-    "eslint": "^9.25.1"
+    "eslint": "^10.3.0"
   },
   "repository": {
     "type": "git",
