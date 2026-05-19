@@ -1,3 +1,10 @@
+# [5.7.0](https://github.com/ridedott/eslint-config/compare/v5.6.12...v5.7.0) (2026-05-19)
+
+### Features
+
+- update to eslint 10.x
+  ([52b19453](https://github.com/ridedott/eslint-config/commit/52b1945313eb0b4e79dd1ddb7f34fbb5844b261c))
+
 ## [5.6.12](https://github.com/ridedott/eslint-config/compare/v5.6.11...v5.6.12) (2026-05-19)
 
 ### Chores
