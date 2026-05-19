@@ -2,7 +2,6 @@
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
     "declaration": false,
-    "downlevelIteration": false,
     "forceConsistentCasingInFileNames": true,
     "module": "NodeNext",
     "noImplicitAny": false,
@@ -16,7 +15,12 @@
     "sourceMap": true,
     "strict": true,
     "target": "ES2022",
+    "types": ["node"],
     "verbatimModuleSyntax": true
   },
-  "include": ["./test/**/*", "./node_modules/vitest/globals.d.ts"]
+  "include": [
+    "./test/**/*",
+    "./node_modules/vitest/globals.d.ts",
+    "vitest-esm.js"
+  ]
 }

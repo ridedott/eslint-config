@@ -1,7 +1,7 @@
 /** cspell:ignore promisify */
-import { readdir, readFile } from 'fs';
-import { join } from 'path';
-import { promisify } from 'util';
+import { readdir, readFile } from 'node:fs';
+import { join } from 'node:path';
+import { promisify } from 'node:util';
 
 const readdirAsync = promisify(readdir);
 const readFileAsync = promisify(readFile);

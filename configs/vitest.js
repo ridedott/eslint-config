@@ -18,6 +18,7 @@ export default [
       ],
       // Redundant with vitest/prefer-expect-assertions.
       'vitest/expect-expect': 'off',
+      'vitest/max-expects': 'off',
       // Redundant with vitest/prefer-expect-assertions.
       'vitest/no-conditional-expect': 'off',
       'vitest/no-disabled-tests': 'error',
@@ -25,7 +26,7 @@ export default [
       // Conflicts with vitest/require-hook.
       'vitest/no-hooks': 'off',
       'vitest/no-identical-title': 'error',
-      'vitest/max-expects': 'off',
+      'vitest/no-interpolation-in-snapshots': 'error',
       'vitest/no-large-snapshots': 'off',
       'vitest/prefer-snapshot-hint': 'off',
 
@@ -44,6 +45,7 @@ export default [
       'vitest/prefer-expect-assertions': 'error',
       'vitest/require-hook': 'error',
       'vitest/require-top-level-describe': 'error',
+      'vitest/unbound-method': 'error',
       'vitest/valid-describe-callback': 'error',
       'vitest/valid-expect': 'error',
       'vitest/valid-expect-in-promise': 'error',

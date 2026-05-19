@@ -1,7 +1,7 @@
-import { jestESM } from './index.js';
+import { vitestESM } from './index.js';
 
 export default [
-  ...jestESM,
+  ...vitestESM,
   {
     files: ['test/*.ts'],
     rules: {
@@ -11,9 +11,9 @@ export default [
   {
     files: ['test/fixtures/**'],
     rules: {
-      'jest/require-hook': 'off',
-      'jest/require-top-level-describe': 'off',
-      'jest/prefer-importing-jest-globals': 'off',
+      'vitest/require-hook': 'off',
+      'vitest/require-top-level-describe': 'off',
+      'vitest/prefer-importing-vitest-globals': 'off',
       'unicorn/filename-case': 'off',
     },
   },

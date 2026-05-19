@@ -1,23 +1,23 @@
-import eslintCommentsPlugin from 'eslint-plugin-eslint-comments';
+import eslintCommentsPlugin from '@eslint-community/eslint-plugin-eslint-comments';
 
 export default [
   {
     plugins: {
-      'eslint-comments': eslintCommentsPlugin,
+      '@eslint-community/eslint-comments': eslintCommentsPlugin,
     },
     rules: {
-      'eslint-comments/disable-enable-pair': [
+      '@eslint-community/eslint-comments/disable-enable-pair': [
         'error',
         { allowWholeFile: true },
       ],
-      'eslint-comments/no-aggregating-enable': 'off',
-      'eslint-comments/no-duplicate-disable': 'error',
-      'eslint-comments/no-unlimited-disable': 'error',
+      '@eslint-community/eslint-comments/no-aggregating-enable': 'off',
+      '@eslint-community/eslint-comments/no-duplicate-disable': 'error',
+      '@eslint-community/eslint-comments/no-unlimited-disable': 'error',
       // This is covered by ESLint configuration: linterOptions.reportUnusedDisableDirectives
-      'eslint-comments/no-unused-disable': 'off',
+      '@eslint-community/eslint-comments/no-unused-disable': 'off',
       // This is covered by ESLint configuration: linterOptions.reportUnusedDisableDirectives
-      'eslint-comments/no-unused-enable': 'off',
-      'eslint-comments/no-use': [
+      '@eslint-community/eslint-comments/no-unused-enable': 'off',
+      '@eslint-community/eslint-comments/no-use': [
         'error',
         {
           allow: [

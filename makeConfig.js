@@ -1,12 +1,13 @@
 import globals from 'globals';
 import eslintConfigPrettier from 'eslint-config-prettier';
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript';
 import typescriptEslintPlugin from 'typescript-eslint';
 
 import arrayFuncConfig from './configs/array-func.js';
 import eslintConfig from './configs/eslint.js';
 import eslintCommentsConfig from './configs/eslint-comments.js';
 import functionalConfig from './configs/functional.js';
-import importConfig from './configs/import.js';
+import importXConfig from './configs/importX.js';
 import simpleImportSortConfig from './configs/simple-import-sort.js';
 import stylisticConfig from './configs/stylistic.js';
 import unicornConfig from './configs/unicorn.js';
@@ -17,7 +18,7 @@ const configs = [
   eslintCommentsConfig,
   eslintConfig,
   functionalConfig,
-  importConfig,
+  importXConfig,
   simpleImportSortConfig,
   typescriptConfig,
   unicornConfig,
@@ -27,7 +28,7 @@ const makeOptionsConfig = () => ({
   languageOptions: {
     globals: { ...globals.node },
     parser: typescriptEslintPlugin.parser,
-    ecmaVersion: 2020,
+    ecmaVersion: 2024,
     sourceType: 'module',
     parserOptions: {
       projectService: true,
@@ -55,11 +56,9 @@ export const makeConfigESM = (additionalConfigs = []) => [
   {
     ...makeOptionsConfig(),
     settings: {
-      'import/resolver': {
-        typescript: {
-          alwaysTryTypes: true,
-        },
-      },
+      'import-x/resolver-next': createTypeScriptImportResolver({
+        alwaysTryTypes: true,
+      }),
     },
   },
   // eslint-config-prettier should have the opportunity to override other configs, so is last

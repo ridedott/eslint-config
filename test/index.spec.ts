@@ -1,27 +1,29 @@
-import { plugin as typescriptEslintPlugin } from 'typescript-eslint';
+import { writeFileSync } from 'node:fs';
+import { dirname, resolve } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+import eslint from '@eslint/js';
+import { rules as eslintCommentsRules } from '@eslint-community/eslint-plugin-eslint-comments';
+import eslintPluginStylistic from '@stylistic/eslint-plugin';
+import vitestPlugin from '@vitest/eslint-plugin';
+import { ESLint } from 'eslint';
 import { rules as arrayFunctionRules } from 'eslint-plugin-array-func';
-import { rules as eslintCommentsRules } from 'eslint-plugin-eslint-comments';
 import eslintPluginFunctional from 'eslint-plugin-functional';
-import { rules as importRules } from 'eslint-plugin-import';
-import { rules as jestRules } from 'eslint-plugin-jest';
+import { rules as importXRules } from 'eslint-plugin-import-x';
 import { rules as simpleImportSortRules } from 'eslint-plugin-simple-import-sort';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
-import eslintPluginStylistic from '@stylistic/eslint-plugin';
-import { writeFileSync } from 'fs';
-import { resolve } from 'path';
-import { ESLint } from 'eslint';
-import eslint from '@eslint/js';
+import { plugin as typescriptEslintPlugin } from 'typescript-eslint';
 
 import arrayFunc from '../configs/array-func.js';
 import eslintConfigured from '../configs/eslint.js';
 import eslintComments from '../configs/eslint-comments.js';
 import functional from '../configs/functional.js';
-import importConfigured from '../configs/import.js';
-import jestConfigured from '../configs/jest.js';
+import importXConfigured from '../configs/importX.js';
 import simpleImportSort from '../configs/simple-import-sort.js';
 import stylisticConfigured from '../configs/stylistic.js';
 import typescriptEslint from '../configs/typescript.js';
 import unicorn from '../configs/unicorn.js';
+import vitestConfigured from '../configs/vitest.js';
 import * as fixturesPromises from './fixtures/index.js';
 
 /*
@@ -35,12 +37,12 @@ const configuredRules = {
   eslint: eslintConfigured[0].rules,
   eslintComments: eslintComments[0].rules,
   functional: functional[0].rules,
-  import: importConfigured[0].rules,
-  jest: jestConfigured[0].rules,
+  importX: importXConfigured[0].rules,
   simpleImportSort: simpleImportSort[0].rules,
   stylistic: stylisticConfigured[0].rules,
   typescriptEslint: typescriptEslint[2].rules,
   unicorn: unicorn[0].rules,
+  vitest: vitestConfigured[0].rules,
 } as const;
 
 const configuredRulesToOriginalMap = {
@@ -48,25 +50,25 @@ const configuredRulesToOriginalMap = {
   eslint: eslint.configs.all.rules,
   eslintComments: eslintCommentsRules,
   functional: eslintPluginFunctional.rules,
-  import: importRules,
-  jest: jestRules,
+  importX: importXRules,
   simpleImportSort: simpleImportSortRules,
   stylistic: eslintPluginStylistic.rules,
   typescriptEslint: typescriptEslintPlugin.rules,
   unicorn: eslintPluginUnicorn.rules,
+  vitest: vitestPlugin.rules,
 };
 
 const ruleSetPrefix: Record<keyof typeof configuredRules, string | null> = {
   arrayFunc: 'array-func',
   eslint: null,
-  eslintComments: 'eslint-comments',
+  eslintComments: '@eslint-community/eslint-comments',
   functional: 'functional',
-  import: 'import',
-  jest: 'jest',
+  importX: 'import-x',
   simpleImportSort: 'simple-import-sort',
   stylistic: '@stylistic',
   typescriptEslint: '@typescript-eslint',
   unicorn: 'unicorn',
+  vitest: 'vitest',
 };
 
 const fixtureFilePath = (ruleSet: string): string => {
@@ -76,7 +78,7 @@ const fixtureFilePath = (ruleSet: string): string => {
     return `${BASE_PATH}/eslint/`;
   }
 
-  return `${BASE_PATH}`;
+  return BASE_PATH;
 };
 
 const lintFixture = async ({
@@ -94,12 +96,14 @@ const lintFixture = async ({
   const ruleFixtures = ruleSetFixtures[ruleName];
 
   if (ruleFixtures === undefined) {
+    const directory = dirname(fileURLToPath(import.meta.url));
+
     writeFileSync(
-      resolve(__dirname, 'fixtures', ruleSet, `${ruleName}.fail.ts`),
+      resolve(directory, 'fixtures', ruleSet, `${ruleName}.fail.ts`),
       'Implement me!',
     );
     writeFileSync(
-      resolve(__dirname, 'fixtures', ruleSet, `${ruleName}.pass.ts`),
+      resolve(directory, 'fixtures', ruleSet, `${ruleName}.pass.ts`),
       'Implement me!',
     );
 

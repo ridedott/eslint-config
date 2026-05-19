@@ -1,5 +1,5 @@
 /* eslint-disable @stylistic/max-len */
-/* eslint eslint-comments/no-use: off, @typescript-eslint/no-magic-numbers: "error" */
+/* eslint @eslint-community/eslint-comments/no-use: off, @typescript-eslint/no-magic-numbers: "error" */
 
 const NUMBER_FIVE = 5;
 const NUMBER_SEVEN = 7;

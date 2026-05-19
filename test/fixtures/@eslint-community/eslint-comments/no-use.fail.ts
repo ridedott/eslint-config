@@ -1,4 +1,4 @@
-/* eslint eslint-comments/no-use: error */
+/* eslint @eslint-community/eslint-comments/no-use: error */
 
 /* eslint no-undef: off */
 /* eslint-env browser */
