@@ -1,3 +1,10 @@
+## [5.7.1](https://github.com/ridedott/eslint-config/compare/v5.7.0...v5.7.1) (2026-05-19)
+
+### Bug Fixes
+
+- move @eslint/js from devDependencies to dependencies
+  ([fd05e822](https://github.com/ridedott/eslint-config/commit/fd05e822dc65a131af99d839e3fe6904e4c44035))
+
 # [5.7.0](https://github.com/ridedott/eslint-config/compare/v5.6.12...v5.7.0) (2026-05-19)
 
 ### Features
