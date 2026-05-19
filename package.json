@@ -5,6 +5,7 @@
     }
   },
   "dependencies": {
+    "@eslint/js": "^10.0.1",
     "@eslint-community/eslint-plugin-eslint-comments": "^4.7.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@vitest/eslint-plugin": "^1.6.17",
@@ -22,7 +23,6 @@
   "devDependencies": {
     "@commitlint/cli": "^20.5.0",
     "@commitlint/config-conventional": "^20.5.0",
-    "@eslint/js": "^10.0.1",
     "@types/eslint": "^9.6.1",
     "@types/node": "^22.19.17",
     "commitizen": "^4.3.1",
