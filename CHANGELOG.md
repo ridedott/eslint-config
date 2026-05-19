@@ -1,3 +1,14 @@
+## [5.6.12](https://github.com/ridedott/eslint-config/compare/v5.6.11...v5.6.12) (2026-05-19)
+
+### Chores
+
+- **deps-dev:** bump typescript from 6.0.2 to 6.0.3
+  ([4de81ff7](https://github.com/ridedott/eslint-config/commit/4de81ff7c18ee85340850bac289bdda34d654a4e))
+- **deps:** bump actions/setup-node from 6.3.0 to 6.4.0
+  ([ba40aa27](https://github.com/ridedott/eslint-config/commit/ba40aa2703b0260f9e0e85a88efa966e06a2c5ec))
+- **deps:** bump ridedott/release-me-action from 3.10.103 to 3.10.104
+  ([b49a832d](https://github.com/ridedott/eslint-config/commit/b49a832d4811b5781ee589329301ea33ab422117))
+
 ## [5.6.11](https://github.com/ridedott/eslint-config/compare/v5.6.10...v5.6.11) (2026-05-15)
 
 ### Chores
