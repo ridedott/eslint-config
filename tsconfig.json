@@ -18,5 +18,9 @@
     "types": ["node"],
     "verbatimModuleSyntax": true
   },
-  "include": ["./test/**/*", "./node_modules/vitest/globals.d.ts", "vitest-esm.js"]
+  "include": [
+    "./test/**/*",
+    "./node_modules/vitest/globals.d.ts",
+    "vitest-esm.js"
+  ]
 }
