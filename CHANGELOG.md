@@ -1,3 +1,33 @@
+## [5.6.12](https://github.com/ridedott/eslint-config/compare/v5.6.11...v5.6.12) (2026-05-19)
+
+### Chores
+
+- **deps-dev:** bump typescript from 6.0.2 to 6.0.3
+  ([4de81ff7](https://github.com/ridedott/eslint-config/commit/4de81ff7c18ee85340850bac289bdda34d654a4e))
+- **deps:** bump actions/setup-node from 6.3.0 to 6.4.0
+  ([ba40aa27](https://github.com/ridedott/eslint-config/commit/ba40aa2703b0260f9e0e85a88efa966e06a2c5ec))
+- **deps:** bump ridedott/release-me-action from 3.10.103 to 3.10.104
+  ([b49a832d](https://github.com/ridedott/eslint-config/commit/b49a832d4811b5781ee589329301ea33ab422117))
+
+## [5.6.11](https://github.com/ridedott/eslint-config/compare/v5.6.10...v5.6.11) (2026-05-15)
+
+### Chores
+
+- **deps-dev:** bump prettier from 3.8.2 to 3.8.3
+  ([6edbec38](https://github.com/ridedott/eslint-config/commit/6edbec38af9afe973c58e3066f5cf0ea73aa7925))
+- **deps:** bump @vitest/eslint-plugin from 1.6.15 to 1.6.16
+  ([ab28fd86](https://github.com/ridedott/eslint-config/commit/ab28fd8683e19c4fe149a077aea97d7cf9ff76bd))
+
+## [5.6.10](https://github.com/ridedott/eslint-config/compare/v5.6.9...v5.6.10) (2026-05-13)
+
+### Chores
+
+- **deps-dev:** bump typescript from 5.9.3 to 6.0.2 (#2922)
+  ([898eeff5](https://github.com/ridedott/eslint-config/commit/898eeff547d572057d3ecaa73cc3020474faf39c)),
+  closes [#2922](https://github.com/ridedott/eslint-config/issues/2922)
+- **deps:** bump typescript-eslint from 8.58.1 to 8.58.2
+  ([d3151957](https://github.com/ridedott/eslint-config/commit/d315195741e5331f8c1579bb7412caf110c3e5e6))
+
 ## [5.6.9](https://github.com/ridedott/eslint-config/compare/v5.6.8...v5.6.9) (2026-05-13)
 
 ### Chores
