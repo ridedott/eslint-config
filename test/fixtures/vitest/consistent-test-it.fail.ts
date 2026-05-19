@@ -1,2 +1,2 @@
-/* eslint-disable vitest/prefer-todo, vitest/no-disabled-tests, vitest/prefer-importing-vitest-globals */
+/* eslint-disable vitest/prefer-todo, vitest/no-disabled-tests */
 test('foo');

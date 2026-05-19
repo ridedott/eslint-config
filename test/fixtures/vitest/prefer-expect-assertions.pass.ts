@@ -1,5 +1,3 @@
-/* eslint-disable vitest/prefer-importing-vitest-globals */
-
 it('my test', (): void => {
   expect.assertions(1);
   expect(1).toBe('foo');

@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unnecessary-template-expression, vitest/prefer-importing-vitest-globals */
+/* eslint-disable @typescript-eslint/no-unnecessary-template-expression */
 it('passes', (): void => {
   expect.hasAssertions();
 

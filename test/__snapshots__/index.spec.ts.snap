@@ -3822,8 +3822,8 @@ exports[`vitest rules > vitest/consistent-test-it > fails on an invalid fixture 
     "endLine": 2,
     "fix": {
       "range": [
-        106,
-        110,
+        66,
+        70,
       ],
       "text": "it",
     },
@@ -3856,8 +3856,8 @@ exports[`vitest rules > vitest/prefer-expect-assertions > fails on an invalid fi
   {
     "column": 1,
     "endColumn": 3,
-    "endLine": 5,
-    "line": 3,
+    "endLine": 3,
+    "line": 1,
     "message": "Every test should have either \`expect.assertions(<number of assertions>)\` or \`expect.hasAssertions()\` as its first expression",
     "messageId": "haveExpectAssertions",
     "ruleId": "vitest/prefer-expect-assertions",
@@ -3867,8 +3867,8 @@ exports[`vitest rules > vitest/prefer-expect-assertions > fails on an invalid fi
         "desc": "Add \`expect.hasAssertions()\`",
         "fix": {
           "range": [
-            95,
-            95,
+            34,
+            34,
           ],
           "text": "expect.hasAssertions();",
         },
@@ -3878,8 +3878,8 @@ exports[`vitest rules > vitest/prefer-expect-assertions > fails on an invalid fi
         "desc": "Add \`expect.assertions(<number of assertions>)\`",
         "fix": {
           "range": [
-            95,
-            95,
+            34,
+            34,
           ],
           "text": "expect.assertions();",
         },
@@ -3912,8 +3912,8 @@ exports[`vitest rules > vitest/valid-title > fails on an invalid fixture 1`] = `
   {
     "column": 4,
     "endColumn": 21,
-    "endLine": 3,
-    "line": 3,
+    "endLine": 1,
+    "line": 1,
     "message": ""should" is not allowed in test title",
     "messageId": "disallowedWord",
     "ruleId": "vitest/valid-title",

@@ -13,7 +13,7 @@ export default [
     rules: {
       'vitest/require-hook': 'off',
       'vitest/require-top-level-describe': 'off',
-      'vitest/prefer-importing-jest-globals': 'off',
+      'vitest/prefer-importing-vitest-globals': 'off',
       'unicorn/filename-case': 'off',
     },
   },
