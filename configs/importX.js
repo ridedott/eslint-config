@@ -1,16 +1,17 @@
-import { flatConfigs } from 'eslint-plugin-import';
+import { importX } from 'eslint-plugin-import-x';
 
 export default [
   {
-    ...flatConfigs.recommended,
+    plugins: {
+      'import-x': importX,
+    },
     rules: {
-      ...flatConfigs.recommended.rules,
       // This rule conflicts with features provided by TypeScript.
-      'import/namespace': 'off',
-      'import/no-cycle': ['error', { maxDepth: Infinity }],
-      'import/no-default-export': 'error',
-      'import/no-self-import': 'error',
-      'import/no-extraneous-dependencies': [
+      'import-x/namespace': 'off',
+      'import-x/no-cycle': 'error',
+      'import-x/no-default-export': 'error',
+      'import-x/no-self-import': 'error',
+      'import-x/no-extraneous-dependencies': [
         'error',
         {
           devDependencies: [
@@ -27,6 +28,8 @@ export default [
         },
       ],
     },
+    settings: {
+      'import-x/extensions': ['.js', '.ts'],
+    },
   },
-  flatConfigs.typescript,
 ];

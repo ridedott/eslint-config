@@ -1,3 +1,3 @@
 import { generatePluginFixture } from '../../common/generatePluginFixture.js';
 
-export const jestFixtures = generatePluginFixture(__dirname);
+export const vitestFixtures = generatePluginFixture(__dirname);
