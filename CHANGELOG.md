@@ -1,3 +1,14 @@
+## [5.7.2](https://github.com/ridedott/eslint-config/compare/v5.7.1...v5.7.2) (2026-05-25)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 20.5.0 to 20.5.2
+  ([7862e1a5](https://github.com/ridedott/eslint-config/commit/7862e1a537de9d9f0369961dd3f97eb6f9b4af5a))
+- **deps-dev:** bump vitest from 4.1.4 to 4.1.5
+  ([673a6c0e](https://github.com/ridedott/eslint-config/commit/673a6c0e3b0be55bfc65833664b3dcaf3ccafb0e))
+- **deps:** bump ridedott/release-me-action from 3.10.104 to 3.10.105
+  ([71d8aa5c](https://github.com/ridedott/eslint-config/commit/71d8aa5caab45f2be5700f126a22ca4d1a601727))
+
 ## [5.7.1](https://github.com/ridedott/eslint-config/compare/v5.7.0...v5.7.1) (2026-05-19)
 
 ### Bug Fixes
