@@ -1,3 +1,14 @@
+## [5.7.3](https://github.com/ridedott/eslint-config/compare/v5.7.2...v5.7.3) (2026-06-03)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 20.5.2 to 20.5.3
+  ([29345698](https://github.com/ridedott/eslint-config/commit/293456988f432ae0afc4ee5127359e9dc69fe281))
+- **deps-dev:** bump globals from 17.5.0 to 17.6.0
+  ([9fbc0d8d](https://github.com/ridedott/eslint-config/commit/9fbc0d8dd8880a82ed0257c058d47a704b376b4d))
+- **deps:** bump actions/checkout from 6 to 6.0.2
+  ([5144d955](https://github.com/ridedott/eslint-config/commit/5144d9557c80608ff84e552e5b87192d9aa795f5))
+
 ## [5.7.2](https://github.com/ridedott/eslint-config/compare/v5.7.1...v5.7.2) (2026-05-25)
 
 ### Chores
