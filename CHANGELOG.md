@@ -1,3 +1,22 @@
+## [5.7.6](https://github.com/ridedott/eslint-config/compare/v5.7.5...v5.7.6) (2026-06-15)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 21.0.0 to 21.0.1
+  ([1631341d](https://github.com/ridedott/eslint-config/commit/1631341dca9e1e384a8f520bf46ca67d8e5759f8))
+- **deps-dev:** bump @commitlint/config-conventional
+  ([053bce46](https://github.com/ridedott/eslint-config/commit/053bce4627e9fe7a9ea9b5f9ddc4047af045ad30))
+- **deps-dev:** bump @types/node from 22.19.18 to 22.19.19
+  ([b2d0944b](https://github.com/ridedott/eslint-config/commit/b2d0944bb7a04bbc247081891c5aa2777505773e))
+- **deps-dev:** bump vitest from 4.1.5 to 4.1.6
+  ([05fa7187](https://github.com/ridedott/eslint-config/commit/05fa7187ce6a95615f986a76603adee53aa468c9))
+
+### Continuous Integration
+
+- migrate to Blacksmith runners (#2964)
+  ([46daeb53](https://github.com/ridedott/eslint-config/commit/46daeb531e581ca917353e91827f95b8d3cf21ee)),
+  closes [#2964](https://github.com/ridedott/eslint-config/issues/2964)
+
 ## [5.7.5](https://github.com/ridedott/eslint-config/compare/v5.7.4...v5.7.5) (2026-06-10)
 
 ### Chores
