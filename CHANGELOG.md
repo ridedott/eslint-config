@@ -1,3 +1,12 @@
+## [5.7.7](https://github.com/ridedott/eslint-config/compare/v5.7.6...v5.7.7) (2026-06-17)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 17.0.4 to 17.0.5
+  ([0b5a5b29](https://github.com/ridedott/eslint-config/commit/0b5a5b296929e828cd537123d9003b76fab77772))
+- **deps:** bump typescript-eslint from 8.59.3 to 8.59.4
+  ([03eaa119](https://github.com/ridedott/eslint-config/commit/03eaa119e6bb441e26221d2e56fb89afb074798c))
+
 ## [5.7.6](https://github.com/ridedott/eslint-config/compare/v5.7.5...v5.7.6) (2026-06-15)
 
 ### Chores
