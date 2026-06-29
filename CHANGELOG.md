@@ -1,3 +1,14 @@
+## [5.7.11](https://github.com/ridedott/eslint-config/compare/v5.7.10...v5.7.11) (2026-06-29)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/config-conventional
+  ([cd0e9e2a](https://github.com/ridedott/eslint-config/commit/cd0e9e2abe6073ffa0f1448a8f761450297a73ff))
+- **deps-dev:** bump lint-staged from 17.0.5 to 17.0.6
+  ([8ddea1cc](https://github.com/ridedott/eslint-config/commit/8ddea1ccc65cfe7eb77c79d106a41582d024275d))
+- **deps:** bump @eslint-community/eslint-plugin-eslint-comments
+  ([cfcc31de](https://github.com/ridedott/eslint-config/commit/cfcc31de010443e57da15a5cfb6d05697339270f))
+
 ## [5.7.10](https://github.com/ridedott/eslint-config/compare/v5.7.9...v5.7.10) (2026-06-24)
 
 ### Chores
