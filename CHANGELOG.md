@@ -1,3 +1,10 @@
+## [5.7.12](https://github.com/ridedott/eslint-config/compare/v5.7.11...v5.7.12) (2026-06-29)
+
+### Chores
+
+- **deps:** bump tmp and commitizen
+  ([490aead1](https://github.com/ridedott/eslint-config/commit/490aead1331bfaa65d9ba4dee3058e46d9fb06c9))
+
 ## [5.7.11](https://github.com/ridedott/eslint-config/compare/v5.7.10...v5.7.11) (2026-06-29)
 
 ### Chores
