@@ -1,3 +1,20 @@
+## [5.7.13](https://github.com/ridedott/eslint-config/compare/v5.7.12...v5.7.13) (2026-07-01)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 21.0.1 to 21.0.2
+  ([39f83809](https://github.com/ridedott/eslint-config/commit/39f838093d130134a5d6f99d4c02a6cd15b58ded))
+- **deps-dev:** bump lint-staged from 17.0.6 to 17.0.7
+  ([900f7733](https://github.com/ridedott/eslint-config/commit/900f77336fc6d9f0087fa6fc20974f345a8ef447))
+- **deps-dev:** bump vitest from 4.1.7 to 4.1.8
+  ([5b43c16f](https://github.com/ridedott/eslint-config/commit/5b43c16f9ff43b731fc4d642740d78f19ba62d4f))
+- **deps:** bump @vitest/eslint-plugin from 1.6.18 to 1.6.19
+  ([b369609e](https://github.com/ridedott/eslint-config/commit/b369609ed6908747480e8dba65e9dabac104202d))
+- **deps:** bump eslint-import-resolver-typescript from 4.4.4 to 4.4.5
+  ([0d1c56cf](https://github.com/ridedott/eslint-config/commit/0d1c56cfce62208b0b8767a020773a4710e1abd6))
+- **deps:** bump ridedott/release-me-action from 3.10.107 to 3.10.108
+  ([9b52b156](https://github.com/ridedott/eslint-config/commit/9b52b156c31113c85ca52a500c5c8c74ee870f67))
+
 ## [5.7.12](https://github.com/ridedott/eslint-config/compare/v5.7.11...v5.7.12) (2026-06-29)
 
 ### Chores
