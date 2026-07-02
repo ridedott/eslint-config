@@ -1,3 +1,12 @@
+## [5.7.14](https://github.com/ridedott/eslint-config/compare/v5.7.13...v5.7.14) (2026-07-02)
+
+### Chores
+
+- **deps:** bump actions/checkout from 6.0.2 to 6.0.3
+  ([659b6cd8](https://github.com/ridedott/eslint-config/commit/659b6cd81fe707e75ec8a515caa4b8d40bf7df5c))
+- **deps:** bump typescript-eslint from 8.60.0 to 8.60.1
+  ([adb28cfc](https://github.com/ridedott/eslint-config/commit/adb28cfcbabc1ee60bcfe1bbc8721dddf0efb312))
+
 ## [5.7.13](https://github.com/ridedott/eslint-config/compare/v5.7.12...v5.7.13) (2026-07-01)
 
 ### Chores
