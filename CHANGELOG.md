@@ -1,3 +1,10 @@
+## [5.7.15](https://github.com/ridedott/eslint-config/compare/v5.7.14...v5.7.15) (2026-07-03)
+
+### Chores
+
+- **deps:** bump eslint-plugin-functional from 9.0.5 to 10.0.0
+  ([a3a5ed20](https://github.com/ridedott/eslint-config/commit/a3a5ed20411357b4493217b60230692f8c664a56))
+
 ## [5.7.14](https://github.com/ridedott/eslint-config/compare/v5.7.13...v5.7.14) (2026-07-02)
 
 ### Chores
