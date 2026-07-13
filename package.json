@@ -24,7 +24,7 @@
     "@commitlint/cli": "^21.0.2",
     "@commitlint/config-conventional": "^21.0.2",
     "@types/eslint": "^9.6.1",
-    "@types/node": "^22.19.20",
+    "@types/node": "^22.19.21",
     "commitizen": "^4.3.2",
     "eslint": "^10.3.0",
     "globals": "^17.6.0",
