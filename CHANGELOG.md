@@ -1,3 +1,10 @@
+## [5.7.19](https://github.com/ridedott/eslint-config/compare/v5.7.18...v5.7.19) (2026-07-17)
+
+### Chores
+
+- **deps:** bump actions/checkout from 6.0.3 to 7.0.0
+  ([494faea9](https://github.com/ridedott/eslint-config/commit/494faea9a882af2479ab980d6982181c238aca1b))
+
 ## [5.7.18](https://github.com/ridedott/eslint-config/compare/v5.7.17...v5.7.18) (2026-07-16)
 
 ### Chores
