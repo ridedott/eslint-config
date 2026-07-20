@@ -1,3 +1,12 @@
+## [5.7.20](https://github.com/ridedott/eslint-config/compare/v5.7.19...v5.7.20) (2026-07-20)
+
+### Chores
+
+- **deps-dev:** bump @types/node from 22.19.21 to 22.20.0
+  ([72b123ae](https://github.com/ridedott/eslint-config/commit/72b123aefe02fcfc4c66155b274ad580d66c5874))
+- **deps:** bump ridedott/release-me-action from 3.10.109 to 3.10.111
+  ([df7ce0af](https://github.com/ridedott/eslint-config/commit/df7ce0afd457f28f73a0d3a10a40c833c55de289))
+
 ## [5.7.19](https://github.com/ridedott/eslint-config/compare/v5.7.18...v5.7.19) (2026-07-17)
 
 ### Chores
