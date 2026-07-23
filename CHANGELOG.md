@@ -1,3 +1,16 @@
+## [5.7.22](https://github.com/ridedott/eslint-config/compare/v5.7.21...v5.7.22) (2026-07-23)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 21.0.2 to 21.1.0
+  ([34eaf249](https://github.com/ridedott/eslint-config/commit/34eaf249a56b4111c15a71a2e281cf1356ea133a))
+- **deps-dev:** bump fast-uri from 3.1.2 to 3.1.4
+  ([f9529041](https://github.com/ridedott/eslint-config/commit/f952904107b49bcec0b2c1c9cc3d4c928ec573ee))
+- **deps-dev:** bump lint-staged from 17.0.7 to 17.0.8
+  ([e1728066](https://github.com/ridedott/eslint-config/commit/e1728066f3c442b9aa6d5eb8778142ba359d9152))
+- **deps:** bump typescript-eslint from 8.61.1 to 8.62.0
+  ([52d5ed9e](https://github.com/ridedott/eslint-config/commit/52d5ed9e1670de5e2589b9593625601aa7e8887b))
+
 ## [5.7.21](https://github.com/ridedott/eslint-config/compare/v5.7.20...v5.7.21) (2026-07-22)
 
 ### Chores
