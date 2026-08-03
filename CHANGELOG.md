@@ -1,3 +1,12 @@
+## [5.7.27](https://github.com/ridedott/eslint-config/compare/v5.7.26...v5.7.27) (2026-08-03)
+
+### Chores
+
+- **deps:** bump brace-expansion
+  ([c6c46c82](https://github.com/ridedott/eslint-config/commit/c6c46c827725219ce94c03835022db8c83ee205d))
+- **deps:** bump postcss from 8.5.19 to 8.5.25
+  ([7294d8a0](https://github.com/ridedott/eslint-config/commit/7294d8a025bbe717f0406b0e73efc8167536ae47))
+
 ## [5.7.26](https://github.com/ridedott/eslint-config/compare/v5.7.25...v5.7.26) (2026-08-03)
 
 ### Chores
