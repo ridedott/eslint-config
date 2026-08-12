@@ -1,3 +1,12 @@
+## [5.7.30](https://github.com/ridedott/eslint-config/compare/v5.7.29...v5.7.30) (2026-08-12)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 6.4.0 to 7.0.0
+  ([3efc0e77](https://github.com/ridedott/eslint-config/commit/3efc0e77e874b2fb1626dfbca6007a894614ea61))
+- **deps:** bump typescript-eslint from 8.63.0 to 8.64.0
+  ([70c65bad](https://github.com/ridedott/eslint-config/commit/70c65bade83e113833d54c4c85e39e36a4a99d1f))
+
 ## [5.7.29](https://github.com/ridedott/eslint-config/compare/v5.7.28...v5.7.29) (2026-08-10)
 
 ### Chores
