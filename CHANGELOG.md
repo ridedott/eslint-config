@@ -1,3 +1,14 @@
+## [5.7.32](https://github.com/ridedott/eslint-config/compare/v5.7.31...v5.7.32) (2026-08-17)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 17.0.8 to 17.1.0
+  ([e70ab42d](https://github.com/ridedott/eslint-config/commit/e70ab42d70c0676ce836d3018b12be74e9996555))
+- **deps:** bump actions/checkout from 7.0.0 to 7.0.1
+  ([050841ff](https://github.com/ridedott/eslint-config/commit/050841ff353ab9480dc6890fbf25641830068383))
+- **deps:** bump eslint-plugin-simple-import-sort from 13.0.0 to 14.0.0
+  ([4042b202](https://github.com/ridedott/eslint-config/commit/4042b20239fded84050f6ac9c594d76556b5ea51))
+
 ## [5.7.31](https://github.com/ridedott/eslint-config/compare/v5.7.30...v5.7.31) (2026-08-13)
 
 ### Chores
