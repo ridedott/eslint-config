@@ -1,3 +1,12 @@
+## [5.7.35](https://github.com/ridedott/eslint-config/compare/v5.7.34...v5.7.35) (2026-08-21)
+
+### Chores
+
+- **deps-dev:** bump lint-staged from 17.1.0 to 17.1.1
+  ([980ec4f6](https://github.com/ridedott/eslint-config/commit/980ec4f689ca4c19c01067d01785fab5d713198a))
+- **deps:** bump ridedott/release-me-action from 3.10.116 to 3.10.118
+  ([7ac8aea9](https://github.com/ridedott/eslint-config/commit/7ac8aea90c4d1cff3d9eec4bafec97ca5b06e5c8))
+
 ## [5.7.34](https://github.com/ridedott/eslint-config/compare/v5.7.33...v5.7.34) (2026-08-20)
 
 ### Chores
