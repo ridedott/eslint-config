@@ -1,3 +1,18 @@
+## [5.7.37](https://github.com/ridedott/eslint-config/compare/v5.7.36...v5.7.37) (2026-09-01)
+
+### Chores
+
+- **deps-dev:** bump globals from 17.7.0 to 17.8.0
+  ([ce082f56](https://github.com/ridedott/eslint-config/commit/ce082f569cdcf32142a1f284ad64aced7797bc97))
+- **deps-dev:** bump globals from 17.8.0 to 17.9.0
+  ([26c561e2](https://github.com/ridedott/eslint-config/commit/26c561e298fb74c5c72bcbeb917b95dc69530192))
+- **deps-dev:** bump lint-staged from 17.2.0 to 17.3.0
+  ([ce3b44a0](https://github.com/ridedott/eslint-config/commit/ce3b44a00146b7aa8d34a6139bbbe4c3432ee430))
+- **deps:** bump @vitest/eslint-plugin from 1.6.24 to 1.6.25
+  ([c3583d4b](https://github.com/ridedott/eslint-config/commit/c3583d4bb2227c81509498dfbb6e5dcb1e733627))
+- **deps:** bump browserslist from 4.28.1 to 4.28.8
+  ([d215eec4](https://github.com/ridedott/eslint-config/commit/d215eec49724d67fb068e99640b084635aaafb22))
+
 ## [5.7.36](https://github.com/ridedott/eslint-config/compare/v5.7.35...v5.7.36) (2026-08-24)
 
 ### Chores
