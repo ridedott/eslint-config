@@ -1,3 +1,12 @@
+## [5.7.39](https://github.com/ridedott/eslint-config/compare/v5.7.38...v5.7.39) (2026-09-02)
+
+### Chores
+
+- **deps-dev:** bump fast-uri from 3.1.5 to 3.1.7
+  ([a1b6601e](https://github.com/ridedott/eslint-config/commit/a1b6601eef97c5735261085ea7513340c9c024fc))
+- **deps:** bump @humanfs/node from 0.16.6 to 0.16.8
+  ([91db0857](https://github.com/ridedott/eslint-config/commit/91db085768dc14f8c81df29a92b25d059f44b1df))
+
 ## [5.7.38](https://github.com/ridedott/eslint-config/compare/v5.7.37...v5.7.38) (2026-09-02)
 
 ### Chores
