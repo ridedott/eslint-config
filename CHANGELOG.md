@@ -1,3 +1,10 @@
+## [5.7.41](https://github.com/ridedott/eslint-config/compare/v5.7.40...v5.7.41) (2026-09-07)
+
+### Chores
+
+- **deps:** bump js-yaml
+  ([7706a75b](https://github.com/ridedott/eslint-config/commit/7706a75bff6fd5c3a32b80a2b31fec2a29a6a42f))
+
 ## [5.7.40](https://github.com/ridedott/eslint-config/compare/v5.7.39...v5.7.40) (2026-09-04)
 
 ### Chores
