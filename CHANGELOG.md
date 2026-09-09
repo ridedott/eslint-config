@@ -1,3 +1,10 @@
+## [5.7.43](https://github.com/ridedott/eslint-config/compare/v5.7.42...v5.7.43) (2026-09-09)
+
+### Chores
+
+- **deps:** bump @vitest/mocker and vitest
+  ([d3124293](https://github.com/ridedott/eslint-config/commit/d3124293d3ec8693a933779edfe9f1cb4e0e32d2))
+
 ## [5.7.42](https://github.com/ridedott/eslint-config/compare/v5.7.41...v5.7.42) (2026-09-09)
 
 ### Chores
