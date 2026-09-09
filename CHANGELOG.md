@@ -1,3 +1,12 @@
+## [5.7.42](https://github.com/ridedott/eslint-config/compare/v5.7.41...v5.7.42) (2026-09-09)
+
+### Chores
+
+- **deps:** bump @vitest/eslint-plugin from 1.6.26 to 1.6.27
+  ([cffaa726](https://github.com/ridedott/eslint-config/commit/cffaa726bde432f600f2f5f982f97f16fdc9cae0))
+- **deps:** bump typescript-eslint from 8.66.0 to 8.67.0
+  ([6895fdee](https://github.com/ridedott/eslint-config/commit/6895fdeecfa0ced83b5b5c28aae379997ced14b9))
+
 ## [5.7.41](https://github.com/ridedott/eslint-config/compare/v5.7.40...v5.7.41) (2026-09-07)
 
 ### Chores
