@@ -1,3 +1,12 @@
+## [5.7.46](https://github.com/ridedott/eslint-config/compare/v5.7.45...v5.7.46) (2026-09-23)
+
+### Chores
+
+- **deps:** bump ridedott/release-me-action from 3.10.121 to 3.10.122
+  ([c30cd04b](https://github.com/ridedott/eslint-config/commit/c30cd04b907171396b957928e4ebff92d6838176))
+- **deps:** bump typescript-eslint from 8.67.0 to 8.68.0
+  ([53c87b16](https://github.com/ridedott/eslint-config/commit/53c87b1660c330fa9ea65d8be57ee5b5dbb442c1))
+
 ## [5.7.45](https://github.com/ridedott/eslint-config/compare/v5.7.44...v5.7.45) (2026-09-16)
 
 ### Chores
