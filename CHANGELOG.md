@@ -1,3 +1,12 @@
+## [5.7.50](https://github.com/ridedott/eslint-config/compare/v5.7.49...v5.7.50) (2026-09-30)
+
+### Chores
+
+- **deps-dev:** bump fast-uri from 3.1.5 to 3.1.8
+  ([74f7b3e5](https://github.com/ridedott/eslint-config/commit/74f7b3e52fb7922fcd9e46c426fb762695cd705c))
+- **deps:** bump brace-expansion
+  ([8089eacb](https://github.com/ridedott/eslint-config/commit/8089eacbffcb53af861ca4afc595bf16f114e2d6))
+
 ## [5.7.49](https://github.com/ridedott/eslint-config/compare/v5.7.48...v5.7.49) (2026-09-30)
 
 ### Chores
