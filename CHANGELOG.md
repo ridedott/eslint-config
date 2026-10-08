@@ -1,3 +1,10 @@
+## [5.7.52](https://github.com/ridedott/eslint-config/compare/v5.7.51...v5.7.52) (2026-10-08)
+
+### Chores
+
+- **deps:** bump source-map-js from 1.2.1 to 1.2.2
+  ([cadb9728](https://github.com/ridedott/eslint-config/commit/cadb9728b4cb10b03cf0b2bda5dd01df506ec4cb))
+
 ## [5.7.51](https://github.com/ridedott/eslint-config/compare/v5.7.50...v5.7.51) (2026-10-08)
 
 ### Chores
