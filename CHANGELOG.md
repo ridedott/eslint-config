@@ -1,3 +1,12 @@
+## [5.7.57](https://github.com/ridedott/eslint-config/compare/v5.7.56...v5.7.57) (2026-10-23)
+
+### Chores
+
+- **deps-dev:** bump prettier from 3.9.8 to 3.9.9
+  ([21d1f362](https://github.com/ridedott/eslint-config/commit/21d1f362ef1cf6f9d6db1ecb48655e5198484c37))
+- **deps:** bump @vitest/mocker and vitest
+  ([aa73129a](https://github.com/ridedott/eslint-config/commit/aa73129a614516527184448699b57e7c78f3fda3))
+
 ## [5.7.56](https://github.com/ridedott/eslint-config/compare/v5.7.55...v5.7.56) (2026-10-21)
 
 ### Chores
