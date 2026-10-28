@@ -1,3 +1,12 @@
+## [5.7.59](https://github.com/ridedott/eslint-config/compare/v5.7.58...v5.7.59) (2026-10-28)
+
+### Chores
+
+- **deps-dev:** bump fast-uri from 3.1.8 to 3.1.9
+  ([d177b44f](https://github.com/ridedott/eslint-config/commit/d177b44f03df678a56c38d7cb39915b26aa8b11f))
+- **deps:** bump typescript-eslint from 8.70.1 to 8.71.0
+  ([e18f2965](https://github.com/ridedott/eslint-config/commit/e18f29650640d085be008b7914393f7733bb6a99))
+
 ## [5.7.58](https://github.com/ridedott/eslint-config/compare/v5.7.57...v5.7.58) (2026-10-26)
 
 ### Chores
