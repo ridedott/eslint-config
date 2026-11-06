@@ -1,3 +1,10 @@
+## [5.7.62](https://github.com/ridedott/eslint-config/compare/v5.7.61...v5.7.62) (2026-11-06)
+
+### Chores
+
+- **deps:** bump actions/setup-node from 7.0.0 to 7.1.0
+  ([968d7455](https://github.com/ridedott/eslint-config/commit/968d74553f36a0c56f5b320573adefd4d0f80525))
+
 ## [5.7.61](https://github.com/ridedott/eslint-config/compare/v5.7.60...v5.7.61) (2026-11-04)
 
 ### Chores
