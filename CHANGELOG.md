@@ -1,3 +1,10 @@
+## [5.7.65](https://github.com/ridedott/eslint-config/compare/v5.7.64...v5.7.65) (2026-11-11)
+
+### Chores
+
+- **deps:** bump typescript-eslint from 8.71.1 to 8.71.2
+  ([1b9411f2](https://github.com/ridedott/eslint-config/commit/1b9411f28e69820df6eae03236ccaa3ff9ca95d3))
+
 ## [5.7.64](https://github.com/ridedott/eslint-config/compare/v5.7.63...v5.7.64) (2026-11-10)
 
 ### Chores
