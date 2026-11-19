@@ -1,3 +1,12 @@
+## [5.7.67](https://github.com/ridedott/eslint-config/compare/v5.7.66...v5.7.67) (2026-11-19)
+
+### Chores
+
+- **deps-dev:** bump @commitlint/cli from 21.2.3 to 21.2.4
+  ([eb979a4e](https://github.com/ridedott/eslint-config/commit/eb979a4e75b31e9ef80c1d297b1b5b5cf3fe4d1e))
+- **deps:** bump ridedott/release-me-action from 3.10.129 to 3.10.130
+  ([14f7cb27](https://github.com/ridedott/eslint-config/commit/14f7cb278112580bf389e8739bc4a30c884340aa))
+
 ## [5.7.66](https://github.com/ridedott/eslint-config/compare/v5.7.65...v5.7.66) (2026-11-12)
 
 ### Chores
