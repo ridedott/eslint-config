@@ -1,3 +1,10 @@
+## [5.7.68](https://github.com/ridedott/eslint-config/compare/v5.7.67...v5.7.68) (2026-11-23)
+
+### Chores
+
+- **deps:** bump @vitest/eslint-plugin from 1.6.27 to 1.6.28
+  ([79310263](https://github.com/ridedott/eslint-config/commit/793102630232dc522daa32880688c266fcce217e))
+
 ## [5.7.67](https://github.com/ridedott/eslint-config/compare/v5.7.66...v5.7.67) (2026-11-19)
 
 ### Chores
